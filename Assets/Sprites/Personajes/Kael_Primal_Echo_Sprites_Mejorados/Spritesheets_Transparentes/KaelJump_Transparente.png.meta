@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: 3b63ed4d3c875db18b9ba9f656630889
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6390066820896233359
+    second: KaelJump_Transparente_0
+  - first:
+      213: -1789844682872392043
+    second: KaelJump_Transparente_1
+  - first:
+      213: -6366409445477740957
+    second: KaelJump_Transparente_2
+  - first:
+      213: -7741021247374347285
+    second: KaelJump_Transparente_3
+  - first:
+      213: -7414736796751617594
+    second: KaelJump_Transparente_4
+  - first:
+      213: -5640429918751687487
+    second: KaelJump_Transparente_5
+  - first:
+      213: 3311718235592756285
+    second: KaelJump_Transparente_6
+  - first:
+      213: -2681631174121633041
+    second: KaelJump_Transparente_7
+  - first:
+      213: -4673694367027054544
+    second: KaelJump_Transparente_8
+  - first:
+      213: 8781200803248443927
+    second: KaelJump_Transparente_9
+  - first:
+      213: 5997241996454058145
+    second: KaelJump_Transparente_10
+  - first:
+      213: 4636178263475605751
+    second: KaelJump_Transparente_11
+  - first:
+      213: 6321994348461943259
+    second: KaelJump_Transparente_12
+  - first:
+      213: -960408584737550497
+    second: KaelJump_Transparente_13
+  - first:
+      213: 3036304434161532198
+    second: KaelJump_Transparente_14
+  - first:
+      213: 3209915055981588824
+    second: KaelJump_Transparente_15
+  - first:
+      213: -2844711577981846037
+    second: KaelJump_Transparente_16
+  - first:
+      213: 2235504012376150848
+    second: KaelJump_Transparente_17
+  - first:
+      213: -5920954156606542786
+    second: KaelJump_Transparente_18
+  - first:
+      213: -6075229146781361952
+    second: KaelJump_Transparente_19
+  - first:
+      213: 1558562669684625206
+    second: KaelJump_Transparente_20
+  - first:
+      213: 8134512446903938114
+    second: KaelJump_Transparente_21
+  - first:
+      213: 5569530497394365343
+    second: KaelJump_Transparente_22
+  - first:
+      213: -8526224449868433120
+    second: KaelJump_Transparente_23
+  - first:
+      213: -6138169877594004426
+    second: KaelJump_Transparente_24
+  - first:
+      213: 4512706318534029175
+    second: KaelJump_Transparente_25
+  - first:
+      213: -9133183155589972730
+    second: KaelJump_Transparente_26
+  - first:
+      213: 610516029301847628
+    second: KaelJump_Transparente_27
+  - first:
+      213: -2429367879532112492
+    second: KaelJump_Transparente_28
+  - first:
+      213: 7694208996980404302
+    second: KaelJump_Transparente_29
+  - first:
+      213: -8197519416369742581
+    second: KaelJump_Transparente_30
+  - first:
+      213: -2024865794605868094
+    second: KaelJump_Transparente_31
+  - first:
+      213: -5550408129682801227
+    second: KaelJump_Transparente_32
+  - first:
+      213: -2497825755878142757
+    second: KaelJump_Transparente_33
+  - first:
+      213: -3511486772357810428
+    second: KaelJump_Transparente_34
+  - first:
+      213: -3856189861261201068
+    second: KaelJump_Transparente_35
+  - first:
+      213: 1131131281604069179
+    second: KaelJump_Transparente_36
+  - first:
+      213: -1664050525835559240
+    second: KaelJump_Transparente_37
+  - first:
+      213: -2461024944491533139
+    second: KaelJump_Transparente_38
+  - first:
+      213: -8806447820798383947
+    second: KaelJump_Transparente_39
+  - first:
+      213: 8206745273451182398
+    second: KaelJump_Transparente_40
+  - first:
+      213: -2935077975446739463
+    second: KaelJump_Transparente_41
+  - first:
+      213: 4947488178923704060
+    second: KaelJump_Transparente_42
+  - first:
+      213: -2653374698293820495
+    second: KaelJump_Transparente_43
+  - first:
+      213: 3727662494911733374
+    second: KaelJump_Transparente_44
+  - first:
+      213: 7925124011522871768
+    second: KaelJump_Transparente_45
+  - first:
+      213: -1322447747664524901
+    second: KaelJump_Transparente_46
+  - first:
+      213: -1916627333548321019
+    second: KaelJump_Transparente_47
+  - first:
+      213: 7790224279643368764
+    second: KaelJump_Transparente_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KaelJump_Transparente_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1098
+        width: 83
+        height: 96
+      alignment: 9
+      pivot: {x: 0.494, y: 0.5208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f879786eae31ea850800000000000000
+      internalID: 6390066820896233359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1098
+        width: 81
+        height: 95
+      alignment: 9
+      pivot: {x: 0.4956, y: 0.5263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596f4427eb13927e0800000000000000
+      internalID: -1789844682872392043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_2
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1099
+        width: 78
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5037, y: 0.5213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e8b9b0758f5a7a0800000000000000
+      internalID: -6366409445477740957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_3
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1099
+        width: 77
+        height: 97
+      alignment: 9
+      pivot: {x: 0.4861, y: 0.5052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3308f603e529490800000000000000
+      internalID: -7741021247374347285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_4
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1100
+        width: 64
+        height: 106
+      alignment: 9
+      pivot: {x: 0.4308, y: 0.4528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c12a961b20991990800000000000000
+      internalID: -7414736796751617594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_5
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1099
+        width: 67
+        height: 106
+      alignment: 9
+      pivot: {x: 0.4584, y: 0.4623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccf1588fda29b1b0800000000000000
+      internalID: -5640429918751687487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_6
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1100
+        width: 64
+        height: 106
+      alignment: 9
+      pivot: {x: 0.4353, y: 0.4528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c80b4603695fd20800000000000000
+      internalID: 3311718235592756285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 924
+        width: 65
+        height: 103
+      alignment: 9
+      pivot: {x: 0.4308, y: 0.5437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feacddfa7aee8cad0800000000000000
+      internalID: -2681631174121633041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_8
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 924
+        width: 64
+        height: 107
+      alignment: 9
+      pivot: {x: 0.4241, y: 0.5234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038bb984cb3b32fb0800000000000000
+      internalID: -4673694367027054544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_9
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 924
+        width: 64
+        height: 109
+      alignment: 9
+      pivot: {x: 0.4576, y: 0.5138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7129ff21b971dd970800000000000000
+      internalID: 8781200803248443927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_10
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 924
+        width: 64
+        height: 112
+      alignment: 9
+      pivot: {x: 0.4598, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8d2be22db7a3350800000000000000
+      internalID: 5997241996454058145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_11
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 935
+        width: 65
+        height: 103
+      alignment: 9
+      pivot: {x: 0.4549, y: 0.4369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0d9dd2193075040800000000000000
+      internalID: 4636178263475605751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_12
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 935
+        width: 63
+        height: 104
+      alignment: 9
+      pivot: {x: 0.4875, y: 0.4327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9e9145d5c3cb750800000000000000
+      internalID: 6321994348461943259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_13
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 936
+        width: 62
+        height: 103
+      alignment: 9
+      pivot: {x: 0.4816, y: 0.4272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f8b7b0b71fba2f0800000000000000
+      internalID: -960408584737550497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_14
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 755
+        width: 66
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5152, y: 0.5481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d342cbbce132a20800000000000000
+      internalID: 3036304434161532198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_15
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 755
+        width: 68
+        height: 105
+      alignment: 9
+      pivot: {x: 0.4874, y: 0.5429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851f5fe8cb8eb8c20800000000000000
+      internalID: 3209915055981588824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_16
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 755
+        width: 68
+        height: 105
+      alignment: 9
+      pivot: {x: 0.4895, y: 0.5429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed73f944ed8588d0800000000000000
+      internalID: -2844711577981846037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_17
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 759
+        width: 67
+        height: 104
+      alignment: 9
+      pivot: {x: 0.4989, y: 0.5096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04314a71e0b160f10800000000000000
+      internalID: 2235504012376150848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_18
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 772
+        width: 66
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5087, y: 0.4301}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c281ca09b84dda0800000000000000
+      internalID: -5920954156606542786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_19
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 776
+        width: 68
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5399, y: 0.3913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e85ff8674370bba0800000000000000
+      internalID: -6075229146781361952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_20
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 776
+        width: 68
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5273, y: 0.3871}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f8cbe8d7021a510800000000000000
+      internalID: 1558562669684625206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_21
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 597
+        width: 68
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5441, y: 0.5109}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ce3b2d8f793e070800000000000000
+      internalID: 8134512446903938114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_22
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 599
+        width: 67
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5245, y: 0.4945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9355ee8a72fa4d40800000000000000
+      internalID: 5569530497394365343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_23
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 599
+        width: 70
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5041, y: 0.4891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02977566904cca980800000000000000
+      internalID: -8526224449868433120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_24
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 604
+        width: 69
+        height: 88
+      alignment: 9
+      pivot: {x: 0.499, y: 0.4545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634a10b8407d0daa0800000000000000
+      internalID: -6138169877594004426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_25
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 604
+        width: 68
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5084, y: 0.4494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fa1e3cc7a50ae30800000000000000
+      internalID: 4512706318534029175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_26
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 604
+        width: 70
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5102, y: 0.4494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d7a764f4a604180800000000000000
+      internalID: -9133183155589972730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_27
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 604
+        width: 70
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5122, y: 0.4494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46f730181df87800800000000000000
+      internalID: 610516029301847628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_28
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 425
+        width: 66
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5152, y: 0.4157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4959ebfe8c6294ed0800000000000000
+      internalID: -2429367879532112492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_29
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 425
+        width: 67
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5096, y: 0.4157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40b1ac215257ca60800000000000000
+      internalID: 7694208996980404302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_30
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 422
+        width: 70
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5041, y: 0.4396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0df9ebe58f8c3e80800000000000000
+      internalID: -8197519416369742581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_31
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 413
+        width: 71
+        height: 99
+      alignment: 9
+      pivot: {x: 0.4849, y: 0.4949}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb9daab94b36e3e0800000000000000
+      internalID: -2024865794605868094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_32
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 410
+        width: 69
+        height: 101
+      alignment: 9
+      pivot: {x: 0.4865, y: 0.5149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdf0df963df8f2b0800000000000000
+      internalID: -5550408129682801227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_33
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 413
+        width: 68
+        height: 98
+      alignment: 9
+      pivot: {x: 0.4811, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdccf0685b0f55dd0800000000000000
+      internalID: -2497825755878142757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_34
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 413
+        width: 71
+        height: 97
+      alignment: 9
+      pivot: {x: 0.4769, y: 0.5052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407312c9261b44fc0800000000000000
+      internalID: -3511486772357810428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_35
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 234
+        width: 72
+        height: 97
+      alignment: 9
+      pivot: {x: 0.4861, y: 0.4845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451301d80cf0c7ac0800000000000000
+      internalID: -3856189861261201068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_36
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 236
+        width: 69
+        height: 95
+      alignment: 9
+      pivot: {x: 0.4948, y: 0.4737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37c75a58e592bf00800000000000000
+      internalID: 1131131281604069179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_37
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 233
+        width: 73
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5245, y: 0.4848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bef44ffcda18e8e0800000000000000
+      internalID: -1664050525835559240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_38
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 234
+        width: 72
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5615, y: 0.5165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dace4302adea8ddd0800000000000000
+      internalID: -2461024944491533139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_39
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 230
+        width: 76
+        height: 92
+      alignment: 9
+      pivot: {x: 0.547, y: 0.5543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8ac449d5639c580800000000000000
+      internalID: -8806447820798383947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_40
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 233
+        width: 80
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5589, y: 0.5393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e397c22585734e170800000000000000
+      internalID: 8206745273451182398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_41
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 233
+        width: 78
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5238, y: 0.5455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5ac6dc1228447d0800000000000000
+      internalID: -2935077975446739463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_42
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 46
+        width: 77
+        height: 98
+      alignment: 9
+      pivot: {x: 0.5065, y: 0.4694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe013b294209a440800000000000000
+      internalID: 4947488178923704060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_43
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 46
+        width: 75
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5352, y: 0.4742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3003425c15d2bd0800000000000000
+      internalID: -2653374698293820495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_44
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 46
+        width: 73
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5519, y: 0.4842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e92c30a415bb330800000000000000
+      internalID: 3727662494911733374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_45
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 46
+        width: 80
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5679, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d15db3ac42bbfd60800000000000000
+      internalID: 7925124011522871768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_46
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 45
+        width: 83
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5611, y: 0.5165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99c076b7c8b5ade0800000000000000
+      internalID: -1322447747664524901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_47
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 46
+        width: 80
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5589, y: 0.5227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5075c094895c665e0800000000000000
+      internalID: -1916627333548321019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelJump_Transparente_48
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 44
+        width: 83
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5284, y: 0.5517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d24cc35bf6c1c60800000000000000
+      internalID: 7790224279643368764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      KaelJump_Transparente_0: 6390066820896233359
+      KaelJump_Transparente_1: -1789844682872392043
+      KaelJump_Transparente_10: 5997241996454058145
+      KaelJump_Transparente_11: 4636178263475605751
+      KaelJump_Transparente_12: 6321994348461943259
+      KaelJump_Transparente_13: -960408584737550497
+      KaelJump_Transparente_14: 3036304434161532198
+      KaelJump_Transparente_15: 3209915055981588824
+      KaelJump_Transparente_16: -2844711577981846037
+      KaelJump_Transparente_17: 2235504012376150848
+      KaelJump_Transparente_18: -5920954156606542786
+      KaelJump_Transparente_19: -6075229146781361952
+      KaelJump_Transparente_2: -6366409445477740957
+      KaelJump_Transparente_20: 1558562669684625206
+      KaelJump_Transparente_21: 8134512446903938114
+      KaelJump_Transparente_22: 5569530497394365343
+      KaelJump_Transparente_23: -8526224449868433120
+      KaelJump_Transparente_24: -6138169877594004426
+      KaelJump_Transparente_25: 4512706318534029175
+      KaelJump_Transparente_26: -9133183155589972730
+      KaelJump_Transparente_27: 610516029301847628
+      KaelJump_Transparente_28: -2429367879532112492
+      KaelJump_Transparente_29: 7694208996980404302
+      KaelJump_Transparente_3: -7741021247374347285
+      KaelJump_Transparente_30: -8197519416369742581
+      KaelJump_Transparente_31: -2024865794605868094
+      KaelJump_Transparente_32: -5550408129682801227
+      KaelJump_Transparente_33: -2497825755878142757
+      KaelJump_Transparente_34: -3511486772357810428
+      KaelJump_Transparente_35: -3856189861261201068
+      KaelJump_Transparente_36: 1131131281604069179
+      KaelJump_Transparente_37: -1664050525835559240
+      KaelJump_Transparente_38: -2461024944491533139
+      KaelJump_Transparente_39: -8806447820798383947
+      KaelJump_Transparente_4: -7414736796751617594
+      KaelJump_Transparente_40: 8206745273451182398
+      KaelJump_Transparente_41: -2935077975446739463
+      KaelJump_Transparente_42: 4947488178923704060
+      KaelJump_Transparente_43: -2653374698293820495
+      KaelJump_Transparente_44: 3727662494911733374
+      KaelJump_Transparente_45: 7925124011522871768
+      KaelJump_Transparente_46: -1322447747664524901
+      KaelJump_Transparente_47: -1916627333548321019
+      KaelJump_Transparente_48: 7790224279643368764
+      KaelJump_Transparente_5: -5640429918751687487
+      KaelJump_Transparente_6: 3311718235592756285
+      KaelJump_Transparente_7: -2681631174121633041
+      KaelJump_Transparente_8: -4673694367027054544
+      KaelJump_Transparente_9: 8781200803248443927
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

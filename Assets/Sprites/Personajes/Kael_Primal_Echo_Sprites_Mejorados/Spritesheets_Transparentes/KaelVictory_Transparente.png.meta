@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 3f8d4fd861282b41c8750705f305b6cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8670481972133973909
+    second: KaelVictory_Transparente_0
+  - first:
+      213: -4853906997182459744
+    second: KaelVictory_Transparente_1
+  - first:
+      213: -6358931854752719149
+    second: KaelVictory_Transparente_2
+  - first:
+      213: -3727046050030278865
+    second: KaelVictory_Transparente_3
+  - first:
+      213: 2212561294982503141
+    second: KaelVictory_Transparente_4
+  - first:
+      213: 6648713244929585142
+    second: KaelVictory_Transparente_5
+  - first:
+      213: -2957308273908445126
+    second: KaelVictory_Transparente_6
+  - first:
+      213: -6330353568381602549
+    second: KaelVictory_Transparente_7
+  - first:
+      213: 2663020781078552696
+    second: KaelVictory_Transparente_8
+  - first:
+      213: -5111025529487650778
+    second: KaelVictory_Transparente_9
+  - first:
+      213: 6502165830401434767
+    second: KaelVictory_Transparente_10
+  - first:
+      213: -6934168101677399726
+    second: KaelVictory_Transparente_11
+  - first:
+      213: -8199522821407860818
+    second: KaelVictory_Transparente_12
+  - first:
+      213: -3979753701652523773
+    second: KaelVictory_Transparente_13
+  - first:
+      213: 5984372849463481078
+    second: KaelVictory_Transparente_14
+  - first:
+      213: 5013000886152780420
+    second: KaelVictory_Transparente_15
+  - first:
+      213: 4762570643321641829
+    second: KaelVictory_Transparente_16
+  - first:
+      213: 8922547628301883226
+    second: KaelVictory_Transparente_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 136
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_0
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 697
+        width: 108
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f497c5a6db35870800000000000000
+      internalID: 8670481972133973909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_1
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 698
+        width: 107
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0182c9d4573acb0800000000000000
+      internalID: -4853906997182459744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_2
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 697
+        width: 107
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de5c8e4b2980c7a0800000000000000
+      internalID: -6358931854752719149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_3
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 698
+        width: 117
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f272c6e3d5fd64cc0800000000000000
+      internalID: -3727046050030278865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_4
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 698
+        width: 123
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ead53f66c894be10800000000000000
+      internalID: 2212561294982503141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_5
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 392
+        width: 112
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff66794879f44c50800000000000000
+      internalID: 6648713244929585142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_6
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 392
+        width: 133
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a301d5a1bc785f6d0800000000000000
+      internalID: -2957308273908445126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_7
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 392
+        width: 138
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05fcfd18f01628a0800000000000000
+      internalID: -6330353568381602549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_8
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 391
+        width: 136
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870aba58a43f4f420800000000000000
+      internalID: 2663020781078552696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_9
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 391
+        width: 153
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6209fec3c5df119b0800000000000000
+      internalID: -5111025529487650778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 76
+        width: 180
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84a2cf6f555c3a50800000000000000
+      internalID: 6502165830401434767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_11
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 76
+        width: 180
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2518caea9d2e4cf90800000000000000
+      internalID: -6934168101677399726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_12
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 211
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea79646df61753e80800000000000000
+      internalID: -8199522821407860818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_13
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 263
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305947f081315c8c0800000000000000
+      internalID: -3979753701652523773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_14
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 263
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f253c76663cc0350800000000000000
+      internalID: 5984372849463481078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_15
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 266
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48adad5feb1c19540800000000000000
+      internalID: 5013000886152780420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_16
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 178
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bd3e454cc081240800000000000000
+      internalID: 4762570643321641829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelVictory_Transparente_17
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 75
+        width: 126
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5710745bc143db70800000000000000
+      internalID: 8922547628301883226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      KaelVictory_Transparente_0: 8670481972133973909
+      KaelVictory_Transparente_1: -4853906997182459744
+      KaelVictory_Transparente_10: 6502165830401434767
+      KaelVictory_Transparente_11: -6934168101677399726
+      KaelVictory_Transparente_12: -8199522821407860818
+      KaelVictory_Transparente_13: -3979753701652523773
+      KaelVictory_Transparente_14: 5984372849463481078
+      KaelVictory_Transparente_15: 5013000886152780420
+      KaelVictory_Transparente_16: 4762570643321641829
+      KaelVictory_Transparente_17: 8922547628301883226
+      KaelVictory_Transparente_2: -6358931854752719149
+      KaelVictory_Transparente_3: -3727046050030278865
+      KaelVictory_Transparente_4: 2212561294982503141
+      KaelVictory_Transparente_5: 6648713244929585142
+      KaelVictory_Transparente_6: -2957308273908445126
+      KaelVictory_Transparente_7: -6330353568381602549
+      KaelVictory_Transparente_8: 2663020781078552696
+      KaelVictory_Transparente_9: -5111025529487650778
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

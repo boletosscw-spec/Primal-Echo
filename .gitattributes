@@ -1,0 +1,12 @@
+# Escenas y assets de Unity como texto (diff legible), imágenes y zips como binario
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.meta text eol=lf
+*.cs text diff=csharp
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.mp4 binary

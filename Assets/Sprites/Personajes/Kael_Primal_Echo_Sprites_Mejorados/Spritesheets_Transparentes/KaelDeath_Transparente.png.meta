@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 724ed66040b2917b7aa6df2c22af9e8b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6825614097810047881
+    second: KaelDeath_Transparente_0
+  - first:
+      213: 2292813426237040383
+    second: KaelDeath_Transparente_1
+  - first:
+      213: -8188830118563278011
+    second: KaelDeath_Transparente_2
+  - first:
+      213: 7676743572030607021
+    second: KaelDeath_Transparente_3
+  - first:
+      213: -6615104351698621899
+    second: KaelDeath_Transparente_4
+  - first:
+      213: -4876098287398574681
+    second: KaelDeath_Transparente_5
+  - first:
+      213: 3897104133001637968
+    second: KaelDeath_Transparente_6
+  - first:
+      213: -8215847477581986151
+    second: KaelDeath_Transparente_7
+  - first:
+      213: 8660320287172485581
+    second: KaelDeath_Transparente_8
+  - first:
+      213: 5544465780962606269
+    second: KaelDeath_Transparente_9
+  - first:
+      213: -6325312257012332682
+    second: KaelDeath_Transparente_10
+  - first:
+      213: -2527896624840130876
+    second: KaelDeath_Transparente_11
+  - first:
+      213: -5603784099743554739
+    second: KaelDeath_Transparente_12
+  - first:
+      213: 5465354435845495684
+    second: KaelDeath_Transparente_13
+  - first:
+      213: 4903898738015303234
+    second: KaelDeath_Transparente_14
+  - first:
+      213: 3892608777606336613
+    second: KaelDeath_Transparente_15
+  - first:
+      213: 4640208342706949238
+    second: KaelDeath_Transparente_16
+  - first:
+      213: -5031404323989402925
+    second: KaelDeath_Transparente_17
+  - first:
+      213: 2323506617960692119
+    second: KaelDeath_Transparente_18
+  - first:
+      213: 4731247694597939078
+    second: KaelDeath_Transparente_19
+  - first:
+      213: -3932629445631213134
+    second: KaelDeath_Transparente_20
+  - first:
+      213: 3318479502800332552
+    second: KaelDeath_Transparente_21
+  - first:
+      213: -4621700248708377764
+    second: KaelDeath_Transparente_22
+  - first:
+      213: 6630333863999024384
+    second: KaelDeath_Transparente_23
+  - first:
+      213: 1412127585898428401
+    second: KaelDeath_Transparente_24
+  - first:
+      213: 6960246957568254847
+    second: KaelDeath_Transparente_25
+  - first:
+      213: -5001575072123931882
+    second: KaelDeath_Transparente_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_0
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 835
+        width: 203
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c3226442c8641a0800000000000000
+      internalID: -6825614097810047881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_1
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1058
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6ea1fc9a5b1df10800000000000000
+      internalID: 2292813426237040383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 853
+        width: 101
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5431409b46e6b5e80800000000000000
+      internalID: -8188830118563278011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 853
+        width: 99
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daec5aa0b95498a60800000000000000
+      internalID: 7676743572030607021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_4
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 853
+        width: 135
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53aecd4f3ad6234a0800000000000000
+      internalID: -6615104351698621899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_5
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 853
+        width: 136
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5a7b9317e945cb0800000000000000
+      internalID: -4876098287398574681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 563
+        width: 205
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050f44caf8b451630800000000000000
+      internalID: 3897104133001637968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_7
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 556
+        width: 205
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996cfe1af327bfd80800000000000000
+      internalID: -8215847477581986151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_8
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 555
+        width: 211
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc16606ba63af2870800000000000000
+      internalID: 8660320287172485581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_9
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 555
+        width: 204
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbcb59f7046e1fc40800000000000000
+      internalID: 5544465780962606269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_10
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 555
+        width: 202
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6770b53e30af738a0800000000000000
+      internalID: -6325312257012332682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 300
+        width: 197
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cebe7fb96b1becd0800000000000000
+      internalID: -2527896624840130876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_12
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 309
+        width: 190
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43adc82d0c5b32b0800000000000000
+      internalID: -5603784099743554739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_13
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 324
+        width: 161
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b1d2817e6d8db40800000000000000
+      internalID: 5465354435845495684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_14
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 494
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24673e59be52e0440800000000000000
+      internalID: 4903898738015303234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_15
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 481
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5601bce2f03550630800000000000000
+      internalID: 3892608777606336613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_16
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 327
+        width: 145
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c0ade17e4556040800000000000000
+      internalID: 4640208342706949238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_17
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 479
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da4f33cc6cdc2ab0800000000000000
+      internalID: -5031404323989402925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_18
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 390
+        width: 78
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799f0d465f0ce3020800000000000000
+      internalID: 2323506617960692119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_19
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 442
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f55e406b4c8a140800000000000000
+      internalID: 4731247694597939078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_20
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 405
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b109ebea5e7c69c0800000000000000
+      internalID: -3932629445631213134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_21
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 345
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80724d6968b9d0e20800000000000000
+      internalID: 3318479502800332552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_22
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 381
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5317615c1c6cdfb0800000000000000
+      internalID: -4621700248708377764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_23
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 315
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00da7e1358da30c50800000000000000
+      internalID: 6630333863999024384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_24
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7710fbe82e89310800000000000000
+      internalID: 1412127585898428401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_25
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 125
+        width: 86
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7369de1bb3c79060800000000000000
+      internalID: 6960246957568254847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelDeath_Transparente_26
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 83
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613ba9ca8f5d69ab0800000000000000
+      internalID: -5001575072123931882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      KaelDeath_Transparente_0: -6825614097810047881
+      KaelDeath_Transparente_1: 2292813426237040383
+      KaelDeath_Transparente_10: -6325312257012332682
+      KaelDeath_Transparente_11: -2527896624840130876
+      KaelDeath_Transparente_12: -5603784099743554739
+      KaelDeath_Transparente_13: 5465354435845495684
+      KaelDeath_Transparente_14: 4903898738015303234
+      KaelDeath_Transparente_15: 3892608777606336613
+      KaelDeath_Transparente_16: 4640208342706949238
+      KaelDeath_Transparente_17: -5031404323989402925
+      KaelDeath_Transparente_18: 2323506617960692119
+      KaelDeath_Transparente_19: 4731247694597939078
+      KaelDeath_Transparente_2: -8188830118563278011
+      KaelDeath_Transparente_20: -3932629445631213134
+      KaelDeath_Transparente_21: 3318479502800332552
+      KaelDeath_Transparente_22: -4621700248708377764
+      KaelDeath_Transparente_23: 6630333863999024384
+      KaelDeath_Transparente_24: 1412127585898428401
+      KaelDeath_Transparente_25: 6960246957568254847
+      KaelDeath_Transparente_26: -5001575072123931882
+      KaelDeath_Transparente_3: 7676743572030607021
+      KaelDeath_Transparente_4: -6615104351698621899
+      KaelDeath_Transparente_5: -4876098287398574681
+      KaelDeath_Transparente_6: 3897104133001637968
+      KaelDeath_Transparente_7: -8215847477581986151
+      KaelDeath_Transparente_8: 8660320287172485581
+      KaelDeath_Transparente_9: 5544465780962606269
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

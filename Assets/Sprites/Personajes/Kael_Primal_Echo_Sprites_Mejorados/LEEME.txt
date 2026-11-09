@@ -1,0 +1,43 @@
+KAEL — PRIMAL ECHO | SPRITES MEJORADOS
+=======================================
+
+Incluye las 8 animaciones generadas para Kael:
+Death, Hurt, Idle, Jump, Land, Run, Spawn y Victory.
+
+Carpetas:
+* Spritesheets_Originales: hojas completas tal como fueron generadas, con fondo negro.
+* Spritesheets_Transparentes: hojas completas con el negro de fondo convertido a transparencia.
+* Frames_Individuales_PNG: los fotogramas individuales por animación,
+  sobre un lienzo transparente uniforme dentro de cada animación.
+
+ANIMACIÓN              COLUMNAS   FILAS   FRAMES   TAMAÑO DE CELDA APROX.
+Death                 5          4       16       290x272 px
+Hurt                  4          3       11       362x362 px
+Idle                  7          6       38       194x194 px
+Jump                  7          7       49       179x179 px
+Land                  3          2       5        512x512 px
+Run                   6          5       30       229x229 px
+Spawn                 5          4       20       290x272 px
+Victory               5          3       13       324x324 px
+
+TOTAL: 182 fotogramas.
+
+IMPORTACIÓN A UNITY
+1. Copia Frames_Individuales_PNG a Assets/Sprites/Kael.
+2. Selecciona los PNG: Texture Type = Sprite (2D and UI).
+3. Filter Mode = Point (no filter); Compression = None; desactiva mipmaps.
+4. Arrastra los fotogramas de una animación en orden a la ventana Animation.
+5. Prueba una frecuencia de 15 Samples por segundo.
+6. Ajusta el Pixels Per Unit y el pivote de cada animación para que
+   Kael conserve la misma altura aparente y los pies alineados.
+
+IMPORTANTE
+- Los nuevos sprites son regeneraciones artísticas; no son una edición
+  píxel a píxel de los originales. El tamaño aparente del personaje
+  puede variar entre animaciones.
+- Los fotogramas se recortaron por celdas regulares, NO por figura, para
+  no provocar saltos por cambios de recorte dentro de una misma animación.
+- La transparencia se obtuvo eliminando el fondo negro; inspecciona los
+  bordes antes de su uso definitivo, especialmente los efectos de energía.
+- La cantidad visual de cuadros no implica continuidad perfecta. Prueba
+  los bucles en el editor y corrige cuadros que se repitan o salten.

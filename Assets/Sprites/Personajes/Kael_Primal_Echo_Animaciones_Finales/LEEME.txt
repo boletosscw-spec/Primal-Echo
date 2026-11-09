@@ -1,0 +1,36 @@
+KAEL - PRIMAL ECHO
+===================
+
+Paquete: versiones FINALES seleccionadas de las animaciones creadas en la conversación.
+Contiene: 19 animaciones (hojas de sprites PNG) + 1 proyectil (flecha).
+Cada PNG mantiene los píxeles de la última versión elegida, sin reinterpretaciones ni recortes automáticos.
+
+CONTENIDO
+---------
+01_Movimiento: idle (6), caminar (8), correr (8), salto (3), caída (2),
+    aterrizaje (3), agacharse (4), rodar (6), trepar (6).
+02_Combate: lanza (8), lanza aérea (6), arco (8), arco diagonal hacia arriba (6),
+    bloquear (4), daño (3), muerte (7).
+03_Acciones: interactuar (5), victoria sin números (5), reparar a Kiro (6).
+04_Proyectiles: flecha apuntando a la derecha.
+
+EXCLUSIONES DE VERSIONES CORREGIDAS
+----------------------------------
+- NO se incluyó la victoria anterior que tenía números en los frames.
+- NO se incluyó la primera reparación de Kiro (sin la secuencia de apagar/reparar/despertar).
+- NO se incluyeron las pruebas previas del ataque con lanza, arco o disparo diagonal.
+- NO se incluyó la primera hoja de muerte numerada.
+
+IMPORTANTE PARA UNITY
+---------------------
+Las imágenes conservan su resolución ORIGINAL de generación. Algunas NO cumplen una
+cuadrícula real de 128x128 px, y algunas contienen fondo o artefactos de generación.
+Es recomendable limpiar fondos y alinear/supervisar los recortes antes de usarlas
+como sprites definitivos de producción. No se afirma que estén listas para importar
+con Sprite Mode=Multiple ni que su transparencia sea perfecta.
+
+Para importar en Unity tras limpiar las hojas: Texture Type = Sprite (2D and UI),
+Filter Mode = Point (no filter), Compression = None, y ajustar Pixels Per Unit.
+
+Archivo 'inventario.json': dimensiones, cantidad de fotogramas solicitados y
+hashes SHA256 para verificar que las hojas se copiaron sin cambios.

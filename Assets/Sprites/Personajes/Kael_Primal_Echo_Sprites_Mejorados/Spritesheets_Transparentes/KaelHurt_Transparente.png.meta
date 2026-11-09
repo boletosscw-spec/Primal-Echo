@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 4cd7cc1d2fd23ffa9b2c2768ff00db17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5767451098540277186
+    second: KaelHurt_Transparente_0
+  - first:
+      213: 2200941715380080599
+    second: KaelHurt_Transparente_1
+  - first:
+      213: -3061961232324896245
+    second: KaelHurt_Transparente_2
+  - first:
+      213: -2445937398249357350
+    second: KaelHurt_Transparente_3
+  - first:
+      213: 3344237532242766331
+    second: KaelHurt_Transparente_4
+  - first:
+      213: -1359918987841356747
+    second: KaelHurt_Transparente_5
+  - first:
+      213: -4887759874977173737
+    second: KaelHurt_Transparente_6
+  - first:
+      213: -125507429013960215
+    second: KaelHurt_Transparente_7
+  - first:
+      213: 7312206109088977293
+    second: KaelHurt_Transparente_8
+  - first:
+      213: -1514599993107270387
+    second: KaelHurt_Transparente_9
+  - first:
+      213: 2328830628773972078
+    second: KaelHurt_Transparente_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 148
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KaelHurt_Transparente_0
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 780
+        width: 126
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdfde3873a1a0050800000000000000
+      internalID: 5767451098540277186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelHurt_Transparente_1
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 780
+        width: 162
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df819c34d05b8e10800000000000000
+      internalID: 2200941715380080599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelHurt_Transparente_2
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 780
+        width: 168
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ad14f6b7ab185d0800000000000000
+      internalID: -3061961232324896245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelHurt_Transparente_3
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 780
+        width: 219
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adff08a35e84e0ed0800000000000000
+      internalID: -2445937398249357350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelHurt_Transparente_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 449
+        width: 140
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9ebd9215e196e20800000000000000
+      internalID: 3344237532242766331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelHurt_Transparente_5
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 449
+        width: 168
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c386eb2e8902de0800000000000000
+      internalID: -1359918987841356747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelHurt_Transparente_6
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 449
+        width: 167
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fe3984a403b2cb0800000000000000
+      internalID: -4887759874977173737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelHurt_Transparente_7
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 449
+        width: 154
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e943f488ab124ef0800000000000000
+      internalID: -125507429013960215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelHurt_Transparente_8
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 87
+        width: 133
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8190b8e6bc2a7560800000000000000
+      internalID: 7312206109088977293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelHurt_Transparente_9
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 86
+        width: 133
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05380ab45f0bfae0800000000000000
+      internalID: -1514599993107270387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaelHurt_Transparente_10
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 86
+        width: 124
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e684f124e1ba15020800000000000000
+      internalID: 2328830628773972078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      KaelHurt_Transparente_0: 5767451098540277186
+      KaelHurt_Transparente_1: 2200941715380080599
+      KaelHurt_Transparente_10: 2328830628773972078
+      KaelHurt_Transparente_2: -3061961232324896245
+      KaelHurt_Transparente_3: -2445937398249357350
+      KaelHurt_Transparente_4: 3344237532242766331
+      KaelHurt_Transparente_5: -1359918987841356747
+      KaelHurt_Transparente_6: -4887759874977173737
+      KaelHurt_Transparente_7: -125507429013960215
+      KaelHurt_Transparente_8: 7312206109088977293
+      KaelHurt_Transparente_9: -1514599993107270387
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
