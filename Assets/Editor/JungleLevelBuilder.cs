@@ -152,7 +152,7 @@ namespace PrimalEcho.Editor
             bool hasCave = group != null && group.Find("Cueva_Lejos") != null && group.GetComponent<CaveAmbience>() != null
                 && scene.GetRootGameObjects().Any(rootGo => rootGo.name == "Mascara_Cuevas" && rootGo.transform.Find("_v3") != null);
             bool treesChanged = false;
-            if (grid != null && grid.transform.Find("Arboles_v2") == null)
+            if (grid != null && grid.transform.Find(TreesVersion) == null)
             {
                 PlantTrees(map, grid.transform, bg);
                 treesChanged = true;
@@ -551,8 +551,8 @@ namespace PrimalEcho.Editor
         }
 
         // ───────────── Árboles (como en guide_jungle.png) ─────────────
-        // Copa de fondo en dos capas (azul atrás, verde oscuro adelante), tronco completo con ramas y raíces,
-        // y racimos de hojas al frente.
+        // Copa redonda y frondosa en dos capas (azul atrás, verde oscuro adelante), tronco completo con ramas
+        // y raíces, y racimos de hojas al frente.
         private static Tilemap TreeLayer(Transform grid, string name, int order)
         {
             Transform t = grid.Find(name);
@@ -565,39 +565,51 @@ namespace PrimalEcho.Editor
             return map;
         }
 
+        // Cambiar este nombre vuelve a plantar los árboles en los niveles ya generados (al abrirlos).
+        private const string TreesVersion = "Arboles_v3";
+
         private static void PlantTrees(Map m, Transform grid, Tilemap bg)
         {
             Tilemap far = TreeLayer(grid, "Arboles_Copa_Lejana", -13);
             Tilemap canopy = TreeLayer(grid, "Arboles_Copa", -12);
             Tilemap leaves = TreeLayer(grid, "Arboles_Hojas", -9);
-            if (grid.Find("Arboles_v2") == null) new GameObject("Arboles_v2").transform.SetParent(grid, false); // marcador de versión
-            int n = 0;
-            foreach (var t in TreeSpots(m))
+            foreach (string old in new[] { "Arboles_v2" })
             {
-                // Borrar el árbol viejo (solo tiles de árbol alrededor de la marca)
-                if (bg != null)
+                var marker = grid.Find(old);
+                if (marker != null) Object.DestroyImmediate(marker.gameObject);
+            }
+            if (grid.Find(TreesVersion) == null) new GameObject(TreesVersion).transform.SetParent(grid, false); // marcador de versión
+            var spots = TreeSpots(m, 7, 8, 15, 18);
+            // Borrar los troncos viejos: donde los ponía la versión anterior y donde van los nuevos
+            // (así no quedan árboles "pelones" sin copa; lo pintado a mano en otros lugares no se toca)
+            if (bg != null)
+                foreach (var t in spots.Concat(TreeSpots(m, 6, 7, 12, 16)))
                     for (int x = t.x - 4; x <= t.x + 6; x++)
                         for (int y = t.y; y <= t.y + 12; y++)
                         {
                             var pos = new Vector3Int(x, y, 0);
-                            var old = bg.GetTile(pos);
-                            if (old != null && old.name.StartsWith("tile_jungle_tree_")) bg.SetTile(pos, null);
+                            var oldTile = bg.GetTile(pos);
+                            if (oldTile != null && oldTile.name.StartsWith("tile_jungle_tree_")) bg.SetTile(pos, null);
                         }
-
+            int n = 0;
+            foreach (var t in spots)
+            {
                 string p = n++ % 2 == 0 ? "tile_jungle_tree_light" : "tile_jungle_tree_dark";
                 int bx = t.x - 3, by = t.y; // el tronco (columnas 3-4 de la hoja) queda centrado en la marca
-                // Copa en forma de nube: unión de rectángulos (azul) y su interior (verde oscuro)
-                var blue = new HashSet<Vector2Int>();
-                foreach (var (x0, y0, x1, y1) in new[] { (bx - 2, by + 5, bx + 4, by + 10), (bx + 1, by + 7, bx + 8, by + 12), (bx + 5, by + 4, bx + 10, by + 9) })
-                    for (int x = x0; x <= x1; x++)
-                        for (int y = y0; y <= y1; y++) blue.Add(new Vector2Int(x, y));
-                var green = new HashSet<Vector2Int>(blue.Where(cell =>
+                // Copa frondosa y redonda: unión de círculos sobre la punta del tronco, con un poco de
+                // variación por árbol. Azul (atrás) un poco más grande y alta; verde oscuro adelante.
+                float J(int k, float a) => (Hash(t.x, t.y * 31 + k) % 3 - 1) * a;
+                float cx = bx + 4f; // entre las columnas 3 y 4 del tronco
+                var puffs = new[]
                 {
-                    for (int dx = -1; dx <= 1; dx++)
-                        for (int dy = -1; dy <= 1; dy++)
-                            if (!blue.Contains(new Vector2Int(cell.x + dx, cell.y + dy))) return false;
-                    return true;
-                }));
+                    (cx, by + 10f, 4.6f),
+                    (cx - 4.5f + J(1, 0.5f), by + 8.5f, 3.2f),
+                    (cx + 4.5f + J(2, 0.5f), by + 8.8f + J(3, 0.5f), 3.2f),
+                    (cx - 2.2f, by + 12.6f, 3.0f),
+                    (cx + 2.4f + J(4, 0.5f), by + 13f, 2.9f),
+                };
+                var blue = Opening(Puffs(puffs, 0.6f, 1.1f));
+                var green = Opening(Erode(Puffs(puffs, 0f, 1f)));
                 Canopy(far, p, blue, 2, 0);
                 Canopy(canopy, p, green, 7, 5);
                 // Tronco con ramas y raíces: filas 3-10, columnas 0-5 + punta de la rama derecha (fila 5, col 6-7)
@@ -608,16 +620,64 @@ namespace PrimalEcho.Editor
                         var tile = T($"{p}_r{r}_c{c}");
                         if (tile != null && bg != null) bg.SetTile(new Vector3Int(bx + c, by + 10 - r, 0), tile);
                     }
-                // Hojas al frente
-                Stamp(leaves, p, bx + 1, by + 5, 6, 7, 6, 7);
-                Stamp(leaves, p, bx + 5, by + 3, 9, 10, 7, 8);
-                Stamp(leaves, p, bx + 3, by + 8, 5, 5, 8, 9);
+                // Racimos de hojas al frente: en las puntas de las ramas, alrededor de la punta del tronco
+                // (para que se funda con la copa) y en los bordes de la copa.
+                Stamp(leaves, p, bx - 1, by + 5, 6, 7, 6, 7);  // punta de la rama izquierda
+                Stamp(leaves, p, bx + 6, by + 5, 6, 7, 6, 7);  // punta de la rama derecha
+                Stamp(leaves, p, bx + 1, by + 7, 8, 10, 6, 8); // junto a la punta del tronco
+                Stamp(leaves, p, bx + 5, by + 7, 8, 10, 6, 8);
+                Stamp(leaves, p, bx + 3, by + 9, 6, 7, 6, 7);  // tapa la punta del tronco
+                Stamp(leaves, p, bx - 4, by + 7, 5, 6, 8, 9);  // bordes de la copa
+                Stamp(leaves, p, bx + 10, by + 7, 5, 6, 8, 9);
             }
         }
 
+        // Celdas dentro de una unión de círculos (centro x, centro y, radio), desplazados dy y agrandados dr.
+        private static HashSet<Vector2Int> Puffs((float x, float y, float r)[] circles, float dy, float dr)
+        {
+            var mask = new HashSet<Vector2Int>();
+            foreach (var (px, py, pr) in circles)
+            {
+                float cy = py + dy, r = pr + dr;
+                for (int x = Mathf.FloorToInt(px - r) - 1; x <= Mathf.CeilToInt(px + r) + 1; x++)
+                    for (int y = Mathf.FloorToInt(cy - r) - 1; y <= Mathf.CeilToInt(cy + r) + 1; y++)
+                    {
+                        float ddx = x + 0.5f - px, ddy = y + 0.5f - cy;
+                        if (ddx * ddx + ddy * ddy <= r * r) mask.Add(new Vector2Int(x, y));
+                    }
+            }
+            return mask;
+        }
+
+        // Quita las celdas sueltas o de 1 tile de grosor (el autotiling de la copa necesita bloques de 2x2).
+        private static HashSet<Vector2Int> Opening(HashSet<Vector2Int> mask)
+        {
+            var keep = new HashSet<Vector2Int>();
+            foreach (var cell in mask)
+                for (int ox = -1; ox <= 0; ox++)
+                    for (int oy = -1; oy <= 0; oy++)
+                        if (mask.Contains(new Vector2Int(cell.x + ox, cell.y + oy)) && mask.Contains(new Vector2Int(cell.x + ox + 1, cell.y + oy))
+                            && mask.Contains(new Vector2Int(cell.x + ox, cell.y + oy + 1)) && mask.Contains(new Vector2Int(cell.x + ox + 1, cell.y + oy + 1)))
+                            keep.Add(cell);
+            return keep;
+        }
+
+        // Interior de la máscara (celdas con sus 8 vecinas dentro).
+        private static HashSet<Vector2Int> Erode(HashSet<Vector2Int> mask)
+        {
+            return new HashSet<Vector2Int>(mask.Where(cell =>
+            {
+                for (int dx = -1; dx <= 1; dx++)
+                    for (int dy = -1; dy <= 1; dy++)
+                        if (!mask.Contains(new Vector2Int(cell.x + dx, cell.y + dy))) return false;
+                return true;
+            }));
+        }
+
         // Lugares para árboles: las marcas 'T' del mapa y, además, cada suelo plano al aire libre
-        // con espacio para la copa (sin cuevas, techos ni plataformas), separados al menos 16 tiles.
-        private static List<Vector2Int> TreeSpots(Map m)
+        // con espacio para la copa (sin cuevas, techos ni plataformas), separados al menos 18 tiles.
+        // left/right/height: espacio libre que necesita la copa alrededor de la marca; gap: separación mínima.
+        private static List<Vector2Int> TreeSpots(Map m, int left, int right, int height, int gap)
         {
             var spots = m.Find('T').ToList();
             for (int x = 3; x < m.W - 8; x++)
@@ -628,13 +688,13 @@ namespace PrimalEcho.Editor
                         flat = Cell(m, x + dx, y - 1) != 0 && Cell(m, x + dx, y) == 0;
                     if (!flat) continue;
                     bool clear = true;
-                    for (int xx = x - 6; xx <= x + 7 && clear; xx++)
-                        for (int yy = y; yy <= y + 12 && clear; yy++)
+                    for (int xx = x - left; xx <= x + right && clear; xx++)
+                        for (int yy = y; yy <= y + height && clear; yy++)
                         {
                             char ch = m.At(xx, yy);
                             if (Cell(m, xx, yy) != 0 || ch == ':' || ch == '-' || ch == '%' || ch == 'G') clear = false;
                         }
-                    if (clear && spots.All(sp => Mathf.Abs(sp.x - x) >= 16)) spots.Add(new Vector2Int(x, y));
+                    if (clear && spots.All(sp => Mathf.Abs(sp.x - x) >= gap)) spots.Add(new Vector2Int(x, y));
                 }
             return spots;
         }
@@ -661,7 +721,7 @@ namespace PrimalEcho.Editor
                 else if (!In(x + 1, y + 1)) { r = 0; c = ic + 1; }
                 else if (!In(x - 1, y - 1)) { r = 1; c = ic; }
                 else if (!In(x + 1, y - 1)) { r = 1; c = ic + 1; }
-                else if (Hash(x, y) % 9 == 0) { r = 1; c = c0 + 1; } // algún remolino de hojas
+                else if (Hash(x, y) % 5 == 0) { r = 1; c = c0 + 1; } // algún remolino de hojas
                 else { r = 2; c = ic; }                               // relleno
                 var tile = T($"{p}_r{r}_c{c}");
                 if (tile != null) map.SetTile(new Vector3Int(x, y, 0), tile);
