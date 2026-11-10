@@ -892,8 +892,10 @@ namespace PrimalEcho.Editor
         // fx: 0 = quieto con la cámara (cielo) · 1 = igual que el mundo. sink: cuánto baja la capa cuando subes
         // (así al trepar se ve el cielo sobre los árboles y el pasto dibujado no parece piso).
         // Todo va detrás del terreno (orden < -50) y sin colisiones. Dentro de las cuevas lo tapa la máscara.
-        private const string ParallaxFolder = "Assets/Sprites/Fondos/BosqueCaricatura/Imagenes/BosqueDos/Capas";
-        private const string JungleVersion = "_Bosque_v2";
+        // Fondo de cada nivel: Nivel 1 (jungla) = BosqueDos · Nivel 2 (templo) = BosqueTres
+        private static string ParallaxFolder(string theme) =>
+            $"Assets/Sprites/Fondos/BosqueCaricatura/Imagenes/{(theme == "templo" ? "BosqueTres" : "BosqueDos")}/Capas";
+        private const string JungleVersion = "_Bosque_v3";
         // Cada capa mide 1.25 veces la pantalla: al subir o bajar se desliza un poco (parallax vertical)
         // pero nunca enseña sus orillas ni cambia de tamaño.
         private const float JungleCover = 1.25f;
@@ -916,7 +918,7 @@ namespace PrimalEcho.Editor
             for (int i = 0; i < JungleLayers.Length; i++)
             {
                 var (file, order, fx, fy, sink) = JungleLayers[i];
-                var sprite = LoadKitSprite($"{ParallaxFolder}/{file}.png");
+                var sprite = LoadKitSprite($"{ParallaxFolder(theme)}/{file}.png");
                 if (sprite == null) continue;
                 var go = new GameObject($"Capa_{i + 1}_{file}");
                 go.transform.SetParent(group, false);
@@ -931,7 +933,7 @@ namespace PrimalEcho.Editor
             }
             new GameObject(JungleVersion).transform.SetParent(group, false); // marcador de versión
             EditorUtility.SetDirty(group.gameObject);
-            Debug.Log($"[Primal Echo] Fondo parallax del bosque: {made}/{JungleLayers.Length} capas.");
+            Debug.Log($"[Primal Echo] Fondo parallax ({ParallaxFolder(theme)}): {made}/{JungleLayers.Length} capas.");
         }
 
         // ───────────── Partículas de la jungla (luciérnagas azules, insectos, hojas) ─────────────
