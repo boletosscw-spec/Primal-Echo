@@ -81,8 +81,9 @@ namespace PrimalEcho
                 : c.y - (c.y - startCamY) * parallaxY;
             // limitar el desplazamiento vertical para no mostrar bordes
             float slack = (size.y * scale - viewH) * 0.5f;
-            y = Mathf.Clamp(y, c.y - slack, c.y + slack);
             if (sinkWhenHigher > 0f) y -= Mathf.Max(0f, c.y - startCamY) * sinkWhenHigher;
+            // limitar siempre: la capa nunca deja ver sus orillas, suba o baje el personaje lo que sea
+            y = Mathf.Clamp(y, c.y - slack, c.y + slack);
             // x,y son el centro deseado; se compensa el pivote del sprite (algunos fondos tienen el pivote abajo)
             Vector2 pivotOffset = (Vector2)main.sprite.bounds.center * scale;
             transform.position = new Vector3(x - pivotOffset.x, y - pivotOffset.y, transform.position.z);

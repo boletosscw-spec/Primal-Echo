@@ -157,7 +157,7 @@ namespace PrimalEcho.Editor
                         if (Cell(map, x, y) == 0 && IsCaveBack(map, x, y) && bg.GetTile(new Vector3Int(x, y, 0)) == fill) { hasBlack = true; break; }
             bool hasCave = group != null && group.Find("Cueva_Lejos") != null && group.GetComponent<CaveAmbience>() != null
                 && scene.GetRootGameObjects().Any(rootGo => rootGo.name == "Mascara_Cuevas" && rootGo.transform.Find("_v3") != null);
-            bool treesChanged = false;
+            bool treesChanged = SetupJungleParticles();
             if (grid != null && grid.transform.Find(TreesVersion) == null)
             {
                 PlantTrees(map, grid.transform, bg);
@@ -412,6 +412,7 @@ namespace PrimalEcho.Editor
             EditorUtility.SetDirty(player);
 
             SetupCamera(map, player.transform.position);
+            SetupJungleParticles();
 
             // Juego
             var enemies = new List<(Vector2Int cell, GameObject go)>();
@@ -892,14 +893,17 @@ namespace PrimalEcho.Editor
         // (así al trepar se ve el cielo sobre los árboles y el pasto dibujado no parece piso).
         // Todo va detrás del terreno (orden < -50) y sin colisiones. Dentro de las cuevas lo tapa la máscara.
         private const string ParallaxFolder = "Assets/Sprites/Fondos/BosqueCaricatura/Imagenes/BosqueDos/Capas";
-        private const string JungleVersion = "_Bosque_v1";
+        private const string JungleVersion = "_Bosque_v2";
+        // Cada capa mide 1.25 veces la pantalla: al subir o bajar se desliza un poco (parallax vertical)
+        // pero nunca enseña sus orillas ni cambia de tamaño.
+        private const float JungleCover = 1.25f;
         private static readonly (string file, int order, float fx, float fy, float sink)[] JungleLayers =
         {
-            ("Sky",          -100, 0.00f, 0.00f, 0.00f),
-            ("BG_Decor",      -90, 0.10f, 0.02f, 0.10f),
-            ("Middle_Decor",  -80, 0.25f, 0.03f, 0.25f),
-            ("Foreground",    -70, 0.45f, 0.04f, 0.45f),
-            ("Ground",        -60, 0.60f, 0.05f, 0.60f),
+            ("Sky",          -100, 0.00f, 0.00f, 0f),
+            ("BG_Decor",      -90, 0.10f, 0.03f, 0f),
+            ("Middle_Decor",  -80, 0.25f, 0.05f, 0f),
+            ("Foreground",    -70, 0.45f, 0.08f, 0f),
+            ("Ground",        -60, 0.60f, 0.10f, 0f),
         };
 
         // Borra el fondo anterior (menos las capas de cueva) y crea las 5 capas del bosque.
@@ -920,12 +924,50 @@ namespace PrimalEcho.Editor
                 var sr = go.AddComponent<SpriteRenderer>();
                 sr.sprite = sprite;
                 sr.sortingOrder = order;
-                go.AddComponent<BackdropLayer>().Configure(fx, fy, false, sink, false, 0f);
+                var backdrop = go.AddComponent<BackdropLayer>();
+                backdrop.Configure(fx, fy, false, sink, false, 0f);
+                SetField(backdrop, "cover", JungleCover);
                 made++;
             }
             new GameObject(JungleVersion).transform.SetParent(group, false); // marcador de versión
             EditorUtility.SetDirty(group.gameObject);
             Debug.Log($"[Primal Echo] Fondo parallax del bosque: {made}/{JungleLayers.Length} capas.");
+        }
+
+        // ───────────── Partículas de la jungla (luciérnagas azules, insectos, hojas) ─────────────
+        private const string ParticlesFolder = "Assets/Sprites/Particulas";
+        private const string ParticlesVersion = "_Particulas_v1";
+
+        // Pone JungleParticles en la cámara del nivel abierto. Devuelve true si cambió algo.
+        private static bool SetupJungleParticles()
+        {
+            Camera cam = Camera.main;
+            if (cam == null || cam.transform.Find(ParticlesVersion) != null) return false;
+            var glow = ParticleMaterial("Luciernaga");
+            var leaf = ParticleMaterial("Hoja");
+            var bug = ParticleMaterial("Insecto");
+            if (glow == null && leaf == null && bug == null) return false;
+            GetOrAdd<JungleParticles>(cam.gameObject).Configure(glow, leaf, bug);
+            new GameObject(ParticlesVersion).transform.SetParent(cam.transform, false); // marcador de versión
+            EditorUtility.SetDirty(cam.gameObject);
+            Debug.Log("[Primal Echo] Partículas de la jungla añadidas a la cámara.");
+            return true;
+        }
+
+        private static Material ParticleMaterial(string name)
+        {
+            string texPath = $"{ParticlesFolder}/{name}.png", matPath = $"{ParticlesFolder}/Mat_{name}.mat";
+            var mat = AssetDatabase.LoadAssetAtPath<Material>(matPath);
+            if (mat != null) return mat;
+            if (!File.Exists(texPath)) { Debug.LogWarning("[Primal Echo] Falta " + texPath); return null; }
+            AssetDatabase.ImportAsset(texPath, ImportAssetOptions.ForceUpdate);
+            var tex = AssetDatabase.LoadAssetAtPath<Texture2D>(texPath);
+            var shader = Shader.Find("Universal Render Pipeline/2D/Sprite-Unlit-Default");
+            if (shader == null) shader = Shader.Find("Sprites/Default");
+            if (tex == null || shader == null) return null;
+            mat = new Material(shader) { mainTexture = tex };
+            AssetDatabase.CreateAsset(mat, matPath);
+            return mat;
         }
 
         private static Sprite LoadKitSprite(string path)

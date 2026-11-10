@@ -14,6 +14,7 @@ namespace PrimalEcho.Editor
         public const string Root = "Assets/Sprites/Fondos/KitSelva/";
         public const string TempleRoot = "Assets/Sprites/Fondos/TemploPixel/Capas/";
         public const string ForestRoot = "Assets/Sprites/Fondos/BosqueCaricatura/Imagenes/";
+        public const string ParticlesRoot = "Assets/Sprites/Particulas/";
 
         private struct Wanted { public FilterMode filter; public bool mips; }
 
@@ -42,6 +43,17 @@ namespace PrimalEcho.Editor
 
         private void OnPreprocessTexture()
         {
+            if (assetPath.StartsWith(ParticlesRoot)) // texturas de partículas (van en materiales, no son sprites)
+            {
+                var p = (TextureImporter)assetImporter;
+                p.textureType = TextureImporterType.Default;
+                p.alphaIsTransparency = true;
+                p.mipmapEnabled = false;
+                p.textureCompression = TextureImporterCompression.Uncompressed;
+                p.wrapMode = TextureWrapMode.Clamp;
+                p.filterMode = assetPath.EndsWith("Luciernaga.png") ? FilterMode.Bilinear : FilterMode.Point;
+                return;
+            }
             if (!TryGetWanted(assetPath, out var w)) return;
             var imp = (TextureImporter)assetImporter;
             imp.textureType = TextureImporterType.Sprite;
