@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_m_arctic_brute_0: 3214280706829105530
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

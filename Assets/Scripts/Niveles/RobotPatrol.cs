@@ -32,6 +32,8 @@ namespace PrimalEcho
         private float timer;
         private Vector3 visualRest;
 
+        public bool Attacking => state == State.Windup || state == State.Lunge;
+
         public void Configure(LayerMask ground, Transform bodyVisual, float patrolSpeed, float chase)
         {
             groundLayers = ground; visual = bodyVisual; speed = patrolSpeed; chaseSpeed = chase;

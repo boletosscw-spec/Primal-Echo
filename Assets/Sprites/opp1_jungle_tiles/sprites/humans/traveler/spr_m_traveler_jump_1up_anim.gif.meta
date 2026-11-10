@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_m_traveler_jump_1up_anim_0: 5656127376976737894
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

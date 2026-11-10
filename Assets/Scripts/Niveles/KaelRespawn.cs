@@ -106,13 +106,47 @@ namespace PrimalEcho
             yield return new WaitForSeconds(deathDelay);
             Teleport(checkpoint);
             health.Restore(graceSeconds);
-            player.ResetState();
-            // El Animator se quedaba en el estado de muerte (tirado): se reinicia al estado inicial
+            player.ResetState(); // estado normal (sin la animación de aparecer, que podía dejar el sprite vacío)
+            // Sacar al Animator del estado de muerte y volver a Idle
             var anim = GetComponent<Animator>();
-            if (anim != null) { anim.Rebind(); anim.Update(0f); }
-            player.PlaySpawn();
+            if (anim != null)
+            {
+                anim.ResetTrigger("Die");
+                anim.ResetTrigger("Hurt");
+                anim.Play("Idle", 0, 0f);
+                anim.Update(0f);
+            }
+            StartCoroutine(KeepVisible());
             Respawned?.Invoke();
             busy = false;
+        }
+
+        // Asegura que Kael se vea después de reaparecer (sprite activo, opaco y con imagen)
+        private IEnumerator KeepVisible()
+        {
+            var sr = GetComponentInChildren<SpriteRenderer>();
+            if (sr == null) yield break;
+            float end = Time.time + graceSeconds + 0.5f;
+            while (Time.time < end)
+            {
+                if (sr.sprite == null && visibleSprite != null) sr.sprite = visibleSprite;
+                var c = sr.color;
+                if (c.a < 1f) { c.a = 1f; sr.color = c; }
+                yield return null;
+            }
+            sr.enabled = true; // al terminar el parpadeo de invulnerabilidad
+        }
+
+        private Sprite visibleSprite;
+
+        private void LateUpdate()
+        {
+            // Guarda la última imagen válida de Kael por si alguna animación lo deja sin sprite
+            if (visibleSprite == null || !busy)
+            {
+                var sr = GetComponentInChildren<SpriteRenderer>();
+                if (sr != null && sr.sprite != null && health.Remaining > 0) visibleSprite = sr.sprite;
+            }
         }
 
         private void Teleport(Vector3 position)

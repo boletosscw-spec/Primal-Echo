@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_village_npc_child01_idle_anim_0: 6226227413989223307
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

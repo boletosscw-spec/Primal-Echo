@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_m_native_tallface_0: -8221042136837259832
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

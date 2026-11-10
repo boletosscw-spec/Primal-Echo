@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_robot_heavy01_idle_anim_0: 240198689983613222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_ape_yeti_0: 2936300987413230588
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_m_native_hero_run_anim_0: 7769383747971283757
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

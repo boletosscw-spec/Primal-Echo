@@ -8,6 +8,7 @@ namespace PrimalEcho
         [SerializeField, Min(1)] private int health = 6;
         private Rigidbody2D body;
         public int Remaining => health;
+        public void SetHealth(int value) => health = Mathf.Max(1, value);
         private void Awake() => body = GetComponent<Rigidbody2D>();
 
         public bool Hit(int damage, Vector2 impulse)

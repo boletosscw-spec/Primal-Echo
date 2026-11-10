@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_obj_cart_slope2_front_anim_0: 640774666345259741
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

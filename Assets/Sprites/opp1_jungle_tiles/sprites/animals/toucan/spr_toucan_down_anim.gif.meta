@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_toucan_down_anim_0: -8162111266362595944
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

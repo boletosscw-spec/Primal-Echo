@@ -584,7 +584,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_m_arctic_small_talking_anim_0: -8016623452945979695
+      spr_m_arctic_small_talking_anim_1: -6275935790340361305
+      spr_m_arctic_small_talking_anim_10: 8647888375729666460
+      spr_m_arctic_small_talking_anim_11: -4698618453781673743
+      spr_m_arctic_small_talking_anim_12: -3630480221237297962
+      spr_m_arctic_small_talking_anim_13: -2275106508228199305
+      spr_m_arctic_small_talking_anim_14: 6926663116039440659
+      spr_m_arctic_small_talking_anim_15: 9017858019454307457
+      spr_m_arctic_small_talking_anim_16: -3968086247635508204
+      spr_m_arctic_small_talking_anim_17: -1985113725636878682
+      spr_m_arctic_small_talking_anim_18: 4707941550215309868
+      spr_m_arctic_small_talking_anim_2: -1629541637563913627
+      spr_m_arctic_small_talking_anim_3: -6956453811684174275
+      spr_m_arctic_small_talking_anim_4: 7288093607471244889
+      spr_m_arctic_small_talking_anim_5: -4784560035068728048
+      spr_m_arctic_small_talking_anim_6: 7907417871655367917
+      spr_m_arctic_small_talking_anim_7: -3782646651601082424
+      spr_m_arctic_small_talking_anim_8: -6692994919461948177
+      spr_m_arctic_small_talking_anim_9: 5187189120774898872
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

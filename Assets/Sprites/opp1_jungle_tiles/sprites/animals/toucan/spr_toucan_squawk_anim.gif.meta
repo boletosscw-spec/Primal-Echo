@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_toucan_squawk_anim_0: -2735557270821615856
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

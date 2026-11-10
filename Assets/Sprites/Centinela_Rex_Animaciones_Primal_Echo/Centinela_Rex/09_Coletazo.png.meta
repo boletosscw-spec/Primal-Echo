@@ -1,0 +1,2117 @@
+fileFormatVersion: 2
+guid: ce5b96fc39afe38b7b77f67a2e7f3813
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1288303917513473034
+    second: 09_Coletazo_0
+  - first:
+      213: 6289044491471658976
+    second: 09_Coletazo_1
+  - first:
+      213: 3950429197278989932
+    second: 09_Coletazo_2
+  - first:
+      213: -6296701710465466656
+    second: 09_Coletazo_3
+  - first:
+      213: 2022579129113360051
+    second: 09_Coletazo_4
+  - first:
+      213: -3287926783558844445
+    second: 09_Coletazo_5
+  - first:
+      213: 830942505803980252
+    second: 09_Coletazo_6
+  - first:
+      213: -5622568066172738421
+    second: 09_Coletazo_7
+  - first:
+      213: 1947012752808019707
+    second: 09_Coletazo_8
+  - first:
+      213: 2133223338302933883
+    second: 09_Coletazo_9
+  - first:
+      213: 4999818973576179370
+    second: 09_Coletazo_10
+  - first:
+      213: -1189020817466151352
+    second: 09_Coletazo_11
+  - first:
+      213: 4305063218842429606
+    second: 09_Coletazo_12
+  - first:
+      213: -3439395026296405270
+    second: 09_Coletazo_13
+  - first:
+      213: 5509781388818053681
+    second: 09_Coletazo_14
+  - first:
+      213: 8237471599620509525
+    second: 09_Coletazo_15
+  - first:
+      213: -3129368257740705705
+    second: 09_Coletazo_16
+  - first:
+      213: 8629823695198274605
+    second: 09_Coletazo_17
+  - first:
+      213: -8694973193075402181
+    second: 09_Coletazo_18
+  - first:
+      213: -933775923211614508
+    second: 09_Coletazo_19
+  - first:
+      213: -5391065444989913306
+    second: 09_Coletazo_20
+  - first:
+      213: -7048593318419993696
+    second: 09_Coletazo_21
+  - first:
+      213: -336628003554105321
+    second: 09_Coletazo_22
+  - first:
+      213: 6486406461281759754
+    second: 09_Coletazo_23
+  - first:
+      213: -8212834421142225663
+    second: 09_Coletazo_24
+  - first:
+      213: -7694417737652727457
+    second: 09_Coletazo_25
+  - first:
+      213: -6155226568051091406
+    second: 09_Coletazo_26
+  - first:
+      213: -4937518226571819241
+    second: 09_Coletazo_27
+  - first:
+      213: 219854422235600537
+    second: 09_Coletazo_28
+  - first:
+      213: -4139732260550644238
+    second: 09_Coletazo_29
+  - first:
+      213: 3643117722486635276
+    second: 09_Coletazo_30
+  - first:
+      213: -5202581102616155238
+    second: 09_Coletazo_31
+  - first:
+      213: -3196078817290787099
+    second: 09_Coletazo_32
+  - first:
+      213: -9178860232009900139
+    second: 09_Coletazo_33
+  - first:
+      213: 3099603365056347882
+    second: 09_Coletazo_34
+  - first:
+      213: -7548395790117202411
+    second: 09_Coletazo_35
+  - first:
+      213: -7530419961358589528
+    second: 09_Coletazo_36
+  - first:
+      213: -83368815878393307
+    second: 09_Coletazo_37
+  - first:
+      213: 7154405876508129288
+    second: 09_Coletazo_38
+  - first:
+      213: 2296899672469405418
+    second: 09_Coletazo_39
+  - first:
+      213: -4999575156658555556
+    second: 09_Coletazo_40
+  - first:
+      213: -43921259673738771
+    second: 09_Coletazo_41
+  - first:
+      213: -2253711832798915498
+    second: 09_Coletazo_42
+  - first:
+      213: -3038131388496043912
+    second: 09_Coletazo_43
+  - first:
+      213: 8254416482859348723
+    second: 09_Coletazo_44
+  - first:
+      213: -3351578627210292678
+    second: 09_Coletazo_45
+  - first:
+      213: 3379599849223432041
+    second: 09_Coletazo_46
+  - first:
+      213: -7396369220981402302
+    second: 09_Coletazo_47
+  - first:
+      213: -7369270598937308771
+    second: 09_Coletazo_48
+  - first:
+      213: -2347931065876252446
+    second: 09_Coletazo_49
+  - first:
+      213: 8522412077448336641
+    second: 09_Coletazo_50
+  - first:
+      213: -6996471580869066504
+    second: 09_Coletazo_51
+  - first:
+      213: -6829869494987321766
+    second: 09_Coletazo_52
+  - first:
+      213: 2867698192638352428
+    second: 09_Coletazo_53
+  - first:
+      213: -1791580978417456785
+    second: 09_Coletazo_54
+  - first:
+      213: -4403039177977633700
+    second: 09_Coletazo_55
+  - first:
+      213: -1167238055429315648
+    second: 09_Coletazo_56
+  - first:
+      213: 7973785343686593750
+    second: 09_Coletazo_57
+  - first:
+      213: 3440377422293728946
+    second: 09_Coletazo_58
+  - first:
+      213: -2034321042483950169
+    second: 09_Coletazo_59
+  - first:
+      213: 6026502996611757088
+    second: 09_Coletazo_60
+  - first:
+      213: -2890787059149338850
+    second: 09_Coletazo_61
+  - first:
+      213: -7342350602803718306
+    second: 09_Coletazo_62
+  - first:
+      213: -6491046049065577923
+    second: 09_Coletazo_63
+  - first:
+      213: 2921579552284614093
+    second: 09_Coletazo_64
+  - first:
+      213: 6384514143835371537
+    second: 09_Coletazo_65
+  - first:
+      213: -3145879658392331629
+    second: 09_Coletazo_66
+  - first:
+      213: 5107738641263518842
+    second: 09_Coletazo_67
+  - first:
+      213: 3872471444963580639
+    second: 09_Coletazo_68
+  - first:
+      213: -915092632814616644
+    second: 09_Coletazo_69
+  - first:
+      213: -2871592032611431194
+    second: 09_Coletazo_70
+  - first:
+      213: 5755030281659843372
+    second: 09_Coletazo_71
+  - first:
+      213: -6152943336170038479
+    second: 09_Coletazo_72
+  - first:
+      213: 5461168870809924107
+    second: 09_Coletazo_73
+  - first:
+      213: -780951922887671761
+    second: 09_Coletazo_74
+  - first:
+      213: 5133526586621146421
+    second: 09_Coletazo_75
+  - first:
+      213: -6171201655272895034
+    second: 09_Coletazo_76
+  - first:
+      213: -4924249108116663132
+    second: 09_Coletazo_77
+  - first:
+      213: -4957077959046479371
+    second: 09_Coletazo_78
+  - first:
+      213: 1561385063419495694
+    second: 09_Coletazo_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 09_Coletazo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 465
+        width: 140
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f38dd9a9660f1ee0800000000000000
+      internalID: -1288303917513473034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 453
+        width: 341
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef9bcae4ac274750800000000000000
+      internalID: 6289044491471658976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_2
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 451
+        width: 53
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e4526bc6eb2d630800000000000000
+      internalID: 3950429197278989932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_3
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 554
+        width: 70
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee7c1bd72f9d98a0800000000000000
+      internalID: -6296701710465466656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_4
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 452
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6bbe87005a11c10800000000000000
+      internalID: 2022579129113360051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_5
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 438
+        width: 365
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef7b72b200fe52d0800000000000000
+      internalID: -3287926783558844445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_6
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 482
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd18377ec9188b00800000000000000
+      internalID: 830942505803980252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_7
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 453
+        width: 192
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84a15a2220a8f1b0800000000000000
+      internalID: -5622568066172738421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_8
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 520
+        width: 420
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6074078cd250b10800000000000000
+      internalID: 1947012752808019707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_9
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 47
+        width: 601
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b8e1ae25bba9d10800000000000000
+      internalID: 2133223338302933883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_10
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 499
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae2445cddce26540800000000000000
+      internalID: 4999818973576179370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_11
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 228
+        width: 276
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ea260cddfbf7fe0800000000000000
+      internalID: -1189020817466151352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_12
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 506
+        width: 94
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8e3b63038aebb30800000000000000
+      internalID: 4305063218842429606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_13
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 457
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae28b5f3270d440d0800000000000000
+      internalID: -3439395026296405270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_14
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 455
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13afe862bfca67c40800000000000000
+      internalID: 5509781388818053681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 329
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fcfbe96c0615270800000000000000
+      internalID: 8237471599620509525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_16
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 87
+        width: 281
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7507bf156204294d0800000000000000
+      internalID: -3129368257740705705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_17
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 23
+        width: 273
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24ca829dea43c770800000000000000
+      internalID: 8629823695198274605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_18
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 103
+        width: 284
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a5237e2ff355780800000000000000
+      internalID: -8694973193075402181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_19
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 39
+        width: 276
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6c825cebf8a03f0800000000000000
+      internalID: -933775923211614508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_20
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 437
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6273e767a861f25b0800000000000000
+      internalID: -5391065444989913306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_21
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 256
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab6261d8bd5e2e90800000000000000
+      internalID: -7048593318419993696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_22
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 260
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71865b24d9e045bf0800000000000000
+      internalID: -336628003554105321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_23
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 248
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a027f716f48540a50800000000000000
+      internalID: 6486406461281759754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_24
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 222
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d77b08b96260e80800000000000000
+      internalID: -8212834421142225663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_25
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 230
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f519eb995dfe73590800000000000000
+      internalID: -7694417737652727457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_26
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 199
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23894435c0e349aa0800000000000000
+      internalID: -6155226568051091406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_27
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 212
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7178b2145596a7bb0800000000000000
+      internalID: -4937518226571819241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_28
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 222
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996d6a3ae641d0300800000000000000
+      internalID: 219854422235600537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_29
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 211
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd67a83177bc86c0800000000000000
+      internalID: -4139732260550644238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_30
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 210
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bfebb3444fe8230800000000000000
+      internalID: 3643117722486635276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_31
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 218
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b67673d08bcc7b0800000000000000
+      internalID: -5202581102616155238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_32
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 202
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e66b3dcf3f35a3d0800000000000000
+      internalID: -3196078817290787099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_33
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 208
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f171c20432e9080800000000000000
+      internalID: -9178860232009900139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_34
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 192
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeef9ce86d0040b20800000000000000
+      internalID: 3099603365056347882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_35
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 192
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5169202a506be3790800000000000000
+      internalID: -7548395790117202411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_36
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 160
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1e5b961f29e7790800000000000000
+      internalID: -7530419961358589528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_37
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 159
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5223930f080d7def0800000000000000
+      internalID: -83368815878393307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_38
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 159
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808fb303d3e894360800000000000000
+      internalID: 7154405876508129288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_39
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 146
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeeff36251a30ef10800000000000000
+      internalID: 2296899672469405418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_40
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 162
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55bf7742e0fd9ab0800000000000000
+      internalID: -4999575156658555556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_41
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 160
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de12f07d8d5f36ff0800000000000000
+      internalID: -43921259673738771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_42
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 126
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6541deb570539b0e0800000000000000
+      internalID: -2253711832798915498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_43
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 159
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870aabf499366d5d0800000000000000
+      internalID: -3038131388496043912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_44
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 128
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2f5f0be049d8270800000000000000
+      internalID: 8254416482859348723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_45
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 134
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32d658fefccc71d0800000000000000
+      internalID: -3351578627210292678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_46
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 146
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9672def2820c6ee20800000000000000
+      internalID: 3379599849223432041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_47
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 110
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24555c39161da5990800000000000000
+      internalID: -7396369220981402302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_48
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 134
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d919c903f671bb990800000000000000
+      internalID: -7369270598937308771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_49
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 130
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8775da2297a6fd0800000000000000
+      internalID: -2347931065876252446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_50
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 128
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1059ec971a0b54670800000000000000
+      internalID: 8522412077448336641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_51
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 128
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f00f258a2a87ee90800000000000000
+      internalID: -6996471580869066504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_52
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 136
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e010961ed6731a0800000000000000
+      internalID: -6829869494987321766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_53
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 110
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c1d3fff4c1cc720800000000000000
+      internalID: 2867698192638352428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_54
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 128
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69a413a7960327e0800000000000000
+      internalID: -1791580978417456785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_55
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 128
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54e388223345e2c0800000000000000
+      internalID: -4403039177977633700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_56
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 120
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c361d14c232dcfe0800000000000000
+      internalID: -1167238055429315648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_57
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 124
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcc7ade58398ae60800000000000000
+      internalID: 7973785343686593750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_58
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 134
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be7715a90daebf20800000000000000
+      internalID: 3440377422293728946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_59
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 132
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad44a74ac3a4c3e0800000000000000
+      internalID: -2034321042483950169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_60
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 135
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024fedeab8072a350800000000000000
+      internalID: 6026502996611757088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_61
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 128
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e178b1a5c7cd1e7d0800000000000000
+      internalID: -2890787059149338850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_62
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 127
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e575287370bba1a90800000000000000
+      internalID: -7342350602803718306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_63
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 126
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d325eb8620c2be5a0800000000000000
+      internalID: -6491046049065577923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_64
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 103
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd18f4af198b8820800000000000000
+      internalID: 2921579552284614093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_65
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 110
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118b3c689c95a9850800000000000000
+      internalID: 6384514143835371537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_66
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 110
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ad5674e179754d0800000000000000
+      internalID: -3145879658392331629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_67
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 128
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a746c067b3552e640800000000000000
+      internalID: 5107738641263518842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_68
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 23
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdad5ef0348cdb530800000000000000
+      internalID: 3872471444963580639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_69
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 114
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbff18c4910fc43f0800000000000000
+      internalID: -915092632814616644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_70
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 97
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec8a5cb24e0628d0800000000000000
+      internalID: -2871592032611431194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_71
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 97
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2383f9bc89fddf40800000000000000
+      internalID: 5755030281659843372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_72
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 114
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b5a7ca2aa5c9aa0800000000000000
+      internalID: -6152943336170038479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_73
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 118
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02fb0b4728f9cb40800000000000000
+      internalID: 5461168870809924107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_74
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f204f912d508925f0800000000000000
+      internalID: -780951922887671761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_75
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 84
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535b3906b33fd3740800000000000000
+      internalID: 5133526586621146421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_76
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 79
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd082c7acc7b5aa0800000000000000
+      internalID: -6171201655272895034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_77
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 75
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a41c25a68d89abb0800000000000000
+      internalID: -4924249108116663132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_78
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 81
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1cd172cdbe43bb0800000000000000
+      internalID: -4957077959046479371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_Coletazo_79
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 57
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0548be41772ba510800000000000000
+      internalID: 1561385063419495694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

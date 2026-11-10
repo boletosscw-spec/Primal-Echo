@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_f_arctic_lisa_0: 3604535392000285082
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      guide_jungle_vines_0: -98554961244138404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

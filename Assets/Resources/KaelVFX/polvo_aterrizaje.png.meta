@@ -1,0 +1,992 @@
+fileFormatVersion: 2
+guid: 2e0f0394a1e83da989c873036abdacb7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1730994918340098554
+    second: polvo_aterrizaje_0
+  - first:
+      213: 978681425886188605
+    second: polvo_aterrizaje_1
+  - first:
+      213: 7196236317680442116
+    second: polvo_aterrizaje_2
+  - first:
+      213: -8071330423747100229
+    second: polvo_aterrizaje_3
+  - first:
+      213: -8229849790603046024
+    second: polvo_aterrizaje_4
+  - first:
+      213: 6560324821669069709
+    second: polvo_aterrizaje_5
+  - first:
+      213: 7194602030389372146
+    second: polvo_aterrizaje_6
+  - first:
+      213: -6144835014282283618
+    second: polvo_aterrizaje_7
+  - first:
+      213: 2055573064166733393
+    second: polvo_aterrizaje_8
+  - first:
+      213: -8079669578944401839
+    second: polvo_aterrizaje_9
+  - first:
+      213: 1487581067419509076
+    second: polvo_aterrizaje_10
+  - first:
+      213: 7054903996556357169
+    second: polvo_aterrizaje_11
+  - first:
+      213: -7656228795857352817
+    second: polvo_aterrizaje_12
+  - first:
+      213: -6385294761357810008
+    second: polvo_aterrizaje_13
+  - first:
+      213: -8725966816494175516
+    second: polvo_aterrizaje_14
+  - first:
+      213: -244163974114449059
+    second: polvo_aterrizaje_15
+  - first:
+      213: -8969443885872722637
+    second: polvo_aterrizaje_16
+  - first:
+      213: -7201498919252015745
+    second: polvo_aterrizaje_17
+  - first:
+      213: -5392115062821181582
+    second: polvo_aterrizaje_18
+  - first:
+      213: -2828138858650319724
+    second: polvo_aterrizaje_19
+  - first:
+      213: -7753677600998310256
+    second: polvo_aterrizaje_20
+  - first:
+      213: -7187552242370462308
+    second: polvo_aterrizaje_21
+  - first:
+      213: -9063178717287732355
+    second: polvo_aterrizaje_22
+  - first:
+      213: -5774470832151199797
+    second: polvo_aterrizaje_23
+  - first:
+      213: -8806564641438681414
+    second: polvo_aterrizaje_24
+  - first:
+      213: -520975392990331002
+    second: polvo_aterrizaje_25
+  - first:
+      213: -2389697436209898680
+    second: polvo_aterrizaje_26
+  - first:
+      213: -2452662283032051066
+    second: polvo_aterrizaje_27
+  - first:
+      213: 5566491945051302612
+    second: polvo_aterrizaje_28
+  - first:
+      213: 6861311064124664401
+    second: polvo_aterrizaje_29
+  - first:
+      213: 6110212766820066238
+    second: polvo_aterrizaje_30
+  - first:
+      213: 6382041038538597209
+    second: polvo_aterrizaje_31
+  - first:
+      213: 4592044901253108722
+    second: polvo_aterrizaje_32
+  - first:
+      213: 2456610604696915780
+    second: polvo_aterrizaje_33
+  - first:
+      213: -1157319502267413210
+    second: polvo_aterrizaje_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: polvo_aterrizaje_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1
+        width: 134
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60605500b454af7e0800000000000000
+      internalID: -1730994918340098554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 82
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3418325299f49d00800000000000000
+      internalID: 978681425886188605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_2
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 92
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b9b1bbdca2ed360800000000000000
+      internalID: 7196236317680442116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_3
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 78
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb140cb4ebfdcff80800000000000000
+      internalID: -8071330423747100229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_4
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 87
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87358441833b9cd80800000000000000
+      internalID: -8229849790603046024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_5
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 73
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8343cecaa4fa0b50800000000000000
+      internalID: 6560324821669069709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_6
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 82
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4a9a19d6c58d360800000000000000
+      internalID: 7194602030389372146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_7
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1
+        width: 170
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95725a7c1929baa0800000000000000
+      internalID: -6144835014282283618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_8
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 61
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156f48b9fccd68c10800000000000000
+      internalID: 2055573064166733393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_9
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 78
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e2d7c635f3fdf80800000000000000
+      internalID: -8079669578944401839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_10
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451e22a6913f4a410800000000000000
+      internalID: 1487581067419509076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_11
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 54
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ea93f6ecd08e160800000000000000
+      internalID: 7054903996556357169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_12
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 75
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f874ecf797c9fb590800000000000000
+      internalID: -7656228795857352817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_13
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1
+        width: 172
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6ea1bce30e267a0800000000000000
+      internalID: -6385294761357810008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_14
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 63
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eab40d996327e680800000000000000
+      internalID: -8725966816494175516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_15
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59e5ffb82e8c9cf0800000000000000
+      internalID: -244163974114449059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_16
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 62
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33dc1c5de42268380800000000000000
+      internalID: -8969443885872722637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_17
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1
+        width: 166
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75cf9b53e22f0c90800000000000000
+      internalID: -7201498919252015745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 48
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277a2844beb5b25b0800000000000000
+      internalID: -5392115062821181582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_19
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 43
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4944ba231be60c8d0800000000000000
+      internalID: -2828138858650319724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_20
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 53
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09eb7997d47656490800000000000000
+      internalID: -7753677600998310256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_21
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 30
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d32fc115fa04c90800000000000000
+      internalID: -7187552242370462308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_22
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 38
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b2f24b9fe193280800000000000000
+      internalID: -9063178717287732355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_23
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcff5c36f55fcdfa0800000000000000
+      internalID: -5774470832151199797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_24
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 28
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab638872e1cc8c580800000000000000
+      internalID: -8806564641438681414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_25
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1
+        width: 84
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f771ce3af15c8f0800000000000000
+      internalID: -520975392990331002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_26
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 32
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b1c0ac7d616ded0800000000000000
+      internalID: -2389697436209898680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_27
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 34
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68240e9f5a466fdd0800000000000000
+      internalID: -2452662283032051066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_28
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 34
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da2bd57ee6204d40800000000000000
+      internalID: 5566491945051302612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_29
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1
+        width: 80
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15aab9e5f06483f50800000000000000
+      internalID: 6861311064124664401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_30
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 26
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3ed5c5326dbc450800000000000000
+      internalID: 6110212766820066238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_31
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953ee04d280919850800000000000000
+      internalID: 6382041038538597209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_32
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1
+        width: 66
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3d5db02883abf30800000000000000
+      internalID: 4592044901253108722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_33
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 4
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fca6c4452a71220800000000000000
+      internalID: 2456610604696915780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polvo_aterrizaje_34
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 4
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d08bf5b0060ffe0800000000000000
+      internalID: -1157319502267413210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

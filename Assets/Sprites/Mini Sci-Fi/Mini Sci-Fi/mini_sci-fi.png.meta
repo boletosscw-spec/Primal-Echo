@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mini_sci-fi_0: 4098279047030585651
+      mini_sci-fi_1: -8462690831604908413
+      mini_sci-fi_2: 8828004151389567515
+      mini_sci-fi_3: -1948348858638944891
+      mini_sci-fi_4: -355874270675652680
+      mini_sci-fi_5: -5545515967366155612
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

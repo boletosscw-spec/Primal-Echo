@@ -1,0 +1,3942 @@
+fileFormatVersion: 2
+guid: 44b80d1c6af4cebce81220b28fada820
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6102069200234658704
+    second: 02_polvo_salto_0
+  - first:
+      213: 2573146839412336376
+    second: 02_polvo_salto_1
+  - first:
+      213: -4385697165875704348
+    second: 02_polvo_salto_2
+  - first:
+      213: 4495837094016814325
+    second: 02_polvo_salto_3
+  - first:
+      213: 7478525699811363357
+    second: 02_polvo_salto_4
+  - first:
+      213: 6049761117031338080
+    second: 02_polvo_salto_5
+  - first:
+      213: 7789901723790699626
+    second: 02_polvo_salto_6
+  - first:
+      213: -1136048822221155466
+    second: 02_polvo_salto_7
+  - first:
+      213: 2388658878374120855
+    second: 02_polvo_salto_8
+  - first:
+      213: 3765714599664577592
+    second: 02_polvo_salto_9
+  - first:
+      213: -6922866402588332383
+    second: 02_polvo_salto_10
+  - first:
+      213: 4050525926641959121
+    second: 02_polvo_salto_11
+  - first:
+      213: 3257776428045463112
+    second: 02_polvo_salto_12
+  - first:
+      213: 4835518315389446653
+    second: 02_polvo_salto_13
+  - first:
+      213: 2217033866013633135
+    second: 02_polvo_salto_14
+  - first:
+      213: -3007475534608880509
+    second: 02_polvo_salto_15
+  - first:
+      213: -3582404478487468749
+    second: 02_polvo_salto_16
+  - first:
+      213: -5309497894653176671
+    second: 02_polvo_salto_17
+  - first:
+      213: -8235117558264793473
+    second: 02_polvo_salto_18
+  - first:
+      213: 942557644886584170
+    second: 02_polvo_salto_19
+  - first:
+      213: -2600186578684760612
+    second: 02_polvo_salto_20
+  - first:
+      213: -5237292002401848675
+    second: 02_polvo_salto_21
+  - first:
+      213: -1583135485874807117
+    second: 02_polvo_salto_22
+  - first:
+      213: -2858454075801690369
+    second: 02_polvo_salto_23
+  - first:
+      213: 4860801997337643706
+    second: 02_polvo_salto_24
+  - first:
+      213: 6166464367601650619
+    second: 02_polvo_salto_25
+  - first:
+      213: 2897804458722739815
+    second: 02_polvo_salto_26
+  - first:
+      213: -3035760802874262155
+    second: 02_polvo_salto_27
+  - first:
+      213: -4884526731892700760
+    second: 02_polvo_salto_28
+  - first:
+      213: 2487902560280017554
+    second: 02_polvo_salto_29
+  - first:
+      213: -1475475050839657439
+    second: 02_polvo_salto_30
+  - first:
+      213: 153709828801781776
+    second: 02_polvo_salto_31
+  - first:
+      213: -7346262066285428573
+    second: 02_polvo_salto_32
+  - first:
+      213: 247538802583477687
+    second: 02_polvo_salto_33
+  - first:
+      213: -1440633074163617003
+    second: 02_polvo_salto_34
+  - first:
+      213: 6123566069590402633
+    second: 02_polvo_salto_35
+  - first:
+      213: 7333291221995767236
+    second: 02_polvo_salto_36
+  - first:
+      213: -7376429089804209968
+    second: 02_polvo_salto_37
+  - first:
+      213: -8595854574524535131
+    second: 02_polvo_salto_38
+  - first:
+      213: 3994890395911132132
+    second: 02_polvo_salto_39
+  - first:
+      213: 4134670474794839269
+    second: 02_polvo_salto_40
+  - first:
+      213: 5275721930367294581
+    second: 02_polvo_salto_41
+  - first:
+      213: -964237232736109258
+    second: 02_polvo_salto_42
+  - first:
+      213: 5992917976356575188
+    second: 02_polvo_salto_43
+  - first:
+      213: 5930978548733372798
+    second: 02_polvo_salto_44
+  - first:
+      213: 8850658537956808898
+    second: 02_polvo_salto_45
+  - first:
+      213: -205484363089774037
+    second: 02_polvo_salto_46
+  - first:
+      213: 2958500182748117222
+    second: 02_polvo_salto_47
+  - first:
+      213: -2774434738882039712
+    second: 02_polvo_salto_48
+  - first:
+      213: 3903154428074306479
+    second: 02_polvo_salto_49
+  - first:
+      213: 3598827693611665479
+    second: 02_polvo_salto_50
+  - first:
+      213: -376045212197127762
+    second: 02_polvo_salto_51
+  - first:
+      213: 5829591633324243227
+    second: 02_polvo_salto_52
+  - first:
+      213: -2391262322357824081
+    second: 02_polvo_salto_53
+  - first:
+      213: -7360968780677869777
+    second: 02_polvo_salto_54
+  - first:
+      213: 6620510930983653268
+    second: 02_polvo_salto_55
+  - first:
+      213: 5820488014329592239
+    second: 02_polvo_salto_56
+  - first:
+      213: 2535473994040749917
+    second: 02_polvo_salto_57
+  - first:
+      213: -2166315992258223786
+    second: 02_polvo_salto_58
+  - first:
+      213: 9171188846529056900
+    second: 02_polvo_salto_59
+  - first:
+      213: -2784195622529680680
+    second: 02_polvo_salto_60
+  - first:
+      213: -3712867722264900119
+    second: 02_polvo_salto_61
+  - first:
+      213: 1695096130394084105
+    second: 02_polvo_salto_62
+  - first:
+      213: 737080110954593234
+    second: 02_polvo_salto_63
+  - first:
+      213: 7377114095747694794
+    second: 02_polvo_salto_64
+  - first:
+      213: 5904332728975633000
+    second: 02_polvo_salto_65
+  - first:
+      213: -8521356704406254884
+    second: 02_polvo_salto_66
+  - first:
+      213: -4618090951726270592
+    second: 02_polvo_salto_67
+  - first:
+      213: -3733801904347131470
+    second: 02_polvo_salto_68
+  - first:
+      213: 4613229013639721219
+    second: 02_polvo_salto_69
+  - first:
+      213: -5659134917753207719
+    second: 02_polvo_salto_70
+  - first:
+      213: 1979010311634633705
+    second: 02_polvo_salto_71
+  - first:
+      213: -3841724100646434143
+    second: 02_polvo_salto_72
+  - first:
+      213: -8526774844895973517
+    second: 02_polvo_salto_73
+  - first:
+      213: 3061854232789480258
+    second: 02_polvo_salto_74
+  - first:
+      213: 1290122694718251854
+    second: 02_polvo_salto_75
+  - first:
+      213: 9084694802219060216
+    second: 02_polvo_salto_76
+  - first:
+      213: 2379155037746066161
+    second: 02_polvo_salto_77
+  - first:
+      213: -2245835520227221379
+    second: 02_polvo_salto_78
+  - first:
+      213: -1709290306818418835
+    second: 02_polvo_salto_79
+  - first:
+      213: -2855345432378210531
+    second: 02_polvo_salto_80
+  - first:
+      213: 1279665983454508457
+    second: 02_polvo_salto_81
+  - first:
+      213: -4266414134772142180
+    second: 02_polvo_salto_82
+  - first:
+      213: -7999503213383126251
+    second: 02_polvo_salto_83
+  - first:
+      213: 7848891895831962470
+    second: 02_polvo_salto_84
+  - first:
+      213: 5212585019371469318
+    second: 02_polvo_salto_85
+  - first:
+      213: 7001902550322526795
+    second: 02_polvo_salto_86
+  - first:
+      213: -3800337354566760037
+    second: 02_polvo_salto_87
+  - first:
+      213: -8231039185319407984
+    second: 02_polvo_salto_88
+  - first:
+      213: -8803528717998106587
+    second: 02_polvo_salto_89
+  - first:
+      213: 4770073834256887283
+    second: 02_polvo_salto_90
+  - first:
+      213: 6984818374039987160
+    second: 02_polvo_salto_91
+  - first:
+      213: 6922219232530540936
+    second: 02_polvo_salto_92
+  - first:
+      213: 6796769966619895963
+    second: 02_polvo_salto_93
+  - first:
+      213: 8453836872874683532
+    second: 02_polvo_salto_94
+  - first:
+      213: 398345934802518244
+    second: 02_polvo_salto_95
+  - first:
+      213: -7370734345417674948
+    second: 02_polvo_salto_96
+  - first:
+      213: 7821876993428763684
+    second: 02_polvo_salto_97
+  - first:
+      213: -2881123258022560958
+    second: 02_polvo_salto_98
+  - first:
+      213: -5858921431598517566
+    second: 02_polvo_salto_99
+  - first:
+      213: -7310171951848411288
+    second: 02_polvo_salto_100
+  - first:
+      213: 1551785809778870006
+    second: 02_polvo_salto_101
+  - first:
+      213: 7548883271653201047
+    second: 02_polvo_salto_102
+  - first:
+      213: 1345772656301940116
+    second: 02_polvo_salto_103
+  - first:
+      213: -4873506063343154716
+    second: 02_polvo_salto_104
+  - first:
+      213: 4626506575179980045
+    second: 02_polvo_salto_105
+  - first:
+      213: 6611892107610340281
+    second: 02_polvo_salto_106
+  - first:
+      213: -4163836953870965951
+    second: 02_polvo_salto_107
+  - first:
+      213: 1085522644024299255
+    second: 02_polvo_salto_108
+  - first:
+      213: -5115760671567256083
+    second: 02_polvo_salto_109
+  - first:
+      213: -4162135716379140796
+    second: 02_polvo_salto_110
+  - first:
+      213: -79794761273157021
+    second: 02_polvo_salto_111
+  - first:
+      213: 8118097716268329461
+    second: 02_polvo_salto_112
+  - first:
+      213: -1456990744654770264
+    second: 02_polvo_salto_113
+  - first:
+      213: 8038144791733405415
+    second: 02_polvo_salto_114
+  - first:
+      213: -3157986478361305274
+    second: 02_polvo_salto_115
+  - first:
+      213: 731196161396398879
+    second: 02_polvo_salto_116
+  - first:
+      213: 8940383612831068389
+    second: 02_polvo_salto_117
+  - first:
+      213: -5510008834481923487
+    second: 02_polvo_salto_118
+  - first:
+      213: -3717116390729660913
+    second: 02_polvo_salto_119
+  - first:
+      213: 4544728419316304409
+    second: 02_polvo_salto_120
+  - first:
+      213: -1908336937961174335
+    second: 02_polvo_salto_121
+  - first:
+      213: -4460120489007184071
+    second: 02_polvo_salto_122
+  - first:
+      213: -8253045231144567006
+    second: 02_polvo_salto_123
+  - first:
+      213: 3545125522650499347
+    second: 02_polvo_salto_124
+  - first:
+      213: 2323214502789889314
+    second: 02_polvo_salto_125
+  - first:
+      213: -8976455226643702554
+    second: 02_polvo_salto_126
+  - first:
+      213: 5562976376197948007
+    second: 02_polvo_salto_127
+  - first:
+      213: 7674700243968335396
+    second: 02_polvo_salto_128
+  - first:
+      213: -7355660170685522762
+    second: 02_polvo_salto_129
+  - first:
+      213: 4088814839767982785
+    second: 02_polvo_salto_130
+  - first:
+      213: -907389024268870678
+    second: 02_polvo_salto_131
+  - first:
+      213: -4327612279503188769
+    second: 02_polvo_salto_132
+  - first:
+      213: -1707550437755372812
+    second: 02_polvo_salto_133
+  - first:
+      213: -6632613435145983115
+    second: 02_polvo_salto_134
+  - first:
+      213: -7140913373924324880
+    second: 02_polvo_salto_135
+  - first:
+      213: -6043834701123907710
+    second: 02_polvo_salto_136
+  - first:
+      213: 6500608916096879348
+    second: 02_polvo_salto_137
+  - first:
+      213: -6687094756637416667
+    second: 02_polvo_salto_138
+  - first:
+      213: 3394570070341211659
+    second: 02_polvo_salto_139
+  - first:
+      213: 9017966200924765176
+    second: 02_polvo_salto_140
+  - first:
+      213: -4919269864380084170
+    second: 02_polvo_salto_141
+  - first:
+      213: 3798508672619145279
+    second: 02_polvo_salto_142
+  - first:
+      213: 6711589573579917844
+    second: 02_polvo_salto_143
+  - first:
+      213: 2246312356692413608
+    second: 02_polvo_salto_144
+  - first:
+      213: -1032805455021100203
+    second: 02_polvo_salto_145
+  - first:
+      213: -3583857515801667295
+    second: 02_polvo_salto_146
+  - first:
+      213: 8427864252389836234
+    second: 02_polvo_salto_147
+  - first:
+      213: 147542247349417028
+    second: 02_polvo_salto_148
+  - first:
+      213: -3659669748734159037
+    second: 02_polvo_salto_149
+  - first:
+      213: 2364529148876808688
+    second: 02_polvo_salto_150
+  - first:
+      213: -140853764836791353
+    second: 02_polvo_salto_151
+  - first:
+      213: 2958898883053207143
+    second: 02_polvo_salto_152
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 02_polvo_salto_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 246
+        width: 416
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074492d7468115ba0800000000000000
+      internalID: -6102069200234658704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_1
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 378
+        width: 187
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f66716da67a5b320800000000000000
+      internalID: 2573146839412336376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 514
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed8a8ff9afd223c0800000000000000
+      internalID: -4385697165875704348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_3
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 512
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc85ec540c646e30800000000000000
+      internalID: 4495837094016814325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_4
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 502
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ac2e4408f09c760800000000000000
+      internalID: 7478525699811363357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_5
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 515
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0609f94dea115f350800000000000000
+      internalID: 6049761117031338080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_6
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 449
+        width: 198
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c6fb9585a4b1c60800000000000000
+      internalID: 7789901723790699626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_7
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 516
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673d1008d91fb30f0800000000000000
+      internalID: -1136048822221155466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_8
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 498
+        width: 146
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d821f1898362120800000000000000
+      internalID: 2388658878374120855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_9
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 452
+        width: 190
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c628e0a71824430800000000000000
+      internalID: 3765714599664577592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_10
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 490
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae6c3e8fa90def90800000000000000
+      internalID: -6922866402588332383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_11
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 493
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d00103aedb563830800000000000000
+      internalID: 4050525926641959121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_12
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 490
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e6a4f9662f53d20800000000000000
+      internalID: 3257776428045463112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_13
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 530
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9eea5c9463b1340800000000000000
+      internalID: 4835518315389446653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_14
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 529
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ae0c60e8c74ce10800000000000000
+      internalID: 2217033866013633135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_15
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 524
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ca5f08fec4346d0800000000000000
+      internalID: -3007475534608880509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_16
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 516
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3356cf17b1eb84ec0800000000000000
+      internalID: -3582404478487468749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_17
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 484
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a45385bbcfd056b0800000000000000
+      internalID: -5309497894653176671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_18
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 431
+        width: 114
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f767b08563cf6bd80800000000000000
+      internalID: -8235117558264793473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_19
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 546
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b2bc32f23a41d00800000000000000
+      internalID: 942557644886584170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_20
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 528
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdda1c345184aebd0800000000000000
+      internalID: -2600186578684760612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_21
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 425
+        width: 169
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92f7d31ca66157b0800000000000000
+      internalID: -5237292002401848675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_22
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 339
+        width: 126
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bedd15d9a2970ae0800000000000000
+      internalID: -1583135485874807117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_23
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 323
+        width: 104
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe921da92bb458d0800000000000000
+      internalID: -2858454075801690369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_24
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 474
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abac1d6b9a9057340800000000000000
+      internalID: 4860801997337643706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_25
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 465
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb0007cbaea39550800000000000000
+      internalID: 6166464367601650619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_26
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 482
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76646be4dc1173820800000000000000
+      internalID: 2897804458722739815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_27
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 385
+        width: 63
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dff9942afced5d0800000000000000
+      internalID: -3035760802874262155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_28
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 327
+        width: 95
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9c2a111dca63cb0800000000000000
+      internalID: -4884526731892700760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_29
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 467
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a7645723ec68220800000000000000
+      internalID: 2487902560280017554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_30
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 472
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12430c7324f068be0800000000000000
+      internalID: -1475475050839657439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_31
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 379
+        width: 77
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01067306646122200800000000000000
+      internalID: 153709828801781776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_32
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 461
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a04128a295dc0a90800000000000000
+      internalID: -7346262066285428573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_33
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 454
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd1d1cba3f6f6300800000000000000
+      internalID: 247538802583477687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_34
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 417
+        width: 98
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5137cc21ad7d10ce0800000000000000
+      internalID: -1440633074163617003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_35
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 449
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946229075e64bf450800000000000000
+      internalID: 6123566069590402633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_36
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 449
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c54c81538515c560800000000000000
+      internalID: 7333291221995767236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_37
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 419
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0bc5723d8a1a990800000000000000
+      internalID: -7376429089804209968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_38
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 30
+        width: 447
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae6c88aec365b880800000000000000
+      internalID: -8595854574524535131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_39
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 425
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e317e436a3b07730800000000000000
+      internalID: 3994890395911132132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_40
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 431
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec2171f3ec416930800000000000000
+      internalID: 4134670474794839269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_41
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 429
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cd749c421273940800000000000000
+      internalID: 5275721930367294581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_42
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 359
+        width: 35
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dfe8778575e92f0800000000000000
+      internalID: -964237232736109258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_43
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 408
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d759ccc52f1b2350800000000000000
+      internalID: 5992917976356575188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_44
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 405
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79e6bff0911f4250800000000000000
+      internalID: 5930978548733372798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_45
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 377
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c891372c0bd3da70800000000000000
+      internalID: 8850658537956808898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_46
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 379
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2af22b7f09f52df0800000000000000
+      internalID: -205484363089774037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_47
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 33
+        width: 464
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e831accd34be0920800000000000000
+      internalID: 2958500182748117222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_48
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 397
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060be68fd4a3f79d0800000000000000
+      internalID: -2774434738882039712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_49
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 399
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabacd4c54aca2630800000000000000
+      internalID: 3903154428074306479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_50
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 407
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748cf8d48ba91f130800000000000000
+      internalID: 3598827693611665479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_51
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 398
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9f0833fd408caf0800000000000000
+      internalID: -376045212197127762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_52
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 389
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1971e934bed6e050800000000000000
+      internalID: 5829591633324243227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_53
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 391
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa51617569780ded0800000000000000
+      internalID: -2391262322357824081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_54
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 385
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f84f0e4e598d990800000000000000
+      internalID: -7360968780677869777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_55
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 393
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f0fd06d97c0eb50800000000000000
+      internalID: 6620510930983653268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_56
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 371
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9b881c20786c050800000000000000
+      internalID: 5820488014329592239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_57
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 385
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f2a000a20df2320800000000000000
+      internalID: 2535473994040749917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_58
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 31
+        width: 434
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651633a2513bfe1e0800000000000000
+      internalID: -2166315992258223786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_59
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 373
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48093653aab964f70800000000000000
+      internalID: 9171188846529056900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_60
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 355
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dabbe525dc8c59d0800000000000000
+      internalID: -2784195622529680680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_61
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 336
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed036c6a7e397cc0800000000000000
+      internalID: -3712867722264900119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_62
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 50
+        width: 397
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903574813f0368710800000000000000
+      internalID: 1695096130394084105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_63
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 256
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db3478a472aa3a00800000000000000
+      internalID: 737080110954593234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_64
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 33
+        width: 347
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac081983f26c06660800000000000000
+      internalID: 7377114095747694794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_65
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 176
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a2e42a55760f150800000000000000
+      internalID: 5904332728975633000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_66
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 176
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdac875b93f0eb980800000000000000
+      internalID: -8521356704406254884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_67
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 136
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087f8e14fbe39efb0800000000000000
+      internalID: -4618090951726270592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_68
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 99
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b156b553fede2cc0800000000000000
+      internalID: -3733801904347131470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_69
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 142
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3017581985b750040800000000000000
+      internalID: 4613229013639721219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_70
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 144
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9548f4396c6b671b0800000000000000
+      internalID: -5659134917753207719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_71
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 146
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e341d7a46bd67b10800000000000000
+      internalID: 1979010311634633705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_72
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 128
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa89e7e8447faac0800000000000000
+      internalID: -3841724100646434143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_73
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 123
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f2d32947fcaa980800000000000000
+      internalID: -8526774844895973517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_74
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 132
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243717bc334ed7a20800000000000000
+      internalID: 3061854232789480258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_75
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 134
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43e95761cf67e110800000000000000
+      internalID: 1290122694718251854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_76
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 130
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbca133ac1531e70800000000000000
+      internalID: 9084694802219060216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_77
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 128
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f27f6ac6e4740120800000000000000
+      internalID: 2379155037746066161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_78
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 31
+        width: 77
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70e6e84e7035d0e0800000000000000
+      internalID: -2245835520227221379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_79
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 108
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67d11ca5816748e0800000000000000
+      internalID: -1709290306818418835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_80
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 95
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1700102576cf58d0800000000000000
+      internalID: -2855345432378210531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_81
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 101
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5f4f69e6942c110800000000000000
+      internalID: 1279665983454508457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_82
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 84
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f6338e2f6aac4c0800000000000000
+      internalID: -4266414134772142180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_83
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 95
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513f3bae53e0cf090800000000000000
+      internalID: -7999503213383126251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_84
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 111
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663a183189ddcec60800000000000000
+      internalID: 7848891895831962470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_85
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 120
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ab8292572d65840800000000000000
+      internalID: 5212585019371469318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_86
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 114
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a30e79541cb2160800000000000000
+      internalID: 7001902550322526795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_87
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 75
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b998662af4d724bc0800000000000000
+      internalID: -3800337354566760037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_88
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 116
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e47ba887975cd80800000000000000
+      internalID: -8231039185319407984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_89
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 128
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528d5c9264593d580800000000000000
+      internalID: -8803528717998106587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_90
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 116
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd644b11e4b23240800000000000000
+      internalID: 4770073834256887283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_91
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 119
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d36645dd4f0fe060800000000000000
+      internalID: 6984818374039987160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_92
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 128
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8892c5c67b9a01060800000000000000
+      internalID: 6922219232530540936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_93
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 127
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b982c68164af25e50800000000000000
+      internalID: 6796769966619895963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_94
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 102
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c6bc478df025570800000000000000
+      internalID: 8453836872874683532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_95
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 110
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e000a56485378500800000000000000
+      internalID: 398345934802518244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_96
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 94
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fab972a24e5b990800000000000000
+      internalID: -7370734345417674948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_97
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 95
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4243f16fea3ec8c60800000000000000
+      internalID: 7821876993428763684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_98
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 98
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bf27369a13408d0800000000000000
+      internalID: -2881123258022560958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_99
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 95
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2b5a6fffde0bea0800000000000000
+      internalID: -5858921431598517566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_100
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 87
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f2d0b375d0d8a90800000000000000
+      internalID: -7310171951848411288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_101
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 95
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f68c57e8fc098510800000000000000
+      internalID: 1551785809778870006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_102
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 95
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79417c1075503c860800000000000000
+      internalID: 7548883271653201047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_103
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 45
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d9f47c9152da210800000000000000
+      internalID: 1345772656301940116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_104
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 95
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e908bb6e04dd5cb0800000000000000
+      internalID: -4873506063343154716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_105
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 101
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d9c94c737a43040800000000000000
+      internalID: 4626506575179980045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_106
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 83
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbb25f27d822cb50800000000000000
+      internalID: 6611892107610340281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_107
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 91
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14360e5f9541736c0800000000000000
+      internalID: -4163836953870965951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_108
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 86
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe06b8e71d801f00800000000000000
+      internalID: 1085522644024299255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_109
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 94
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5e15f06ca2109b0800000000000000
+      internalID: -5115760671567256083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_110
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d514e2e9f1d36c0800000000000000
+      internalID: -4162135716379140796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_111
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a506f561384eef0800000000000000
+      internalID: -79794761273157021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_112
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 87
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f965168cd649a070800000000000000
+      internalID: 8118097716268329461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_113
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 78
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af02df13aab7cbe0800000000000000
+      internalID: -1456990744654770264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_114
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 90
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e60d64a91a3d8f60800000000000000
+      internalID: 8038144791733405415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_115
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 69
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f99c797049c24d0800000000000000
+      internalID: -3157986478361305274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_116
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 83
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b5925e80bb52a00800000000000000
+      internalID: 731196161396398879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_117
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0f486178f921c70800000000000000
+      internalID: 8940383612831068389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_118
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 61
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ad07788248883b0800000000000000
+      internalID: -5510008834481923487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_119
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 85
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06c6c536562a6cc0800000000000000
+      internalID: -3717116390729660913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_120
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a88f91b6e121f30800000000000000
+      internalID: 4544728419316304409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_121
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 78
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca411d6aa93485e0800000000000000
+      internalID: -1908336937961174335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_122
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 39
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9370945cb087a12c0800000000000000
+      internalID: -4460120489007184071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_123
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 62
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f756ab61b477d80800000000000000
+      internalID: -8253045231144567006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_124
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 62
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31901c541e0d23130800000000000000
+      internalID: 3545125522650499347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_125
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 65
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22db3d70847bd3020800000000000000
+      internalID: 2323214502789889314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_126
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 81
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec14b9d7893d6380800000000000000
+      internalID: -8976455226643702554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_127
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 67
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7622b2d4a89a33d40800000000000000
+      internalID: 5562976376197948007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_128
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 46
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e1657a533028a60800000000000000
+      internalID: 7674700243968335396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_129
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 54
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcdcc5fb027be990800000000000000
+      internalID: -7355660170685522762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_130
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 57
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c267bcee636eb830800000000000000
+      internalID: 4088814839767982785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_131
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 65
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb9d5f6d7e4863f0800000000000000
+      internalID: -907389024268870678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_132
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 70
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc089a7f8b31f3c0800000000000000
+      internalID: -4327612279503188769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_133
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 57
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa37818cef8d48e0800000000000000
+      internalID: -1707550437755372812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_134
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 68
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57be3a9c83934f3a0800000000000000
+      internalID: -6632613435145983115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_135
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 63
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9876fde1166ec90800000000000000
+      internalID: -7140913373924324880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_136
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 51
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f84566c5cff1ca0800000000000000
+      internalID: -6043834701123907710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_137
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 44
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa01b31e5dc63a50800000000000000
+      internalID: 6500608916096879348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_138
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 57
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523ef33afbaa233a0800000000000000
+      internalID: -6687094756637416667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_139
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 47
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b065cd76e7feb1f20800000000000000
+      internalID: 3394570070341211659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_140
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 31
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb79920b70462d70800000000000000
+      internalID: 9017966200924765176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_141
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 53
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630575b2f1e3bbbb0800000000000000
+      internalID: -4919269864380084170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_142
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 45
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3864bb238307b430800000000000000
+      internalID: 3798508672619145279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_143
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 47
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a427b582b542d50800000000000000
+      internalID: 6711589573579917844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_144
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 47
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acc83bdf218c2f10800000000000000
+      internalID: 2246312356692413608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_145
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 45
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553b16329ecbaa1f0800000000000000
+      internalID: -1032805455021100203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_146
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1291705d394934ec0800000000000000
+      internalID: -3583857515801667295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_147
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 43
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5c8e282e9c5f470800000000000000
+      internalID: 8427864252389836234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_148
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 34
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444ff9a64ec2c0200800000000000000
+      internalID: 147542247349417028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_149
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 31
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3471577d0cd363dc0800000000000000
+      internalID: -3659669748734159037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_150
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 37
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1ebdbabbe70d020800000000000000
+      internalID: 2364529148876808688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_151
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 33
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb60a54f369b0ef0800000000000000
+      internalID: -140853764836791353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_polvo_salto_152
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 16
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ebfa27bde101920800000000000000
+      internalID: 2958898883053207143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

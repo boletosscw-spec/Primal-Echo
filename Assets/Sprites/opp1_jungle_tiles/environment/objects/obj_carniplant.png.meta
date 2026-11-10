@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      obj_carniplant_0: 1180788404830162841
+      obj_carniplant_1: 7841743434325132927
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

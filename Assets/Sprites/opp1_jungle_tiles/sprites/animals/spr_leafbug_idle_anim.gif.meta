@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_leafbug_idle_anim_0: 1090205221545839750
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_stonegolem_0: 9129359059404735124
+      spr_stonegolem_1: 6781953587762053267
+      spr_stonegolem_2: 6990850406083654737
+      spr_stonegolem_3: -6163293989600418835
+      spr_stonegolem_4: 2734049341314743443
+      spr_stonegolem_5: -2392850709765869751
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

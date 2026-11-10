@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_frog_g_jump_1launch_anim_0: 285429360130249877
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

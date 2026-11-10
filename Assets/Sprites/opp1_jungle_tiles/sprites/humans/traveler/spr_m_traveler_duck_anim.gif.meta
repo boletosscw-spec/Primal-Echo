@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_m_traveler_duck_anim_0: -8849000651430047102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

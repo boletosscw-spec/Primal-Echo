@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      KaelJump_005_0: 5066194846119925541
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

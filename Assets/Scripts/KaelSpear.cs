@@ -26,6 +26,7 @@ namespace PrimalEcho
         private int state;
         private float nextAttack;
         private bool connected;
+        private bool thrustShown;
 
         private void Awake()
         {
@@ -47,6 +48,7 @@ namespace PrimalEcho
             else if (aim < -aimThreshold && !player.IsGrounded) direction = Vector2.down;
             nextAttack = Time.time + cooldown;
             connected = false;
+            thrustShown = false;
             struck.Clear();
             state = Animator.StringToHash(player.IsGrounded ? "Base Layer.Ataque_Lanza" : "Base Layer.Ataque_Aereo_Lanza");
             animator.Play(state, 0, 0f);
@@ -65,6 +67,11 @@ namespace PrimalEcho
             Bounds bounds = body.bounds;
             float edge = direction.x == 0f ? bounds.extents.y : bounds.extents.x;
             Vector2 center = (Vector2)bounds.center + direction * (edge + reach);
+            if (!thrustShown)
+            {
+                thrustShown = true;
+                KaelVFX.SpearThrust(transform, (Vector2)bounds.center + direction * edge, direction);
+            }
             var filter = new ContactFilter2D { useTriggers = true };
             filter.SetLayerMask(targets);
             Physics2D.OverlapBox(center, hitbox, direction.x == 0f ? 90f : 0f, filter, overlaps);
@@ -76,6 +83,7 @@ namespace PrimalEcho
                 Component target = enemy ? (Component)enemy : hazard;
                 if (!struck.Add(target)) continue;
                 if (enemy && !enemy.Hit(damage, direction * knockback)) continue;
+                KaelVFX.Impact(other.ClosestPoint(center), target);
                 if (connected) continue;
                 connected = true;
                 if (direction == Vector2.down) player.Bounce(pogoSpeed);

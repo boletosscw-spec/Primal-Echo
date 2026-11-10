@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_f_traveler_idle_anim_0: -9035943321641189663
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

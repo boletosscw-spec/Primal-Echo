@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: a940babc9503fa90abd36cc84ed7a9d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5592948301510898817
+    second: choque_bloqueo_0
+  - first:
+      213: -1789125515919169119
+    second: choque_bloqueo_1
+  - first:
+      213: 2196322023957745758
+    second: choque_bloqueo_2
+  - first:
+      213: 7853422288094477777
+    second: choque_bloqueo_3
+  - first:
+      213: 3630812495983919225
+    second: choque_bloqueo_4
+  - first:
+      213: 8346382047113588311
+    second: choque_bloqueo_5
+  - first:
+      213: -4168113343000081204
+    second: choque_bloqueo_6
+  - first:
+      213: 70478634989864462
+    second: choque_bloqueo_7
+  - first:
+      213: 8330212118526545662
+    second: choque_bloqueo_8
+  - first:
+      213: -5749727718594244743
+    second: choque_bloqueo_9
+  - first:
+      213: 8216253899843876937
+    second: choque_bloqueo_10
+  - first:
+      213: -5292888198222920087
+    second: choque_bloqueo_11
+  - first:
+      213: 6228931986603885478
+    second: choque_bloqueo_12
+  - first:
+      213: -8416670964208749749
+    second: choque_bloqueo_13
+  - first:
+      213: -5798276419165723609
+    second: choque_bloqueo_14
+  - first:
+      213: 520503130637999276
+    second: choque_bloqueo_15
+  - first:
+      213: -2713227064228282808
+    second: choque_bloqueo_16
+  - first:
+      213: -2006229881261553619
+    second: choque_bloqueo_17
+  - first:
+      213: 4415716404042589408
+    second: choque_bloqueo_18
+  - first:
+      213: 4194780664550224232
+    second: choque_bloqueo_19
+  - first:
+      213: -4048095314493281531
+    second: choque_bloqueo_20
+  - first:
+      213: 7453052948300072156
+    second: choque_bloqueo_21
+  - first:
+      213: -8909815736707614356
+    second: choque_bloqueo_22
+  - first:
+      213: 7321816512817458276
+    second: choque_bloqueo_23
+  - first:
+      213: 7923124483301284990
+    second: choque_bloqueo_24
+  - first:
+      213: 8955783525805879451
+    second: choque_bloqueo_25
+  - first:
+      213: -2790561005138458267
+    second: choque_bloqueo_26
+  - first:
+      213: -8750081786842072519
+    second: choque_bloqueo_27
+  - first:
+      213: 162088926663278495
+    second: choque_bloqueo_28
+  - first:
+      213: 8441376983422859961
+    second: choque_bloqueo_29
+  - first:
+      213: -2462962625277996599
+    second: choque_bloqueo_30
+  - first:
+      213: -8356724097005000319
+    second: choque_bloqueo_31
+  - first:
+      213: 891305760258983442
+    second: choque_bloqueo_32
+  - first:
+      213: -4444771872007830062
+    second: choque_bloqueo_33
+  - first:
+      213: 6740449231448879152
+    second: choque_bloqueo_34
+  - first:
+      213: -5130193483397646216
+    second: choque_bloqueo_35
+  - first:
+      213: 4679126535053907627
+    second: choque_bloqueo_36
+  - first:
+      213: -1668359525534480468
+    second: choque_bloqueo_37
+  - first:
+      213: 3851411196987395979
+    second: choque_bloqueo_38
+  - first:
+      213: 4472425479246205230
+    second: choque_bloqueo_39
+  - first:
+      213: -1409221679833836914
+    second: choque_bloqueo_40
+  - first:
+      213: 3076788980260148316
+    second: choque_bloqueo_41
+  - first:
+      213: 5144855832400725442
+    second: choque_bloqueo_42
+  - first:
+      213: 3664036369685058039
+    second: choque_bloqueo_43
+  - first:
+      213: 4051746936212241284
+    second: choque_bloqueo_44
+  - first:
+      213: 1020260005951483200
+    second: choque_bloqueo_45
+  - first:
+      213: 2343818083391173113
+    second: choque_bloqueo_46
+  - first:
+      213: -4949619693006438056
+    second: choque_bloqueo_47
+  - first:
+      213: -1419695479004949227
+    second: choque_bloqueo_48
+  - first:
+      213: 4205162754305297171
+    second: choque_bloqueo_49
+  - first:
+      213: -5099407156835946836
+    second: choque_bloqueo_50
+  - first:
+      213: -401950253089104985
+    second: choque_bloqueo_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: choque_bloqueo_0
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 11
+        width: 136
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b8159072bd162b0800000000000000
+      internalID: -5592948301510898817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 155
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9ec0d82dfbb27e0800000000000000
+      internalID: -1789125515919169119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 7
+        width: 204
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e505e528e37ea7e10800000000000000
+      internalID: 2196322023957745758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_3
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 168
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddb10936f5fcfc60800000000000000
+      internalID: 7853422288094477777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_4
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 167
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970cb2d6abc336230800000000000000
+      internalID: 3630812495983919225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_5
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 148
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e27e5304e44d370800000000000000
+      internalID: 8346382047113588311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_6
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 137
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc0ae68ff2e726c0800000000000000
+      internalID: -4168113343000081204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_7
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 45
+        width: 102
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0643d2f1f36af000800000000000000
+      internalID: 70478634989864462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 136
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efecd6459cbda9370800000000000000
+      internalID: 8330212118526545662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_9
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 41
+        width: 97
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f09f17a1dd430b0800000000000000
+      internalID: -5749727718594244743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_10
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 140
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948bc9ce36ff50270800000000000000
+      internalID: 8216253899843876937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_11
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 152
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966c0150a32eb86b0800000000000000
+      internalID: -5292888198222920087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_12
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 125
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3c797b3ac917650800000000000000
+      internalID: 6228931986603885478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_13
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 139
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b433efaf95af13b80800000000000000
+      internalID: -8416670964208749749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_14
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 130
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7246a1e3152688fa0800000000000000
+      internalID: -5798276419165723609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 106
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac182ee6d2393700800000000000000
+      internalID: 520503130637999276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_16
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 109
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e72b14c5ea85ad0800000000000000
+      internalID: -2713227064228282808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_17
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2881ad6d807824e0800000000000000
+      internalID: -2006229881261553619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_18
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 120
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4e2db8ca6c74d30800000000000000
+      internalID: 4415716404042589408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_19
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 94
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861713d1acad63a30800000000000000
+      internalID: 4194780664550224232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_20
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 118
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b64ba52c642d7c0800000000000000
+      internalID: -4048095314493281531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_21
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 113
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd48a932b209e6760800000000000000
+      internalID: 7453052948300072156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_22
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 112
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c697b5f2bc9f95480800000000000000
+      internalID: -8909815736707614356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_23
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 112
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ce21563515c9560800000000000000
+      internalID: 7321816512817458276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_24
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 54
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c9f523db794fd60800000000000000
+      internalID: 7923124483301284990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_25
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 99
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9074fcbaa5594c70800000000000000
+      internalID: 8955783525805879451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_26
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 90
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5694aa40d8fe549d0800000000000000
+      internalID: -2790561005138458267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_27
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 76
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ab9ab89f6719680800000000000000
+      internalID: -8750081786842072519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_28
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 88
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ff9cf150bdf3200800000000000000
+      internalID: 162088926663278495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_29
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 102
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9baf31064abc52570800000000000000
+      internalID: 8441376983422859961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 80
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1dd39aa8cc1ddd0800000000000000
+      internalID: -2462962625277996599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_31
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 81
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189e118a5b3f60c80800000000000000
+      internalID: -8356724097005000319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_32
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 49
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2160f7adddd8e5c00800000000000000
+      internalID: 891305760258983442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_33
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 73
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d54355288ff052c0800000000000000
+      internalID: -4444771872007830062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_34
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 80
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030b0131dd2ea8d50800000000000000
+      internalID: 6740449231448879152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_35
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 61
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8783f013534edc8b0800000000000000
+      internalID: -5130193483397646216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_36
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 61
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba61ef4eac89fe040800000000000000
+      internalID: 4679126535053907627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_37
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 68
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7c0e2d9dbc8d8e0800000000000000
+      internalID: -1668359525534480468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_38
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 58
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f4568f316f27530800000000000000
+      internalID: 3851411196987395979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_39
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 47
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2150e6074f311e30800000000000000
+      internalID: 4472425479246205230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_40
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 25
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8299bb3950717ce0800000000000000
+      internalID: -1409221679833836914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_41
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 31
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c541e39a643f2ba20800000000000000
+      internalID: 3076788980260148316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_42
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 43
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c587d6fe13366740800000000000000
+      internalID: 5144855832400725442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_43
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 25
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f190335aa549d230800000000000000
+      internalID: 3664036369685058039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_44
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 20
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b35b41f52ba3830800000000000000
+      internalID: 4051746936212241284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_45
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 35
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04da641e111b82e00800000000000000
+      internalID: 1020260005951483200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_46
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 35
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1faa6f02ae68020800000000000000
+      internalID: 2343818083391173113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_47
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 49
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851c2190d1b6f4bb0800000000000000
+      internalID: -4949619693006438056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_48
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5159ea4db7a3c4ce0800000000000000
+      internalID: -1419695479004949227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_49
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 24
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b0211ce3dbb5a30800000000000000
+      internalID: 4205162754305297171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_50
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 37
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae65bb65344b39b0800000000000000
+      internalID: -5099407156835946836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choque_bloqueo_51
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 3
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abde3bdf5cfb6af0800000000000000
+      internalID: -401950253089104985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_toucan_up_anim_0: -5040560577213774190
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

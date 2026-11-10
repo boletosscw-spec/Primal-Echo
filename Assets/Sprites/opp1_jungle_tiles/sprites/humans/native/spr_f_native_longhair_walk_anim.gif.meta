@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_f_native_longhair_walk_anim_0: -6531515151270018392
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -17,6 +17,7 @@ namespace PrimalEcho
             var enemy = other.GetComponentInParent<EnemyHealth>();
             if (enemy == null) return;
             done = true;
+            KaelVFX.Impact(other.ClosestPoint(transform.position), enemy);
             enemy.Hit(damage, dir * 2f);
             Destroy(gameObject);
         }

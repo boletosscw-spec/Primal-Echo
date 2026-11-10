@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_wasp_idle_anim_0: -561631801341541222
+      spr_wasp_idle_anim_1: -5511832375772480255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

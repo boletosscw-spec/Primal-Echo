@@ -1,0 +1,1692 @@
+fileFormatVersion: 2
+guid: ab6da90d1721f9391a593d848d9aba9d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8212053974039574431
+    second: 04_Ataque_Mordida_0
+  - first:
+      213: 15868926982428649
+    second: 04_Ataque_Mordida_1
+  - first:
+      213: 6337413925944321402
+    second: 04_Ataque_Mordida_2
+  - first:
+      213: -4461350335236698214
+    second: 04_Ataque_Mordida_3
+  - first:
+      213: 4708507473126867087
+    second: 04_Ataque_Mordida_4
+  - first:
+      213: -7861169832651248847
+    second: 04_Ataque_Mordida_5
+  - first:
+      213: 1767409958674686949
+    second: 04_Ataque_Mordida_6
+  - first:
+      213: -5902707834781911819
+    second: 04_Ataque_Mordida_7
+  - first:
+      213: 4223776866712369451
+    second: 04_Ataque_Mordida_8
+  - first:
+      213: -531987158665620583
+    second: 04_Ataque_Mordida_9
+  - first:
+      213: 7872774798713652392
+    second: 04_Ataque_Mordida_10
+  - first:
+      213: -6563127251136077889
+    second: 04_Ataque_Mordida_11
+  - first:
+      213: 1686015917743828429
+    second: 04_Ataque_Mordida_12
+  - first:
+      213: -7817437274901532199
+    second: 04_Ataque_Mordida_13
+  - first:
+      213: -2136166686702127523
+    second: 04_Ataque_Mordida_14
+  - first:
+      213: -3662209187225242611
+    second: 04_Ataque_Mordida_15
+  - first:
+      213: 1876478031628219265
+    second: 04_Ataque_Mordida_16
+  - first:
+      213: 8030683471265796039
+    second: 04_Ataque_Mordida_17
+  - first:
+      213: 8953365543054987441
+    second: 04_Ataque_Mordida_18
+  - first:
+      213: -6503243505564576155
+    second: 04_Ataque_Mordida_19
+  - first:
+      213: 1725568347115289755
+    second: 04_Ataque_Mordida_20
+  - first:
+      213: 4638576241293869929
+    second: 04_Ataque_Mordida_21
+  - first:
+      213: -2761629190867206138
+    second: 04_Ataque_Mordida_22
+  - first:
+      213: -3317962369811445552
+    second: 04_Ataque_Mordida_23
+  - first:
+      213: 6580214702515841814
+    second: 04_Ataque_Mordida_24
+  - first:
+      213: -5545788698289939
+    second: 04_Ataque_Mordida_25
+  - first:
+      213: 2190316654741408011
+    second: 04_Ataque_Mordida_26
+  - first:
+      213: -536276705147602796
+    second: 04_Ataque_Mordida_27
+  - first:
+      213: 2022116775007820557
+    second: 04_Ataque_Mordida_28
+  - first:
+      213: 7946708173274549174
+    second: 04_Ataque_Mordida_29
+  - first:
+      213: 5213251991627818220
+    second: 04_Ataque_Mordida_30
+  - first:
+      213: 7384913139521540325
+    second: 04_Ataque_Mordida_31
+  - first:
+      213: 1639796945217473712
+    second: 04_Ataque_Mordida_32
+  - first:
+      213: -582277822985310912
+    second: 04_Ataque_Mordida_33
+  - first:
+      213: -6459549583610143158
+    second: 04_Ataque_Mordida_34
+  - first:
+      213: 2334030500346826103
+    second: 04_Ataque_Mordida_35
+  - first:
+      213: 1303376402640595252
+    second: 04_Ataque_Mordida_36
+  - first:
+      213: -5966238176912108636
+    second: 04_Ataque_Mordida_37
+  - first:
+      213: 4772616301697389961
+    second: 04_Ataque_Mordida_38
+  - first:
+      213: 2759246507596423028
+    second: 04_Ataque_Mordida_39
+  - first:
+      213: -1374845184290021699
+    second: 04_Ataque_Mordida_40
+  - first:
+      213: -9183122250392127961
+    second: 04_Ataque_Mordida_41
+  - first:
+      213: 8902267289801282370
+    second: 04_Ataque_Mordida_42
+  - first:
+      213: 2077441220413393295
+    second: 04_Ataque_Mordida_43
+  - first:
+      213: 8403407268324029528
+    second: 04_Ataque_Mordida_44
+  - first:
+      213: -8528609082304506222
+    second: 04_Ataque_Mordida_45
+  - first:
+      213: -8584025327767810725
+    second: 04_Ataque_Mordida_46
+  - first:
+      213: 6849345143530341921
+    second: 04_Ataque_Mordida_47
+  - first:
+      213: 6336907007569914587
+    second: 04_Ataque_Mordida_48
+  - first:
+      213: -1906514500592125692
+    second: 04_Ataque_Mordida_49
+  - first:
+      213: -464204760185582870
+    second: 04_Ataque_Mordida_50
+  - first:
+      213: -8847992313197175832
+    second: 04_Ataque_Mordida_51
+  - first:
+      213: -1970010155121060308
+    second: 04_Ataque_Mordida_52
+  - first:
+      213: 1970796057511413458
+    second: 04_Ataque_Mordida_53
+  - first:
+      213: 252626243427633598
+    second: 04_Ataque_Mordida_54
+  - first:
+      213: 7517237203774315248
+    second: 04_Ataque_Mordida_55
+  - first:
+      213: 6945987105950197733
+    second: 04_Ataque_Mordida_56
+  - first:
+      213: -6793387958050277398
+    second: 04_Ataque_Mordida_57
+  - first:
+      213: 8680370113056313973
+    second: 04_Ataque_Mordida_58
+  - first:
+      213: 7516021076160549765
+    second: 04_Ataque_Mordida_59
+  - first:
+      213: 6979725849402273606
+    second: 04_Ataque_Mordida_60
+  - first:
+      213: -220418723882796024
+    second: 04_Ataque_Mordida_61
+  - first:
+      213: 5387179128034625993
+    second: 04_Ataque_Mordida_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 441
+        width: 581
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97b6fe749317f170800000000000000
+      internalID: 8212053974039574431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_1
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 514
+        width: 12
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e711cb74b0683000800000000000000
+      internalID: 15868926982428649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_2
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 29
+        width: 964
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75668a736403f750800000000000000
+      internalID: 6337413925944321402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_3
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 634
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f85a1e1891612c0800000000000000
+      internalID: -4461350335236698214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_4
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 562
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80cffd999af75140800000000000000
+      internalID: 4708507473126867087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_5
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 31
+        width: 444
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b2ecdffa387e290800000000000000
+      internalID: -7861169832651248847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_6
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 516
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3ea474ef9178810800000000000000
+      internalID: 1767409958674686949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_7
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 484
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4b8e68f7e551ea0800000000000000
+      internalID: -5902707834781911819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_8
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 562
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2937e68eaedd9a30800000000000000
+      internalID: 4223776866712369451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_9
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 546
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9939aae6f700e98f0800000000000000
+      internalID: -531987158665620583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_10
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 586
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a489f9b7f6b14d60800000000000000
+      internalID: 7872774798713652392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_11
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 580
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf195cb9861be4a0800000000000000
+      internalID: -6563127251136077889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_12
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 578
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd66c65b8ee56710800000000000000
+      internalID: 1686015917743828429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_13
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 531
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1b89f8732e28390800000000000000
+      internalID: -7817437274901532199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_14
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 562
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56b81267bfca52e0800000000000000
+      internalID: -2136166686702127523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_15
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 470
+        width: 120
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04744eb5283d2dc0800000000000000
+      internalID: -3662209187225242611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_16
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 594
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1833608e3d69a0a10800000000000000
+      internalID: 1876478031628219265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_17
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 594
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf06689118b27f60800000000000000
+      internalID: 8030683471265796039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_18
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 563
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0d302468eb04c70800000000000000
+      internalID: 8953365543054987441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_19
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 514
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56615f2cc76dfb5a0800000000000000
+      internalID: -6503243505564576155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 277
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9cf67de44372f710800000000000000
+      internalID: 1725568347115289755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 128
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96343e5e3888f5040800000000000000
+      internalID: 4638576241293869929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 123
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600c205f1e8bca9d0800000000000000
+      internalID: -2761629190867206138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 118
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d88641ddca34f1d0800000000000000
+      internalID: -3317962369811445552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_24
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 180
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b6241986e915b50800000000000000
+      internalID: 6580214702515841814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_25
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 240
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de893a2722c4ceff0800000000000000
+      internalID: -5545788698289939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_26
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 87
+        width: 270
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09cb778461956e10800000000000000
+      internalID: 2190316654741408011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_27
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 183
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4983c509d23ce88f0800000000000000
+      internalID: -536276705147602796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_28
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 161
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b13b44e70001c10800000000000000
+      internalID: 2022116775007820557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_29
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 196
+        width: 289
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb09b9eaf0684e60800000000000000
+      internalID: 7946708173274549174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_30
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 120
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4e29db011395840800000000000000
+      internalID: 5213251991627818220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_31
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 41
+        width: 48
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0db4a9f5b7c7660800000000000000
+      internalID: 7384913139521540325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_32
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 112
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc457732aab1c610800000000000000
+      internalID: 1639796945217473712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_33
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 150
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d6f50b7655be7f0800000000000000
+      internalID: -582277822985310912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_34
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 146
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e15ebb0e11b56a0800000000000000
+      internalID: -6459549583610143158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_35
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 192
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d8914bf54246020800000000000000
+      internalID: 2334030500346826103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_36
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 126
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439e400cee5861210800000000000000
+      internalID: 1303376402640595252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_37
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 112
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a397c31df9a33da0800000000000000
+      internalID: -5966238176912108636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_38
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 130
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98559ef6d3dbb3240800000000000000
+      internalID: 4772616301697389961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_39
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 128
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f950d5410da4620800000000000000
+      internalID: 2759246507596423028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_40
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 128
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe9c31d6919bece0800000000000000
+      internalID: -1374845184290021699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_41
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 159
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7263460b7fefe8080800000000000000
+      internalID: -9183122250392127961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_42
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 159
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2435f201fe43b8b70800000000000000
+      internalID: 8902267289801282370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_43
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 122
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f898e7088cd84dc10800000000000000
+      internalID: 2077441220413393295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_44
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 112
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854b36b2366ee9470800000000000000
+      internalID: 8403407268324029528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_45
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 114
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296d115e93b44a980800000000000000
+      internalID: -8528609082304506222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_46
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 142
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d817bc17a6fd880800000000000000
+      internalID: -8584025327767810725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_47
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 147
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1264c206e13cd0f50800000000000000
+      internalID: 6849345143530341921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_48
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 129
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda63e8595731f750800000000000000
+      internalID: 6336907007569914587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_49
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 164
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4093311b923ba85e0800000000000000
+      internalID: -1906514500592125692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_50
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 160
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeac716ea30de89f0800000000000000
+      internalID: -464204760185582870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_51
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 128
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ebde7caedd953580800000000000000
+      internalID: -8847992313197175832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_52
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 130
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26d814933e19a4e0800000000000000
+      internalID: -1970010155121060308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_53
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 213
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d645b4929ca95b10800000000000000
+      internalID: 1970796057511413458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_54
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 136
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9027cda32818300800000000000000
+      internalID: 252626243427633598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_55
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 130
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa9157a867925860800000000000000
+      internalID: 7517237203774315248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_56
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 151
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7ea90b87a156060800000000000000
+      internalID: 6945987105950197733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_57
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 128
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae73ff225a909b1a0800000000000000
+      internalID: -6793387958050277398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_58
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 232
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57293a390aed67870800000000000000
+      internalID: 8680370113056313973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_59
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 144
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58316e0e8554e4860800000000000000
+      internalID: 7516021076160549765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_60
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 114
+        width: 286
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64feb3b0ea7fcd060800000000000000
+      internalID: 6979725849402273606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_61
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cfe15a65ae0fcf0800000000000000
+      internalID: -220418723882796024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04_Ataque_Mordida_62
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 130
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c907ebdfda13ca40800000000000000
+      internalID: 5387179128034625993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

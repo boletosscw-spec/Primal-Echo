@@ -1,0 +1,1542 @@
+fileFormatVersion: 2
+guid: 0746f29099f8c47b78764790f1f1e4b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5678644887439283331
+    second: kiro_reparacion_0
+  - first:
+      213: 5252596853527767186
+    second: kiro_reparacion_1
+  - first:
+      213: 5046709727715020932
+    second: kiro_reparacion_2
+  - first:
+      213: -4711041277763681166
+    second: kiro_reparacion_3
+  - first:
+      213: 5129743204313170706
+    second: kiro_reparacion_4
+  - first:
+      213: 5616078811105704026
+    second: kiro_reparacion_5
+  - first:
+      213: -7187233454149013294
+    second: kiro_reparacion_6
+  - first:
+      213: 7853446064031270834
+    second: kiro_reparacion_7
+  - first:
+      213: -7296234872858828299
+    second: kiro_reparacion_8
+  - first:
+      213: 4534328605081219353
+    second: kiro_reparacion_9
+  - first:
+      213: 7763379443227085745
+    second: kiro_reparacion_10
+  - first:
+      213: -6957689671648391002
+    second: kiro_reparacion_11
+  - first:
+      213: -5791062222392052237
+    second: kiro_reparacion_12
+  - first:
+      213: 390795457976520401
+    second: kiro_reparacion_13
+  - first:
+      213: -1676248725823777030
+    second: kiro_reparacion_14
+  - first:
+      213: -7237656542137845888
+    second: kiro_reparacion_15
+  - first:
+      213: -2706224906028990522
+    second: kiro_reparacion_16
+  - first:
+      213: -4200397446194312997
+    second: kiro_reparacion_17
+  - first:
+      213: -2925989721628721166
+    second: kiro_reparacion_18
+  - first:
+      213: 1244431209754068806
+    second: kiro_reparacion_19
+  - first:
+      213: -2889133790717999407
+    second: kiro_reparacion_20
+  - first:
+      213: -194482457392575427
+    second: kiro_reparacion_21
+  - first:
+      213: 7494867101351145071
+    second: kiro_reparacion_22
+  - first:
+      213: -1407925528568176068
+    second: kiro_reparacion_23
+  - first:
+      213: -5489770866962636251
+    second: kiro_reparacion_24
+  - first:
+      213: 3127942154329429484
+    second: kiro_reparacion_25
+  - first:
+      213: -4181810083489284432
+    second: kiro_reparacion_26
+  - first:
+      213: -2363683622933544222
+    second: kiro_reparacion_27
+  - first:
+      213: -5362315894572965982
+    second: kiro_reparacion_28
+  - first:
+      213: -3052910405501806699
+    second: kiro_reparacion_29
+  - first:
+      213: -5837990274207490480
+    second: kiro_reparacion_30
+  - first:
+      213: 1853929051508846617
+    second: kiro_reparacion_31
+  - first:
+      213: -6887799463010270891
+    second: kiro_reparacion_32
+  - first:
+      213: 5150019387082650339
+    second: kiro_reparacion_33
+  - first:
+      213: -1609129635177366560
+    second: kiro_reparacion_34
+  - first:
+      213: 1713419236589717749
+    second: kiro_reparacion_35
+  - first:
+      213: -7678632441027260379
+    second: kiro_reparacion_36
+  - first:
+      213: 812436400672799139
+    second: kiro_reparacion_37
+  - first:
+      213: -6659112054068038424
+    second: kiro_reparacion_38
+  - first:
+      213: -8664496526008352307
+    second: kiro_reparacion_39
+  - first:
+      213: 6632578406205200862
+    second: kiro_reparacion_40
+  - first:
+      213: 8394354620150476567
+    second: kiro_reparacion_41
+  - first:
+      213: -6335778744664429448
+    second: kiro_reparacion_42
+  - first:
+      213: 6003515996338946347
+    second: kiro_reparacion_43
+  - first:
+      213: -9161814250380798072
+    second: kiro_reparacion_44
+  - first:
+      213: 9012364613052202660
+    second: kiro_reparacion_45
+  - first:
+      213: 2061610406651258507
+    second: kiro_reparacion_46
+  - first:
+      213: -9127565841095380463
+    second: kiro_reparacion_47
+  - first:
+      213: 1067911430078583903
+    second: kiro_reparacion_48
+  - first:
+      213: 2610573809262093963
+    second: kiro_reparacion_49
+  - first:
+      213: -6901874971808161111
+    second: kiro_reparacion_50
+  - first:
+      213: -5556265866339873007
+    second: kiro_reparacion_51
+  - first:
+      213: -1489772378545982582
+    second: kiro_reparacion_52
+  - first:
+      213: -8195245617756775228
+    second: kiro_reparacion_53
+  - first:
+      213: -8288613874755556212
+    second: kiro_reparacion_54
+  - first:
+      213: -1466896080323718603
+    second: kiro_reparacion_55
+  - first:
+      213: 2876318254004623354
+    second: kiro_reparacion_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kiro_reparacion_0
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 116
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7be796cf866131b0800000000000000
+      internalID: -5678644887439283331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_1
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2986bd24209f4e840800000000000000
+      internalID: 5252596853527767186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_2
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 113
+        width: 65
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48056fc32c3890640800000000000000
+      internalID: 5046709727715020932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_3
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 130
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27481b40be40f9eb0800000000000000
+      internalID: -4711041277763681166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_4
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 100
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2138f0a0442803740800000000000000
+      internalID: 5129743204313170706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_5
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 88
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58bd866ce150fd40800000000000000
+      internalID: 5616078811105704026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_6
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 97
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0f4a7c041d14c90800000000000000
+      internalID: -7187233454149013294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_7
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 65
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7064df59b0dfc60800000000000000
+      internalID: 7853446064031270834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 108
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1ae6d4a019eba90800000000000000
+      internalID: -7296234872858828299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_9
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 47
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91132c8a7db2dee30800000000000000
+      internalID: 4534328605081219353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_10
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 100
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbce12b8701dbb60800000000000000
+      internalID: 7763379443227085745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_11
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 84
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a05ef76b12517f90800000000000000
+      internalID: -6957689671648391002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_12
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 89
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f53322579302afa0800000000000000
+      internalID: -5791062222392052237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 57
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dec68406626c6500800000000000000
+      internalID: 390795457976520401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_14
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 84
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6921e3aa4ccb8e0800000000000000
+      internalID: -1676248725823777030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_15
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 76
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087779fb8bdae8b90800000000000000
+      internalID: -7237656542137845888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_16
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 76
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfb3d149ce817ad0800000000000000
+      internalID: -2706224906028990522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_17
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 55
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8412007c035b5c0800000000000000
+      internalID: -4200397446194312997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_18
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 33
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff30e9c9dbc467d0800000000000000
+      internalID: -2925989721628721166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_19
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 84
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6470dcc879b154110800000000000000
+      internalID: 1244431209754068806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_20
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 60
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d60da7ef1cb7e7d0800000000000000
+      internalID: -2889133790717999407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_21
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 71
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c02144c3f0d4df0800000000000000
+      internalID: -194482457392575427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_22
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 54
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6eebce4bed130860800000000000000
+      internalID: 7494867101351145071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_23
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c326d77f03b067ce0800000000000000
+      internalID: -1407925528568176068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_24
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 54
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52267688b7a60d3b0800000000000000
+      internalID: -5489770866962636251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_25
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 12
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce596ca11dea86b20800000000000000
+      internalID: 3127942154329429484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_26
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 60
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be797f92e937f5c0800000000000000
+      internalID: -4181810083489284432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_27
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 56
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e243ada442823fd0800000000000000
+      internalID: -2363683622933544222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_28
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 36
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af1c8aca1a3595b0800000000000000
+      internalID: -5362315894572965982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_29
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 41
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59798f44922e1a5d0800000000000000
+      internalID: -3052910405501806699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_30
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 12
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e5dafc6ca4bfea0800000000000000
+      internalID: -5837990274207490480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_31
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 4
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91036f956aa7ab910800000000000000
+      internalID: 1853929051508846617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_32
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 52
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551852ba1ee9960a0800000000000000
+      internalID: -6887799463010270891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_33
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 55
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2bf69b85b887740800000000000000
+      internalID: 5150019387082650339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_34
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 49
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebf2b15f193ba9e0800000000000000
+      internalID: -1609129635177366560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_35
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 17
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f84044b7b947c710800000000000000
+      internalID: 1713419236589717749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_36
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52097cf5a74007590800000000000000
+      internalID: -7678632441027260379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_37
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 28
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9f2b81a9a564b00800000000000000
+      internalID: 812436400672799139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_38
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 52
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4b0c94ed41693a0800000000000000
+      internalID: -6659112054068038424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_39
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 14
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc18aa9e05681c780800000000000000
+      internalID: -8664496526008352307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_40
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 25
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed999c66be6ab0c50800000000000000
+      internalID: 6632578406205200862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_41
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 36
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f6ab44d0dbe7470800000000000000
+      internalID: 8394354620150476567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_42
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 23
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c6ec4dccac218a0800000000000000
+      internalID: -6335778744664429448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_43
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 15
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21882d9df5c05350800000000000000
+      internalID: 6003515996338946347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_44
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 12
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887d0fb0b72bad080800000000000000
+      internalID: -9161814250380798072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_45
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 36
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aef643bdd9521d70800000000000000
+      internalID: 9012364613052202660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_46
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 17
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8662b1fdbf4c9c10800000000000000
+      internalID: 2061610406651258507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_47
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 7
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11235893a3f545180800000000000000
+      internalID: -9127565841095380463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_48
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 17
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54d961a9cbf1de00800000000000000
+      internalID: 1067911430078583903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_49
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 17
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8661015c0f9a3420800000000000000
+      internalID: 2610573809262093963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_50
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 25
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a22735e74d9730a0800000000000000
+      internalID: -6901874971808161111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_51
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 15
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f0f2702ad24e2b0800000000000000
+      internalID: -5556265866339873007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_52
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 12
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83f3943ae3435be0800000000000000
+      internalID: -1489772378545982582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_53
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 7
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ccd78ae783a44e80800000000000000
+      internalID: -8195245617756775228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_54
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c22da889de8fc80800000000000000
+      internalID: -8288613874755556212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_55
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53254e179c984abe0800000000000000
+      internalID: -1466896080323718603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kiro_reparacion_56
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 7
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7daee663cbae720800000000000000
+      internalID: 2876318254004623354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

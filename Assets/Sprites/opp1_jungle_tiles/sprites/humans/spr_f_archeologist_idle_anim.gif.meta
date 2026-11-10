@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_f_archeologist_idle_anim_0: 4960826883307784403
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_m_native_hero_idle_anim_0: 2573878292425083861
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

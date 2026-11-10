@@ -176,6 +176,7 @@ namespace PrimalEcho
         {
             GameObject prefab = driver != null ? driver.ArrowPrefab : null;
             Vector3 origin = BowTip(dir);
+            KaelVFX.BowShot(origin, dir);
             GameObject arrow;
             if (prefab != null) arrow = Instantiate(prefab, origin, Quaternion.identity);
             else

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_m_traveler_look_anim_0: -7092609141008020601
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

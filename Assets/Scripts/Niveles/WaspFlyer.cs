@@ -26,6 +26,8 @@ namespace PrimalEcho
         private float t, timer;
         private int side = 1;
 
+        public bool Attacking => state == State.Dive;
+
         public void Configure(Transform bodyVisual) => visual = bodyVisual;
 
         private void Awake()

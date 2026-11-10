@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_f_traveler_walk_anim_0: 5161223002892232804
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

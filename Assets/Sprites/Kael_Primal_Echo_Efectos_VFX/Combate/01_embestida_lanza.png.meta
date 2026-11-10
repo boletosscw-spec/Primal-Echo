@@ -1,0 +1,3892 @@
+fileFormatVersion: 2
+guid: c3291af0d594f53a89e1cebe9504388b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8933710285469150808
+    second: 01_embestida_lanza_0
+  - first:
+      213: -1709225524086550934
+    second: 01_embestida_lanza_1
+  - first:
+      213: 4560946361236040408
+    second: 01_embestida_lanza_2
+  - first:
+      213: -8870545695508148942
+    second: 01_embestida_lanza_3
+  - first:
+      213: 1488614316293613618
+    second: 01_embestida_lanza_4
+  - first:
+      213: -5582694151131040269
+    second: 01_embestida_lanza_5
+  - first:
+      213: 2476520540097661077
+    second: 01_embestida_lanza_6
+  - first:
+      213: 919979455495129421
+    second: 01_embestida_lanza_7
+  - first:
+      213: -4957978349049710630
+    second: 01_embestida_lanza_8
+  - first:
+      213: 4278886816109316412
+    second: 01_embestida_lanza_9
+  - first:
+      213: -4857756278719946583
+    second: 01_embestida_lanza_10
+  - first:
+      213: 2164064978793004742
+    second: 01_embestida_lanza_11
+  - first:
+      213: 9114954043922521315
+    second: 01_embestida_lanza_12
+  - first:
+      213: 4815065790821051054
+    second: 01_embestida_lanza_13
+  - first:
+      213: 2535463631502730883
+    second: 01_embestida_lanza_14
+  - first:
+      213: 635450013842504864
+    second: 01_embestida_lanza_15
+  - first:
+      213: -4239756536088411164
+    second: 01_embestida_lanza_16
+  - first:
+      213: 8017487965707222360
+    second: 01_embestida_lanza_17
+  - first:
+      213: 7651413640776227227
+    second: 01_embestida_lanza_18
+  - first:
+      213: 3313540668151874025
+    second: 01_embestida_lanza_19
+  - first:
+      213: -6428856822506311748
+    second: 01_embestida_lanza_20
+  - first:
+      213: 2338263780131825851
+    second: 01_embestida_lanza_21
+  - first:
+      213: -1500951738002580329
+    second: 01_embestida_lanza_22
+  - first:
+      213: 5855477152647117973
+    second: 01_embestida_lanza_23
+  - first:
+      213: 3543886448821731726
+    second: 01_embestida_lanza_24
+  - first:
+      213: -6705696838739996362
+    second: 01_embestida_lanza_25
+  - first:
+      213: -4568704662979358236
+    second: 01_embestida_lanza_26
+  - first:
+      213: -1695387680532635142
+    second: 01_embestida_lanza_27
+  - first:
+      213: -5504211419236534231
+    second: 01_embestida_lanza_28
+  - first:
+      213: 7780537260075879192
+    second: 01_embestida_lanza_29
+  - first:
+      213: -3099127360490512947
+    second: 01_embestida_lanza_30
+  - first:
+      213: 3686311540432351328
+    second: 01_embestida_lanza_31
+  - first:
+      213: 7927723430086186593
+    second: 01_embestida_lanza_32
+  - first:
+      213: -6513788519899291865
+    second: 01_embestida_lanza_33
+  - first:
+      213: -6621545667767793982
+    second: 01_embestida_lanza_34
+  - first:
+      213: 2602057275540938314
+    second: 01_embestida_lanza_35
+  - first:
+      213: 659954045138423968
+    second: 01_embestida_lanza_36
+  - first:
+      213: 311759368605316286
+    second: 01_embestida_lanza_37
+  - first:
+      213: -6958492816212223502
+    second: 01_embestida_lanza_38
+  - first:
+      213: -47469408358081788
+    second: 01_embestida_lanza_39
+  - first:
+      213: -3090451428688108207
+    second: 01_embestida_lanza_40
+  - first:
+      213: 5828928953615695635
+    second: 01_embestida_lanza_41
+  - first:
+      213: -4182289642929627899
+    second: 01_embestida_lanza_42
+  - first:
+      213: 6086685483167407464
+    second: 01_embestida_lanza_43
+  - first:
+      213: 8666817417030589352
+    second: 01_embestida_lanza_44
+  - first:
+      213: -6480557316556416891
+    second: 01_embestida_lanza_45
+  - first:
+      213: -2977447093704163706
+    second: 01_embestida_lanza_46
+  - first:
+      213: -3574041447597479637
+    second: 01_embestida_lanza_47
+  - first:
+      213: -6422984545831601837
+    second: 01_embestida_lanza_48
+  - first:
+      213: 1116105022856767427
+    second: 01_embestida_lanza_49
+  - first:
+      213: -7148826774167486414
+    second: 01_embestida_lanza_50
+  - first:
+      213: -1693400367950559044
+    second: 01_embestida_lanza_51
+  - first:
+      213: -6972546771078678658
+    second: 01_embestida_lanza_52
+  - first:
+      213: -107365083779549352
+    second: 01_embestida_lanza_53
+  - first:
+      213: -2394074825519016651
+    second: 01_embestida_lanza_54
+  - first:
+      213: 6449224444644605014
+    second: 01_embestida_lanza_55
+  - first:
+      213: 8966692118695988384
+    second: 01_embestida_lanza_56
+  - first:
+      213: -7343242985161891452
+    second: 01_embestida_lanza_57
+  - first:
+      213: -4225938300907302038
+    second: 01_embestida_lanza_58
+  - first:
+      213: -342930005233456419
+    second: 01_embestida_lanza_59
+  - first:
+      213: 4498615980752140378
+    second: 01_embestida_lanza_60
+  - first:
+      213: -8298372099927909515
+    second: 01_embestida_lanza_61
+  - first:
+      213: 7975257929196737158
+    second: 01_embestida_lanza_62
+  - first:
+      213: -2806481811965364023
+    second: 01_embestida_lanza_63
+  - first:
+      213: -181081003313633790
+    second: 01_embestida_lanza_64
+  - first:
+      213: 3130031164372477748
+    second: 01_embestida_lanza_65
+  - first:
+      213: -3987714612506967874
+    second: 01_embestida_lanza_66
+  - first:
+      213: -6287477049629753635
+    second: 01_embestida_lanza_67
+  - first:
+      213: 2594847716956203523
+    second: 01_embestida_lanza_68
+  - first:
+      213: -1182951362663879331
+    second: 01_embestida_lanza_69
+  - first:
+      213: -452519539140061747
+    second: 01_embestida_lanza_70
+  - first:
+      213: -3597644899938333392
+    second: 01_embestida_lanza_71
+  - first:
+      213: 1230984606602671833
+    second: 01_embestida_lanza_72
+  - first:
+      213: 3172082711706792248
+    second: 01_embestida_lanza_73
+  - first:
+      213: -2909363847946604935
+    second: 01_embestida_lanza_74
+  - first:
+      213: 7683291619113425890
+    second: 01_embestida_lanza_75
+  - first:
+      213: 3623081561743756476
+    second: 01_embestida_lanza_76
+  - first:
+      213: -8170153639431196142
+    second: 01_embestida_lanza_77
+  - first:
+      213: -5745225929212333831
+    second: 01_embestida_lanza_78
+  - first:
+      213: -5471899973655018950
+    second: 01_embestida_lanza_79
+  - first:
+      213: -8364752372501486101
+    second: 01_embestida_lanza_80
+  - first:
+      213: 1408804881691760332
+    second: 01_embestida_lanza_81
+  - first:
+      213: 6293877385428527125
+    second: 01_embestida_lanza_82
+  - first:
+      213: 5081394156566553007
+    second: 01_embestida_lanza_83
+  - first:
+      213: 2758178612266902862
+    second: 01_embestida_lanza_84
+  - first:
+      213: -8087717763442852796
+    second: 01_embestida_lanza_85
+  - first:
+      213: -6354877143123725579
+    second: 01_embestida_lanza_86
+  - first:
+      213: 1574452717898848024
+    second: 01_embestida_lanza_87
+  - first:
+      213: -2802364030200642110
+    second: 01_embestida_lanza_88
+  - first:
+      213: -2857966465799789854
+    second: 01_embestida_lanza_89
+  - first:
+      213: 7350891427457667203
+    second: 01_embestida_lanza_90
+  - first:
+      213: -2399679752286993806
+    second: 01_embestida_lanza_91
+  - first:
+      213: 6281699327506697200
+    second: 01_embestida_lanza_92
+  - first:
+      213: 1385857805523610998
+    second: 01_embestida_lanza_93
+  - first:
+      213: 4224545293971126316
+    second: 01_embestida_lanza_94
+  - first:
+      213: 72632366344664467
+    second: 01_embestida_lanza_95
+  - first:
+      213: 2931546040493476719
+    second: 01_embestida_lanza_96
+  - first:
+      213: -1279250966365887849
+    second: 01_embestida_lanza_97
+  - first:
+      213: -3538922394807175272
+    second: 01_embestida_lanza_98
+  - first:
+      213: 2950005443272345300
+    second: 01_embestida_lanza_99
+  - first:
+      213: 3161764553952534299
+    second: 01_embestida_lanza_100
+  - first:
+      213: 8335801649916321616
+    second: 01_embestida_lanza_101
+  - first:
+      213: -5992585341221810540
+    second: 01_embestida_lanza_102
+  - first:
+      213: -6983688115248785054
+    second: 01_embestida_lanza_103
+  - first:
+      213: 8995131880581975862
+    second: 01_embestida_lanza_104
+  - first:
+      213: -3202898216621614168
+    second: 01_embestida_lanza_105
+  - first:
+      213: -3777908128498037471
+    second: 01_embestida_lanza_106
+  - first:
+      213: -1720176769810550412
+    second: 01_embestida_lanza_107
+  - first:
+      213: -5039656198424375650
+    second: 01_embestida_lanza_108
+  - first:
+      213: 6721351590048274315
+    second: 01_embestida_lanza_109
+  - first:
+      213: 6462776303400836989
+    second: 01_embestida_lanza_110
+  - first:
+      213: -4500587474275434415
+    second: 01_embestida_lanza_111
+  - first:
+      213: 8974987421577421233
+    second: 01_embestida_lanza_112
+  - first:
+      213: -5318173052324150207
+    second: 01_embestida_lanza_113
+  - first:
+      213: -4586108443298139733
+    second: 01_embestida_lanza_114
+  - first:
+      213: 5308180149067443032
+    second: 01_embestida_lanza_115
+  - first:
+      213: -1801254168047696641
+    second: 01_embestida_lanza_116
+  - first:
+      213: 8246397686861428750
+    second: 01_embestida_lanza_117
+  - first:
+      213: -748782675853190021
+    second: 01_embestida_lanza_118
+  - first:
+      213: -1029274112938477603
+    second: 01_embestida_lanza_119
+  - first:
+      213: -4529473297869937291
+    second: 01_embestida_lanza_120
+  - first:
+      213: -4955616307917724371
+    second: 01_embestida_lanza_121
+  - first:
+      213: 8251155229861998702
+    second: 01_embestida_lanza_122
+  - first:
+      213: 4882440002696352343
+    second: 01_embestida_lanza_123
+  - first:
+      213: -2120597442840688373
+    second: 01_embestida_lanza_124
+  - first:
+      213: 5768200161178461600
+    second: 01_embestida_lanza_125
+  - first:
+      213: -4341343640451557343
+    second: 01_embestida_lanza_126
+  - first:
+      213: 8719262993129767498
+    second: 01_embestida_lanza_127
+  - first:
+      213: 5300204238991423566
+    second: 01_embestida_lanza_128
+  - first:
+      213: 8480122211126550681
+    second: 01_embestida_lanza_129
+  - first:
+      213: 5975258587802476120
+    second: 01_embestida_lanza_130
+  - first:
+      213: 1266821818809505835
+    second: 01_embestida_lanza_131
+  - first:
+      213: -1563115082012728731
+    second: 01_embestida_lanza_132
+  - first:
+      213: 8881745994425998622
+    second: 01_embestida_lanza_133
+  - first:
+      213: 6254129080332223695
+    second: 01_embestida_lanza_134
+  - first:
+      213: 8790028896608823627
+    second: 01_embestida_lanza_135
+  - first:
+      213: -444612199826403151
+    second: 01_embestida_lanza_136
+  - first:
+      213: -5310003692387677560
+    second: 01_embestida_lanza_137
+  - first:
+      213: 4783949213042865347
+    second: 01_embestida_lanza_138
+  - first:
+      213: -425313727349713662
+    second: 01_embestida_lanza_139
+  - first:
+      213: 5722172676753025599
+    second: 01_embestida_lanza_140
+  - first:
+      213: -6013115819869129462
+    second: 01_embestida_lanza_141
+  - first:
+      213: -5985555222220727468
+    second: 01_embestida_lanza_142
+  - first:
+      213: -6080325610622024310
+    second: 01_embestida_lanza_143
+  - first:
+      213: -373347152203301246
+    second: 01_embestida_lanza_144
+  - first:
+      213: 4625068596957515656
+    second: 01_embestida_lanza_145
+  - first:
+      213: -5078699583149930933
+    second: 01_embestida_lanza_146
+  - first:
+      213: 2674151266448517950
+    second: 01_embestida_lanza_147
+  - first:
+      213: -4826302192932932444
+    second: 01_embestida_lanza_148
+  - first:
+      213: 6005698319712729042
+    second: 01_embestida_lanza_149
+  - first:
+      213: 4593189647832280342
+    second: 01_embestida_lanza_150
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 01_embestida_lanza_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 484
+        width: 45
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e64abfb2aeafb70800000000000000
+      internalID: 8933710285469150808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 498
+        width: 138
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e4ac3117c9748e0800000000000000
+      internalID: -1709225524086550934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 576
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8daa515fc8cbb4f30800000000000000
+      internalID: 4560946361236040408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_3
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 570
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23dcd5720bd75e480800000000000000
+      internalID: -8870545695508148942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 486
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238ed3a65de98a410800000000000000
+      internalID: 1488614316293613618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 463
+        width: 279
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5fe287f394682b0800000000000000
+      internalID: -5582694151131040269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_6
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 560
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598ca7f5f4e5e5220800000000000000
+      internalID: 2476520540097661077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_7
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 518
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49c175c07c64cc00800000000000000
+      internalID: 919979455495129421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_8
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 578
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad770d4c5f8b13bb0800000000000000
+      internalID: -4957978349049710630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_9
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 578
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c394c4483e8a16b30800000000000000
+      internalID: 4278886816109316412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_10
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 580
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a06979e668c59cb0800000000000000
+      internalID: -4857756278719946583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_11
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 578
+        width: 55
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cef1dbe1ad480e10800000000000000
+      internalID: 2164064978793004742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_12
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 498
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec130ce862de7e70800000000000000
+      internalID: 9114954043922521315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_13
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 17
+        width: 1171
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa260053dc82d240800000000000000
+      internalID: 4815065790821051054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_14
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 597
+        width: 68
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38664a84db6cf2320800000000000000
+      internalID: 2535463631502730883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_15
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 475
+        width: 108
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac799bbb6291d800800000000000000
+      internalID: 635450013842504864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_16
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 632
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e34f44c4eb5925c0800000000000000
+      internalID: -4239756536088411164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_17
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 546
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85db2fa83d6d34f60800000000000000
+      internalID: 8017487965707222360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_18
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 474
+        width: 59
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b999b08da284f2a60800000000000000
+      internalID: 7651413640776227227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_19
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 469
+        width: 158
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1c00a8eaf0cfd20800000000000000
+      internalID: 3313540668151874025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_20
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 564
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf2aae08cc18c6a0800000000000000
+      internalID: -6428856822506311748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_21
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 510
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb86be5f48e237020800000000000000
+      internalID: 2338263780131825851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_22
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 534
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79cd95fb85c8b2be0800000000000000
+      internalID: -1500951738002580329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_23
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 610
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c72f95275d24150800000000000000
+      internalID: 5855477152647117973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_24
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 626
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81075ae2f96e2130800000000000000
+      internalID: 3543886448821731726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_25
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 608
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6315173e04490f2a0800000000000000
+      internalID: -6705696838739996362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_26
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 455
+        width: 150
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1d177a053b890c0800000000000000
+      internalID: -4568704662979358236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_27
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 534
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1674913e5c878e0800000000000000
+      internalID: -1695387680532635142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_28
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 532
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928f1c370ec1d93b0800000000000000
+      internalID: -5504211419236534231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_29
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 546
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b838c3a650afb60800000000000000
+      internalID: 7780537260075879192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_30
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 486
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdd444e510bdf4d0800000000000000
+      internalID: -3099127360490512947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_31
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 502
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060b4eaa0d8682330800000000000000
+      internalID: 3686311540432351328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_32
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 538
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16614dfe47ee40e60800000000000000
+      internalID: 7927723430086186593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_33
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 536
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f92694adf5a95a0800000000000000
+      internalID: -6513788519899291865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_34
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 567
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c68ca03c4b8b14a0800000000000000
+      internalID: -6621545667767793982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_35
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 564
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e96d94e4d5c1420800000000000000
+      internalID: 2602057275540938314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_36
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 482
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0de8c15b0a82900800000000000000
+      internalID: 659954045138423968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_37
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 496
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4be157e77935400800000000000000
+      internalID: 311759368605316286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_38
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 457
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9109db6a77e6f90800000000000000
+      internalID: -6958492816212223502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_39
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 455
+        width: 85
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b5e1913da575ff0800000000000000
+      internalID: -47469408358081788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_40
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 610
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155627dacc28c15d0800000000000000
+      internalID: -3090451428688108207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_41
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 602
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31fb045100484e050800000000000000
+      internalID: 5828928953615695635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_42
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 625
+        width: 100
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d526d7ab585f5c0800000000000000
+      internalID: -4182289642929627899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_43
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 449
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d58b3c230487450800000000000000
+      internalID: 6086685483167407464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_44
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 455
+        width: 178
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abd643a588b64870800000000000000
+      internalID: 8666817417030589352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_45
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 451
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5889810c47f6016a0800000000000000
+      internalID: -6480557316556416891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_46
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 466
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e7e3ab4abfda6d0800000000000000
+      internalID: -2977447093704163706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_47
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 480
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29ed6f4d34766ec0800000000000000
+      internalID: -3574041447597479637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_48
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 522
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35932e30699fcd6a0800000000000000
+      internalID: -6422984545831601837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_49
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 586
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7286bda933d7f00800000000000000
+      internalID: 1116105022856767427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_50
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 590
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23002fccce34acc90800000000000000
+      internalID: -7148826774167486414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_51
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 526
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb88acd5655df78e0800000000000000
+      internalID: -1693400367950559044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_52
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 598
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77fe0267a98c3f90800000000000000
+      internalID: -6972546771078678658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_53
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 601
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8573a007600928ef0800000000000000
+      internalID: -107365083779549352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_54
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 626
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535db3b61a986ced0800000000000000
+      internalID: -2394074825519016651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_55
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 465
+        width: 156
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cbec3867f308950800000000000000
+      internalID: 6449224444644605014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_56
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 600
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac4b2179f6107c70800000000000000
+      internalID: 8966692118695988384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_57
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 596
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481eb02496f871a90800000000000000
+      internalID: -7343242985161891452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_58
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 602
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63d3bb51837a55c0800000000000000
+      internalID: -4225938300907302038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_59
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 564
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddaac372afaad3bf0800000000000000
+      internalID: -342930005233456419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_60
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 561
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5870a9566b4e6e30800000000000000
+      internalID: 4498615980752140378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_61
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 556
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bd8c1ba8246dc80800000000000000
+      internalID: -8298372099927909515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_62
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 594
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68293e5f4decdae60800000000000000
+      internalID: 7975257929196737158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_63
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 606
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8b53159af5d09d0800000000000000
+      internalID: -2806481811965364023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_64
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 550
+        width: 84
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2066be179cbac7df0800000000000000
+      internalID: -181081003313633790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_65
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 522
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437e258a2ca107b20800000000000000
+      internalID: 3130031164372477748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_66
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 455
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb043ef00bac8a8c0800000000000000
+      internalID: -3987714612506967874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_67
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 608
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddeb5639fe46eb8a0800000000000000
+      internalID: -6287477049629753635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_68
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 478
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a686f1040c20420800000000000000
+      internalID: 2594847716956203523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_69
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 455
+        width: 101
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5dead1d000559fe0800000000000000
+      internalID: -1182951362663879331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_70
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 470
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc512af60e358b9f0800000000000000
+      internalID: -452519539140061747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_71
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 530
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d0e2f4609921ec0800000000000000
+      internalID: -3597644899938333392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_72
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 578
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6b6884af5551110800000000000000
+      internalID: 1230984606602671833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_73
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 417
+        width: 359
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831f07d7b60850c20800000000000000
+      internalID: 3172082711706792248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_74
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 516
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e67c8aefcdf97d0800000000000000
+      internalID: -2909363847946604935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_75
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 520
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebddfe050980aa60800000000000000
+      internalID: 7683291619113425890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_76
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 581
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc01080c75c74230800000000000000
+      internalID: 3623081561743756476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_77
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 512
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212b6516d88cd9e80800000000000000
+      internalID: -8170153639431196142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_78
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 546
+        width: 70
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f07fe6f47bd440b0800000000000000
+      internalID: -5745225929212333831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_79
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 457
+        width: 131
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32c2df17f7ef04b0800000000000000
+      internalID: -5471899973655018950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_80
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 546
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be561fa190e6aeb80800000000000000
+      internalID: -8364752372501486101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_81
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 399
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6d21363941d8310800000000000000
+      internalID: 1408804881691760332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_82
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 31
+        width: 295
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518e45ab228585750800000000000000
+      internalID: 6293877385428527125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_83
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 417
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa125e1201db48640800000000000000
+      internalID: 5081394156566553007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_84
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 407
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45af3b95d4074620800000000000000
+      internalID: 2758178612266902862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_85
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 303
+        width: 245
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c3f527b87a2cf80800000000000000
+      internalID: -8087717763442852796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_86
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 23
+        width: 338
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f27cdc68e0fec7a0800000000000000
+      internalID: -6354877143123725579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_87
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 393
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8175206b76499d510800000000000000
+      internalID: 1574452717898848024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_88
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 417
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c50f8813c00c19d0800000000000000
+      internalID: -2802364030200642110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_89
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 27
+        width: 212
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2660a34a67658d0800000000000000
+      internalID: -2857966465799789854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_90
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 389
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380141c7ecc930660800000000000000
+      internalID: 7350891427457667203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_91
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 355
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2728c36baff92bed0800000000000000
+      internalID: -2399679752286993806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_92
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 337
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbc8d9a1441d2750800000000000000
+      internalID: 6281699327506697200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_93
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 309
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67def6fd45e8b3310800000000000000
+      internalID: 1385857805523610998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_94
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 246
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2872b0ff8990aa30800000000000000
+      internalID: 4224545293971126316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_95
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 240
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3957b2b90ca020100800000000000000
+      internalID: 72632366344664467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_96
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 164
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b01528791fea820800000000000000
+      internalID: 2931546040493476719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_97
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 157
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792af2b16003f3ee0800000000000000
+      internalID: -1279250966365887849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_98
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 134
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897f7d9f4d833eec0800000000000000
+      internalID: -3538922394807175272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_99
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 130
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d687b3225680f820800000000000000
+      internalID: 2950005443272345300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_100
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 128
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f13cd2c18d0eb20800000000000000
+      internalID: 3161764553952534299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_101
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 131
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f90658f67bea370800000000000000
+      internalID: 8335801649916321616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_102
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 120
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ec24ad16f06dca0800000000000000
+      internalID: -5992585341221810540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_103
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 152
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2699a7c09a4f41f90800000000000000
+      internalID: -6983688115248785054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_104
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 160
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f41e189c025dc70800000000000000
+      internalID: 8995131880581975862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_105
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 146
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab598aaa050d83d0800000000000000
+      internalID: -3202898216621614168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_106
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 136
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d40d6c29c229bc0800000000000000
+      internalID: -3777908128498037471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_107
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 128
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471309c7754b028e0800000000000000
+      internalID: -1720176769810550412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_108
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 112
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ec1d6836b8f0ab0800000000000000
+      internalID: -5039656198424375650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_109
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87955fe8a9074d50800000000000000
+      internalID: 6721351590048274315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_110
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 120
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fd4038ec460b950800000000000000
+      internalID: 6462776303400836989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_111
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 200
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1508d3b8983ba81c0800000000000000
+      internalID: -4500587474275434415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_112
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 194
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1a8b6228f8d8c70800000000000000
+      internalID: 8974987421577421233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_113
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 111
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1440a2a29cd0236b0800000000000000
+      internalID: -5318173052324150207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_114
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 101
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba17bc74baeda50c0800000000000000
+      internalID: -4586108443298139733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_115
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 200
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85be1fcb8b17aa940800000000000000
+      internalID: 5308180149067443032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_116
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 83
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4435ba0e8a007e0800000000000000
+      internalID: -1801254168047696641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_117
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 92
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e087af14107117270800000000000000
+      internalID: 8246397686861428750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_118
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 75
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cddcf9f1acb95f0800000000000000
+      internalID: -748782675853190021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_119
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 77
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7fbc9c5a847b1f0800000000000000
+      internalID: -1029274112938477603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_120
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 98
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57568d4a8041421c0800000000000000
+      internalID: -4529473297869937291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_121
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 94
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d256e63593d1a3bb0800000000000000
+      internalID: -4955616307917724371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_122
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 81
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60f78e07fdf18270800000000000000
+      internalID: 8251155229861998702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_123
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 208
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7529fdd6059e1c340800000000000000
+      internalID: 4882440002696352343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_124
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 75
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0901e37cdf1292e0800000000000000
+      internalID: -2120597442840688373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_125
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 160
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5a4604c73cc0050800000000000000
+      internalID: 5768200161178461600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_126
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 159
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128dbfed5f270c3c0800000000000000
+      internalID: -4341343640451557343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_127
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 83
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4285b0ee7b010970800000000000000
+      internalID: 8719262993129767498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_128
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 98
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e487a167cab1e8940800000000000000
+      internalID: 5300204238991423566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_129
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990291ea8327fa570800000000000000
+      internalID: 8480122211126550681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_130
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 160
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e911ff6026ce250800000000000000
+      internalID: 5975258587802476120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_131
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 192
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28dad77bb7a49110800000000000000
+      internalID: 1266821818809505835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_132
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 87
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56263995d13be4ae0800000000000000
+      internalID: -1563115082012728731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_133
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 146
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d9207acec424b70800000000000000
+      internalID: 8881745994425998622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_134
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 81
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc484a443412bc650800000000000000
+      internalID: 6254129080332223695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_135
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 101
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49a9cbb5b47cf970800000000000000
+      internalID: 8790028896608823627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_136
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 130
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0da865f8b64d9f0800000000000000
+      internalID: -444612199826403151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_137
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 87
+        width: 78
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a483f76c31f46b0800000000000000
+      internalID: -5310003692387677560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_138
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 47
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4fdea7670046240800000000000000
+      internalID: 4783949213042865347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_139
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 101
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205193b1b6bf81af0800000000000000
+      internalID: -425313727349713662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_140
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 95
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a6f4d6bbd396f40800000000000000
+      internalID: 5722172676753025599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_141
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 130
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a053b6b450f1d8ca0800000000000000
+      internalID: -6013115819869129462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_142
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 134
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b9c0cfc390feca0800000000000000
+      internalID: -5985555222220727468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_143
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 144
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a850a2472185e9ba0800000000000000
+      internalID: -6080325610622024310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_144
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 128
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28eb40f3eba91daf0800000000000000
+      internalID: -373347152203301246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_145
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 75
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f877f526b8f2040800000000000000
+      internalID: 4625068596957515656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_146
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b468c6123a5d489b0800000000000000
+      internalID: -5078699583149930933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_147
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b2358986e7c1520800000000000000
+      internalID: 2674151266448517950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_148
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 51
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a43b83f9b7850db0800000000000000
+      internalID: -4826302192932932444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_149
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 39
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d733ae5dc6885350800000000000000
+      internalID: 6005698319712729042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_embestida_lanza_150
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 32
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d6b0126a94ebf30800000000000000
+      internalID: 4593189647832280342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

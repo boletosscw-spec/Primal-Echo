@@ -12,6 +12,11 @@ Videojuego 2D de plataformas y acción en pixel art, hecho en **Unity 6 (6000.0.
 - Menú **Primal Echo → Niveles** para generar o regenerar (tus cambios de tiles se conservan).
 - Leyenda y reglas de diseño en `Assets/Niveles/LEEME_Niveles.md`.
 
+## Cinemática de intro
+- Menú **Primal Echo → Cinemática → Generar cinemática de intro**: crea `Assets/Scenes/Cinematica_Intro.unity` y el Timeline `Assets/Cinematicas/Intro_Primal_Echo.playable`, y la pone como primera escena del juego.
+- Cuenta lo que pasa primero: NÉMESIS decide eliminar a la humanidad, la naturaleza recupera las ciudades y Kael repara a Kiro. Al terminar (o con Espacio / A) carga el Nivel 1.
+- Se edita en **Window → Sequencing → Timeline** con el objeto `Cinematica_Intro` seleccionado. Pistas propias (`Assets/Scripts/Cinematica`): **Narración** (texto del clip), **Plano** (imagen con paneo y zoom), **Fundido a negro** y **Deslizar**.
+
 ## Controles
 | Acción | Teclado | Control Xbox |
 | --- | --- | --- |

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_f_ayla_0: -5384462775737182557
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_frog_b_idle_anim_0: 5456732491480712362
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

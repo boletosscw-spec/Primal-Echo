@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_f_native_longhair_idle_anim_0: -8794138251371495373
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

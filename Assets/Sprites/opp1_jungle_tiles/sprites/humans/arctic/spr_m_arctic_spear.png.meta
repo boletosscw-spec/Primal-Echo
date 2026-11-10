@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_m_arctic_spear_0: -6057451420195538776
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

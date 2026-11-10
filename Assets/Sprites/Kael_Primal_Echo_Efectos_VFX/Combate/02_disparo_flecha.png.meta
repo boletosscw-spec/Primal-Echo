@@ -1,0 +1,6892 @@
+fileFormatVersion: 2
+guid: 70510bbbd86bcf2e49e6d69682a6e4bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7229966169681479537
+    second: 02_disparo_flecha_0
+  - first:
+      213: -5093502736679116354
+    second: 02_disparo_flecha_1
+  - first:
+      213: 975535293251742676
+    second: 02_disparo_flecha_2
+  - first:
+      213: 5474754145261502321
+    second: 02_disparo_flecha_3
+  - first:
+      213: 7424307928438652313
+    second: 02_disparo_flecha_4
+  - first:
+      213: 6130462871906357136
+    second: 02_disparo_flecha_5
+  - first:
+      213: -1955149327626181086
+    second: 02_disparo_flecha_6
+  - first:
+      213: -9023085848048856858
+    second: 02_disparo_flecha_7
+  - first:
+      213: -387853054029521144
+    second: 02_disparo_flecha_8
+  - first:
+      213: 2875465299403761359
+    second: 02_disparo_flecha_9
+  - first:
+      213: 2073591410298818653
+    second: 02_disparo_flecha_10
+  - first:
+      213: 9130422103826442196
+    second: 02_disparo_flecha_11
+  - first:
+      213: -4947127349482896036
+    second: 02_disparo_flecha_12
+  - first:
+      213: 6534945649728032057
+    second: 02_disparo_flecha_13
+  - first:
+      213: -8899064197971135067
+    second: 02_disparo_flecha_14
+  - first:
+      213: 7315006163050748802
+    second: 02_disparo_flecha_15
+  - first:
+      213: -6860849652244472737
+    second: 02_disparo_flecha_16
+  - first:
+      213: -3911800372172935440
+    second: 02_disparo_flecha_17
+  - first:
+      213: -8712651429911012937
+    second: 02_disparo_flecha_18
+  - first:
+      213: -8466714692343823908
+    second: 02_disparo_flecha_19
+  - first:
+      213: -7718075536671587121
+    second: 02_disparo_flecha_20
+  - first:
+      213: 6950559694489096797
+    second: 02_disparo_flecha_21
+  - first:
+      213: 431630708860952248
+    second: 02_disparo_flecha_22
+  - first:
+      213: -883639576370776554
+    second: 02_disparo_flecha_23
+  - first:
+      213: 6017899331516930116
+    second: 02_disparo_flecha_24
+  - first:
+      213: -2071499616251844623
+    second: 02_disparo_flecha_25
+  - first:
+      213: -1736144573236513192
+    second: 02_disparo_flecha_26
+  - first:
+      213: 7428190605452089935
+    second: 02_disparo_flecha_27
+  - first:
+      213: -3874265856002697566
+    second: 02_disparo_flecha_28
+  - first:
+      213: -2297632477453450390
+    second: 02_disparo_flecha_29
+  - first:
+      213: 8559796964419699382
+    second: 02_disparo_flecha_30
+  - first:
+      213: 3357716466903855147
+    second: 02_disparo_flecha_31
+  - first:
+      213: 4714900342749518501
+    second: 02_disparo_flecha_32
+  - first:
+      213: 8385388229826014799
+    second: 02_disparo_flecha_33
+  - first:
+      213: -7533287641394692
+    second: 02_disparo_flecha_34
+  - first:
+      213: -6570421367026671899
+    second: 02_disparo_flecha_35
+  - first:
+      213: -3300093091660976624
+    second: 02_disparo_flecha_36
+  - first:
+      213: 3773584645416799951
+    second: 02_disparo_flecha_37
+  - first:
+      213: 8389537582895655247
+    second: 02_disparo_flecha_38
+  - first:
+      213: -8446635468589286181
+    second: 02_disparo_flecha_39
+  - first:
+      213: -13313362359679900
+    second: 02_disparo_flecha_40
+  - first:
+      213: 3718346553523050235
+    second: 02_disparo_flecha_41
+  - first:
+      213: 3782230978719443198
+    second: 02_disparo_flecha_42
+  - first:
+      213: 3700594185737131386
+    second: 02_disparo_flecha_43
+  - first:
+      213: 2064780302247357805
+    second: 02_disparo_flecha_44
+  - first:
+      213: 8798115597163795310
+    second: 02_disparo_flecha_45
+  - first:
+      213: 3189456356358784160
+    second: 02_disparo_flecha_46
+  - first:
+      213: 6190543927196510408
+    second: 02_disparo_flecha_47
+  - first:
+      213: 5320599262902256701
+    second: 02_disparo_flecha_48
+  - first:
+      213: 841825551816626547
+    second: 02_disparo_flecha_49
+  - first:
+      213: 6116924689910515769
+    second: 02_disparo_flecha_50
+  - first:
+      213: -2662801589143190660
+    second: 02_disparo_flecha_51
+  - first:
+      213: 93152747634905797
+    second: 02_disparo_flecha_52
+  - first:
+      213: 570045192685102911
+    second: 02_disparo_flecha_53
+  - first:
+      213: 4895787838924413628
+    second: 02_disparo_flecha_54
+  - first:
+      213: 552239500915925645
+    second: 02_disparo_flecha_55
+  - first:
+      213: -6175676746816884118
+    second: 02_disparo_flecha_56
+  - first:
+      213: 454025809188601111
+    second: 02_disparo_flecha_57
+  - first:
+      213: 7255242069931185870
+    second: 02_disparo_flecha_58
+  - first:
+      213: -4291334879023862870
+    second: 02_disparo_flecha_59
+  - first:
+      213: 4393109227451428084
+    second: 02_disparo_flecha_60
+  - first:
+      213: 2645351133157470486
+    second: 02_disparo_flecha_61
+  - first:
+      213: 5419385613288236955
+    second: 02_disparo_flecha_62
+  - first:
+      213: -4330261600959159518
+    second: 02_disparo_flecha_63
+  - first:
+      213: 8502994583582265182
+    second: 02_disparo_flecha_64
+  - first:
+      213: 3312639021695961984
+    second: 02_disparo_flecha_65
+  - first:
+      213: 9034159761036818121
+    second: 02_disparo_flecha_66
+  - first:
+      213: 7519356272654517205
+    second: 02_disparo_flecha_67
+  - first:
+      213: -8784039537544125066
+    second: 02_disparo_flecha_68
+  - first:
+      213: 7110127038289755716
+    second: 02_disparo_flecha_69
+  - first:
+      213: 9048384429385364446
+    second: 02_disparo_flecha_70
+  - first:
+      213: -4514079370369659481
+    second: 02_disparo_flecha_71
+  - first:
+      213: 164329567436317350
+    second: 02_disparo_flecha_72
+  - first:
+      213: -4709796538131101083
+    second: 02_disparo_flecha_73
+  - first:
+      213: 7403447718931288126
+    second: 02_disparo_flecha_74
+  - first:
+      213: -8201029888145188488
+    second: 02_disparo_flecha_75
+  - first:
+      213: 520000312362777297
+    second: 02_disparo_flecha_76
+  - first:
+      213: -7209522496249210933
+    second: 02_disparo_flecha_77
+  - first:
+      213: -6272750829118842136
+    second: 02_disparo_flecha_78
+  - first:
+      213: 5018765939997529931
+    second: 02_disparo_flecha_79
+  - first:
+      213: -4183200543886050141
+    second: 02_disparo_flecha_80
+  - first:
+      213: 1440729494964649100
+    second: 02_disparo_flecha_81
+  - first:
+      213: -4490552707436544832
+    second: 02_disparo_flecha_82
+  - first:
+      213: 7862276723015988778
+    second: 02_disparo_flecha_83
+  - first:
+      213: 8488919167634954848
+    second: 02_disparo_flecha_84
+  - first:
+      213: -2323392808274235820
+    second: 02_disparo_flecha_85
+  - first:
+      213: 1281370936804185746
+    second: 02_disparo_flecha_86
+  - first:
+      213: -1606417869376224472
+    second: 02_disparo_flecha_87
+  - first:
+      213: 448634948944999409
+    second: 02_disparo_flecha_88
+  - first:
+      213: 6150787858814154048
+    second: 02_disparo_flecha_89
+  - first:
+      213: -893441453356816405
+    second: 02_disparo_flecha_90
+  - first:
+      213: -1597400416712527716
+    second: 02_disparo_flecha_91
+  - first:
+      213: 3081249752375036117
+    second: 02_disparo_flecha_92
+  - first:
+      213: -1732544883742219778
+    second: 02_disparo_flecha_93
+  - first:
+      213: -2902543143445931111
+    second: 02_disparo_flecha_94
+  - first:
+      213: -6035094170591359058
+    second: 02_disparo_flecha_95
+  - first:
+      213: -6438517394241423040
+    second: 02_disparo_flecha_96
+  - first:
+      213: 6657340221539623224
+    second: 02_disparo_flecha_97
+  - first:
+      213: 4326937493325254328
+    second: 02_disparo_flecha_98
+  - first:
+      213: -1138995152723446455
+    second: 02_disparo_flecha_99
+  - first:
+      213: 800264471600166225
+    second: 02_disparo_flecha_100
+  - first:
+      213: 881103910148798024
+    second: 02_disparo_flecha_101
+  - first:
+      213: 2977943870272034136
+    second: 02_disparo_flecha_102
+  - first:
+      213: 4253416667975470133
+    second: 02_disparo_flecha_103
+  - first:
+      213: 3088428471460348277
+    second: 02_disparo_flecha_104
+  - first:
+      213: 7841188229153735555
+    second: 02_disparo_flecha_105
+  - first:
+      213: 2830125643986292986
+    second: 02_disparo_flecha_106
+  - first:
+      213: -9095702844784795301
+    second: 02_disparo_flecha_107
+  - first:
+      213: -1187541285047421670
+    second: 02_disparo_flecha_108
+  - first:
+      213: -1350778613118934645
+    second: 02_disparo_flecha_109
+  - first:
+      213: 7605160688589954092
+    second: 02_disparo_flecha_110
+  - first:
+      213: 6547062649279121120
+    second: 02_disparo_flecha_111
+  - first:
+      213: -6974159832291009200
+    second: 02_disparo_flecha_112
+  - first:
+      213: -7345982968640359328
+    second: 02_disparo_flecha_113
+  - first:
+      213: -5776867538225577181
+    second: 02_disparo_flecha_114
+  - first:
+      213: -6572999131185134155
+    second: 02_disparo_flecha_115
+  - first:
+      213: 9047682802950805629
+    second: 02_disparo_flecha_116
+  - first:
+      213: 7184142729125283720
+    second: 02_disparo_flecha_117
+  - first:
+      213: -4131296923255280931
+    second: 02_disparo_flecha_118
+  - first:
+      213: 2224834458499463000
+    second: 02_disparo_flecha_119
+  - first:
+      213: -6934346206313532685
+    second: 02_disparo_flecha_120
+  - first:
+      213: 5735934936782971922
+    second: 02_disparo_flecha_121
+  - first:
+      213: 7558698731997173643
+    second: 02_disparo_flecha_122
+  - first:
+      213: -866408449438050828
+    second: 02_disparo_flecha_123
+  - first:
+      213: -817753337966129988
+    second: 02_disparo_flecha_124
+  - first:
+      213: 9144570977472446862
+    second: 02_disparo_flecha_125
+  - first:
+      213: 8981114147609073345
+    second: 02_disparo_flecha_126
+  - first:
+      213: 5484212237003436774
+    second: 02_disparo_flecha_127
+  - first:
+      213: -5624189437573220783
+    second: 02_disparo_flecha_128
+  - first:
+      213: 2146741019334439603
+    second: 02_disparo_flecha_129
+  - first:
+      213: -7804655452645677201
+    second: 02_disparo_flecha_130
+  - first:
+      213: 7929386554760237841
+    second: 02_disparo_flecha_131
+  - first:
+      213: 4331846379813922600
+    second: 02_disparo_flecha_132
+  - first:
+      213: 4291481212377049176
+    second: 02_disparo_flecha_133
+  - first:
+      213: 6519061691062743979
+    second: 02_disparo_flecha_134
+  - first:
+      213: 3932269976831140199
+    second: 02_disparo_flecha_135
+  - first:
+      213: -4094539752810215360
+    second: 02_disparo_flecha_136
+  - first:
+      213: -6426901405516734339
+    second: 02_disparo_flecha_137
+  - first:
+      213: 5611015045154129450
+    second: 02_disparo_flecha_138
+  - first:
+      213: 8735283964054540233
+    second: 02_disparo_flecha_139
+  - first:
+      213: 5520705965912960244
+    second: 02_disparo_flecha_140
+  - first:
+      213: 2275375564776156250
+    second: 02_disparo_flecha_141
+  - first:
+      213: 7708622562825182918
+    second: 02_disparo_flecha_142
+  - first:
+      213: -5838701920750169126
+    second: 02_disparo_flecha_143
+  - first:
+      213: -9037906491362020489
+    second: 02_disparo_flecha_144
+  - first:
+      213: -8373286866830198208
+    second: 02_disparo_flecha_145
+  - first:
+      213: 9144795845196916946
+    second: 02_disparo_flecha_146
+  - first:
+      213: 7245437396581099888
+    second: 02_disparo_flecha_147
+  - first:
+      213: -5425154557497921503
+    second: 02_disparo_flecha_148
+  - first:
+      213: 8145253991742681634
+    second: 02_disparo_flecha_149
+  - first:
+      213: 6501053376396302504
+    second: 02_disparo_flecha_150
+  - first:
+      213: 1003185801959365608
+    second: 02_disparo_flecha_151
+  - first:
+      213: 4557897491752398628
+    second: 02_disparo_flecha_152
+  - first:
+      213: 4081965302999589884
+    second: 02_disparo_flecha_153
+  - first:
+      213: 7833865210307080428
+    second: 02_disparo_flecha_154
+  - first:
+      213: -4418442871462028549
+    second: 02_disparo_flecha_155
+  - first:
+      213: 6533969000513998580
+    second: 02_disparo_flecha_156
+  - first:
+      213: -5222577257454229929
+    second: 02_disparo_flecha_157
+  - first:
+      213: 4097890790272109572
+    second: 02_disparo_flecha_158
+  - first:
+      213: 5073591190119945996
+    second: 02_disparo_flecha_159
+  - first:
+      213: 2750707486144059648
+    second: 02_disparo_flecha_160
+  - first:
+      213: -6982867105911409357
+    second: 02_disparo_flecha_161
+  - first:
+      213: 1735729088130399100
+    second: 02_disparo_flecha_162
+  - first:
+      213: -1028585090044120081
+    second: 02_disparo_flecha_163
+  - first:
+      213: 4212998145833285702
+    second: 02_disparo_flecha_164
+  - first:
+      213: -3053947601132402797
+    second: 02_disparo_flecha_165
+  - first:
+      213: 1193393561379416805
+    second: 02_disparo_flecha_166
+  - first:
+      213: 5197689379079996533
+    second: 02_disparo_flecha_167
+  - first:
+      213: 1942542833859730769
+    second: 02_disparo_flecha_168
+  - first:
+      213: -7624685144262035310
+    second: 02_disparo_flecha_169
+  - first:
+      213: 3575413037942622171
+    second: 02_disparo_flecha_170
+  - first:
+      213: -6324817435728157177
+    second: 02_disparo_flecha_171
+  - first:
+      213: 7106205776071355176
+    second: 02_disparo_flecha_172
+  - first:
+      213: -22871198383632442
+    second: 02_disparo_flecha_173
+  - first:
+      213: 4797624853538161007
+    second: 02_disparo_flecha_174
+  - first:
+      213: -4035900278409304698
+    second: 02_disparo_flecha_175
+  - first:
+      213: -4438325850767329278
+    second: 02_disparo_flecha_176
+  - first:
+      213: 2106414032694575328
+    second: 02_disparo_flecha_177
+  - first:
+      213: 7912588427159276170
+    second: 02_disparo_flecha_178
+  - first:
+      213: 3765808798438931254
+    second: 02_disparo_flecha_179
+  - first:
+      213: -4995829356843537672
+    second: 02_disparo_flecha_180
+  - first:
+      213: 5277776251069030303
+    second: 02_disparo_flecha_181
+  - first:
+      213: -6250080663644374568
+    second: 02_disparo_flecha_182
+  - first:
+      213: -7948348503211849133
+    second: 02_disparo_flecha_183
+  - first:
+      213: 6314371726781441981
+    second: 02_disparo_flecha_184
+  - first:
+      213: 6793334156469362807
+    second: 02_disparo_flecha_185
+  - first:
+      213: 9176718965013479944
+    second: 02_disparo_flecha_186
+  - first:
+      213: 164453698369506422
+    second: 02_disparo_flecha_187
+  - first:
+      213: -6578151625275852283
+    second: 02_disparo_flecha_188
+  - first:
+      213: -4380865376630859075
+    second: 02_disparo_flecha_189
+  - first:
+      213: -4422461008825129456
+    second: 02_disparo_flecha_190
+  - first:
+      213: -1280267544205072917
+    second: 02_disparo_flecha_191
+  - first:
+      213: 5995106336732010813
+    second: 02_disparo_flecha_192
+  - first:
+      213: 3185218478920850699
+    second: 02_disparo_flecha_193
+  - first:
+      213: 6393514407538207835
+    second: 02_disparo_flecha_194
+  - first:
+      213: 5094360969193718786
+    second: 02_disparo_flecha_195
+  - first:
+      213: -3200682655173063864
+    second: 02_disparo_flecha_196
+  - first:
+      213: -9176028948928827826
+    second: 02_disparo_flecha_197
+  - first:
+      213: 810665763918717664
+    second: 02_disparo_flecha_198
+  - first:
+      213: 2290952040093159095
+    second: 02_disparo_flecha_199
+  - first:
+      213: 3104251902622816423
+    second: 02_disparo_flecha_200
+  - first:
+      213: -1357077982559312153
+    second: 02_disparo_flecha_201
+  - first:
+      213: -1101973588831466865
+    second: 02_disparo_flecha_202
+  - first:
+      213: 155505572306797290
+    second: 02_disparo_flecha_203
+  - first:
+      213: 5279462268977374392
+    second: 02_disparo_flecha_204
+  - first:
+      213: -7611768185073599387
+    second: 02_disparo_flecha_205
+  - first:
+      213: 6335708155716911650
+    second: 02_disparo_flecha_206
+  - first:
+      213: -6026557790043347508
+    second: 02_disparo_flecha_207
+  - first:
+      213: 5730036152627458734
+    second: 02_disparo_flecha_208
+  - first:
+      213: -9113565072141960128
+    second: 02_disparo_flecha_209
+  - first:
+      213: -2192271954250640375
+    second: 02_disparo_flecha_210
+  - first:
+      213: -6220549210168930415
+    second: 02_disparo_flecha_211
+  - first:
+      213: -3542131459339918845
+    second: 02_disparo_flecha_212
+  - first:
+      213: -7442728486031383859
+    second: 02_disparo_flecha_213
+  - first:
+      213: 3157361762175546082
+    second: 02_disparo_flecha_214
+  - first:
+      213: 4895584581274339211
+    second: 02_disparo_flecha_215
+  - first:
+      213: 8715383927799783584
+    second: 02_disparo_flecha_216
+  - first:
+      213: 7553960241254416991
+    second: 02_disparo_flecha_217
+  - first:
+      213: -2982992459827644948
+    second: 02_disparo_flecha_218
+  - first:
+      213: -7398681459706114139
+    second: 02_disparo_flecha_219
+  - first:
+      213: -14462554514919342
+    second: 02_disparo_flecha_220
+  - first:
+      213: -7985021046780040856
+    second: 02_disparo_flecha_221
+  - first:
+      213: 2568219644285424926
+    second: 02_disparo_flecha_222
+  - first:
+      213: 6642740563894422634
+    second: 02_disparo_flecha_223
+  - first:
+      213: 1844586245927500468
+    second: 02_disparo_flecha_224
+  - first:
+      213: -1128522327581934516
+    second: 02_disparo_flecha_225
+  - first:
+      213: -1144999077940072883
+    second: 02_disparo_flecha_226
+  - first:
+      213: 6922857152490525739
+    second: 02_disparo_flecha_227
+  - first:
+      213: -8308059205507811874
+    second: 02_disparo_flecha_228
+  - first:
+      213: -1007173950387970552
+    second: 02_disparo_flecha_229
+  - first:
+      213: 4360402263791609778
+    second: 02_disparo_flecha_230
+  - first:
+      213: 3498754562985586825
+    second: 02_disparo_flecha_231
+  - first:
+      213: -3114587506716236516
+    second: 02_disparo_flecha_232
+  - first:
+      213: -416113097444769932
+    second: 02_disparo_flecha_233
+  - first:
+      213: 6091637874062954673
+    second: 02_disparo_flecha_234
+  - first:
+      213: 225023068555448346
+    second: 02_disparo_flecha_235
+  - first:
+      213: -5499176521930414651
+    second: 02_disparo_flecha_236
+  - first:
+      213: 3851521236735815554
+    second: 02_disparo_flecha_237
+  - first:
+      213: -8759845680734170569
+    second: 02_disparo_flecha_238
+  - first:
+      213: 1654774753214498034
+    second: 02_disparo_flecha_239
+  - first:
+      213: 3875842076429560403
+    second: 02_disparo_flecha_240
+  - first:
+      213: -7910662471962422041
+    second: 02_disparo_flecha_241
+  - first:
+      213: -8464552245380177001
+    second: 02_disparo_flecha_242
+  - first:
+      213: 3653695725220556213
+    second: 02_disparo_flecha_243
+  - first:
+      213: -1992308091568020056
+    second: 02_disparo_flecha_244
+  - first:
+      213: 6769204548296003453
+    second: 02_disparo_flecha_245
+  - first:
+      213: -7461589771563971884
+    second: 02_disparo_flecha_246
+  - first:
+      213: 1114390304152714385
+    second: 02_disparo_flecha_247
+  - first:
+      213: 6626432282178361051
+    second: 02_disparo_flecha_248
+  - first:
+      213: -4016485246847790
+    second: 02_disparo_flecha_249
+  - first:
+      213: 6620395723937916638
+    second: 02_disparo_flecha_250
+  - first:
+      213: 3407563690417454997
+    second: 02_disparo_flecha_251
+  - first:
+      213: 5488748673763087659
+    second: 02_disparo_flecha_252
+  - first:
+      213: 4761347593687866159
+    second: 02_disparo_flecha_253
+  - first:
+      213: -6796358117858569459
+    second: 02_disparo_flecha_254
+  - first:
+      213: 6397423296881005613
+    second: 02_disparo_flecha_255
+  - first:
+      213: -6756999241599433705
+    second: 02_disparo_flecha_256
+  - first:
+      213: 3885178533153610453
+    second: 02_disparo_flecha_257
+  - first:
+      213: 7417659469182581003
+    second: 02_disparo_flecha_258
+  - first:
+      213: 6703856860952768026
+    second: 02_disparo_flecha_259
+  - first:
+      213: -5482800677247161860
+    second: 02_disparo_flecha_260
+  - first:
+      213: -2070049833458116980
+    second: 02_disparo_flecha_261
+  - first:
+      213: -7361476228661878507
+    second: 02_disparo_flecha_262
+  - first:
+      213: -1658370606100925363
+    second: 02_disparo_flecha_263
+  - first:
+      213: 1329858666914133565
+    second: 02_disparo_flecha_264
+  - first:
+      213: 5066698445723224591
+    second: 02_disparo_flecha_265
+  - first:
+      213: -1678270379036002011
+    second: 02_disparo_flecha_266
+  - first:
+      213: -4299312357497620649
+    second: 02_disparo_flecha_267
+  - first:
+      213: -5706997699921928973
+    second: 02_disparo_flecha_268
+  - first:
+      213: -3102500131545995198
+    second: 02_disparo_flecha_269
+  - first:
+      213: 4130419194254337404
+    second: 02_disparo_flecha_270
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 02_disparo_flecha_0
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 486
+        width: 142
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f883b0e13100aab90800000000000000
+      internalID: -7229966169681479537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 629
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1e2cd5f3e3059b0800000000000000
+      internalID: -5093502736679116354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_2
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 270
+        width: 228
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db602c3e2cc98d00800000000000000
+      internalID: 975535293251742676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_3
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 643
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fb8ec73eb3afb40800000000000000
+      internalID: 5474754145261502321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_4
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 625
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99db3b9a9b0780760800000000000000
+      internalID: 7424307928438652313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_5
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 610
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f03bc5087c31550800000000000000
+      internalID: 6130462871906357136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_6
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 397
+        width: 172
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2266ffb9b0aedd4e0800000000000000
+      internalID: -1955149327626181086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_7
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 624
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e091314a3f87c280800000000000000
+      internalID: -9023085848048856858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_8
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 600
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f1589c3b11e9af0800000000000000
+      internalID: -387853054029521144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_9
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 502
+        width: 148
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc66ce67474b7e720800000000000000
+      internalID: 2875465299403761359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_10
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 630
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50992cb660e6cc10800000000000000
+      internalID: 2073591410298818653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_11
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 626
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d723f34786c5be70800000000000000
+      internalID: 9130422103826442196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_12
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 568
+        width: 85
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55c37bf2e5485bb0800000000000000
+      internalID: -4947127349482896036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_13
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 564
+        width: 122
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d068ed17ac0ba50800000000000000
+      internalID: 6534945649728032057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_14
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 566
+        width: 92
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5b88ed24c208480800000000000000
+      internalID: -8899064197971135067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_15
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 598
+        width: 39
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28bde66495f148560800000000000000
+      internalID: 7315006163050748802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_16
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 486
+        width: 70
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c1b94779d59c0a0800000000000000
+      internalID: -6860849652244472737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_17
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 568
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe2460894e76b9c0800000000000000
+      internalID: -3911800372172935440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_18
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 497
+        width: 87
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9da54afa1761780800000000000000
+      internalID: -8712651429911012937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_19
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 598
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1044c88df208a80800000000000000
+      internalID: -8466714692343823908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_20
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 562
+        width: 68
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4ce070133e3e490800000000000000
+      internalID: -7718075536671587121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_21
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 514
+        width: 94
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d529b2c6739557060800000000000000
+      internalID: 6950559694489096797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_22
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 593
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be9ec3c7d57df500800000000000000
+      internalID: 431630708860952248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_23
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 461
+        width: 154
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61671fcac7eacb3f0800000000000000
+      internalID: -883639576370776554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_24
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 592
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448902dce8fd38350800000000000000
+      internalID: 6017899331516930116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_25
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 588
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f763f4031e8043e0800000000000000
+      internalID: -2071499616251844623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_26
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 596
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856f38985b9f7e7e0800000000000000
+      internalID: -1736144573236513192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_27
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 584
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a9dd9dffb361760800000000000000
+      internalID: 7428190605452089935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_28
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 408
+        width: 166
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6d88f0bb7db3ac0800000000000000
+      internalID: -3874265856002697566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_29
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 552
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a638cf46f6b2d10e0800000000000000
+      internalID: -2297632477453450390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_30
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 580
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b204b5ccf18ac670800000000000000
+      internalID: 8559796964419699382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_31
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 578
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20b8423651099e20800000000000000
+      internalID: 3357716466903855147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_32
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 562
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aad3f091e0be6140800000000000000
+      internalID: 4714900342749518501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_33
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 562
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e6586da22ee5470800000000000000
+      internalID: 8385388229826014799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_34
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 578
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1d42ac38c35eff0800000000000000
+      internalID: -7533287641394692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_35
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 573
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee1db9049c21d4a0800000000000000
+      internalID: -6570421367026671899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_36
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 581
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ea3d951d6b332d0800000000000000
+      internalID: -3300093091660976624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_37
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 580
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcecfefdd377e5430800000000000000
+      internalID: 3773584645416799951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_38
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 544
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49e8426bff9d6470800000000000000
+      internalID: 8389537582895655247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_39
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 578
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc35832bc587ca80800000000000000
+      internalID: -8446635468589286181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_40
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 543
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46409c54193b0dff0800000000000000
+      internalID: -13313362359679900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_41
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 578
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf61a826d783a9330800000000000000
+      internalID: 3718346553523050235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_42
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 562
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8ec09390f2d7430800000000000000
+      internalID: 3782230978719443198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_43
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 463
+        width: 158
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75dcba2ec62b5330800000000000000
+      internalID: 3700594185737131386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_44
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 560
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d6da6ceb297ac10800000000000000
+      internalID: 2064780302247357805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_45
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 550
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6395cd658f291a70800000000000000
+      internalID: 8798115597163795310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_46
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 383
+        width: 144
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4806b58a9334c20800000000000000
+      internalID: 3189456356358784160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_47
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 536
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8eff227ea39e550800000000000000
+      internalID: 6190543927196510408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_48
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 534
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d348e7107d096d940800000000000000
+      internalID: 5320599262902256701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_49
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 562
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37190e211e3ceab00800000000000000
+      internalID: 841825551816626547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_50
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 529
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938ceebb89ea3e450800000000000000
+      internalID: 6116924689910515769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_51
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 488
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7346c31014db0bd0800000000000000
+      internalID: -2662801589143190660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_52
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 504
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c251a03ee1fa4100800000000000000
+      internalID: 93152747634905797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_53
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 546
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f372aef151539e700800000000000000
+      internalID: 570045192685102911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_54
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 547
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba54cab91551f340800000000000000
+      internalID: 4895787838924413628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_55
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 504
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82680376e2f9a700800000000000000
+      internalID: 552239500915925645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_56
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 535
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62f65a08b69b4aa0800000000000000
+      internalID: -6175676746816884118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_57
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 546
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71dbb8361160d4600800000000000000
+      internalID: 454025809188601111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_58
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 461
+        width: 62
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6d7b1093ccfa460800000000000000
+      internalID: 7255242069931185870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_59
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 510
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabe98bf9ad1274c0800000000000000
+      internalID: -4291334879023862870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_60
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 546
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcabb1119577fc30800000000000000
+      internalID: 4393109227451428084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_61
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 544
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611370607dc26b420800000000000000
+      internalID: 2645351133157470486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_62
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 546
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9768ec8086853b40800000000000000
+      internalID: 5419385613288236955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_63
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 397
+        width: 99
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223a0524402d7e3c0800000000000000
+      internalID: -4330261600959159518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_64
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 530
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fcd71e584b00670800000000000000
+      internalID: 8502994583582265182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_65
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 470
+        width: 62
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b094d93abd8fd20800000000000000
+      internalID: 3312639021695961984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_66
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 512
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c63ab80078cf5d70800000000000000
+      internalID: 9034159761036818121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_67
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 514
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d38d23d0be1a5860800000000000000
+      internalID: 7519356272654517205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_68
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 524
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67522b79492d81680800000000000000
+      internalID: -8784039537544125066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_69
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 514
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e3929cede3ca260800000000000000
+      internalID: 7110127038289755716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_70
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 482
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3b0b8b2b1529d70800000000000000
+      internalID: 9048384429385364446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_71
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 449
+        width: 112
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad8231bab4ca51c0800000000000000
+      internalID: -4514079370369659481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_72
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 508
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2a225fed0d74200800000000000000
+      internalID: 164329567436317350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_73
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 496
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ac45c800173aeb0800000000000000
+      internalID: -4709796538131101083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_74
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 514
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e305318a9745eb660800000000000000
+      internalID: 7403447718931288126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_75
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 353
+        width: 93
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8799eb484c6103e80800000000000000
+      internalID: -8201029888145188488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_76
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 524
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dab97d6789673700800000000000000
+      internalID: 520000312362777297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_77
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 516
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7d0e2cc71a2fb90800000000000000
+      internalID: -7209522496249210933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 84
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea95d9fa56b2f8a0800000000000000
+      internalID: -6272750829118842136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_79
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 295
+        width: 70
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47d168280d36a540800000000000000
+      internalID: 5018765939997529931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_80
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 486
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac7375d44942f5c0800000000000000
+      internalID: -4183200543886050141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_81
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 514
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cbbc4a7df7ef310800000000000000
+      internalID: 1440729494964649100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_82
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 496
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc7314ca1a5ea1c0800000000000000
+      internalID: -4490552707436544832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_83
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 507
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26b031060b6c1d60800000000000000
+      internalID: 7862276723015988778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_84
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 447
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ad2e9b103bec570800000000000000
+      internalID: 8488919167634954848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_85
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 501
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45eed1dfc86a1cfd0800000000000000
+      internalID: -2323392808274235820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_86
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 461
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29619b9f31858c110800000000000000
+      internalID: 1281370936804185746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_87
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 480
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8238dfe757bd4b9e0800000000000000
+      internalID: -1606417869376224472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_88
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 474
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f331bdeb1fd93600800000000000000
+      internalID: 448634948944999409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_89
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 429
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045376528fcfb5550800000000000000
+      internalID: 6150787858814154048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_90
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 492
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7ee095bbbd993f0800000000000000
+      internalID: -893441453356816405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_91
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 484
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90f9cdc8c4e4d9e0800000000000000
+      internalID: -1597400416712527716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_92
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 482
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8039a135cc2ca20800000000000000
+      internalID: 3081249752375036117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_93
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 449
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1ef1f8b93c4f7e0800000000000000
+      internalID: -1732544883742219778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_94
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 500
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bd8ada36818b7d0800000000000000
+      internalID: -2902543143445931111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_95
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 465
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf0fdfb3d90f3ca0800000000000000
+      internalID: -6035094170591359058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_96
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 500
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049f01cea8ac5a6a0800000000000000
+      internalID: -6438517394241423040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_97
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 487
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8312acdc8af936c50800000000000000
+      internalID: 6657340221539623224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_98
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 478
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be88fe99be5c0c30800000000000000
+      internalID: 4326937493325254328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_99
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 478
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945f60971f97130f0800000000000000
+      internalID: -1138995152723446455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_100
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 477
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155f7140c4c1b1b00800000000000000
+      internalID: 800264471600166225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_101
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 158
+        width: 198
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84670a6865f4a3c00800000000000000
+      internalID: 881103910148798024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_102
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 438
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855dd941c28c35920800000000000000
+      internalID: 2977943870272034136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_103
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 480
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c47688ceb270b30800000000000000
+      internalID: 4253416667975470133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_104
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 479
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571c893e45d4cda20800000000000000
+      internalID: 3088428471460348277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_105
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 485
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383cea7662f71dc60800000000000000
+      internalID: 7841188229153735555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_106
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 482
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0d68f4740a64720800000000000000
+      internalID: 2830125643986292986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_107
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 432
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51a71a247295c180800000000000000
+      internalID: -9095702844784795301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_108
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 449
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1533ac3e71058fe0800000000000000
+      internalID: -1187541285047421670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_109
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 240
+        width: 119
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81e9d21202114de0800000000000000
+      internalID: -1350778613118934645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_110
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 441
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c5b273a55fa8960800000000000000
+      internalID: 7605160688589954092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_111
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 445
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6828caac6dbda50800000000000000
+      internalID: 6547062649279121120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_112
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 81
+        width: 409
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d1f7d459ec63f90800000000000000
+      internalID: -6974159832291009200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_113
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 393
+        width: 61
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0643f142963dd0a90800000000000000
+      internalID: -7345982968640359328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_114
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 73
+        width: 381
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3234495c49174dfa0800000000000000
+      internalID: -5776867538225577181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_115
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 409
+        width: 19
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b542cc8d1408c4a0800000000000000
+      internalID: -6572999131185134155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_116
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 416
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d781b469293df8d70800000000000000
+      internalID: 9047682802950805629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_117
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 464
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887c739bfb333b360800000000000000
+      internalID: 7184142729125283720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_118
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 419
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda64bb365faaa6c0800000000000000
+      internalID: -4131296923255280931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_119
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 448
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857b8eef62330ee10800000000000000
+      internalID: 2224834458499463000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_120
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 464
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2ba177dd044cf90800000000000000
+      internalID: -6934346206313532685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_121
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 448
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214a3b94f622a9f40800000000000000
+      internalID: 5735934936782971922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_122
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 449
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8713e4f274e5e860800000000000000
+      internalID: 7558698731997173643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_123
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 451
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f519dc0b16e9f3f0800000000000000
+      internalID: -866408449438050828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_124
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 438
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc83a8fba1c6a4f0800000000000000
+      internalID: -817753337966129988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_125
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 455
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81879f9ada08ee70800000000000000
+      internalID: 9144570977472446862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_126
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 447
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c65977bbb353ac70800000000000000
+      internalID: 8981114147609073345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_127
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 435
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2b07319f5db1c40800000000000000
+      internalID: 5484212237003436774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_128
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 437
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156b1f7318dd2f1b0800000000000000
+      internalID: -5624189437573220783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_129
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 431
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2703a4591cacd10800000000000000
+      internalID: 2146741019334439603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_130
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 39
+        width: 395
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f672db6773b40b390800000000000000
+      internalID: -7804655452645677201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_131
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 431
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1131e335f07da0e60800000000000000
+      internalID: 7929386554760237841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_132
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 411
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827ee52d45fcd1c30800000000000000
+      internalID: 4331846379813922600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_133
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 433
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8582ff7ec676e8b30800000000000000
+      internalID: 4291481212377049176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_134
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 427
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3f6ac811c587a50800000000000000
+      internalID: 6519061691062743979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_135
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 437
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76124f9b5ba329630800000000000000
+      internalID: 3932269976831140199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_136
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 431
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0480803e9c54d27c0800000000000000
+      internalID: -4094539752810215360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_137
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 433
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7067bd093f0fc6a0800000000000000
+      internalID: -6426901405516734339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_138
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 434
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26c8c384745edd40800000000000000
+      internalID: 5611015045154129450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_139
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 417
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf03a9db76f93970800000000000000
+      internalID: 8735283964054540233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_140
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 419
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc2f9773dc7d9c40800000000000000
+      internalID: 5520705965912960244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_141
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 427
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c261d4502c39f10800000000000000
+      internalID: 2275375564776156250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_142
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 419
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce91ccf0678afa60800000000000000
+      internalID: 7708622562825182918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_143
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 417
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad39b40b983c8fea0800000000000000
+      internalID: -5838701920750169126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_144
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 403
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7737b255ee7e29280800000000000000
+      internalID: -9037906491362020489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_145
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 405
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a742c45fb1ccb80800000000000000
+      internalID: -8373286866830198208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_146
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 397
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d82e68be57d8ee70800000000000000
+      internalID: 9144795845196916946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_147
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 381
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0792c899ce6fc8460800000000000000
+      internalID: 7245437396581099888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_148
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 373
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120beb47caaf5b4b0800000000000000
+      internalID: -5425154557497921503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_149
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 152
+        width: 228
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222b72f9951c90170800000000000000
+      internalID: 8145253991742681634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_150
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 351
+        width: 68
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a894fd0a91683a50800000000000000
+      internalID: 6501053376396302504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_151
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 351
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ebd089fb280ced00800000000000000
+      internalID: 1003185801959365608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_152
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 345
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fab86be97e04f30800000000000000
+      internalID: 4557897491752398628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_153
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 350
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3a2ced0dd06a830800000000000000
+      internalID: 4081965302999589884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_154
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 323
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0f4a637ea77bc60800000000000000
+      internalID: 7833865210307080428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_155
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 321
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa162a4e998ea2c0800000000000000
+      internalID: -4418442871462028549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_156
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 309
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe0d0100325daa50800000000000000
+      internalID: 6533969000513998580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_157
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 134
+        width: 122
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756286d97ada587b0800000000000000
+      internalID: -5222577257454229929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_158
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 302
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c838256f1aed830800000000000000
+      internalID: 4097890790272109572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_159
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 305
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0796ae6e44096640800000000000000
+      internalID: 5073591190119945996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_160
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 305
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009df9082e97c2620800000000000000
+      internalID: 2750707486144059648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_161
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 258
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335f36e2d5fd71f90800000000000000
+      internalID: -6982867105911409357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_162
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 132
+        width: 124
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b335cc86c861810800000000000000
+      internalID: 1735729088130399100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_163
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 280
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe338ae6f4bb9b1f0800000000000000
+      internalID: -1028585090044120081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_164
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 256
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648b5c10e73977a30800000000000000
+      internalID: 4212998145833285702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_165
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 284
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397c8d756d23e95d0800000000000000
+      internalID: -3053947601132402797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_166
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 260
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea22470f19cf8010800000000000000
+      internalID: 1193393561379416805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_167
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 271
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57442e4a3f6e12840800000000000000
+      internalID: 5197689379079996533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_168
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 278
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d90355a6c45fa10800000000000000
+      internalID: 1942542833859730769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_169
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 272
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2983014324daf2690800000000000000
+      internalID: -7624685144262035310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_170
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 280
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7ced3f63b6e9130800000000000000
+      internalID: 3575413037942622171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_171
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 272
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706e9327d0cb938a0800000000000000
+      internalID: -6324817435728157177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_172
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 112
+        width: 140
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bef87c0805e9260800000000000000
+      internalID: 7106205776071355176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_173
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 210
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf81c824cebeaff0800000000000000
+      internalID: -22871198383632442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_174
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 260
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f614ab8a266949240800000000000000
+      internalID: 4797624853538161007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_175
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 112
+        width: 108
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6856384741a9df7c0800000000000000
+      internalID: -4035900278409304698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_176
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 216
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208749b6726e762c0800000000000000
+      internalID: -4438325850767329278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_177
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 128
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e088a8076c7b3d10800000000000000
+      internalID: 2106414032694575328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_178
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 224
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a02b670492fcd60800000000000000
+      internalID: 7912588427159276170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_179
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 237
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b3efa6627d24430800000000000000
+      internalID: 3765808798438931254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_180
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 230
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa6fd24baf3baab0800000000000000
+      internalID: -4995829356843537672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_181
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 259
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f56f8998d6e3940800000000000000
+      internalID: 5277776251069030303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_182
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 242
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d970f130c04349a0800000000000000
+      internalID: -6250080663644374568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_183
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 223
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35acc03062bc1b190800000000000000
+      internalID: -7948348503211849133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_184
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 263
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7e39a61a721a750800000000000000
+      internalID: 6314371726781441981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_185
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 238
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77062e43c65c64e50800000000000000
+      internalID: 6793334156469362807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_186
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 202
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802083147414a5f70800000000000000
+      internalID: 9176718965013479944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_187
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 224
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c405174c1484200800000000000000
+      internalID: 164453698369506422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_188
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 243
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a36c803f5b5b4a0800000000000000
+      internalID: -6578151625275852283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_189
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 244
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba1c19962a0433c0800000000000000
+      internalID: -4380865376630859075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_190
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 184
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01666f7c42340a2c0800000000000000
+      internalID: -4422461008825129456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_191
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 242
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5e132a3739b3ee0800000000000000
+      internalID: -1280267544205072917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_192
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 240
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39da972375e23350800000000000000
+      internalID: 5995106336732010813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_193
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 246
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d5610a45b243c20800000000000000
+      internalID: 3185218478920850699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_194
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 242
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c28a7ba735ab850800000000000000
+      internalID: 6393514407538207835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_195
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 252
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20408667f4ec2b640800000000000000
+      internalID: 5094360969193718786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_196
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 212
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bc7a34514e493d0800000000000000
+      internalID: -3200682655173063864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_197
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 210
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e6562a94238a080800000000000000
+      internalID: -9176028948928827826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_198
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 218
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e222f99730104b00800000000000000
+      internalID: 810665763918717664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_199
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 238
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be85331eb81bcf10800000000000000
+      internalID: 2290952040093159095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_200
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 174
+        width: 49
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8d92d88a4841b20800000000000000
+      internalID: 3104251902622816423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_201
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 226
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e66c05d3c0ba2de0800000000000000
+      internalID: -1357077982559312153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_202
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 236
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a86d50cd005b0f0800000000000000
+      internalID: -1101973588831466865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_203
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 207
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2c0fd7e77782200800000000000000
+      internalID: 155505572306797290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_204
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 226
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4697b36fa644940800000000000000
+      internalID: 5279462268977374392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_205
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 210
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c71102a219d5690800000000000000
+      internalID: -7611768185073599387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_206
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 208
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2224d06eff4fce750800000000000000
+      internalID: 6335708155716911650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_207
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 208
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc56a1abe9d5d5ca0800000000000000
+      internalID: -6026557790043347508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_208
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 247
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea27183958d258f40800000000000000
+      internalID: 5730036152627458734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_209
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 244
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c32954adc168180800000000000000
+      internalID: -9113565072141960128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_210
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 210
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904d6d3d54c7391e0800000000000000
+      internalID: -2192271954250640375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_211
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 214
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f4b04837b2ca9a0800000000000000
+      internalID: -6220549210168930415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_212
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 226
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302ee4a6432d7dec0800000000000000
+      internalID: -3542131459339918845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_213
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 196
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc22b6e00ed16b890800000000000000
+      internalID: -7442728486031383859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_214
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 154
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2ffd55bc331db20800000000000000
+      internalID: 3157361762175546082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_215
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 200
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b878cbe1d3c90f340800000000000000
+      internalID: 4895584581274339211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_216
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 172
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0a7a9918343f870800000000000000
+      internalID: 8715383927799783584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_217
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 194
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52c46b11de05d860800000000000000
+      internalID: 7553960241254416991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_218
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 192
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5fd4099284a96d0800000000000000
+      internalID: -2982992459827644948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_219
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 192
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afc2fb896a925990800000000000000
+      internalID: -7398681459706114139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_220
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 173
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250f79f126e9ccff0800000000000000
+      internalID: -14462554514919342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_221
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 176
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86968a61aa18f2190800000000000000
+      internalID: -7985021046780040856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_222
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 175
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1510d2d82624a320800000000000000
+      internalID: 2568219644285424926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_223
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 38
+        width: 93
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c410e1951cf2c50800000000000000
+      internalID: 6642740563894422634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_224
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 158
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba741aea69499910800000000000000
+      internalID: 1844586245927500468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_225
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 163
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cb1671ceea650f0800000000000000
+      internalID: -1128522327581934516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_226
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 156
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e6b33b7652c10f0800000000000000
+      internalID: -1144999077940072883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_227
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 127
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2458fcb6ede21060800000000000000
+      internalID: 6922857152490525739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_228
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 99
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5facaab28d3bc80800000000000000
+      internalID: -8308059205507811874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_229
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 170
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e191cd0acc502f0800000000000000
+      internalID: -1007173950387970552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_230
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 168
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7ab1ba1c2438c30800000000000000
+      internalID: 4360402263791609778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_231
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 152
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9807803ecb21e8030800000000000000
+      internalID: 3498754562985586825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_232
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 152
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c152f481a23c6c4d0800000000000000
+      internalID: -3114587506716236516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_233
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 124
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fba60b75ba93af0800000000000000
+      internalID: -416113097444769932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_234
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 162
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b096df1f58d98450800000000000000
+      internalID: 6091637874062954673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_235
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 159
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a101483e9417f1300800000000000000
+      internalID: 225023068555448346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_236
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 154
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c56b25d6100fa3b0800000000000000
+      internalID: -5499176521930414651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_237
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 148
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fe288982a537530800000000000000
+      internalID: 3851521236735815554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_238
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 162
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7329998d3c6ce6680800000000000000
+      internalID: -8759845680734170569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_239
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 160
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f482a4eed0f6f610800000000000000
+      internalID: 1654774753214498034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_240
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 160
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35aa81b55d1c9c530800000000000000
+      internalID: 3875842076429560403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_241
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 160
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e49aace46ea73290800000000000000
+      internalID: -7910662471962422041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_242
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 144
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7932167749ed78a80800000000000000
+      internalID: -8464552245380177001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_243
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 144
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd622b67e884b230800000000000000
+      internalID: 3653695725220556213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_244
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 140
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5a3fea856e954e0800000000000000
+      internalID: -1992308091568020056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_245
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 132
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f44210cab01fd50800000000000000
+      internalID: 6769204548296003453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_246
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 140
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dacd3ec2ab137890800000000000000
+      internalID: -7461589771563971884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_247
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 109
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c792cc31c177f00800000000000000
+      internalID: 1114390304152714385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_248
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 112
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd61c636d01d5fb50800000000000000
+      internalID: 6626432282178361051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_249
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 126
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4bd97270bb1fff0800000000000000
+      internalID: -4016485246847790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_250
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 112
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6a5d5a5de50eb50800000000000000
+      internalID: 6620395723937916638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_251
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 81
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ff9d45f191a4f20800000000000000
+      internalID: 3407563690417454997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_252
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 120
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b259b0196d3fb2c40800000000000000
+      internalID: 5488748673763087659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_253
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 128
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b1de5e864b31240800000000000000
+      internalID: 4761347593687866159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_254
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 112
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0392baec4c7ea1a0800000000000000
+      internalID: -6796358117858569459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_255
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 118
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d249660f79638c850800000000000000
+      internalID: 6397423296881005613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_256
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 128
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714c1e86df05a32a0800000000000000
+      internalID: -6756999241599433705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_257
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 112
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da18959a4deae530800000000000000
+      internalID: 3885178533153610453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_258
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 108
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09b07d9cf1d0f660800000000000000
+      internalID: 7417659469182581003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_259
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 97
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ea726eb42e80d50800000000000000
+      internalID: 6703856860952768026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_260
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 102
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9696a45dd29e3b0800000000000000
+      internalID: -5482800677247161860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_261
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 94
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c865f51e4a4b543e0800000000000000
+      internalID: -2070049833458116980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_262
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 102
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51160207f58c6d990800000000000000
+      internalID: -7361476228661878507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_263
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 110
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44b76d58b84cf8e0800000000000000
+      internalID: -1658370606100925363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_264
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 112
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3634e2696b947210800000000000000
+      internalID: 1329858666914133565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_265
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a4b515467805640800000000000000
+      internalID: 5066698445723224591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_266
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 112
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529bf7c6bf595b8e0800000000000000
+      internalID: -1678270379036002011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_267
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 98
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75738e88036c554c0800000000000000
+      internalID: -4299312357497620649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_268
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 95
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc9e2234dbacc0b0800000000000000
+      internalID: -5706997699921928973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_269
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 94
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248299f6194b1f4d0800000000000000
+      internalID: -3102500131545995198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_disparo_flecha_270
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 79
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c752cfe8f52325930800000000000000
+      internalID: 4130419194254337404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

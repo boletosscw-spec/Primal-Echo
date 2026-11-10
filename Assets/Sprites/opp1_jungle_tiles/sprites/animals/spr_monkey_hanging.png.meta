@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_monkey_hanging_0: 1555694967299800149
+      spr_monkey_hanging_1: 7420703335757427045
+      spr_monkey_hanging_2: 5064006855420664305
+      spr_monkey_hanging_3: -4173235675360605914
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

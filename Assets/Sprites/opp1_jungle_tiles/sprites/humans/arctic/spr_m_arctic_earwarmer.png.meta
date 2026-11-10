@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_m_arctic_earwarmer_0: 6071429462698064437
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -584,7 +584,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_m_arctic_tall_talking_anim_0: 3247905137252526270
+      spr_m_arctic_tall_talking_anim_1: 5911290172548878724
+      spr_m_arctic_tall_talking_anim_10: -4561625457846616002
+      spr_m_arctic_tall_talking_anim_11: -5752217337223620754
+      spr_m_arctic_tall_talking_anim_12: -7530015641643717840
+      spr_m_arctic_tall_talking_anim_13: -8929644235690191781
+      spr_m_arctic_tall_talking_anim_14: -5934482019054526340
+      spr_m_arctic_tall_talking_anim_15: 8775451923412126860
+      spr_m_arctic_tall_talking_anim_16: 641202097375785542
+      spr_m_arctic_tall_talking_anim_17: 5823541549826992288
+      spr_m_arctic_tall_talking_anim_18: 677679951284228274
+      spr_m_arctic_tall_talking_anim_2: 8985476427636112759
+      spr_m_arctic_tall_talking_anim_3: 8117198010406066778
+      spr_m_arctic_tall_talking_anim_4: 7136479433911023135
+      spr_m_arctic_tall_talking_anim_5: 6887559585175600870
+      spr_m_arctic_tall_talking_anim_6: 8477572958216112658
+      spr_m_arctic_tall_talking_anim_7: -7243083272280725698
+      spr_m_arctic_tall_talking_anim_8: -400483877002516832
+      spr_m_arctic_tall_talking_anim_9: 2582801064428068984
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

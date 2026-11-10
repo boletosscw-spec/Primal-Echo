@@ -1,0 +1,6067 @@
+fileFormatVersion: 2
+guid: 15b928fda4615e4baa5e94062956824e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6851003380061704569
+    second: 05_Dano_0
+  - first:
+      213: -415149574002088168
+    second: 05_Dano_1
+  - first:
+      213: 5422898590751076195
+    second: 05_Dano_2
+  - first:
+      213: 7717430603756170976
+    second: 05_Dano_3
+  - first:
+      213: 2966399324284721265
+    second: 05_Dano_4
+  - first:
+      213: -8132719667759982481
+    second: 05_Dano_5
+  - first:
+      213: -1105544252685017298
+    second: 05_Dano_6
+  - first:
+      213: 2336871868860355996
+    second: 05_Dano_7
+  - first:
+      213: 2356861540365051596
+    second: 05_Dano_8
+  - first:
+      213: 5649347049858116992
+    second: 05_Dano_9
+  - first:
+      213: 1518486661254690657
+    second: 05_Dano_10
+  - first:
+      213: 6009370477482517624
+    second: 05_Dano_11
+  - first:
+      213: 4831170901096591722
+    second: 05_Dano_12
+  - first:
+      213: -6870534151713806192
+    second: 05_Dano_13
+  - first:
+      213: 5880612199797304709
+    second: 05_Dano_14
+  - first:
+      213: -7918476734688656519
+    second: 05_Dano_15
+  - first:
+      213: 6911759217825037500
+    second: 05_Dano_16
+  - first:
+      213: -8928108114664193900
+    second: 05_Dano_17
+  - first:
+      213: 4713617144040090075
+    second: 05_Dano_18
+  - first:
+      213: -850125320963950456
+    second: 05_Dano_19
+  - first:
+      213: -1193691518810547963
+    second: 05_Dano_20
+  - first:
+      213: -7145270542538766910
+    second: 05_Dano_21
+  - first:
+      213: -1631321992093793196
+    second: 05_Dano_22
+  - first:
+      213: -1474211463412765296
+    second: 05_Dano_23
+  - first:
+      213: 2281743147274260415
+    second: 05_Dano_24
+  - first:
+      213: 7764005883820083286
+    second: 05_Dano_25
+  - first:
+      213: -2243622516038998419
+    second: 05_Dano_26
+  - first:
+      213: 6884041175793732175
+    second: 05_Dano_27
+  - first:
+      213: -1543956416168621392
+    second: 05_Dano_28
+  - first:
+      213: -3510092159045752324
+    second: 05_Dano_29
+  - first:
+      213: 3851608000897113526
+    second: 05_Dano_30
+  - first:
+      213: -6363760291392961500
+    second: 05_Dano_31
+  - first:
+      213: 2925352289308003078
+    second: 05_Dano_32
+  - first:
+      213: -4246022050249501411
+    second: 05_Dano_33
+  - first:
+      213: 6296892227076542233
+    second: 05_Dano_34
+  - first:
+      213: -1082311090302148834
+    second: 05_Dano_35
+  - first:
+      213: 2351275248293216133
+    second: 05_Dano_36
+  - first:
+      213: -2171361203831053261
+    second: 05_Dano_37
+  - first:
+      213: -3533749146081198387
+    second: 05_Dano_38
+  - first:
+      213: -8006052526170753263
+    second: 05_Dano_39
+  - first:
+      213: -7770692447871291031
+    second: 05_Dano_40
+  - first:
+      213: -3965245692849465447
+    second: 05_Dano_41
+  - first:
+      213: 8704828062066261043
+    second: 05_Dano_42
+  - first:
+      213: -5496737424305707412
+    second: 05_Dano_43
+  - first:
+      213: 5974300682992626007
+    second: 05_Dano_44
+  - first:
+      213: 1255808821920463530
+    second: 05_Dano_45
+  - first:
+      213: -6251439756198438162
+    second: 05_Dano_46
+  - first:
+      213: 5034339350654049434
+    second: 05_Dano_47
+  - first:
+      213: -6724739741827686631
+    second: 05_Dano_48
+  - first:
+      213: -5142898193966483824
+    second: 05_Dano_49
+  - first:
+      213: -3406616863944247164
+    second: 05_Dano_50
+  - first:
+      213: 3280560965320681591
+    second: 05_Dano_51
+  - first:
+      213: 4463402330782552328
+    second: 05_Dano_52
+  - first:
+      213: 4545437076492815762
+    second: 05_Dano_53
+  - first:
+      213: -1053614958869959087
+    second: 05_Dano_54
+  - first:
+      213: 4225669328481670628
+    second: 05_Dano_55
+  - first:
+      213: 2333468665004275480
+    second: 05_Dano_56
+  - first:
+      213: 1047268274835022108
+    second: 05_Dano_57
+  - first:
+      213: -6307682871813427331
+    second: 05_Dano_58
+  - first:
+      213: 6130726089517243382
+    second: 05_Dano_59
+  - first:
+      213: -5747563535716809980
+    second: 05_Dano_60
+  - first:
+      213: 2384237515874430784
+    second: 05_Dano_61
+  - first:
+      213: 7058811852686332808
+    second: 05_Dano_62
+  - first:
+      213: -8763386379879307064
+    second: 05_Dano_63
+  - first:
+      213: -7636852261204297972
+    second: 05_Dano_64
+  - first:
+      213: 132208008817861195
+    second: 05_Dano_65
+  - first:
+      213: 3307633752735016142
+    second: 05_Dano_66
+  - first:
+      213: -7530914846501643877
+    second: 05_Dano_67
+  - first:
+      213: 549713501427685823
+    second: 05_Dano_68
+  - first:
+      213: -4997160602027988220
+    second: 05_Dano_69
+  - first:
+      213: -478060798749665060
+    second: 05_Dano_70
+  - first:
+      213: 7802347296634638037
+    second: 05_Dano_71
+  - first:
+      213: -3859192460612624612
+    second: 05_Dano_72
+  - first:
+      213: 195866109744444474
+    second: 05_Dano_73
+  - first:
+      213: 4822479297699231954
+    second: 05_Dano_74
+  - first:
+      213: 8554139874463406465
+    second: 05_Dano_75
+  - first:
+      213: 3555919290738792939
+    second: 05_Dano_76
+  - first:
+      213: -8684856279837243779
+    second: 05_Dano_77
+  - first:
+      213: -1736525728506559898
+    second: 05_Dano_78
+  - first:
+      213: 85138064745325251
+    second: 05_Dano_79
+  - first:
+      213: -4001821910135927046
+    second: 05_Dano_80
+  - first:
+      213: 2459996629276423818
+    second: 05_Dano_81
+  - first:
+      213: -5305881827849879916
+    second: 05_Dano_82
+  - first:
+      213: -6207789476774061967
+    second: 05_Dano_83
+  - first:
+      213: 1965073817001988357
+    second: 05_Dano_84
+  - first:
+      213: -1666483387423329083
+    second: 05_Dano_85
+  - first:
+      213: 525929297873136727
+    second: 05_Dano_86
+  - first:
+      213: -503993326042442926
+    second: 05_Dano_87
+  - first:
+      213: 840605250059287920
+    second: 05_Dano_88
+  - first:
+      213: -2822782271318330735
+    second: 05_Dano_89
+  - first:
+      213: -1352416937614227614
+    second: 05_Dano_90
+  - first:
+      213: 4787594784360132185
+    second: 05_Dano_91
+  - first:
+      213: -5963017925155913055
+    second: 05_Dano_92
+  - first:
+      213: -5333071014388096001
+    second: 05_Dano_93
+  - first:
+      213: 9129943086429825754
+    second: 05_Dano_94
+  - first:
+      213: 278925656923902522
+    second: 05_Dano_95
+  - first:
+      213: 848105568147662442
+    second: 05_Dano_96
+  - first:
+      213: -7949445229537720117
+    second: 05_Dano_97
+  - first:
+      213: -741476901292065743
+    second: 05_Dano_98
+  - first:
+      213: 3583273095775896258
+    second: 05_Dano_99
+  - first:
+      213: 2621181945019250519
+    second: 05_Dano_100
+  - first:
+      213: -4523786957816249115
+    second: 05_Dano_101
+  - first:
+      213: -4647289877024240471
+    second: 05_Dano_102
+  - first:
+      213: -4722783256573561765
+    second: 05_Dano_103
+  - first:
+      213: -1922562505108818254
+    second: 05_Dano_104
+  - first:
+      213: -117280966198383481
+    second: 05_Dano_105
+  - first:
+      213: 5878603841104587898
+    second: 05_Dano_106
+  - first:
+      213: -2364770005637290328
+    second: 05_Dano_107
+  - first:
+      213: 2720114152129439939
+    second: 05_Dano_108
+  - first:
+      213: -8425518721156032765
+    second: 05_Dano_109
+  - first:
+      213: 2318332006961217348
+    second: 05_Dano_110
+  - first:
+      213: -4587450588164692464
+    second: 05_Dano_111
+  - first:
+      213: -2278786620773218385
+    second: 05_Dano_112
+  - first:
+      213: 8580934520971190176
+    second: 05_Dano_113
+  - first:
+      213: 7028551143721000566
+    second: 05_Dano_114
+  - first:
+      213: -1635644533078761868
+    second: 05_Dano_115
+  - first:
+      213: 1365328205165009792
+    second: 05_Dano_116
+  - first:
+      213: 3470198637132181252
+    second: 05_Dano_117
+  - first:
+      213: -6873939623144212463
+    second: 05_Dano_118
+  - first:
+      213: -8144031384009425851
+    second: 05_Dano_119
+  - first:
+      213: 3357122443336883224
+    second: 05_Dano_120
+  - first:
+      213: -7438795564840849967
+    second: 05_Dano_121
+  - first:
+      213: -6193918453093296530
+    second: 05_Dano_122
+  - first:
+      213: 2038574764404093084
+    second: 05_Dano_123
+  - first:
+      213: 3553170312951324943
+    second: 05_Dano_124
+  - first:
+      213: -3435234586708246698
+    second: 05_Dano_125
+  - first:
+      213: 4819849199307780246
+    second: 05_Dano_126
+  - first:
+      213: 4223234452075630472
+    second: 05_Dano_127
+  - first:
+      213: 7180275172677930807
+    second: 05_Dano_128
+  - first:
+      213: -4044684610910748494
+    second: 05_Dano_129
+  - first:
+      213: -5234723911497116377
+    second: 05_Dano_130
+  - first:
+      213: -2030957258135658376
+    second: 05_Dano_131
+  - first:
+      213: 8824049885728864063
+    second: 05_Dano_132
+  - first:
+      213: 6561159597367884288
+    second: 05_Dano_133
+  - first:
+      213: -7500077843745066557
+    second: 05_Dano_134
+  - first:
+      213: -5139860154556273424
+    second: 05_Dano_135
+  - first:
+      213: 8233507074822510465
+    second: 05_Dano_136
+  - first:
+      213: 1690257314534143799
+    second: 05_Dano_137
+  - first:
+      213: 8347066987426740293
+    second: 05_Dano_138
+  - first:
+      213: -4626872108525363105
+    second: 05_Dano_139
+  - first:
+      213: -6460996540718999122
+    second: 05_Dano_140
+  - first:
+      213: -6790821156046284124
+    second: 05_Dano_141
+  - first:
+      213: 12533321051082350
+    second: 05_Dano_142
+  - first:
+      213: 5338089338525537186
+    second: 05_Dano_143
+  - first:
+      213: 3912109344415688677
+    second: 05_Dano_144
+  - first:
+      213: 7920724021865943556
+    second: 05_Dano_145
+  - first:
+      213: -2566167067551475626
+    second: 05_Dano_146
+  - first:
+      213: -7934570419666532180
+    second: 05_Dano_147
+  - first:
+      213: 3516961981038298548
+    second: 05_Dano_148
+  - first:
+      213: 9197308233071950831
+    second: 05_Dano_149
+  - first:
+      213: -3671519848123101400
+    second: 05_Dano_150
+  - first:
+      213: -9181881084246305460
+    second: 05_Dano_151
+  - first:
+      213: -944012975906266894
+    second: 05_Dano_152
+  - first:
+      213: 8567107707381247973
+    second: 05_Dano_153
+  - first:
+      213: 3674677687231763936
+    second: 05_Dano_154
+  - first:
+      213: 1359636627452679937
+    second: 05_Dano_155
+  - first:
+      213: -4075329375885809131
+    second: 05_Dano_156
+  - first:
+      213: -6846884446856834074
+    second: 05_Dano_157
+  - first:
+      213: -4353336884618663730
+    second: 05_Dano_158
+  - first:
+      213: -1137325001113961701
+    second: 05_Dano_159
+  - first:
+      213: 4540656090069244926
+    second: 05_Dano_160
+  - first:
+      213: 7903214074218216114
+    second: 05_Dano_161
+  - first:
+      213: 9198467012178993168
+    second: 05_Dano_162
+  - first:
+      213: 7936283232214806474
+    second: 05_Dano_163
+  - first:
+      213: 849018887108895238
+    second: 05_Dano_164
+  - first:
+      213: -5341878915554625906
+    second: 05_Dano_165
+  - first:
+      213: 1146859452053722825
+    second: 05_Dano_166
+  - first:
+      213: -1227439854775452560
+    second: 05_Dano_167
+  - first:
+      213: -7249091459860981057
+    second: 05_Dano_168
+  - first:
+      213: 6921221400790511372
+    second: 05_Dano_169
+  - first:
+      213: 1305051832607205293
+    second: 05_Dano_170
+  - first:
+      213: 8769937666875533616
+    second: 05_Dano_171
+  - first:
+      213: -3733077079645369495
+    second: 05_Dano_172
+  - first:
+      213: -9032922594149556008
+    second: 05_Dano_173
+  - first:
+      213: -2419271850639369040
+    second: 05_Dano_174
+  - first:
+      213: -4454426775796776223
+    second: 05_Dano_175
+  - first:
+      213: -5865566445628597143
+    second: 05_Dano_176
+  - first:
+      213: 4997049015267207012
+    second: 05_Dano_177
+  - first:
+      213: 1816513405175807285
+    second: 05_Dano_178
+  - first:
+      213: -5461054693476881967
+    second: 05_Dano_179
+  - first:
+      213: 2873284951195942629
+    second: 05_Dano_180
+  - first:
+      213: -8863440402880900262
+    second: 05_Dano_181
+  - first:
+      213: 7938021224699855696
+    second: 05_Dano_182
+  - first:
+      213: 5989783431811881778
+    second: 05_Dano_183
+  - first:
+      213: 8178865367912352625
+    second: 05_Dano_184
+  - first:
+      213: 2624541965666499096
+    second: 05_Dano_185
+  - first:
+      213: -8564965438115031879
+    second: 05_Dano_186
+  - first:
+      213: -6515327490652571627
+    second: 05_Dano_187
+  - first:
+      213: -3278418581469164141
+    second: 05_Dano_188
+  - first:
+      213: 6796106785966006875
+    second: 05_Dano_189
+  - first:
+      213: -3858394090407072042
+    second: 05_Dano_190
+  - first:
+      213: 8342416763856223850
+    second: 05_Dano_191
+  - first:
+      213: -936497536483601012
+    second: 05_Dano_192
+  - first:
+      213: -3648074329285012138
+    second: 05_Dano_193
+  - first:
+      213: 2528317267121768780
+    second: 05_Dano_194
+  - first:
+      213: 8481947594428139795
+    second: 05_Dano_195
+  - first:
+      213: 4058676351963911163
+    second: 05_Dano_196
+  - first:
+      213: 3600662139013319334
+    second: 05_Dano_197
+  - first:
+      213: -284803357422483167
+    second: 05_Dano_198
+  - first:
+      213: 5361933895900477876
+    second: 05_Dano_199
+  - first:
+      213: 7816264921422398496
+    second: 05_Dano_200
+  - first:
+      213: -199587824968195570
+    second: 05_Dano_201
+  - first:
+      213: -7871693178737498445
+    second: 05_Dano_202
+  - first:
+      213: -4895942356079620839
+    second: 05_Dano_203
+  - first:
+      213: -7260707737223184711
+    second: 05_Dano_204
+  - first:
+      213: -4590793338141339970
+    second: 05_Dano_205
+  - first:
+      213: 8616005322580894078
+    second: 05_Dano_206
+  - first:
+      213: 2503096916989903750
+    second: 05_Dano_207
+  - first:
+      213: -4342431581939356458
+    second: 05_Dano_208
+  - first:
+      213: 5625994551009946231
+    second: 05_Dano_209
+  - first:
+      213: 5415454466834265668
+    second: 05_Dano_210
+  - first:
+      213: 4614750500230783324
+    second: 05_Dano_211
+  - first:
+      213: 4510888833221478959
+    second: 05_Dano_212
+  - first:
+      213: -6124940787446360934
+    second: 05_Dano_213
+  - first:
+      213: 2833004869380160693
+    second: 05_Dano_214
+  - first:
+      213: 6208798947457743633
+    second: 05_Dano_215
+  - first:
+      213: -4713677687553248782
+    second: 05_Dano_216
+  - first:
+      213: 4263043780622959734
+    second: 05_Dano_217
+  - first:
+      213: -2463588805211870856
+    second: 05_Dano_218
+  - first:
+      213: 7266777757265879595
+    second: 05_Dano_219
+  - first:
+      213: 395142885583883915
+    second: 05_Dano_220
+  - first:
+      213: -2677294418255828997
+    second: 05_Dano_221
+  - first:
+      213: 3508558358043151852
+    second: 05_Dano_222
+  - first:
+      213: 780816164941589351
+    second: 05_Dano_223
+  - first:
+      213: 1601273289732248860
+    second: 05_Dano_224
+  - first:
+      213: 9098131677717717045
+    second: 05_Dano_225
+  - first:
+      213: -2788325360425790675
+    second: 05_Dano_226
+  - first:
+      213: -6532539821811233642
+    second: 05_Dano_227
+  - first:
+      213: 468740296003112918
+    second: 05_Dano_228
+  - first:
+      213: 6762128724489761658
+    second: 05_Dano_229
+  - first:
+      213: 1740796767831842815
+    second: 05_Dano_230
+  - first:
+      213: -6767278699188514498
+    second: 05_Dano_231
+  - first:
+      213: -4049060949524445958
+    second: 05_Dano_232
+  - first:
+      213: -6574390533408918241
+    second: 05_Dano_233
+  - first:
+      213: 1894702223677140934
+    second: 05_Dano_234
+  - first:
+      213: -6388882178771424400
+    second: 05_Dano_235
+  - first:
+      213: -1273879540524843562
+    second: 05_Dano_236
+  - first:
+      213: -8419757741457844126
+    second: 05_Dano_237
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 05_Dano_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 489
+        width: 162
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9711497a647a31f50800000000000000
+      internalID: 6851003380061704569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 439
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81763f879a71d3af0800000000000000
+      internalID: -415149574002088168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 602
+        width: 255
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f2faa5981024b40800000000000000
+      internalID: 5422898590751076195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 676
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee6d93de32d91b60800000000000000
+      internalID: 7717430603756170976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 612
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17813f10874ca2920800000000000000
+      internalID: 2966399324284721265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_5
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 676
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6855591d86c22f80800000000000000
+      internalID: -8132719667759982481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 604
+        width: 207
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f1c3f0c5158a0f0800000000000000
+      internalID: -1105544252685017298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_7
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 660
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95560d559c3e6020800000000000000
+      internalID: 2336871868860355996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 662
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc62d32751145b020800000000000000
+      internalID: 2356861540365051596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 628
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08da1b7d533866e40800000000000000
+      internalID: 5649347049858116992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_10
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 632
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1673148b29fb21510800000000000000
+      internalID: 1518486661254690657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_11
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 643
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874a01a3c92956350800000000000000
+      internalID: 6009370477482517624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_12
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 647
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61f0118654cb0340800000000000000
+      internalID: 4831170901096591722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_13
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 642
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098a8e53795f6a0a0800000000000000
+      internalID: -6870534151713806192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_14
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 620
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d2fbe83a12c9150800000000000000
+      internalID: 5880612199797304709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_15
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 626
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97300ba1d5beb1290800000000000000
+      internalID: -7918476734688656519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_16
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 555
+        width: 150
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc3e7773608bef50800000000000000
+      internalID: 6911759217825037500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_17
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 639
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490882d09fcf81480800000000000000
+      internalID: -8928108114664193900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_18
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 666
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd963b591d12a6140800000000000000
+      internalID: 4713617144040090075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_19
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 610
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888f065568fb334f0800000000000000
+      internalID: -850125320963950456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_20
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 527
+        width: 70
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50996e953e72f6fe0800000000000000
+      internalID: -1193691518810547963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_21
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 628
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c50aef7c46e6dc90800000000000000
+      internalID: -7145270542538766910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_22
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 618
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45487f29a416c59e0800000000000000
+      internalID: -1631321992093793196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_23
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 644
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d29771c7c8a8be0800000000000000
+      internalID: -1474211463412765296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_24
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 614
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfc6f1ad416aaf10800000000000000
+      internalID: 2281743147274260415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_25
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 569
+        width: 243
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6588323473a4fbb60800000000000000
+      internalID: 7764005883820083286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_26
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 630
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d666d69753d0dd0e0800000000000000
+      internalID: -2243622516038998419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_27
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 628
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a0956e9f6098f50800000000000000
+      internalID: 6884041175793732175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_28
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 676
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba8599d1d3c29ae0800000000000000
+      internalID: -1543956416168621392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_29
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 632
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9a13357c5a94fc0800000000000000
+      internalID: -3510092159045752324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_30
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 612
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd5683f119a37530800000000000000
+      internalID: 3851608000897113526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_31
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 677
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42449cb4bb16fa7a0800000000000000
+      internalID: -6363760291392961500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_32
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 650
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b441f6860f89820800000000000000
+      internalID: 2925352289308003078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_33
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 630
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15176211791315c0800000000000000
+      internalID: -4246022050249501411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_34
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 616
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fc0df3e1e036750800000000000000
+      internalID: 6296892227076542233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_35
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 656
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f13163ccbdaf0f0800000000000000
+      internalID: -1082311090302148834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_36
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 647
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f7fa7716861a020800000000000000
+      internalID: 2351275248293216133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_37
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 696
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334e59e4d76cdd1e0800000000000000
+      internalID: -2171361203831053261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_38
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 668
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce7d7ecfd995fec0800000000000000
+      internalID: -3533749146081198387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_39
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 662
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117397435a9c4e090800000000000000
+      internalID: -8006052526170753263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_40
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 626
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96132d9b364f82490800000000000000
+      internalID: -7770692447871291031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_41
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 549
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9975f861d0e98f8c0800000000000000
+      internalID: -3965245692849465447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_42
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 571
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33cbf469003cdc870800000000000000
+      internalID: 8704828062066261043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_43
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 560
+        width: 215
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66a9a08f6aa7b3b0800000000000000
+      internalID: -5496737424305707412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_44
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 646
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759262761daf8e250800000000000000
+      internalID: 5974300682992626007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_45
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 644
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaafe5058778d6110800000000000000
+      internalID: 1255808821920463530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_46
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 667
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea990dc9ac6e39a0800000000000000
+      internalID: -6251439756198438162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_47
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 592
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c518267f09dd540800000000000000
+      internalID: 5034339350654049434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_48
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 588
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f986185dceca2a0800000000000000
+      internalID: -6724739741827686631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_49
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 546
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09631a04751c0a8b0800000000000000
+      internalID: -5142898193966483824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_50
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 609
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4887fb2e20449b0d0800000000000000
+      internalID: -3406616863944247164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_51
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 670
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778a3f911d4e68d20800000000000000
+      internalID: 3280560965320681591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_52
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 604
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801d1ff85c031fd30800000000000000
+      internalID: 4463402330782552328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_53
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 629
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d8e3530f2a41f30800000000000000
+      internalID: 4545437076492815762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_54
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 697
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ea486f6cec061f0800000000000000
+      internalID: -1053614958869959087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_55
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 596
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5d96e9dd794aa30800000000000000
+      internalID: 4225669328481670628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_56
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 628
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817b5183365226020800000000000000
+      internalID: 2333468665004275480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_57
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 560
+        width: 255
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11e31282f4a88e00800000000000000
+      internalID: 1047268274835022108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_58
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 654
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7faebdf8db9678a0800000000000000
+      internalID: -6307682871813427331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_59
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 604
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb15ec75e6b41550800000000000000
+      internalID: 6130726089517243382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_60
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 628
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4038c998a6d8c30b0800000000000000
+      internalID: -5747563535716809980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_61
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 617
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fead17363861120800000000000000
+      internalID: 2384237515874430784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_62
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 612
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8839fa71bffe5f160800000000000000
+      internalID: 7058811852686332808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_63
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 596
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c82cc59482326680800000000000000
+      internalID: -8763386379879307064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_64
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 594
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0777c88453740690800000000000000
+      internalID: -7636852261204297972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_65
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 588
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42ec0acb72b5d100800000000000000
+      internalID: 132208008817861195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_66
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 549
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4ecde9f5317ed20800000000000000
+      internalID: 3307633752735016142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_67
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 594
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99dd8cf8d0dc7790800000000000000
+      internalID: -7530914846501643877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_68
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 559
+        width: 143
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb955dc5489f0a700800000000000000
+      internalID: 549713501427685823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_69
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 603
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b6b8698e486aab0800000000000000
+      internalID: -4997160602027988220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_70
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 614
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd89c758c369d59f0800000000000000
+      internalID: -478060798749665060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_71
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 694
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de03261781874c60800000000000000
+      internalID: 7802347296634638037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_72
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 602
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f915967e4617ac0800000000000000
+      internalID: -3859192460612624612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_73
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 612
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34fad6603bd7b200800000000000000
+      internalID: 195866109744444474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_74
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 559
+        width: 149
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8b904ee53ece240800000000000000
+      internalID: 4822479297699231954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_75
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 620
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1895560e4e866b670800000000000000
+      internalID: 8554139874463406465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_76
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 626
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9d17e31c9295130800000000000000
+      internalID: 3555919290738792939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_77
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 698
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d760bf25a31397780800000000000000
+      internalID: -8684856279837243779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_78
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 612
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6624a09ec0f96e7e0800000000000000
+      internalID: -1736525728506559898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_79
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 566
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2620a6e987e2100800000000000000
+      internalID: 85138064745325251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_80
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 551
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe09ffdc2ca678c0800000000000000
+      internalID: -4001821910135927046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_81
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 571
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86fda496e9a32220800000000000000
+      internalID: 2459996629276423818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_82
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 569
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ebeced698bd56b0800000000000000
+      internalID: -5305881827849879916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_83
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 582
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17859747c5089d9a0800000000000000
+      internalID: -6207789476774061967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_84
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 574
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50113d3a938554b10800000000000000
+      internalID: 1965073817001988357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_85
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 584
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4fa8440367fd8e0800000000000000
+      internalID: -1666483387423329083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_86
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 584
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ce2b0f8e97c4700800000000000000
+      internalID: 525929297873136727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_87
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 579
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25392108db47109f0800000000000000
+      internalID: -503993326042442926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_88
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 580
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07dbc1e650e6aab00800000000000000
+      internalID: 840605250059287920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_89
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 578
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192fccfda7673d8d0800000000000000
+      internalID: -2822782271318330735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_90
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 569
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267484de5ff3b3de0800000000000000
+      internalID: -1352416937614227614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_91
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 562
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e6c423714f07240800000000000000
+      internalID: 4787594784360132185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_92
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 558
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a28bcd5aca1f3da0800000000000000
+      internalID: -5963017925155913055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_93
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 571
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff327711b202df5b0800000000000000
+      internalID: -5333071014388096001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_94
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 569
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaee265dd214be70800000000000000
+      internalID: 9129943086429825754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_95
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 574
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3211bb3861fed300800000000000000
+      internalID: 278925656923902522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_96
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 570
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66e871558315cb00800000000000000
+      internalID: 848105568147662442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_97
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 557
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc80bf38ea5eda190800000000000000
+      internalID: -7949445229537720117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_98
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 558
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c3451dfaeb5b5f0800000000000000
+      internalID: -741476901292065743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_99
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 23
+        width: 453
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2cfe645e75ab130800000000000000
+      internalID: 3583273095775896258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_100
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 538
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7573a84671f406420800000000000000
+      internalID: 2621181945019250519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_101
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 547
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e441dbdab74831c0800000000000000
+      internalID: -4523786957816249115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_102
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 0
+        width: 897
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac83bfaa72818fb0800000000000000
+      internalID: -4647289877024240471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_103
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 555
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5435c886ad457eb0800000000000000
+      internalID: -4722783256573561765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_104
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 537
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6f088769fa155e0800000000000000
+      internalID: -1922562505108818254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_105
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 543
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ca4d625955f5ef0800000000000000
+      internalID: -117280966198383481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_106
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 559
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c294c1c0ff49150800000000000000
+      internalID: 5878603841104587898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_107
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 526
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6ad7e7536ae2fd0800000000000000
+      internalID: -2364770005637290328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_108
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 557
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8203ad869cfb520800000000000000
+      internalID: 2720114152129439939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_109
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 555
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30757190d5b821b80800000000000000
+      internalID: -8425518721156032765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_110
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 303
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f77526dae5c2020800000000000000
+      internalID: 2318332006961217348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_111
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 307
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01669c3def91650c0800000000000000
+      internalID: -4587450588164692464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_112
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 303
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa746e554af1060e0800000000000000
+      internalID: -2278786620773218385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_113
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 297
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0afdf5bab7a951770800000000000000
+      internalID: 8580934520971190176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_114
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 321
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ed72fb60e6a8160800000000000000
+      internalID: 7028551143721000566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_115
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 284
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ed70396f50d49e0800000000000000
+      internalID: -1635644533078761868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_116
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 293
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b9eaec4ce92f210800000000000000
+      internalID: 1365328205165009792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_117
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 321
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fee4a464f982030800000000000000
+      internalID: 3470198637132181252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_118
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 311
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118b10b155cda90a0800000000000000
+      internalID: -6873939623144212463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_119
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 321
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c3c7cea969afe80800000000000000
+      internalID: -8144031384009425851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_120
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 316
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c169e4315e69e20800000000000000
+      internalID: 3357122443336883224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_121
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 311
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dde8e0a8d614c890800000000000000
+      internalID: -7438795564840849967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_122
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 313
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6613a3dbf7ca0aa0800000000000000
+      internalID: -6193918453093296530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_123
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 305
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90b16882f87a4c10800000000000000
+      internalID: 2038574764404093084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_124
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 299
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f016de9f2956f4130800000000000000
+      internalID: 3553170312951324943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_125
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 301
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f7e1318589350d0800000000000000
+      internalID: -3435234586708246698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_126
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 321
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690f0b36f4b83e240800000000000000
+      internalID: 4819849199307780246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_127
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 307
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fc827cb51fb9a30800000000000000
+      internalID: 4223234452075630472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_128
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 309
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f46011a3675a360800000000000000
+      internalID: 7180275172677930807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_129
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 305
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b00d2aa6c46ed7c0800000000000000
+      internalID: -4044684610910748494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_130
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 309
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72598f556568a57b0800000000000000
+      internalID: -5234723911497116377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_131
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 307
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870a2da522790d3e0800000000000000
+      internalID: -2030957258135658376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_132
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 291
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37f1378e92557a70800000000000000
+      internalID: 8824049885728864063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_133
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 297
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00af1cb24ebed0b50800000000000000
+      internalID: 6561159597367884288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_134
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 305
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c13ccf20fe5ae790800000000000000
+      internalID: -7500077843745066557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_135
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 305
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc2d7ceb6c8ba8b0800000000000000
+      internalID: -5139860154556273424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_136
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 309
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1871672cf0b434270800000000000000
+      internalID: 8233507074822510465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_137
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 289
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73730db7210057710800000000000000
+      internalID: 1690257314534143799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_138
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 289
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548f5fd433db6d370800000000000000
+      internalID: 8347066987426740293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_139
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 273
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50ee2ed45c0acfb0800000000000000
+      internalID: -4626872108525363105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_140
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 291
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea99a67c0ede556a0800000000000000
+      internalID: -6460996540718999122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_141
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 281
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa57ac432822c1a0800000000000000
+      internalID: -6790821156046284124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_142
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 287
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e0b153df68c2000800000000000000
+      internalID: 12533321051082350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_143
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 297
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a35d1298f3b41a40800000000000000
+      internalID: 5338089338525537186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_144
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 284
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e72264b8ba9a4630800000000000000
+      internalID: 3912109344415688677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_145
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 273
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402193738801ced60800000000000000
+      internalID: 7920724021865943556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_146
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 252
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658d940f5a4236cd0800000000000000
+      internalID: -2566167067551475626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_147
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 267
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca844721e3eb2e190800000000000000
+      internalID: -7934570419666532180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_148
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 274
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b58750c942cec030800000000000000
+      internalID: 3516961981038298548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_149
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 269
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb770acb1763af70800000000000000
+      internalID: 9197308233071950831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_150
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 285
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f83d296242c0dc0800000000000000
+      internalID: -3671519848123101400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_151
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 289
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45de933dc7639080800000000000000
+      internalID: -9181881084246305460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_152
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 253
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f06fb3333136e2f0800000000000000
+      internalID: -944012975906266894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_153
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 274
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef68f2c11b74e670800000000000000
+      internalID: 8567107707381247973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_154
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 270
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5d08323e31ff230800000000000000
+      internalID: 3674677687231763936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_155
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 265
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1075dea1f466ed210800000000000000
+      internalID: 1359636627452679937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_156
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 275
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51aac9f46858177c0800000000000000
+      internalID: -4075329375885809131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_157
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 269
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e393f63fdafaf0a0800000000000000
+      internalID: -6846884446856834074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_158
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 273
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8e2bc1b27d593c0800000000000000
+      internalID: -4353336884618663730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_159
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 267
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b7e62ffe86730f0800000000000000
+      internalID: -1137325001113961701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_160
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 270
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb9acf08a6a30f30800000000000000
+      internalID: 4540656090069244926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_161
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 276
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2baf4a5d35bddad60800000000000000
+      internalID: 7903214074218216114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_162
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 271
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010e313130587af70800000000000000
+      internalID: 9198467012178993168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_163
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 259
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf6d0d2d87532e60800000000000000
+      internalID: 7936283232214806474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_164
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 259
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60229b5fd2258cb00800000000000000
+      internalID: 849018887108895238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 249
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86b735cd65ddd5b0800000000000000
+      internalID: -5341878915554625906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_166
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 257
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c616f668967aef00800000000000000
+      internalID: 1146859452053722825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_167
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 267
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cb3f094f147fee0800000000000000
+      internalID: -1227439854775452560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_168
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 259
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba1bae79bd066b90800000000000000
+      internalID: -7249091459860981057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_169
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 265
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f23fd913e1d0060800000000000000
+      internalID: 6921221400790511372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_170
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 257
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da766003ab97c1210800000000000000
+      internalID: 1305051832607205293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_171
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 257
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0392f68c7d315b970800000000000000
+      internalID: 8769937666875533616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_172
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 257
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bc59cbc22713cc0800000000000000
+      internalID: -3733077079645369495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_173
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 259
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0ad1452cc94a280800000000000000
+      internalID: -9032922594149556008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_174
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 261
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bcd987d1150d6ed0800000000000000
+      internalID: -2419271850639369040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_175
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 241
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e205aea272be22c0800000000000000
+      internalID: -4454426775796776223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_176
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 243
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c5bd11562599ea0800000000000000
+      internalID: -5865566445628597143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_177
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 248
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467a7389a95195540800000000000000
+      internalID: 4997049015267207012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_178
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 259
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d3d35515d853910800000000000000
+      internalID: 1816513405175807285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_179
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 243
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9a450b0bf6634b0800000000000000
+      internalID: -5461054693476881967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_180
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 251
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee72869075ffd720800000000000000
+      internalID: 2873284951195942629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_181
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 241
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5350720aebbef480800000000000000
+      internalID: -8863440402880900262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_182
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 249
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0530fb51f34892e60800000000000000
+      internalID: 7938021224699855696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_183
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 209
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23bdaa6cb4cff1350800000000000000
+      internalID: 5989783431811881778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_184
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 207
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b0928f7ba218170800000000000000
+      internalID: 8178865367912352625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_185
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 207
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a38a9230f3c6420800000000000000
+      internalID: 2624541965666499096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_186
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 232
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4d7ab2051232980800000000000000
+      internalID: -8564965438115031879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_187
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 242
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518f05cba28e495a0800000000000000
+      internalID: -6515327490652571627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_188
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 225
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d8d728ba7b082d0800000000000000
+      internalID: -3278418581469164141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_189
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 209
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5220215d1f905e50800000000000000
+      internalID: 6796106785966006875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_190
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 217
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dee1d5740b347ac0800000000000000
+      internalID: -3858394090407072042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_191
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 217
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ef9e1c8d736c370800000000000000
+      internalID: 8342416763856223850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_192
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 209
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85dddcc374e003f0800000000000000
+      internalID: -936497536483601012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_193
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 211
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655deb0d9bf6f5dc0800000000000000
+      internalID: -3648074329285012138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_194
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 223
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49874aa823661320800000000000000
+      internalID: 2528317267121768780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_195
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 224
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3194e59d56ee5b570800000000000000
+      internalID: 8481947594428139795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_196
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 225
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3561963a0535830800000000000000
+      internalID: 4058676351963911163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_197
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 215
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa4618632f18f130800000000000000
+      internalID: 3600662139013319334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_198
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 209
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1298ef9fadc2c0cf0800000000000000
+      internalID: -284803357422483167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_199
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 225
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b93646387a696a40800000000000000
+      internalID: 5361933895900477876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_200
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 211
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0248abf9883f87c60800000000000000
+      internalID: 7816264921422398496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_201
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 211
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02274f3eebea3df0800000000000000
+      internalID: -199587824968195570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_202
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 207
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b66c7c82c022c290800000000000000
+      internalID: -7871693178737498445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_203
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 192
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dc511fd5e1e0cb0800000000000000
+      internalID: -4895942356079620839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_204
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 204
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9beb1e828c8cc3b90800000000000000
+      internalID: -7260707737223184711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_205
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 215
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe0bd238c93a40c0800000000000000
+      internalID: -4590793338141339970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_206
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 209
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e712f4bf033329770800000000000000
+      internalID: 8616005322580894078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_207
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 174
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6830f8f4269ccb220800000000000000
+      internalID: 2503096916989903750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_208
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 194
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc2111cb759cb3c0800000000000000
+      internalID: -4342431581939356458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_209
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 192
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a2b318c3c831e40800000000000000
+      internalID: 5625994551009946231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_210
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 196
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44675f0352f872b40800000000000000
+      internalID: 5415454466834265668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_211
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 196
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51ef454123ea0040800000000000000
+      internalID: 4614750500230783324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_212
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 192
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a417d7e75e99e30800000000000000
+      internalID: 4510888833221478959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_213
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 192
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9455fd1ec6dffaa0800000000000000
+      internalID: -6124940787446360934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_214
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 190
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc3b563bead05720800000000000000
+      internalID: 2833004869380160693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_215
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 142
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bb9014fb51a2650800000000000000
+      internalID: 6208798947457743633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_216
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 198
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f134b70e17a59eb0800000000000000
+      internalID: -4713677687553248782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_217
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 192
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67448fd5bbf592b30800000000000000
+      internalID: 4263043780622959734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_218
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 198
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879a7b8c8039fcdd0800000000000000
+      internalID: -2463588805211870856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_219
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 160
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22ea838ed7c8d460800000000000000
+      internalID: 7266777757265879595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_220
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 168
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e00c26c54db7500800000000000000
+      internalID: 395142885583883915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_221
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 184
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7a9b859e658dad0800000000000000
+      internalID: -2677294418255828997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_222
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 162
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedc3eccc37e0b030800000000000000
+      internalID: 3508558358043151852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_223
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 176
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76be9324a2406da00800000000000000
+      internalID: 780816164941589351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_224
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 173
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15dfc6b29dd83610800000000000000
+      internalID: 1601273289732248860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_225
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 175
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530e7129e8e034e70800000000000000
+      internalID: 9098131677717717045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_226
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 176
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d239b9d9bd0ed49d0800000000000000
+      internalID: -2788325360425790675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_227
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 174
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c09d794a1c755a0800000000000000
+      internalID: -6532539821811233642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_228
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 162
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df4d23d0dc418600800000000000000
+      internalID: 468740296003112918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_229
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 162
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a737da46f38e7dd50800000000000000
+      internalID: 6762128724489761658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_230
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 166
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffd3ccef6d882810800000000000000
+      internalID: 1740796767831842815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_231
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 166
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e311dcea0ebc512a0800000000000000
+      internalID: -6767278699188514498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_232
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 163
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af480bde488dec7c0800000000000000
+      internalID: -4049060949524445958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_233
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 165
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15787974a213c4a0800000000000000
+      internalID: -6574390533408918241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_234
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 162
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf2b6542a55b4a10800000000000000
+      internalID: 1894702223677140934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_235
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 162
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b618612812657a0800000000000000
+      internalID: -6388882178771424400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_236
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 162
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddf064ae45425ee0800000000000000
+      internalID: -1273879540524843562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05_Dano_237
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 53
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2685f85a1f2072b80800000000000000
+      internalID: -8419757741457844126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_m_arctic_fat_0: 3172403105688080135
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

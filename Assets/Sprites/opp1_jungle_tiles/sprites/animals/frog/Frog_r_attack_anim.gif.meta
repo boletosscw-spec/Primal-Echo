@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Frog_r_attack_anim_0: 4995455653713632920
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
