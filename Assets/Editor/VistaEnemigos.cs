@@ -118,9 +118,10 @@ namespace PrimalEcho.Editor
                         go.AddComponent<SoloVistaEditor>();
                         var sr = go.AddComponent<SpriteRenderer>();
                         sr.sprite = rex; sr.sortingOrder = 5;
+                        go.transform.position = pos;
                         changed = true;
                     }
-                    if (go.transform.position != pos) { go.transform.position = pos; changed = true; }
+                    // Solo se coloca al crearlo: después lo mueves tú y el jefe aparece donde lo dejes
                 }
             }
 

@@ -185,7 +185,8 @@ namespace PrimalEcho.Editor
             bool hasCave = lab
                 ? maskOk && grid != null && grid.transform.Find(LabVersion) != null
                 : maskOk && group != null && group.Find("Cueva_Lejos") != null && group.GetComponent<CaveAmbience>() != null;
-            bool treesChanged = SetupJungleParticles() | SetupHollowCamera() | SetupLabKey(map);
+            bool treesChanged = SetupJungleParticles() | SetupHollowCamera() | SetupLabKey(map) | ThinEnemies(scene);
+            if (lab && grid != null) treesChanged |= SetupNemesisFinale(scene, grid.transform);
             if (grid != null && grid.transform.Find(TreesVersion) == null)
             {
                 PlantTrees(map, grid.transform, bg);
@@ -912,6 +913,88 @@ namespace PrimalEcho.Editor
         }
         // Pieza del tileset por columna y fila (la hoja es de 10 columnas; las piezas son de 32x32)
         private static Tile Lab(int col, int row) => LabTile($"{LabPieces}/tile{row * 10 + col:000}.png", $"lab_{row * 10 + col:000}");
+
+        // Menos enemigos (una sola vez por nivel): fuera las plantas carnívoras (en el juego ya no salían)
+        // y uno de cada dos robots y voladores, de izquierda a derecha.
+        private static bool ThinEnemies(Scene scene)
+        {
+            if (FindInScene(scene, "Menos_Enemigos_v1") != null) return false;
+            var roots = scene.GetRootGameObjects();
+            var robots = roots.SelectMany(r => r.GetComponentsInChildren<RobotPatrol>(true)).OrderBy(e => e.transform.position.x).ToList();
+            var wasps = roots.SelectMany(r => r.GetComponentsInChildren<WaspFlyer>(true)).OrderBy(e => e.transform.position.x).ToList();
+            var plants = roots.SelectMany(r => r.GetComponentsInChildren<CarnivorousPlant>(true)).ToList();
+            if (robots.Count + wasps.Count + plants.Count == 0) return false;
+            int removed = plants.Count;
+            foreach (var plant in plants) Object.DestroyImmediate(plant.gameObject);
+            for (int i = 1; i < robots.Count; i += 2) { Object.DestroyImmediate(robots[i].gameObject); removed++; }
+            for (int i = 1; i < wasps.Count; i += 2) { Object.DestroyImmediate(wasps[i].gameObject); removed++; }
+            var marker = new GameObject("Menos_Enemigos_v1");
+            var parent = FindInScene(scene, "Jugabilidad");
+            if (parent != null) marker.transform.SetParent(parent.transform, false); else SceneManager.MoveGameObjectToScene(marker, scene);
+            Debug.Log($"[Primal Echo] {scene.name}: se quitaron {removed} enemigos (quedan {(robots.Count + 1) / 2} exploradores y {(wasps.Count + 1) / 2} voladores).");
+            return true;
+        }
+
+        // Final del Nivel 2 (una sola vez): el Rex pelea solo, sin escalones elevados en su zona,
+        // y en la meta está NÉMESIS, la IA revelada: una computadora.
+        private static bool SetupNemesisFinale(Scene scene, Transform grid)
+        {
+            if (grid.Find("Final_Nemesis_v1") != null) return false;
+            var solid = grid.Find("mapa")?.GetComponent<Tilemap>();
+            var branches = grid.Find("Ramas_Un_Sentido")?.GetComponent<Tilemap>();
+            var goal = scene.GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<LevelGoal>(true)).FirstOrDefault();
+            if (solid == null || goal == null) return false;
+            Vector3 g = goal.transform.position;
+            var rexMarker = FindInScene(scene, "Vista_Centinela_Rex");
+            Vector3 rex = rexMarker != null ? rexMarker.transform.position : new Vector3(g.x - 9f, g.y - 1.5f, 0f);
+            int fromX = Mathf.Min(Mathf.FloorToInt(Mathf.Min(rex.x, g.x)) - 50, 320); // desde la sala del jefe hasta el final
+
+            // 1) Escalones elevados del tramo final: se quitan los que tienen piso debajo.
+            //    Los que cruzan un vacío se dejan (sin ellos no se podría pasar).
+            int removedSteps = 0, keptSteps = 0;
+            if (branches != null)
+            {
+                branches.CompressBounds();
+                foreach (var pos in branches.cellBounds.allPositionsWithin)
+                {
+                    if (pos.x < fromX || !branches.HasTile(pos)) continue;
+                    bool floor = false;
+                    for (int y = pos.y - 1; y >= 0 && !floor; y--) floor = solid.HasTile(new Vector3Int(pos.x, y, 0));
+                    if (floor) { branches.SetTile(pos, null); removedSteps++; } else keptSteps++;
+                }
+            }
+
+            // 2) El Rex solo: fuera los enemigos de su zona
+            int removedEnemies = 0;
+            foreach (var enemy in scene.GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<EnemyHealth>(true)).ToList())
+            {
+                Vector3 p = enemy.transform.position;
+                if (Mathf.Abs(p.x - rex.x) < 26f && Mathf.Abs(p.y - rex.y) < 9f) { Object.DestroyImmediate(enemy.gameObject); removedEnemies++; }
+            }
+
+            // 3) NÉMESIS en la meta
+            var sprite = LoadKitSprite("Assets/Sprites/Laboratorio/Nemesis.png");
+            if (sprite != null && FindInScene(scene, "Nemesis_Computadora") == null)
+            {
+                var pc = new GameObject("Nemesis_Computadora");
+                var parent = FindInScene(scene, "Jugabilidad");
+                if (parent != null) pc.transform.SetParent(parent.transform);
+                const float scale = 2f; // 3x3 unidades → 6x6
+                pc.transform.position = new Vector3(g.x + 1.5f, g.y - 1.5f + 1.5f * scale, 0f);
+                pc.transform.localScale = new Vector3(scale, scale, 1f);
+                var sr = pc.AddComponent<SpriteRenderer>();
+                sr.sprite = sprite; sr.sortingOrder = 2;
+                var eye = Light(pc.transform, "Ojo", pc.transform.position, new Color(1f, 0.2f, 0.2f), 1.6f, 7f);
+                eye.transform.localPosition = new Vector3(0f, 0.4f, 0f);
+            }
+            SetField(goal, "levelTitle", "NÉMESIS REVELADA");
+            SetField(goal, "levelSubtitle", "La IA que despertó al mundo es una computadora · Fin de la demo");
+            EditorUtility.SetDirty(goal);
+
+            new GameObject("Final_Nemesis_v1").transform.SetParent(grid, false);
+            Debug.Log($"[Primal Echo] Final del Nivel 2: {removedSteps} bloques de escalones quitados ({keptSteps} se dejaron porque cruzan un vacío), {removedEnemies} enemigos quitados de la zona del Rex, NÉMESIS colocada en la meta.");
+            return true;
+        }
 
         // Llave de la base: se recoge en el Nivel 1, en el camino justo antes de la meta (no se puede saltar).
         private static bool SetupLabKey(Map m)

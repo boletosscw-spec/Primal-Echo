@@ -95,14 +95,20 @@ namespace PrimalEcho
 
             Vector2 g = levelGoal.transform.position;
             Vector2 spot = new Vector2(g.x - 9f, g.y - 1.5f);
+            // Si en la escena está el marcador "Vista_Centinela_Rex", el jefe aparece donde lo hayas puesto
+            if (SoloVistaEditor.RexSpot.HasValue && SoloVistaEditor.RexScene == SceneManager.GetActiveScene().name)
+                spot = SoloVistaEditor.RexSpot.Value;
             var hit = Physics2D.Raycast(spot + Vector2.up * 2.5f, Vector2.down, 12f, 1 << TerrainLayer);
             if (hit.collider != null) spot = hit.point;
 
             foreach (var enemy in FindObjectsByType<EnemyHealth>(FindObjectsInactive.Include, FindObjectsSortMode.None))
             {
                 Vector2 p = enemy.transform.position;
-                if (Mathf.Abs(p.x - spot.x) < 16f && Mathf.Abs(p.y - spot.y) < 6f) Destroy(enemy.gameObject);
+                if (Mathf.Abs(p.x - spot.x) < 26f && Mathf.Abs(p.y - spot.y) < 9f) Destroy(enemy.gameObject);
             }
+            // El jefe pelea solo: si su sala era una emboscada, se desactiva (sin compuertas ni enemigos extra)
+            foreach (var arena in FindObjectsByType<ArenaLock>(FindObjectsInactive.Include, FindObjectsSortMode.None))
+                if (Mathf.Abs(arena.transform.position.x - spot.x) < 30f) Destroy(arena.gameObject);
 
             var go = new GameObject("Centinela_Rex");
             go.transform.position = new Vector3(spot.x, spot.y + 0.02f, 0f);
