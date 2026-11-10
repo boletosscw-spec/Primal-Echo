@@ -312,7 +312,7 @@ namespace PrimalEcho.Editor
 
         private static Dictionary<string, Tile> tiles;
         private static Tile T(string name) => tiles.TryGetValue(name, out var t) ? t : null;
-        private const string SolidTilesFolder = "Assets/Tiles/Niveles_Solidos";
+        private const string SolidTilesFolder = "Assets/Tiles/NivelesSolidos";
         private static readonly Dictionary<Tile, Tile> gridTiles = new Dictionary<Tile, Tile>();
 
         // Copia del tile con colisión de cuadro completo: suelo plano y paredes rectas (como Hollow Knight).
@@ -321,7 +321,7 @@ namespace PrimalEcho.Editor
         {
             if (source == null) return null;
             if (gridTiles.TryGetValue(source, out var cached) && cached != null) return cached;
-            if (!AssetDatabase.IsValidFolder(SolidTilesFolder)) AssetDatabase.CreateFolder("Assets/Tiles", "Niveles_Solidos");
+            if (!AssetDatabase.IsValidFolder(SolidTilesFolder)) AssetDatabase.CreateFolder("Assets/Tiles", "NivelesSolidos");
             string path = $"{SolidTilesFolder}/{source.name}.asset";
             var tile = AssetDatabase.LoadAssetAtPath<Tile>(path);
             if (tile == null)
@@ -729,7 +729,7 @@ namespace PrimalEcho.Editor
         }
 
         // ───────────── Fondo parallax de cueva ─────────────
-        private const string CaveArt = "Assets/Sprites/Fondos_Cueva";
+        private const string CaveArt = "Assets/Sprites/FondosCueva";
 
         private static void SetupCaveBackdrop(Map m, Tilemap bg)
         {

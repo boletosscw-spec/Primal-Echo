@@ -1,5 +1,0 @@
-Primal Echo - Centinela Rex
-
-Incluye 9 hojas PNG de animaciones: reposo, caminar, correr, mordida, daño, muerte, gruñido/aviso, embestida y coletazo.
-
-Son hojas de sprites completas; no se afirma que los fotogramas estén recortados de manera individual o perfectamente alineados.

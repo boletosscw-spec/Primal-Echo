@@ -24,9 +24,9 @@ namespace PrimalEcho.Editor
         private const string SkyArt = "Assets/Sprites/Environment/Backgrounds/HorizonteUrbano.png";
         private const string CityArt = "Assets/Sprites/Environment/Backgrounds/BarrioEnRuinas.png";
         private const string TowerArt = "Assets/Sprites/Environment/Backgrounds/TorreDeLasRaices.png";
-        private const string ValleyArt = "Assets/Sprites/background/Valle de Ruinas y Cascadas al Atardecer.png";
-        private const string ClearingArt = "Assets/Sprites/background/fondo.png";
-        private const string KiroSheet = "Assets/Sprites/Personajes/Kael_Primal_Echo_Animaciones_Finales/03_Acciones/Kael_Reparar_Kiro_Reactivacion_06frames.png";
+        private const string ValleyArt = "Assets/Sprites/Fondos/Valle de Ruinas y Cascadas al Atardecer.png";
+        private const string ClearingArt = "Assets/Sprites/Fondos/fondo.png";
+        private const string KiroSheet = "Assets/Sprites/Personajes/KaelAnimaciones/Acciones/Kael_Reparar_Kiro_Reactivacion_06frames.png";
         private const string KiroAnim = "Assets/Animations/Kael/Kael_Reparar_Kiro.anim";
         private const string EnemySprites = "Assets/Sprites/Enemigos";
 

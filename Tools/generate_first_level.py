@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path("/home/loq-cris/Proyectos/Monster Adventure/Primal 1.1")
 SCENE_PATH = ROOT / "Assets/Scenes/SampleScene.unity"
-MAPA_PREFAB = ROOT / "Assets/Tiles/Tiles1/mapa.prefab"
+MAPA_PREFAB = ROOT / "Assets/Tiles/Paleta/mapa.prefab"
 
 def get_guid(meta_path):
     if not os.path.exists(meta_path):
@@ -69,7 +69,7 @@ GUID_POINTER1 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Pointers_1.png
 GUID_BOX1 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Boxes_1.png.meta")
 
 # Player GUIDs & Spritesheets (Transparentes Mejorados)
-TRANSPARENT_SPRITES_DIR = ROOT / "Assets/Sprites/Personajes/Kael_Primal_Echo_Sprites_Mejorados/Spritesheets_Transparentes"
+TRANSPARENT_SPRITES_DIR = ROOT / "Assets/Sprites/Personajes/KaelSprites/HojasTransparentes"
 
 def load_meta_sprite_info(meta_path):
     text = meta_path.read_text()

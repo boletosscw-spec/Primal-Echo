@@ -12,9 +12,9 @@ namespace PrimalEcho.Editor
     [InitializeOnLoad]
     public static class JungleTilePaletteImporter
     {
-        private const string JungleSourceFolder = "Assets/Sprites/opp1_jungle_tiles/environment/tiles/jungle";
+        private const string JungleSourceFolder = "Assets/Sprites/JungleTiles/environment/tiles/jungle";
         private const string JungleTilesAssetFolder = "Assets/Tiles/Jungle";
-        private const string MainPalettePrefabPath = "Assets/Tiles/Tiles1/mapa.prefab";
+        private const string MainPalettePrefabPath = "Assets/Tiles/Paleta/mapa.prefab";
         private const string JunglePalettePrefabPath = "Assets/Tiles/Jungle/Jungle_Palette.prefab";
         private const string AutoImportKey = "PrimalEcho_JunglePalette_Imported_v6_KingsPass";
         private const int CellSizePx = 32;

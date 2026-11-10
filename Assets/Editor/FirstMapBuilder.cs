@@ -121,7 +121,7 @@ namespace PrimalEcho.Editor
         {
             string[] folders = new string[]
             {
-                "Assets/Sprites/background",
+                "Assets/Sprites/Fondos",
                 "Assets/Sprites/Environment/Backgrounds",
                 "Assets/Sprites/Environment/Props",
                 "Assets/Sprites/Environment/Relics"
@@ -259,7 +259,7 @@ namespace PrimalEcho.Editor
             TileBase[] tiles = new TileBase[240];
             for (int i = 0; i < 224; i++)
             {
-                string path = $"Assets/Tiles/Tiles1/Tileset_{i}.asset";
+                string path = $"Assets/Tiles/Paleta/Tileset_{i}.asset";
                 tiles[i] = AssetDatabase.LoadAssetAtPath<TileBase>(path);
             }
             return tiles;
@@ -479,7 +479,7 @@ namespace PrimalEcho.Editor
             // Ajustado exactamente al ancho y límite superior de la cámara (sin sobresalir por arriba ni por debajo del suelo)
             CreateBgLayer(
                 bgGroup.transform,
-                "Assets/Sprites/background/fondo.png",
+                "Assets/Sprites/Fondos/fondo.png",
                 "01_Panorama_Valle",
                 new Vector3(cx, cy + 0.8f, 30f),
                 new Vector2(0.92f, 1.0f),
@@ -769,7 +769,7 @@ namespace PrimalEcho.Editor
 
         private static void ApplyKaelTransparentSprites(PlayerController pc)
         {
-            const string baseDir = "Assets/Sprites/Personajes/Kael_Primal_Echo_Animaciones_Finales/";
+            const string baseDir = "Assets/Sprites/Personajes/KaelAnimaciones/";
             Sprite[] idle = LoadSpriteFrames(baseDir + "01_Movimiento/Kael_Idle_06frames.png", "Kael_Idle");
             Sprite[] run = LoadSpriteFrames(baseDir + "01_Movimiento/Kael_Correr_08frames.png", "Kael_Correr");
             Sprite[] jumpRising = LoadSpriteFrames(baseDir + "01_Movimiento/Kael_Salto_03frames.png", "Kael_Salto");

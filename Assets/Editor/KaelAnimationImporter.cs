@@ -17,7 +17,7 @@ namespace PrimalEcho.Editor
         public const float DEFAULT_FPS = 10f;
         public const float PROJECT_PPU = 270f;
 
-        private const string BASE_FOLDER = "Assets/Sprites/Personajes/Kael_Primal_Echo_Animaciones_Finales";
+        private const string BASE_FOLDER = "Assets/Sprites/Personajes/KaelAnimaciones";
         private const string INVENTORY_PATH = BASE_FOLDER + "/inventario.json";
         private const string ANIM_OUTPUT_FOLDER = "Assets/Animations/Kael";
         private const string CONTROLLER_PATH = ANIM_OUTPUT_FOLDER + "/Kael.controller";

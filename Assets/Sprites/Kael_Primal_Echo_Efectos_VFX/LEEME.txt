@@ -1,8 +1,0 @@
-Pack de efectos VFX para Kael - Primal Echo
-
-Contenido:
-- Movimiento: polvo de pasos/correr, salto, aterrizaje y deslizamiento/rodada.
-- Combate: embestida de lanza, disparo de flecha, impacto general, impacto tecnológico y choque de bloqueo.
-- Kiro: activación/reparación.
-
-Nota: estas hojas son las versiones finales seleccionadas del pack de efectos.

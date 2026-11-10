@@ -166,7 +166,7 @@ namespace PrimalEcho
 
         public void EnsureEditorSpritesLoaded()
         {
-            const string basePath = "Assets/Sprites/Personajes/Kael_Primal_Echo_Sprites_Mejorados/Spritesheets_Transparentes/";
+            const string basePath = "Assets/Sprites/Personajes/KaelSprites/HojasTransparentes/";
 
             if (idleSprites == null || idleSprites.Length == 0)
                 idleSprites = LoadSpritesFromSheet(basePath + "KaelIdle_Transparente.png", "KaelIdle_Transparente", 40);
