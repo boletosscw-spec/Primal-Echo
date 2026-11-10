@@ -41,3 +41,7 @@ sysinfo.txt
 crashlytics-build.properties
 __pycache__/
 .DS_Store
+
+# Archivos fuente de arte (AI/EPS), muy pesados
+/ArteFuente/
+*.zip

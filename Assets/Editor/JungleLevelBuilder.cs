@@ -886,64 +886,46 @@ namespace PrimalEcho.Editor
             return AssetDatabase.LoadAssetAtPath<Sprite>(path);
         }
 
-        // ───────────── Fondo parallax (Assets/Sprites/Fondos/TemploPixel, CraftPix) ─────────────
-        // Cada fondo es una carpeta con Layer_1 (el más cercano) … Layer_N (el cielo). Las imágenes ya se repiten
-        // solas, así que no se usan copias en espejo. Todo va detrás del terreno (orden < -50) y sin colisiones.
-        private const string ParallaxFolder = "Assets/Sprites/Fondos/TemploPixel/Capas";
-        private const string JungleVersion = "_Templo_v1";
-        // Qué fondo usa cada nivel. Opciones: "Piramide", "Cascada", "Columnas", "Ruinas".
-        private static string BackdropFor(string theme) => theme == "templo" ? "Cascada" : "Piramide";
-        // Capas que son suelo dibujado: se hunden al subir, para que no parezcan piso bajo plataformas altas
-        private static readonly Dictionary<string, int[]> GroundLayers = new Dictionary<string, int[]>
+        // ───────────── Fondo parallax (Assets/Sprites/Fondos/BosqueCaricatura, CraftPix "Cartoon Forest" 02) ─────────────
+        // 5 capas de 1920x1080 que se repiten solas a lo ancho (sin espejo). Del más lejano al más cercano.
+        // fx: 0 = quieto con la cámara (cielo) · 1 = igual que el mundo. sink: cuánto baja la capa cuando subes
+        // (así al trepar se ve el cielo sobre los árboles y el pasto dibujado no parece piso).
+        // Todo va detrás del terreno (orden < -50) y sin colisiones. Dentro de las cuevas lo tapa la máscara.
+        private const string ParallaxFolder = "Assets/Sprites/Fondos/BosqueCaricatura/Imagenes/BosqueDos/Capas";
+        private const string JungleVersion = "_Bosque_v1";
+        private static readonly (string file, int order, float fx, float fy, float sink)[] JungleLayers =
         {
-            { "Piramide", new[] { 1 } }, { "Cascada", new[] { 1, 2 } }, { "Columnas", new[] { 2 } }, { "Ruinas", new[] { 1 } },
-        };
-        // Capa de nubes que avanza sola
-        private static readonly Dictionary<string, int> CloudLayer = new Dictionary<string, int>
-        {
-            { "Piramide", 4 }, { "Cascada", 5 }, { "Ruinas", 4 },
+            ("Sky",          -100, 0.00f, 0.00f, 0.00f),
+            ("BG_Decor",      -90, 0.10f, 0.02f, 0.10f),
+            ("Middle_Decor",  -80, 0.25f, 0.03f, 0.25f),
+            ("Foreground",    -70, 0.45f, 0.04f, 0.45f),
+            ("Ground",        -60, 0.60f, 0.05f, 0.60f),
         };
 
-        private static int LayerNumber(string file)
-        {
-            string n = Path.GetFileNameWithoutExtension(file);
-            return int.TryParse(n.Substring(n.LastIndexOf('_') + 1), out int k) ? k : 0;
-        }
-
-        // Borra el fondo anterior (menos las capas de cueva) y crea las capas del fondo elegido.
+        // Borra el fondo anterior (menos las capas de cueva) y crea las 5 capas del bosque.
         private static void BuildJungleParallax(Transform group, string theme)
         {
             for (int i = group.childCount - 1; i >= 0; i--)
                 if (!group.GetChild(i).name.StartsWith("Cueva_")) Object.DestroyImmediate(group.GetChild(i).gameObject);
-            string set = BackdropFor(theme);
-            string folder = $"{ParallaxFolder}/{set}";
-            if (!Directory.Exists(folder)) { Debug.LogWarning("[Primal Echo] Falta la carpeta " + folder); return; }
-            var files = Directory.GetFiles(folder, "Layer_*.png").Select(f => f.Replace('\\', '/'))
-                .OrderByDescending(LayerNumber).ToList(); // del cielo (lejos) al suelo (cerca)
             Vector3 cam = Camera.main != null ? Camera.main.transform.position : group.position;
-            int n = files.Count, made = 0;
-            for (int i = 0; i < n; i++)
+            int made = 0;
+            for (int i = 0; i < JungleLayers.Length; i++)
             {
-                var sprite = LoadKitSprite(files[i]);
+                var (file, order, fx, fy, sink) = JungleLayers[i];
+                var sprite = LoadKitSprite($"{ParallaxFolder}/{file}.png");
                 if (sprite == null) continue;
-                int number = LayerNumber(files[i]);
-                float depth = n > 1 ? (float)i / (n - 1) : 0f;  // 0 = cielo · 1 = lo más cercano
-                float fx = 0.4f * depth;                          // velocidades del autor del paquete
-                float fy = 0.02f + 0.04f * depth;
-                bool ground = GroundLayers.TryGetValue(set, out var g) && g.Contains(number);
-                bool cloud = CloudLayer.TryGetValue(set, out int c) && c == number;
-                var go = new GameObject($"Capa_{i + 1}_{set}");
+                var go = new GameObject($"Capa_{i + 1}_{file}");
                 go.transform.SetParent(group, false);
                 go.transform.position = new Vector3(cam.x, cam.y, 20f);
                 var sr = go.AddComponent<SpriteRenderer>();
                 sr.sprite = sprite;
-                sr.sortingOrder = -100 + i * 8;
-                go.AddComponent<BackdropLayer>().Configure(fx, fy, false, ground ? Mathf.Max(fx, 0.4f) : 0f, false, cloud ? 0.25f : 0f);
+                sr.sortingOrder = order;
+                go.AddComponent<BackdropLayer>().Configure(fx, fy, false, sink, false, 0f);
                 made++;
             }
             new GameObject(JungleVersion).transform.SetParent(group, false); // marcador de versión
             EditorUtility.SetDirty(group.gameObject);
-            Debug.Log($"[Primal Echo] Fondo parallax '{set}': {made} capas.");
+            Debug.Log($"[Primal Echo] Fondo parallax del bosque: {made}/{JungleLayers.Length} capas.");
         }
 
         private static Sprite LoadKitSprite(string path)
@@ -952,11 +934,8 @@ namespace PrimalEcho.Editor
             var imp = AssetImporter.GetAtPath(path) as TextureImporter;
             if (imp == null) { AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceUpdate); imp = AssetImporter.GetAtPath(path) as TextureImporter; }
             if (imp == null) return null;
-            // KitSelvaImporter pone Sprite, 32 PPU, Point, sin compresión y sin mipmaps al reimportar
-            if (imp.textureType != TextureImporterType.Sprite || !Mathf.Approximately(imp.spritePixelsPerUnit, 32f) || imp.mipmapEnabled
-                || imp.textureCompression != TextureImporterCompression.Uncompressed
-                || (path.StartsWith(KitSelvaImporter.TempleRoot) && imp.filterMode != FilterMode.Point))
-                imp.SaveAndReimport();
+            if (KitSelvaImporter.NeedsReimport(imp, path)) // KitSelvaImporter aplica los ajustes al reimportar
+                AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceUpdate);
             return AssetDatabase.LoadAssetAtPath<Sprite>(path);
         }
 
