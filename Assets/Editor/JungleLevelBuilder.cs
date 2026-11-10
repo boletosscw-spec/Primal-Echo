@@ -37,8 +37,7 @@ namespace PrimalEcho.Editor
                 if (EditorApplication.isPlayingOrWillChangePlaymode) return;
                 var active = SceneManager.GetActiveScene();
                 if (!Levels.Any(l => l.scene == active.name)) return;
-                bool door = OpenCaveDoor(active);
-                if (ApplyCaveBackdrop(active, quiet: !door) || door)
+                if (ApplyCaveBackdrop(active, quiet: true))
                 {
                     RebuildCollisionIn(active);
                     EditorSceneManager.MarkSceneDirty(active);
@@ -48,8 +47,7 @@ namespace PrimalEcho.Editor
             EditorSceneManager.sceneOpened += (scene, mode) =>
             {
                 if (generating || !Levels.Any(l => l.scene == scene.name)) return;
-                bool door = OpenCaveDoor(scene);
-                if (ApplyCaveBackdrop(scene, quiet: !door) || door)
+                if (ApplyCaveBackdrop(scene, quiet: true))
                 {
                     RebuildCollisionIn(scene);
                     EditorSceneManager.MarkSceneDirty(scene);
@@ -129,7 +127,33 @@ namespace PrimalEcho.Editor
         }
 
         // Devuelve true si cambió algo.
+        // Busca un objeto por nombre en toda la escena (el Grid vive dentro de "Entorno", no en la raíz)
+        private static GameObject FindInScene(Scene scene, string name)
+        {
+            foreach (var rootGo in scene.GetRootGameObjects())
+                foreach (var tr in rootGo.GetComponentsInChildren<Transform>(true))
+                    if (tr.name == name) return tr.gameObject;
+            return null;
+        }
+
+        // Envoltura: si algo falla, queda escrito en Logs/PrimalEcho.log (y en la consola) en vez de fallar en silencio.
         private static bool ApplyCaveBackdrop(Scene scene, bool quiet)
+        {
+            try
+            {
+                bool changed = ApplyCaveBackdropCore(scene, quiet);
+                File.AppendAllText("Logs/PrimalEcho.log", $"{DateTime.Now:HH:mm:ss} {scene.name}: ok (cambios: {changed}, quiet: {quiet})\n");
+                return changed;
+            }
+            catch (Exception e)
+            {
+                Debug.LogException(e);
+                try { File.AppendAllText("Logs/PrimalEcho.log", $"{DateTime.Now:HH:mm:ss} {scene.name}: ERROR {e}\n"); } catch { }
+                return false;
+            }
+        }
+
+        private static bool ApplyCaveBackdropCore(Scene scene, bool quiet)
         {
             var level = Levels.FirstOrDefault(l => l.scene == scene.name);
             if (level.map == null) return false;
@@ -140,7 +164,7 @@ namespace PrimalEcho.Editor
                 var t = AssetDatabase.LoadAssetAtPath<Tile>(AssetDatabase.GUIDToAssetPath(g));
                 if (t != null) tiles[t.name] = t;
             }
-            var grid = scene.GetRootGameObjects().FirstOrDefault(rootGo => rootGo.name == "Grid");
+            var grid = FindInScene(scene, "Grid");
             var bg = grid != null ? grid.transform.Find("Fondo_Cueva_Y_Arboles")?.GetComponent<Tilemap>() : null;
             var group = scene.GetRootGameObjects().SelectMany(rootGo => rootGo.GetComponentsInChildren<Transform>(true)).FirstOrDefault(tr => tr.name == "Fondo_Parallax");
             Map map = Parse($"{MapsFolder}/{level.map}");
@@ -181,13 +205,13 @@ namespace PrimalEcho.Editor
         private static bool OpenCaveDoor(Scene scene)
         {
             if (scene.name != "Nivel_02_Templo_Nemesis") return false;
-            var grid = scene.GetRootGameObjects().FirstOrDefault(rootGo => rootGo.name == "Grid");
+            var grid = FindInScene(scene, "Grid");
             if (grid == null || grid.transform.Find("Entrada_Cueva_v3") != null) return false;
             var solid = grid.transform.Find("mapa")?.GetComponent<Tilemap>();
             var bg = grid.transform.Find("Fondo_Cueva_Y_Arboles")?.GetComponent<Tilemap>();
             var deco = grid.transform.Find("Decoracion_Sin_Colision")?.GetComponent<Tilemap>();
             var branches = grid.transform.Find("Ramas_Un_Sentido")?.GetComponent<Tilemap>();
-            if (solid == null || bg == null || deco == null) return false;
+            if (solid == null || deco == null) return false;
             tiles = new Dictionary<string, Tile>();
             foreach (string g in AssetDatabase.FindAssets("t:Tile", new[] { TilesFolder }))
             {
@@ -212,7 +236,7 @@ namespace PrimalEcho.Editor
                     if (x < 30 && y < 36) continue; // fuera de la boca no se toca nada
                     solid.SetTile(pos, null); deco.SetTile(pos, null);
                     if (branches != null) branches.SetTile(pos, null);
-                    if (rock.Contains(new Vector2Int(x, y))) bg.SetTile(pos, null);
+                    if (bg != null && rock.Contains(new Vector2Int(x, y))) bg.SetTile(pos, null);
                 }
             if (branches != null)
             {
@@ -247,7 +271,7 @@ namespace PrimalEcho.Editor
 
             // 3) Lianas colgando del techo del túnel y farola junto a la boca
             Tile vine = T("tile_jungle_bg_vines_r6_c6") ?? T("tile_jungle_bg_vines_r4_c0");
-            if (vine != null)
+            if (vine != null && bg != null)
                 foreach (var (vx, len) in new[] { (32, 2), (40, 3), (48, 2), (53, 3) })
                     for (int k = 0; k < len; k++)
                         if (!Sol(vx, 34 - k)) bg.SetTile(new Vector3Int(vx, 34 - k, 0), vine);
@@ -811,7 +835,8 @@ namespace PrimalEcho.Editor
             }
 
             // Zonas de cueva: celdas ':' del mapa de texto + cualquier espacio que TÚ cierres con techo y paredes
-            Tilemap solidMap = bg != null ? bg.transform.parent.Find("mapa")?.GetComponent<Tilemap>() : null;
+            var solidGo = GameObject.Find("mapa");
+            Tilemap solidMap = solidGo != null ? solidGo.GetComponent<Tilemap>() : null;
             var caveCells = CaveCells(m, solidMap);
             bool IsCave(int cx, int cy) => caveCells.Contains(new Vector2Int(cx, cy));
             var zones = new List<Rect>();
@@ -908,10 +933,11 @@ namespace PrimalEcho.Editor
 
             if (grid.Find(LabVersion) != null) return;
             var solid = grid.Find("mapa")?.GetComponent<Tilemap>();
-            var bg = grid.Find("Fondo_Cueva_Y_Arboles")?.GetComponent<Tilemap>();
+            var oldBg = grid.Find("Fondo_Cueva_Y_Arboles")?.GetComponent<Tilemap>();
+            var bg = Layer(grid.gameObject, "Fondo_Base", -10, false); // paneles de metal del fondo (capa propia)
             var deco = grid.Find("Decoracion_Sin_Colision")?.GetComponent<Tilemap>();
             var branches = grid.Find("Ramas_Un_Sentido")?.GetComponent<Tilemap>();
-            if (solid == null || bg == null || deco == null || Lab(0, 0) == null)
+            if (solid == null || deco == null || Lab(0, 0) == null)
             {
                 Debug.LogWarning("[Primal Echo] No se pudo construir la base tecnológica (faltan capas o Assets/Sprites/Laboratorio).");
                 return;
@@ -969,6 +995,7 @@ namespace PrimalEcho.Editor
                     else if (x % 9 == 4 && y % 5 == 2) panel = vent;
                     else if (x % 11 == 8 && y % 6 == 4) panel = ventSmall;
                     bg.SetTile(pos, panel ?? plain);
+                    if (oldBg != null) oldBg.SetTile(pos, null);
                     foreach (var layer in treeLayers) layer.SetTile(pos, null);
                     if (!inside.Contains(new Vector2Int(x, y))) continue;
                     // Decoración de jungla dentro de la base: fuera (pasto, lianas, flores…)
@@ -1285,7 +1312,7 @@ namespace PrimalEcho.Editor
         // "Ramas_Un_Sentido" (plataformas que se atraviesan desde abajo).
         private static void RebuildCollisionIn(Scene scene)
         {
-            GameObject grid = scene.GetRootGameObjects().Select(g => g.name == "Grid" ? g : null).FirstOrDefault(g => g != null);
+            GameObject grid = FindInScene(scene, "Grid");
             if (grid == null) return;
             var solid = grid.transform.Find("mapa")?.GetComponent<Tilemap>();
             var ramas = grid.transform.Find("Ramas_Un_Sentido")?.GetComponent<Tilemap>();
@@ -1387,7 +1414,7 @@ namespace PrimalEcho.Editor
                 // Escena hecha con una versión anterior del generador: se conserva tal cual está pintada
                 editsAreFullCopy = true;
                 var opened = EditorSceneManager.OpenScene(path, OpenSceneMode.Single);
-                var grid = opened.GetRootGameObjects().FirstOrDefault(g => g.name == "Grid");
+                var grid = FindInScene(opened, "Grid");
                 if (grid != null)
                     foreach (var map in grid.GetComponentsInChildren<Tilemap>(true))
                     {
@@ -1408,7 +1435,7 @@ namespace PrimalEcho.Editor
                 var baseMap = new Dictionary<(string, int, int), string>();
                 foreach (var e in baseline.items) baseMap[(e.layer, e.x, e.y)] = e.tile;
                 var opened = EditorSceneManager.OpenScene(path, OpenSceneMode.Single);
-                var grid = opened.GetRootGameObjects().FirstOrDefault(g => g.name == "Grid");
+                var grid = FindInScene(opened, "Grid");
                 if (grid != null)
                 {
                     var seen = new HashSet<(string, int, int)>();
