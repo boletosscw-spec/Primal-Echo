@@ -156,7 +156,7 @@ namespace PrimalEcho.Editor
                     for (int x = 0; x < map.W; x++)
                         if (Cell(map, x, y) == 0 && IsCaveBack(map, x, y) && bg.GetTile(new Vector3Int(x, y, 0)) == fill) { hasBlack = true; break; }
             bool hasCave = group != null && group.Find("Cueva_Lejos") != null && group.GetComponent<CaveAmbience>() != null
-                && scene.GetRootGameObjects().Any(rootGo => rootGo.name == "Mascara_Cuevas" && rootGo.transform.Find("_v3") != null);
+                && scene.GetRootGameObjects().Any(rootGo => rootGo.name == "Mascara_Cuevas" && rootGo.transform.Find("_v4") != null);
             bool treesChanged = SetupJungleParticles() | SetupHollowCamera();
             if (grid != null && grid.transform.Find(TreesVersion) == null)
             {
@@ -811,7 +811,7 @@ namespace PrimalEcho.Editor
             var oldMask = GameObject.Find("Mascara_Cuevas");
             if (oldMask != null) Object.DestroyImmediate(oldMask);
             var maskRoot = new GameObject("Mascara_Cuevas");
-            new GameObject("_v3").transform.SetParent(maskRoot.transform, false); // versión: incluye cuevas pintadas a mano
+            new GameObject("_v4").transform.SetParent(maskRoot.transform, false); // versión: cuevas pintadas a mano + transiciones suaves
             var maskSprite = ImportMask($"{CaveArt}/Mascara.png");
             foreach (var z in zones)
             {
@@ -822,10 +822,88 @@ namespace PrimalEcho.Editor
                 piece.AddComponent<SpriteMask>().sprite = maskSprite;
             }
 
+            CaveTransitions(m, maskRoot.transform, caveCells, solidMap);
+
             var ambience = GetOrAdd<CaveAmbience>(group);
             ambience.Configure(zones.ToArray(), outdoor.ToArray(), cave.ToArray());
             EditorUtility.SetDirty(group);
             Debug.Log($"[Primal Echo] Fondo de cueva: {zones.Count} zonas de cueva.");
+        }
+
+        // Donde la cueva toca aire libre (sin pared de por medio), la máscara deja una línea recta y dura.
+        // Aquí se pone un degradado del color de la cueva que sale hacia afuera, para que la jungla
+        // se oscurezca poco a poco al entrar a la cueva. Va encima de los fondos y detrás del terreno.
+        private const int CaveFadeCells = 5;
+        private static readonly Color CaveFadeColor = new Color(0.12f, 0.105f, 0.21f, 1f);
+
+        private static void CaveTransitions(Map m, Transform parent, HashSet<Vector2Int> caveCells, Tilemap solid)
+        {
+            var sprite = ImportFade($"{CaveArt}/Transicion.png");
+            if (sprite == null) return;
+            var root = new GameObject("Transiciones_Cueva").transform;
+            root.SetParent(parent, false);
+            bool Cave(int x, int y) => caveCells.Contains(new Vector2Int(x, y));
+            bool Solid(int x, int y) => solid != null ? solid.HasTile(new Vector3Int(x, y, 0)) : Cell(m, x, y) != 0;
+            bool Open(int x, int y) => !Cave(x, y) && !Solid(x, y);
+            int H = m.H + 10, count = 0;
+            void Piece(Vector2 pos, float angle, float length)
+            {
+                var go = new GameObject("Degradado");
+                go.transform.SetParent(root, false);
+                go.transform.position = new Vector3(pos.x, pos.y, 0f);
+                go.transform.rotation = Quaternion.Euler(0f, 0f, angle);
+                go.transform.localScale = new Vector3(length, CaveFadeCells, 1f);
+                var sr = go.AddComponent<SpriteRenderer>();
+                sr.sprite = sprite;
+                sr.color = CaveFadeColor;
+                sr.sortingOrder = -50; // encima de jungla (-60…-100) y cueva (-53…-98), detrás de árboles y terreno
+                count++;
+            }
+            // Bordes de arriba y de abajo (tramos horizontales)
+            for (int y = 0; y < H; y++)
+                foreach (int dy in new[] { 1, -1 })
+                    for (int x = 0; x < m.W;)
+                    {
+                        if (!(Cave(x, y) && Open(x, y + dy))) { x++; continue; }
+                        int x0 = x;
+                        while (x < m.W && Cave(x, y) && Open(x, y + dy)) x++;
+                        float edgeY = dy > 0 ? y + 1 : y;
+                        Piece(new Vector2((x0 + x) * 0.5f, edgeY), dy > 0 ? 0f : 180f, x - x0);
+                    }
+            // Bordes de los lados (tramos verticales)
+            for (int x = 0; x < m.W; x++)
+                foreach (int dx in new[] { 1, -1 })
+                    for (int y = 0; y < H;)
+                    {
+                        if (!(Cave(x, y) && Open(x + dx, y))) { y++; continue; }
+                        int y0 = y;
+                        while (y < H && Cave(x, y) && Open(x + dx, y)) y++;
+                        float edgeX = dx > 0 ? x + 1 : x;
+                        Piece(new Vector2(edgeX, (y0 + y) * 0.5f), dx > 0 ? -90f : 90f, y - y0);
+                    }
+            Debug.Log($"[Primal Echo] Transiciones suaves de cueva: {count}.");
+        }
+
+        private static Sprite ImportFade(string path)
+        {
+            var imp = AssetImporter.GetAtPath(path) as TextureImporter;
+            if (imp == null) { AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceUpdate); imp = AssetImporter.GetAtPath(path) as TextureImporter; }
+            if (imp == null) { Debug.LogWarning("Falta " + path); return null; }
+            imp.textureType = TextureImporterType.Sprite;
+            imp.spriteImportMode = SpriteImportMode.Single;
+            imp.spritePixelsPerUnit = 64; // 64 px = 1 unidad (luego se escala)
+            imp.filterMode = FilterMode.Bilinear;
+            imp.wrapMode = TextureWrapMode.Clamp;
+            imp.mipmapEnabled = false;
+            imp.alphaIsTransparency = true;
+            imp.textureCompression = TextureImporterCompression.Uncompressed;
+            var st = new TextureImporterSettings();
+            imp.ReadTextureSettings(st);
+            st.spriteMeshType = SpriteMeshType.FullRect;
+            st.spriteAlignment = (int)SpriteAlignment.BottomCenter; // el borde opaco queda en la orilla de la cueva
+            imp.SetTextureSettings(st);
+            imp.SaveAndReimport();
+            return AssetDatabase.LoadAssetAtPath<Sprite>(path);
         }
 
         private static HashSet<Vector2Int> CaveCells(Map m, Tilemap solid)
