@@ -367,9 +367,9 @@ namespace PrimalEcho.Editor
             // Limpiar lo que dependía del mapa anterior
             foreach (var room in Object.FindObjectsByType<CameraRoom2D>(FindObjectsInactive.Include, FindObjectsSortMode.None))
                 Object.DestroyImmediate(room.gameObject);
-            var oldRoot = GameObject.Find("=== JUGABILIDAD ===");
+            var oldRoot = GameObject.Find("Jugabilidad");
             if (oldRoot) Object.DestroyImmediate(oldRoot);
-            var oldSigns = GameObject.Find("=== CARTELES ===");
+            var oldSigns = GameObject.Find("Carteles");
             if (oldSigns) Object.DestroyImmediate(oldSigns);
 
             Tilemap bg = Layer(gridObj, "Fondo_Cueva_Y_Arboles", -10, false);
@@ -391,8 +391,8 @@ namespace PrimalEcho.Editor
             PlantTrees(map, gridObj.transform, bg);
             AttachHandPainted(sceneName, gridObj.transform);
 
-            Transform root = new GameObject("=== JUGABILIDAD ===").transform;
-            Transform lights = (GameObject.Find("=== ILUMINACION ===") ?? new GameObject("=== ILUMINACION ===")).transform;
+            Transform root = new GameObject("Jugabilidad").transform;
+            Transform lights = (GameObject.Find("Iluminacion") ?? new GameObject("Iluminacion")).transform;
             for (int i = lights.childCount - 1; i >= 0; i--)
                 if (lights.GetChild(i).name != "Luz_Global_2D") Object.DestroyImmediate(lights.GetChild(i).gameObject);
 
@@ -1476,7 +1476,7 @@ namespace PrimalEcho.Editor
 
         private static void Signs(Map m)
         {
-            var root = new GameObject("=== CARTELES ===").transform;
+            var root = new GameObject("Carteles").transform;
             Font font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
             foreach (var s in m.Signs)
             {

@@ -39,8 +39,8 @@ namespace PrimalEcho.Editor
             Undo.SetCurrentGroupName("Construir Primer Mapa - Valle del Eco");
             int undoGroup = Undo.GetCurrentGroup();
 
-            Transform envRoot = GetOrCreateRoot("=== ENTORNO ===");
-            Transform lightRoot = GetOrCreateRoot("=== ILUMINACION ===");
+            Transform envRoot = GetOrCreateRoot("Entorno");
+            Transform lightRoot = GetOrCreateRoot("Iluminacion");
 
             // 1. Setup Player first so Camera and Parallax align to starting view
             GameObject player = SetupPlayer( null );

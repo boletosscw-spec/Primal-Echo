@@ -67,7 +67,7 @@ namespace PrimalEcho.Editor
             light.intensity = 1f;
 
             // ---------- planos ----------
-            Transform shots = new GameObject("=== PLANOS ===").transform;
+            Transform shots = new GameObject("Planos").transform;
             SpriteRenderer sky = Shot(shots, "Cielo_Ciudad", SkyArt, 0, Color.white);
             SpriteRenderer redSky = Shot(shots, "Cielo_Nemesis", SkyArt, 0, new Color(1f, 0.42f, 0.38f));
             SpriteRenderer city = Shot(shots, "Ciudad_En_Ruinas", CityArt, 1, new Color(0.8f, 0.62f, 0.62f));

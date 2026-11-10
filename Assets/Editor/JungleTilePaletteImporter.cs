@@ -825,7 +825,7 @@ namespace PrimalEcho.Editor
             }
 
             // 8. Configurar Iluminación 2D Atmosférica (en cada farola y cristal)
-            GameObject lightRoot = GameObject.Find("=== ILUMINACION ===");
+            GameObject lightRoot = GameObject.Find("Iluminacion");
             if (lightRoot != null)
             {
                 for (int i = lightRoot.transform.childCount - 1; i >= 0; i--)
