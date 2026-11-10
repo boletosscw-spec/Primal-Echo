@@ -15,6 +15,11 @@ namespace PrimalEcho
         [SerializeField] private bool anchorBottom;
         [Tooltip("Capas de suelo del fondo: al subir la cámara se hunden (así no parece suelo pisable bajo plataformas altas)")]
         [SerializeField, Range(0f, 1f)] private float sinkWhenHigher;
+        [Tooltip("Copias en espejo a los lados. Apágalo si la imagen ya se repite sola (sin cortes)")]
+        [SerializeField] private bool mirror = true;
+        [Tooltip("Movimiento propio hacia la izquierda (nubes), en unidades por segundo")]
+        [SerializeField] private float driftSpeed;
+        private float drift;
         private Camera cam;
         private SpriteRenderer main;
         private SpriteRenderer[] copies;
@@ -29,6 +34,12 @@ namespace PrimalEcho
         {
             Configure(factorX, factorY, bottom);
             sinkWhenHigher = sink;
+        }
+
+        public void Configure(float factorX, float factorY, bool bottom, float sink, bool mirrored, float drifting)
+        {
+            Configure(factorX, factorY, bottom, sink);
+            mirror = mirrored; driftSpeed = drifting;
         }
 
         private void Start()
@@ -46,7 +57,7 @@ namespace PrimalEcho
                 sr.sprite = main.sprite; sr.color = main.color;
                 sr.sortingLayerID = main.sortingLayerID; sr.sortingOrder = main.sortingOrder;
                 sr.sharedMaterial = main.sharedMaterial;
-                sr.flipX = !main.flipX; // espejo: la unión no se nota
+                sr.flipX = mirror ? !main.flipX : main.flipX; // espejo: la unión no se nota
                 sr.maskInteraction = main.maskInteraction;
                 go.transform.localPosition = new Vector3((i == 0 ? -1f : 1f) * main.sprite.bounds.size.x, 0f, 0f);
                 copies[i] = sr;
@@ -62,7 +73,8 @@ namespace PrimalEcho
             transform.localScale = new Vector3(scale, scale, 1f);
             float width = size.x * scale * 2f; // periodo con espejo = 2 anchos
             Vector3 c = cam.transform.position;
-            float x = c.x - Mathf.Repeat(c.x * parallaxX, width);
+            drift += driftSpeed * Time.deltaTime;
+            float x = c.x - Mathf.Repeat(c.x * parallaxX + drift, width);
             if (c.x - x > width * 0.5f) x += width; // la copia central siempre queda cerca de la cámara
             float y = anchorBottom
                 ? c.y - viewH * 0.5f + size.y * scale * 0.5f - 0.2f
