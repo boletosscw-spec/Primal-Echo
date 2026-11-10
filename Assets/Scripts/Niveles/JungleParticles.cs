@@ -28,7 +28,7 @@ namespace PrimalEcho
             if (glow != null)
             {
                 Fireflies("Luciernagas_Fondo", 8f, 0.07f, 0.15f, 0.55f, -45, 60);
-                Fireflies("Luciernagas_Frente", 2.5f, 0.14f, 0.26f, 0.95f, 7, 25);
+                Fireflies("Luciernagas_Frente", 2.5f, 0.14f, 0.26f, 0.95f, 35, 25); // encima de la oscuridad de cueva: brillan
             }
             if (insect != null) Insects();
             if (leaf != null) Leaves();

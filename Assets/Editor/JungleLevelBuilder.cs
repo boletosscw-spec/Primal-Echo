@@ -169,16 +169,20 @@ namespace PrimalEcho.Editor
             return true;
         }
 
-        // Rediseño de la entrada de la cueva del Nivel 2: boca de roca estilo templo sobre el pozo.
-        // Limpia la zona (x 18–62, y 30–40) en las capas de tiles y la vuelve a construir. Solo se hace una vez.
+        // Entrada de la cueva del Nivel 2, HORIZONTAL: Kael camina hacia la derecha y entra por un túnel con techo
+        // de roca (ya no cae por un pozo abierto al cielo). Dentro, la cámara queda limitada a la cueva
+        // ("Sala_Cueva") y la pantalla se oscurece (CaveDarkness). Se hace una sola vez (marcador Entrada_Cueva_v3).
+        //   Techo: x 30–55, y 35–39 (+ saliente x 27–29, y 36–39) · Túnel: y 30–34 · Piso del túnel: x 30–38, y 27–29
+        //   Después del piso se baja por el pozo con cornisas como antes.
         private static bool OpenCaveDoor(Scene scene)
         {
             if (scene.name != "Nivel_02_Templo_Nemesis") return false;
             var grid = scene.GetRootGameObjects().FirstOrDefault(rootGo => rootGo.name == "Grid");
-            if (grid == null || grid.transform.Find("Entrada_Cueva_v2") != null) return false;
+            if (grid == null || grid.transform.Find("Entrada_Cueva_v3") != null) return false;
             var solid = grid.transform.Find("mapa")?.GetComponent<Tilemap>();
             var bg = grid.transform.Find("Fondo_Cueva_Y_Arboles")?.GetComponent<Tilemap>();
             var deco = grid.transform.Find("Decoracion_Sin_Colision")?.GetComponent<Tilemap>();
+            var branches = grid.transform.Find("Ramas_Un_Sentido")?.GetComponent<Tilemap>();
             if (solid == null || bg == null || deco == null) return false;
             tiles = new Dictionary<string, Tile>();
             foreach (string g in AssetDatabase.FindAssets("t:Tile", new[] { TilesFolder }))
@@ -186,63 +190,84 @@ namespace PrimalEcho.Editor
                 var t = AssetDatabase.LoadAssetAtPath<Tile>(AssetDatabase.GUIDToAssetPath(g));
                 if (t != null) tiles[t.name] = t;
             }
-            const int X0 = 18, X1 = 62, Y0 = 30, Y1 = 40;
-            // 1) Limpiar lo pintado en la zona (casita, columna y techo)
-            for (int x = X0; x <= X1; x++)
-                for (int y = Y0; y <= Y1; y++)
-                {
-                    var pos = new Vector3Int(x, y, 0);
-                    if (x >= 56 && x <= 57 && y < Y1) continue; // pared derecha del pozo (del mapa)
-                    solid.SetTile(pos, null); bg.SetTile(pos, null); deco.SetTile(pos, null);
-                }
-            // 2) Losa de roca sobre el pozo con estalactitas, y un saliente hacia la entrada
+            Tile fill = T("tile_jungle_wall_brown_r0_c2");
+            if (fill == null) return false;
+
+            // 1) Roca nueva: techo del túnel, saliente sobre la boca, estalactitas y piso del túnel
             var rock = new HashSet<Vector2Int>();
             void AddRect(int ax, int ay, int bx2, int by2) { for (int x = ax; x <= bx2; x++) for (int y = ay; y <= by2; y++) rock.Add(new Vector2Int(x, y)); }
-            AddRect(29, 36, 57, 39);              // losa
-            AddRect(27, 38, 28, 39);              // saliente sobre la columna
-            foreach (var (sx, len) in new[] { (33, 1), (34, 2), (35, 1), (41, 1), (46, 1), (47, 2), (48, 1), (53, 1) })
-                for (int k = 1; k <= len; k++) rock.Add(new Vector2Int(sx, 36 - k)); // estalactitas
-            foreach (var c in rock) solid.SetTile(new Vector3Int(c.x, c.y, 0), T("tile_jungle_wall_brown_r0_c2"));
-            // 3) Autotiling de la zona con piedra gris de ruinas
-            bool Sol(int x, int y) => solid.HasTile(new Vector3Int(x, y, 0));
-            Tile fill = T("tile_jungle_wall_brown_r0_c2");
-            for (int x = X0 - 1; x <= X1 + 1; x++)
-                for (int y = Y0 - 2; y <= Y1; y++)
+            AddRect(30, 35, 55, 39);   // techo
+            AddRect(27, 36, 29, 39);   // saliente: la boca de la cueva
+            AddRect(30, 27, 38, 29);   // piso del túnel (después se baja por el pozo)
+            foreach (var c in new[] { (37, 34), (44, 34), (45, 34), (51, 34) }) rock.Add(new Vector2Int(c.Item1, c.Item2)); // estalactitas
+            // Limpiar lo que hubiera en el túnel (aire) y en la roca nueva
+            for (int x = 27; x <= 55; x++)
+                for (int y = 27; y <= 39; y++)
                 {
-                    if (!Sol(x, y)) continue;
-                    bool up = Sol(x, y + 1) || y >= Y1, down = Sol(x, y - 1), left = Sol(x - 1, y), right = Sol(x + 1, y);
-                    if (!rock.Contains(new Vector2Int(x, y)) && up && down && left && right) continue; // no tocar el interior del terreno
-                    Tile chosen = fill;
-                    if (!up)
-                    {
-                        int row = Mathf.Abs(x) % 3 == 0 ? 3 : 1, col = !left ? 0 : (!right ? 2 : 1);
-                        chosen = T($"tile_jungle_ground_grey_r{row}_c{col}") ?? T($"tile_jungle_ground_grey_r1_c{col}");
-                        var cap = T($"tile_jungle_ground_grey_r{row - 1}_c{col}");
-                        if (cap != null && !Sol(x, y + 1)) deco.SetTile(new Vector3Int(x, y + 1, 0), cap);
-                    }
-                    else if (!down) chosen = !left ? T("tile_jungle_bottom_grey_r0_c0") : (!right ? T("tile_jungle_bottom_grey_r0_c3") : T($"tile_jungle_bottom_grey_r0_c{x % 2 + 1}"));
-                    else if (!left) chosen = T($"tile_jungle_wall_grey_r{y % 4}_c0") ?? fill;
-                    else if (!right) chosen = T($"tile_jungle_wall_grey_r{y % 4}_c1") ?? fill;
-                    solid.SetTile(new Vector3Int(x, y, 0), GridTile(chosen ?? fill));
+                    var pos = new Vector3Int(x, y, 0);
+                    if (x < 30 && y < 36) continue; // fuera de la boca no se toca nada
+                    solid.SetTile(pos, null); deco.SetTile(pos, null);
+                    if (branches != null) branches.SetTile(pos, null);
+                    if (rock.Contains(new Vector2Int(x, y))) bg.SetTile(pos, null);
                 }
-            // 4) Columna de templo (fondo, Kael pasa por delante) que sostiene el saliente
-            for (int y = 30; y <= 37; y++)
+            if (branches != null)
             {
-                bg.SetTile(new Vector3Int(27, y, 0), T($"tile_jungle_wall_grey_r{y % 4}_c0"));
-                bg.SetTile(new Vector3Int(28, y, 0), T($"tile_jungle_wall_grey_r{y % 4}_c1"));
+                for (int x = 30; x <= 38; x++) branches.SetTile(new Vector3Int(x, 26, 0), null); // la rama quedaba bajo el piso nuevo
+                Tile branch = Enumerable.Range(42, 6).Select(bx => branches.GetTile(new Vector3Int(bx, 22, 0)) as Tile).FirstOrDefault(tb => tb != null);
+                if (branch != null) for (int x = 46; x <= 51; x++) branches.SetTile(new Vector3Int(x, 26, 0), branch); // cornisa para bajar
             }
-            // 5) Farola junto a la entrada y lianas colgando de la losa
-            Stamp(deco, "tile_jungle_plants_objects", 24, 30, 10, 11, 5, 5);
+            foreach (var c in rock) solid.SetTile(new Vector3Int(c.x, c.y, 0), fill);
+
+            // 2) Autotiling con piedra gris de templo (solo la roca nueva y la orilla del suelo junto a la boca)
+            bool Sol(int x, int y) => solid.HasTile(new Vector3Int(x, y, 0));
+            var retile = new HashSet<Vector2Int>(rock);
+            for (int y = 27; y <= 29; y++) retile.Add(new Vector2Int(29, y));
+            foreach (var c in retile)
+            {
+                int x = c.x, y = c.y;
+                if (!Sol(x, y)) continue;
+                bool up = Sol(x, y + 1) || y >= 39, down = Sol(x, y - 1), left = Sol(x - 1, y), right = Sol(x + 1, y);
+                Tile chosen = fill;
+                if (!up)
+                {
+                    int row = Mathf.Abs(x) % 3 == 0 ? 3 : 1, col = !left ? 0 : (!right ? 2 : 1);
+                    chosen = T($"tile_jungle_ground_grey_r{row}_c{col}") ?? T($"tile_jungle_ground_grey_r1_c{col}");
+                    var cap = T($"tile_jungle_ground_grey_r{row - 1}_c{col}");
+                    if (cap != null) deco.SetTile(new Vector3Int(x, y + 1, 0), cap);
+                }
+                else if (!down) chosen = !left ? T("tile_jungle_bottom_grey_r0_c0") : (!right ? T("tile_jungle_bottom_grey_r0_c3") : T($"tile_jungle_bottom_grey_r0_c{x % 2 + 1}"));
+                else if (!left) chosen = T($"tile_jungle_wall_grey_r{y % 4}_c0") ?? fill;
+                else if (!right) chosen = T($"tile_jungle_wall_grey_r{y % 4}_c1") ?? fill;
+                solid.SetTile(new Vector3Int(x, y, 0), GridTile(chosen ?? fill));
+            }
+
+            // 3) Lianas colgando del techo del túnel y farola junto a la boca
             Tile vine = T("tile_jungle_bg_vines_r6_c6") ?? T("tile_jungle_bg_vines_r4_c0");
             if (vine != null)
-                foreach (var (vx, len) in new[] { (31, 3), (38, 4), (44, 2), (51, 3) })
+                foreach (var (vx, len) in new[] { (32, 2), (40, 3), (48, 2), (53, 3) })
                     for (int k = 0; k < len; k++)
-                        if (!Sol(vx, 35 - k)) bg.SetTile(new Vector3Int(vx, 35 - k, 0), vine);
-            // Quitar el marcador del arreglo anterior si existía
-            var oldMarker = grid.transform.Find("Puerta_Cueva_Abierta");
-            if (oldMarker != null) Object.DestroyImmediate(oldMarker.gameObject);
-            new GameObject("Entrada_Cueva_v2").transform.SetParent(grid.transform, false);
-            Debug.Log("[Primal Echo] Entrada de la cueva del Nivel 2 rediseñada (boca de roca con columna de templo).");
+                        if (!Sol(vx, 34 - k)) bg.SetTile(new Vector3Int(vx, 34 - k, 0), vine);
+            Stamp(deco, "tile_jungle_plants_objects", 24, 30, 10, 11, 5, 5);
+
+            // 4) Sala de cámara: dentro de la cueva la cámara no sube más allá del techo (y 35) ni se va a la jungla.
+            //    Empieza un poco antes de la boca (x 24) para que se vea la entrada desde adentro.
+            var oldRoom = scene.GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<Transform>(true)).FirstOrDefault(tr => tr.name == "Sala_Cueva");
+            if (oldRoom != null) Object.DestroyImmediate(oldRoom.gameObject);
+            var room = new GameObject("Sala_Cueva");
+            var gameplay = scene.GetRootGameObjects().FirstOrDefault(r => r.name == "Jugabilidad");
+            if (gameplay != null) room.transform.SetParent(gameplay.transform, false);
+            var poly = room.AddComponent<PolygonCollider2D>();
+            poly.isTrigger = true;
+            poly.points = new[] { new Vector2(24f, 3f), new Vector2(24f, 35f), new Vector2(56f, 35f), new Vector2(56f, 3f) };
+            room.AddComponent<CameraRoom2D>();
+
+            foreach (string old in new[] { "Puerta_Cueva_Abierta", "Entrada_Cueva_v2" })
+            {
+                var marker = grid.transform.Find(old);
+                if (marker != null) Object.DestroyImmediate(marker.gameObject);
+            }
+            new GameObject("Entrada_Cueva_v3").transform.SetParent(grid.transform, false);
+            Debug.Log("[Primal Echo] Nivel 2: entrada horizontal a la cueva (túnel con techo, cámara limitada adentro).");
             return true;
         }
 

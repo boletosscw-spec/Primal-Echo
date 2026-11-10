@@ -10,6 +10,19 @@ namespace PrimalEcho
         [SerializeField] private Rect[] caveZones;
         [SerializeField] private SpriteRenderer[] outdoorLayers;
         [SerializeField] private SpriteRenderer[] caveLayers;
+        private static CaveAmbience current;
+
+        /// <summary>¿Este punto del mundo está dentro de una cueva?</summary>
+        public static bool IsInside(Vector2 point)
+        {
+            if (current == null || current.caveZones == null) return false;
+            foreach (var zone in current.caveZones)
+                if (zone.Contains(point)) return true;
+            return false;
+        }
+
+        private void OnEnable() => current = this;
+        private void OnDestroy() { if (current == this) current = null; }
 
         public void Configure(Rect[] zones, SpriteRenderer[] outdoor, SpriteRenderer[] cave)
         {
@@ -17,7 +30,13 @@ namespace PrimalEcho
             Apply();
         }
 
-        private void Start() => Apply();
+        private void Start()
+        {
+            Apply();
+            // Oscuridad al entrar a las cuevas
+            var cam = Camera.main;
+            if (Application.isPlaying && cam != null && !cam.TryGetComponent(out CaveDarkness _)) cam.gameObject.AddComponent<CaveDarkness>();
+        }
 
         // BackdropLayer crea sus copias laterales en Start; se ajustan aquí también.
         private void LateUpdate()
