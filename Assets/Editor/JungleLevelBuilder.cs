@@ -133,6 +133,7 @@ namespace PrimalEcho.Editor
         {
             var level = Levels.FirstOrDefault(l => l.scene == scene.name);
             if (level.map == null) return false;
+            bool doorChanged = OpenCaveDoor(scene); // entrada horizontal del Nivel 2 (una sola vez)
             tiles = new Dictionary<string, Tile>();
             foreach (string g in AssetDatabase.FindAssets("t:Tile", new[] { TilesFolder }))
             {
@@ -156,14 +157,14 @@ namespace PrimalEcho.Editor
                     for (int x = 0; x < map.W; x++)
                         if (Cell(map, x, y) == 0 && IsCaveBack(map, x, y) && bg.GetTile(new Vector3Int(x, y, 0)) == fill) { hasBlack = true; break; }
             bool hasCave = group != null && group.Find("Cueva_Lejos") != null && group.GetComponent<CaveAmbience>() != null
-                && scene.GetRootGameObjects().Any(rootGo => rootGo.name == "Mascara_Cuevas" && rootGo.transform.Find("_v4") != null);
+                && scene.GetRootGameObjects().Any(rootGo => rootGo.name == "Mascara_Cuevas" && rootGo.transform.Find("_v5") != null);
             bool treesChanged = SetupJungleParticles() | SetupHollowCamera();
             if (grid != null && grid.transform.Find(TreesVersion) == null)
             {
                 PlantTrees(map, grid.transform, bg);
                 treesChanged = true;
             }
-            if (quiet && !hasBlack && hasCave && !jungleChanged) return treesChanged;
+            if (quiet && !hasBlack && hasCave && !jungleChanged && !doorChanged) return treesChanged;
             SetupCaveBackdrop(map, bg);
             Debug.Log($"[Primal Echo] {scene.name}: fondo de cueva parallax aplicado (se quitó el relleno negro de tiles).");
             return true;
@@ -836,7 +837,7 @@ namespace PrimalEcho.Editor
             var oldMask = GameObject.Find("Mascara_Cuevas");
             if (oldMask != null) Object.DestroyImmediate(oldMask);
             var maskRoot = new GameObject("Mascara_Cuevas");
-            new GameObject("_v4").transform.SetParent(maskRoot.transform, false); // versión: cuevas pintadas a mano + transiciones suaves
+            new GameObject("_v5").transform.SetParent(maskRoot.transform, false); // versión: solo cuevas cerradas + transiciones en las bocas
             var maskSprite = ImportMask($"{CaveArt}/Mascara.png");
             foreach (var z in zones)
             {
@@ -858,7 +859,7 @@ namespace PrimalEcho.Editor
         // Donde la cueva toca aire libre (sin pared de por medio), la máscara deja una línea recta y dura.
         // Aquí se pone un degradado del color de la cueva que sale hacia afuera, para que la jungla
         // se oscurezca poco a poco al entrar a la cueva. Va encima de los fondos y detrás del terreno.
-        private const int CaveFadeCells = 5;
+        private const int CaveFadeCells = 3;
         private static readonly Color CaveFadeColor = new Color(0.12f, 0.105f, 0.21f, 1f);
 
         private static void CaveTransitions(Map m, Transform parent, HashSet<Vector2Int> caveCells, Tilemap solid)
@@ -884,17 +885,7 @@ namespace PrimalEcho.Editor
                 sr.sortingOrder = -50; // encima de jungla (-60…-100) y cueva (-53…-98), detrás de árboles y terreno
                 count++;
             }
-            // Bordes de arriba y de abajo (tramos horizontales)
-            for (int y = 0; y < H; y++)
-                foreach (int dy in new[] { 1, -1 })
-                    for (int x = 0; x < m.W;)
-                    {
-                        if (!(Cave(x, y) && Open(x, y + dy))) { x++; continue; }
-                        int x0 = x;
-                        while (x < m.W && Cave(x, y) && Open(x, y + dy)) x++;
-                        float edgeY = dy > 0 ? y + 1 : y;
-                        Piece(new Vector2((x0 + x) * 0.5f, edgeY), dy > 0 ? 0f : 180f, x - x0);
-                    }
+            // Solo en las bocas de los lados (entradas horizontales); arriba y abajo no, se veían manchas oscuras.
             // Bordes de los lados (tramos verticales)
             for (int x = 0; x < m.W; x++)
                 foreach (int dx in new[] { 1, -1 })
@@ -903,6 +894,7 @@ namespace PrimalEcho.Editor
                         if (!(Cave(x, y) && Open(x + dx, y))) { y++; continue; }
                         int y0 = y;
                         while (y < H && Cave(x, y) && Open(x + dx, y)) y++;
+                        if (y - y0 < 3) continue; // rendijas pequeñas: nada
                         float edgeX = dx > 0 ? x + 1 : x;
                         Piece(new Vector2(edgeX, (y0 + y) * 0.5f), dx > 0 ? -90f : 90f, y - y0);
                     }
@@ -942,12 +934,13 @@ namespace PrimalEcho.Editor
                     bool cave = y < m.H && IsCaveBack(m, x, y);
                     if (!cave)
                     {
-                        // Techo arriba (máx. 12 tiles) y pared a algún lado (máx. 30 tiles) en la misma fila
+                        // Cueva pintada a mano: techo cerca (máx. 8) y pared a LOS DOS lados (máx. 24) en la misma fila.
+                        // (Antes bastaba una pared y salían "cuevas" falsas debajo de cualquier plataforma.)
                         bool roof = false, wallL = false, wallR = false;
-                        for (int k = 1; k <= 12 && !roof; k++) roof = Solid(x, y + k);
-                        for (int k = 1; k <= 30 && roof && !wallL; k++) wallL = Solid(x - k, y);
-                        for (int k = 1; k <= 30 && roof && !wallR; k++) wallR = Solid(x + k, y);
-                        cave = roof && (wallL || wallR);
+                        for (int k = 1; k <= 8 && !roof; k++) roof = Solid(x, y + k);
+                        for (int k = 1; k <= 24 && roof && !wallL; k++) wallL = Solid(x - k, y);
+                        for (int k = 1; k <= 24 && roof && wallL && !wallR; k++) wallR = Solid(x + k, y);
+                        cave = roof && wallL && wallR;
                     }
                     if (cave) cells.Add(new Vector2Int(x, y));
                 }
