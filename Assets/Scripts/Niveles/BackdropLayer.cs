@@ -13,6 +13,8 @@ namespace PrimalEcho
         [SerializeField, Range(0f, 0.5f)] private float parallaxY = 0.03f;
         [SerializeField, Min(1f)] private float cover = 1.08f;
         [SerializeField] private bool anchorBottom;
+        [Tooltip("Capas de suelo del fondo: al subir la cámara se hunden (así no parece suelo pisable bajo plataformas altas)")]
+        [SerializeField, Range(0f, 1f)] private float sinkWhenHigher;
         private Camera cam;
         private SpriteRenderer main;
         private SpriteRenderer[] copies;
@@ -21,6 +23,12 @@ namespace PrimalEcho
         public void Configure(float factorX, float factorY, bool bottom)
         {
             parallaxX = factorX; parallaxY = factorY; anchorBottom = bottom;
+        }
+
+        public void Configure(float factorX, float factorY, bool bottom, float sink)
+        {
+            Configure(factorX, factorY, bottom);
+            sinkWhenHigher = sink;
         }
 
         private void Start()
@@ -62,6 +70,7 @@ namespace PrimalEcho
             // limitar el desplazamiento vertical para no mostrar bordes
             float slack = (size.y * scale - viewH) * 0.5f;
             y = Mathf.Clamp(y, c.y - slack, c.y + slack);
+            if (sinkWhenHigher > 0f) y -= Mathf.Max(0f, c.y - startCamY) * sinkWhenHigher;
             // x,y son el centro deseado; se compensa el pivote del sprite (algunos fondos tienen el pivote abajo)
             Vector2 pivotOffset = (Vector2)main.sprite.bounds.center * scale;
             transform.position = new Vector3(x - pivotOffset.x, y - pivotOffset.y, transform.position.z);

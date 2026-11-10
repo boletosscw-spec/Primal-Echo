@@ -143,6 +143,12 @@ namespace PrimalEcho.Editor
             var bg = grid != null ? grid.transform.Find("Fondo_Cueva_Y_Arboles")?.GetComponent<Tilemap>() : null;
             var group = scene.GetRootGameObjects().SelectMany(rootGo => rootGo.GetComponentsInChildren<Transform>(true)).FirstOrDefault(tr => tr.name == "Fondo_Parallax");
             Map map = Parse($"{MapsFolder}/{level.map}");
+            bool jungleChanged = false;
+            if (group != null && group.Find(JungleVersion) == null)
+            {
+                BuildJungleParallax(group, map.Theme);
+                jungleChanged = true;
+            }
             Tile fill = T("tile_jungle_wall_brown_r0_c2");
             bool hasBlack = false;
             if (bg != null && fill != null)
@@ -157,7 +163,7 @@ namespace PrimalEcho.Editor
                 PlantTrees(map, grid.transform, bg);
                 treesChanged = true;
             }
-            if (quiet && !hasBlack && hasCave) return treesChanged;
+            if (quiet && !hasBlack && hasCave && !jungleChanged) return treesChanged;
             SetupCaveBackdrop(map, bg);
             Debug.Log($"[Primal Echo] {scene.name}: fondo de cueva parallax aplicado (se quitó el relleno negro de tiles).");
             return true;
@@ -387,6 +393,8 @@ namespace PrimalEcho.Editor
             SaveBaseline(sceneName, layers);       // lo que generó la máquina
             ApplyUserEdits(edits, layers);         // + lo que tú cambiaste
             BuildCollisionFromTiles(gridObj.transform, solid, branches);
+            var jungleGroup = GameObject.Find("Fondo_Parallax");
+            if (jungleGroup != null) BuildJungleParallax(jungleGroup.transform, map.Theme);
             SetupCaveBackdrop(map, bg);
             PlantTrees(map, gridObj.transform, bg);
             AttachHandPainted(sceneName, gridObj.transform);
@@ -878,6 +886,62 @@ namespace PrimalEcho.Editor
             return AssetDatabase.LoadAssetAtPath<Sprite>(path);
         }
 
+        // ───────────── Fondo parallax de selva (Assets/Sprites/Fondos/KitSelva) ─────────────
+        // 9 planos del más lejano al más cercano. factorX: 0 = quieto con la cámara (cielo) · 1 = igual que el mundo.
+        // Todos van detrás del terreno (orden < -50) y no llevan colisiones. Dentro de las cuevas los oculta la máscara.
+        private const string JungleVersion = "_Selva_v1";
+        private static readonly (string name, string file, int order, float fx, float fy, float sink)[] JungleLayers =
+        {
+            ("00_Cielo",                "Parallax/00_Cielo_atmosferico.png",     -100, 0.00f, 0.00f, 0f),
+            ("01_Bosque_Muy_Lejano",    "Parallax/01_Bosque_muy_lejano.png",      -96, 0.09f, 0.02f, 0f),
+            ("02_Bosque_Intermedio",    "Parallax/02_Bosque_intermedio.png",      -92, 0.17f, 0.03f, 0f),
+            ("03_Selva_Izquierda",      "Corregidas/Selva_Izquierda.png",         -88, 0.32f, 0.04f, 0f),
+            ("04_Selva_Derecha",        "Corregidas/Selva_Derecha.png",           -86, 0.34f, 0.04f, 0f),
+            ("05_Dosel_Superior",       "Parallax/05_Dosel_superior.png",         -70, 0.63f, 0.05f, 0f),
+            ("06_Lianas_Colgantes",     "Parallax/06_Lianas_colgantes.png",       -66, 0.76f, 0.06f, 0f),
+            ("07_Plataforma_Roca",      "Parallax/07_Plataforma_roca_suelo.png",  -60, 0.81f, 0.00f, 0.81f),
+            ("08_Primer_Plano_Sombras", "Parallax/08_Primer_plano_sombras.png",   -56, 0.95f, 0.00f, 0.95f),
+        };
+
+        // Borra el fondo anterior (menos las capas de cueva) y crea las 9 capas del kit.
+        private static void BuildJungleParallax(Transform group, string theme)
+        {
+            for (int i = group.childCount - 1; i >= 0; i--)
+                if (!group.GetChild(i).name.StartsWith("Cueva_")) Object.DestroyImmediate(group.GetChild(i).gameObject);
+            Vector3 cam = Camera.main != null ? Camera.main.transform.position : group.position;
+            int made = 0;
+            foreach (var (name, file, order, fx, fy, sink) in JungleLayers)
+            {
+                var sprite = LoadKitSprite(KitSelvaImporter.Root + file);
+                if (sprite == null) continue;
+                var go = new GameObject(name);
+                go.transform.SetParent(group, false);
+                go.transform.position = new Vector3(cam.x, cam.y, 20f);
+                var sr = go.AddComponent<SpriteRenderer>();
+                sr.sprite = sprite;
+                sr.sortingOrder = order;
+                if (theme == "templo") sr.color = new Color(0.62f, 0.72f, 0.92f, 1f);
+                go.AddComponent<BackdropLayer>().Configure(fx, fy, false, sink);
+                made++;
+            }
+            new GameObject(JungleVersion).transform.SetParent(group, false); // marcador de versión
+            EditorUtility.SetDirty(group.gameObject);
+            Debug.Log($"[Primal Echo] Fondo parallax de selva: {made}/{JungleLayers.Length} capas.");
+        }
+
+        private static Sprite LoadKitSprite(string path)
+        {
+            if (!File.Exists(path)) { Debug.LogWarning("[Primal Echo] Falta " + path); return null; }
+            var imp = AssetImporter.GetAtPath(path) as TextureImporter;
+            if (imp == null) { AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceUpdate); imp = AssetImporter.GetAtPath(path) as TextureImporter; }
+            if (imp == null) return null;
+            // KitSelvaImporter pone Sprite, 32 PPU, sin compresión y sin mipmaps al reimportar
+            if (imp.textureType != TextureImporterType.Sprite || !Mathf.Approximately(imp.spritePixelsPerUnit, 32f) || imp.mipmapEnabled
+                || imp.textureCompression != TextureImporterCompression.Uncompressed)
+                imp.SaveAndReimport();
+            return AssetDatabase.LoadAssetAtPath<Sprite>(path);
+        }
+
         // ───────────── Capa pintada a mano ─────────────
         // Un prefab por nivel con tilemaps propios. Lo que pintes ahí (en modo prefab) no se borra al regenerar.
         private static void AttachHandPainted(string sceneName, Transform grid)
@@ -1176,25 +1240,7 @@ namespace PrimalEcho.Editor
                 SetField(follow, "offset", new Vector3(0f, 1.5f, -10f));
                 EditorUtility.SetDirty(follow);
             }
-            // Fondo: BackdropLayer siempre cubre toda la cámara, sin estirarse, y se repite en horizontal
-            GameObject bgGroup = GameObject.Find("Fondo_Parallax");
-            if (bgGroup != null)
-                foreach (Transform layer in bgGroup.transform)
-                {
-                    for (int c = layer.childCount - 1; c >= 0; c--) Object.DestroyImmediate(layer.GetChild(c).gameObject);
-                    foreach (var old in layer.GetComponents<PrimalEcho.Environment.ParallaxLayer>()) Object.DestroyImmediate(old);
-                    var sr = layer.GetComponent<SpriteRenderer>();
-                    if (sr == null) continue;
-                    sr.drawMode = SpriteDrawMode.Simple;
-                    if (m.Theme == "templo") sr.color = new Color(0.62f, 0.72f, 0.92f, 1f);
-                    layer.localScale = Vector3.one;
-                    layer.position = new Vector3(camPos.x, camPos.y, layer.position.z);
-                    var backdrop = GetOrAdd<BackdropLayer>(layer.gameObject);
-                    if (layer.name.Contains("Panorama")) backdrop.Configure(0.03f, 0.02f, false);
-                    else if (layer.name.Contains("Bosque")) backdrop.Configure(0.15f, 0.04f, false);
-                    else backdrop.Configure(0.4f, 0f, true);
-                    EditorUtility.SetDirty(layer.gameObject);
-                }
+            // El fondo parallax lo construye BuildJungleParallax (kit de selva)
         }
 
         private static void SetField(Object target, string field, object value)

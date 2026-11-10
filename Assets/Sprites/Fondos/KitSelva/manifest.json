@@ -1,0 +1,1059 @@
+{
+  "source_dimensions": [
+    800,
+    449
+  ],
+  "note": "The source is one flattened RGB picture. Layers are approximate reconstructions/extractions; covered scenery cannot be recovered exactly. Individual tiles are newly drawn in a matching palette.",
+  "parallax": [
+    {
+      "file": "00_Cielo_atmosferico.png",
+      "factor": 0,
+      "sorting_order": 0,
+      "note": "Base atmospheric sky. Opaque, covers all pixels."
+    },
+    {
+      "file": "01_Bosque_muy_lejano.png",
+      "factor": 0.09,
+      "sorting_order": 1,
+      "note": "Original translucent silhouettes without source watermark."
+    },
+    {
+      "file": "02_Bosque_intermedio.png",
+      "factor": 0.17,
+      "sorting_order": 2,
+      "note": "Second background vegetation depth."
+    },
+    {
+      "file": "03_Selva_lateral_izquierda.png",
+      "factor": 0.32,
+      "sorting_order": 3,
+      "note": "Extracted dark trunks/leaves; alpha approximated from flat reference."
+    },
+    {
+      "file": "04_Selva_lateral_derecha.png",
+      "factor": 0.34,
+      "sorting_order": 4,
+      "note": "Extracted dark trunks/leaves; alpha approximated from flat reference."
+    },
+    {
+      "file": "05_Dosel_superior.png",
+      "factor": 0.63,
+      "sorting_order": 5,
+      "note": "Leaf/branch canopy, extraction from source."
+    },
+    {
+      "file": "06_Lianas_colgantes.png",
+      "factor": 0.76,
+      "sorting_order": 6,
+      "note": "Cleanly separated hanging vines; illustration-matched additions."
+    },
+    {
+      "file": "07_Plataforma_roca_suelo.png",
+      "factor": 0.81,
+      "sorting_order": 7,
+      "note": "Original ground, grass crest and stone foundation, approx clean top edge."
+    },
+    {
+      "file": "08_Primer_plano_sombras.png",
+      "factor": 1.08,
+      "sorting_order": 8,
+      "note": "Dark silhouettes at the bottom for foreground parallax."
+    }
+  ],
+  "sprites": [
+    {
+      "file": "Arbol_izquierdo.png",
+      "position_canvas_px": [
+        0,
+        28
+      ],
+      "size_px": [
+        165,
+        307
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Pilar_izquierdo.png",
+      "position_canvas_px": [
+        0,
+        175
+      ],
+      "size_px": [
+        105,
+        207
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Arbol_derecho.png",
+      "position_canvas_px": [
+        575,
+        23
+      ],
+      "size_px": [
+        225,
+        347
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Ruina_derecha.png",
+      "position_canvas_px": [
+        603,
+        121
+      ],
+      "size_px": [
+        182,
+        244
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Helecho_izquierdo.png",
+      "position_canvas_px": [
+        178,
+        226
+      ],
+      "size_px": [
+        106,
+        123
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Helecho_derecho.png",
+      "position_canvas_px": [
+        598,
+        236
+      ],
+      "size_px": [
+        89,
+        122
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Hierba_izquierda.png",
+      "position_canvas_px": [
+        8,
+        284
+      ],
+      "size_px": [
+        143,
+        93
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Hierba_derecha.png",
+      "position_canvas_px": [
+        665,
+        266
+      ],
+      "size_px": [
+        135,
+        113
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Rama_superior_izquierda.png",
+      "position_canvas_px": [
+        0,
+        0
+      ],
+      "size_px": [
+        340,
+        145
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Rama_superior_derecha.png",
+      "position_canvas_px": [
+        355,
+        0
+      ],
+      "size_px": [
+        445,
+        156
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Plantas_rodales_izq.png",
+      "position_canvas_px": [
+        102,
+        262
+      ],
+      "size_px": [
+        175,
+        99
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Plantas_rodales_der.png",
+      "position_canvas_px": [
+        527,
+        255
+      ],
+      "size_px": [
+        191,
+        105
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Suelo_grass_A.png",
+      "position_canvas_px": [
+        98,
+        334
+      ],
+      "size_px": [
+        174,
+        75
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Suelo_grass_B.png",
+      "position_canvas_px": [
+        310,
+        340
+      ],
+      "size_px": [
+        182,
+        78
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Suelo_grass_C.png",
+      "position_canvas_px": [
+        534,
+        334
+      ],
+      "size_px": [
+        173,
+        74
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Piedra_bloques_izq.png",
+      "position_canvas_px": [
+        0,
+        348
+      ],
+      "size_px": [
+        219,
+        101
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Piedra_bloques_centro.png",
+      "position_canvas_px": [
+        213,
+        351
+      ],
+      "size_px": [
+        345,
+        98
+      ],
+      "method": "rough alpha extraction from flattened source"
+    },
+    {
+      "file": "Piedra_bloques_der.png",
+      "position_canvas_px": [
+        548,
+        346
+      ],
+      "size_px": [
+        252,
+        103
+      ],
+      "method": "rough alpha extraction from flattened source"
+    }
+  ],
+  "tiles": [
+    {
+      "file": "floor_01.png",
+      "kind": "floor",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "floor_02.png",
+      "kind": "floor",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "floor_03.png",
+      "kind": "floor",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "floor_04.png",
+      "kind": "floor",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "floor_05.png",
+      "kind": "floor",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "floor_06.png",
+      "kind": "floor",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "floor_07.png",
+      "kind": "floor",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "floor_08.png",
+      "kind": "floor",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "floor_left_01.png",
+      "kind": "floor_left",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "floor_left_02.png",
+      "kind": "floor_left",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "floor_right_01.png",
+      "kind": "floor_right",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "floor_right_02.png",
+      "kind": "floor_right",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "floor_moss_01.png",
+      "kind": "floor_moss",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "floor_moss_02.png",
+      "kind": "floor_moss",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "floor_moss_03.png",
+      "kind": "floor_moss",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "soil_01.png",
+      "kind": "soil",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "soil_02.png",
+      "kind": "soil",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "soil_03.png",
+      "kind": "soil",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "soil_04.png",
+      "kind": "soil",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "soil_05.png",
+      "kind": "soil",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "soil_06.png",
+      "kind": "soil",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "soil_cracked_01.png",
+      "kind": "soil_cracked",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "soil_cracked_02.png",
+      "kind": "soil_cracked",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "soil_cracked_03.png",
+      "kind": "soil_cracked",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "soil_moss_01.png",
+      "kind": "soil_moss",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "soil_moss_02.png",
+      "kind": "soil_moss",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "soil_moss_03.png",
+      "kind": "soil_moss",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "edge_left_01.png",
+      "kind": "edge_left",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "edge_left_02.png",
+      "kind": "edge_left",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "edge_right_01.png",
+      "kind": "edge_right",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "edge_right_02.png",
+      "kind": "edge_right",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "corner_left_01.png",
+      "kind": "corner_left",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "corner_left_02.png",
+      "kind": "corner_left",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "corner_right_01.png",
+      "kind": "corner_right",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "corner_right_02.png",
+      "kind": "corner_right",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "underside_01.png",
+      "kind": "underside",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "underside_02.png",
+      "kind": "underside",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "platform_01.png",
+      "kind": "platform",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "platform_02.png",
+      "kind": "platform",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "platform_03.png",
+      "kind": "platform",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "platform_04.png",
+      "kind": "platform",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "platform_left_01.png",
+      "kind": "platform_left",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "platform_left_02.png",
+      "kind": "platform_left",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "platform_right_01.png",
+      "kind": "platform_right",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "platform_right_02.png",
+      "kind": "platform_right",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_01.png",
+      "kind": "ruin",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_02.png",
+      "kind": "ruin",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_03.png",
+      "kind": "ruin",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_04.png",
+      "kind": "ruin",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_moss_01.png",
+      "kind": "ruin_moss",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_moss_02.png",
+      "kind": "ruin_moss",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_moss_03.png",
+      "kind": "ruin_moss",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_moss_04.png",
+      "kind": "ruin_moss",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "brick_01.png",
+      "kind": "brick",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "brick_02.png",
+      "kind": "brick",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "brick_03.png",
+      "kind": "brick",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "brick_moss_01.png",
+      "kind": "brick_moss",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "brick_moss_02.png",
+      "kind": "brick_moss",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "brick_moss_03.png",
+      "kind": "brick_moss",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_glow_01.png",
+      "kind": "ruin_glow",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_glow_02.png",
+      "kind": "ruin_glow",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_glow_03.png",
+      "kind": "ruin_glow",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_pillar_01.png",
+      "kind": "ruin_pillar",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_pillar_02.png",
+      "kind": "ruin_pillar",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_cap_01.png",
+      "kind": "ruin_cap",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_cap_02.png",
+      "kind": "ruin_cap",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_arch_01.png",
+      "kind": "ruin_arch",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "ruin_arch_02.png",
+      "kind": "ruin_arch",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "fern_01.png",
+      "kind": "fern",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "fern_02.png",
+      "kind": "fern",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "fern_03.png",
+      "kind": "fern",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "bush_01.png",
+      "kind": "bush",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "bush_02.png",
+      "kind": "bush",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "bush_03.png",
+      "kind": "bush",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "vine_01.png",
+      "kind": "vine",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "vine_02.png",
+      "kind": "vine",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "vine_03.png",
+      "kind": "vine",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "vine_bottom_01.png",
+      "kind": "vine_bottom",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "vine_bottom_02.png",
+      "kind": "vine_bottom",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "rock_01.png",
+      "kind": "rock",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "rock_02.png",
+      "kind": "rock",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "rock_03.png",
+      "kind": "rock",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "rock_large_01.png",
+      "kind": "rock_large",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "rock_large_02.png",
+      "kind": "rock_large",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "grass_tuft_01.png",
+      "kind": "grass_tuft",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "grass_tuft_02.png",
+      "kind": "grass_tuft",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "grass_tuft_03.png",
+      "kind": "grass_tuft",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "flower_01.png",
+      "kind": "flower",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "flower_02.png",
+      "kind": "flower",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "tree_trunk_01.png",
+      "kind": "tree_trunk",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "tree_trunk_02.png",
+      "kind": "tree_trunk",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "tree_roots_01.png",
+      "kind": "tree_roots",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "tree_roots_02.png",
+      "kind": "tree_roots",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "leaf_litter_01.png",
+      "kind": "leaf_litter",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "leaf_litter_02.png",
+      "kind": "leaf_litter",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "neon_life_01.png",
+      "kind": "neon_life",
+      "pixels": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "neon_life_02.png",
+      "kind": "neon_life",
+      "pixels": [
+        32,
+        32
+      ]
+    }
+  ]
+}
