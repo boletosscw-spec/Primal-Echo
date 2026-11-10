@@ -185,15 +185,15 @@ namespace PrimalEcho.Editor
             bool hasCave = lab
                 ? maskOk && grid != null && grid.transform.Find(LabVersion) != null
                 : maskOk && group != null && group.Find("Cueva_Lejos") != null && group.GetComponent<CaveAmbience>() != null;
-            bool treesChanged = SetupJungleParticles() | SetupHollowCamera();
+            bool treesChanged = SetupJungleParticles() | SetupHollowCamera() | SetupLabKey(map);
             if (grid != null && grid.transform.Find(TreesVersion) == null)
             {
                 PlantTrees(map, grid.transform, bg);
                 treesChanged = true;
             }
             if (quiet && !hasBlack && hasCave && !jungleChanged && !doorChanged) return treesChanged;
-            SetupCaveBackdrop(map, bg);
-            if (lab && grid != null) BuildLabBase(map, grid.transform);
+            if (!lab) SetupCaveBackdrop(map, bg);
+            else if (grid != null) BuildLabBase(map, grid.transform);
             return true;
         }
 
@@ -487,6 +487,7 @@ namespace PrimalEcho.Editor
             foreach (var c in map.Find('o')) { Shard(root, lights, c, art.shard); shards++; }
             Arena(map, root, enemies);
             Goal(map, lights);
+            SetupLabKey(map);
             Signs(map);
 
             var hud = new GameObject("HUD_Nivel").AddComponent<LevelHUD>();
@@ -890,7 +891,8 @@ namespace PrimalEcho.Editor
         // plataformas metálicas, pinchos láser y decoración (barriles, computadoras, tanques).
         // Sin fondo de cueva, sin degradados y sin oscuridad. Los tiles se pintan una sola vez (marcador LabVersion);
         // lo que edites después a mano se respeta.
-        private const string LabVersion = "Base_Tecnologica_v1";
+        private const string LabVersion = "Base_Tecnologica_v2";
+        private const int LabStartX = 30; // desde la puerta hacia la derecha, todo es instalación
         private const string LabPieces = "Assets/Sprites/Laboratorio/Tileset/Piezas";
         private const string LabDecor = "Assets/Sprites/Laboratorio/Decor/Piezas";
         private const string LabTilesFolder = "Assets/Tiles/Laboratorio";
@@ -911,6 +913,58 @@ namespace PrimalEcho.Editor
         // Pieza del tileset por columna y fila (la hoja es de 10 columnas; las piezas son de 32x32)
         private static Tile Lab(int col, int row) => LabTile($"{LabPieces}/tile{row * 10 + col:000}.png", $"lab_{row * 10 + col:000}");
 
+        // Llave de la base: se recoge en el Nivel 1, en el camino justo antes de la meta (no se puede saltar).
+        private static bool SetupLabKey(Map m)
+        {
+            if (m.Theme == "templo" || GameObject.Find("Llave_Base") != null || !m.Find('X').Any()) return false;
+            var sprite = LoadKitSprite("Assets/Sprites/Laboratorio/Llave.png");
+            if (sprite == null) return false;
+            Vector2Int goal = m.Find('X').First();
+            var go = new GameObject("Llave_Base");
+            var parent = GameObject.Find("Jugabilidad");
+            if (parent != null) go.transform.SetParent(parent.transform);
+            go.transform.position = new Vector3(goal.x - 4 + 0.5f, goal.y + 1.2f, 0f);
+            var circle = go.AddComponent<CircleCollider2D>();
+            circle.isTrigger = true; circle.radius = 0.7f;
+            var sr = Visual(go.transform, sprite, 6);
+            sr.transform.localScale = new Vector3(2f, 2f, 1f);
+            go.AddComponent<KeyPickup>().Configure(sr.transform);
+            var glow = Light(go.transform, "Brillo", go.transform.position, new Color(0.4f, 0.9f, 1f), 1.1f, 2.6f);
+            glow.transform.localPosition = Vector3.zero;
+            Debug.Log($"[Primal Echo] Nivel 1: llave de la base colocada en x {goal.x - 4}, antes de la meta.");
+            return true;
+        }
+
+        // Puerta de la base (barrera láser) en la boca del túnel: x 30–32, y 30–34. Se abre con la llave.
+        private static void SetupLabDoor()
+        {
+            if (GameObject.Find("Puerta_Base") != null) return;
+            const string folder = "Assets/Sprites/Laboratorio/Barrera/Piezas";
+            var idle = Enumerable.Range(0, 18).Select(i => LoadKitSprite($"{folder}/barrier_idle/tile{i:000}.png")).Where(sp => sp != null).ToArray();
+            var open = Enumerable.Range(0, 18).Select(i => LoadKitSprite($"{folder}/barrier_deactivate/tile{i:000}.png")).Where(sp => sp != null).ToArray();
+            if (idle.Length == 0) { Debug.LogWarning("[Primal Echo] Faltan los sprites de la barrera (Laboratorio/Barrera)."); return; }
+            var go = new GameObject("Puerta_Base");
+            var parent = GameObject.Find("Jugabilidad");
+            if (parent != null) go.transform.SetParent(parent.transform);
+            go.transform.position = new Vector3(LabStartX + 1.25f, 32.5f, 0f);
+            go.layer = TerrainLayer;
+            var box = go.AddComponent<BoxCollider2D>();
+            box.size = new Vector2(1.2f, 5f);
+            var sr = Visual(go.transform, idle[0], 3);
+            sr.transform.localScale = new Vector3(2.5f, 2.5f, 1f); // 1x2 unidades → 2.5x5: tapa toda la boca
+            go.AddComponent<LabDoor>().Configure(sr, box, idle, open);
+            var glow = Light(go.transform, "Brillo", go.transform.position, new Color(1f, 0.25f, 0.2f), 1.2f, 4f);
+            glow.transform.localPosition = Vector3.zero;
+            Debug.Log("[Primal Echo] Nivel 2: puerta de la base colocada (se abre con la llave del Nivel 1).");
+        }
+
+        [MenuItem("Primal Echo/Llave de la base: dar o quitar (para pruebas)", false, 30)]
+        public static void ToggleLabKey()
+        {
+            LabKey.Has = !LabKey.Has;
+            EditorUtility.DisplayDialog("Primal Echo", LabKey.Has ? "Ahora TIENES la llave de la base." : "Ya NO tienes la llave de la base.", "OK");
+        }
+
         private static void BuildLabBase(Map m, Transform grid)
         {
             // 1) Fuera todo lo de cueva: capas de fondo, degradados y oscuridad (CaveAmbience). La máscara se queda
@@ -925,13 +979,24 @@ namespace PrimalEcho.Editor
                 }
                 if (group.TryGetComponent(out CaveAmbience ambience)) Object.DestroyImmediate(ambience);
             }
+            // Máscara: una sola zona que cubre toda la instalación (ahí no caen hojas ni vuelan insectos)
             var mask = GameObject.Find("Mascara_Cuevas");
-            var fades = mask != null ? mask.transform.Find("Transiciones_Cueva") : null;
-            if (fades != null) Object.DestroyImmediate(fades.gameObject);
+            if (mask != null) Object.DestroyImmediate(mask);
+            mask = new GameObject("Mascara_Cuevas");
+            new GameObject("_v5").transform.SetParent(mask.transform, false);
+            var zone = new GameObject("Zona_Base");
+            zone.transform.SetParent(mask.transform, false);
+            float zx0 = LabStartX, zx1 = m.W + 20f, zy0 = -10f, zy1 = m.H + 20f;
+            zone.transform.position = new Vector3((zx0 + zx1) * 0.5f, (zy0 + zy1) * 0.5f, 0f);
+            zone.transform.localScale = new Vector3(zx1 - zx0, zy1 - zy0, 1f);
+            zone.AddComponent<SpriteMask>().sprite = ImportMask($"{CaveArt}/Mascara.png");
             var room = GameObject.Find("Sala_Cueva");
             if (room != null) room.name = "Sala_Base";
+            SetupLabDoor();
 
             if (grid.Find(LabVersion) != null) return;
+            var oldVersion = grid.Find("Base_Tecnologica_v1");
+            if (oldVersion != null) Object.DestroyImmediate(oldVersion.gameObject);
             var solid = grid.Find("mapa")?.GetComponent<Tilemap>();
             var oldBg = grid.Find("Fondo_Cueva_Y_Arboles")?.GetComponent<Tilemap>();
             var bg = Layer(grid.gameObject, "Fondo_Base", -10, false); // paneles de metal del fondo (capa propia)
@@ -944,20 +1009,15 @@ namespace PrimalEcho.Editor
             }
             bool Sol(int x, int y) => y >= m.H || solid.HasTile(new Vector3Int(x, y, 0));
 
-            // 2) Celdas interiores de la base = lo que era cueva
+            // 2) Zona de la instalación: de la puerta (x 30) hasta el final del nivel, a toda la altura
+            //    (+ el saliente de roca sobre la puerta). "inside" = celdas de aire de esa zona.
+            bool Near(int x, int y, int d) => x >= LabStartX || (x >= LabStartX - 3 && y >= 36);
             var inside = new HashSet<Vector2Int>();
             for (int y = 0; y < m.H; y++)
-                for (int x = 0; x < m.W; x++)
-                    if (!Sol(x, y) && IsCaveBack(m, x, y)) inside.Add(new Vector2Int(x, y));
+                for (int x = LabStartX; x < m.W; x++)
+                    if (!Sol(x, y)) inside.Add(new Vector2Int(x, y));
             if (inside.Count == 0) return;
-            int minX = inside.Min(cell => cell.x), maxX = inside.Max(cell => cell.x);
-            bool Near(int x, int y, int d)
-            {
-                for (int dx = -d; dx <= d; dx++)
-                    for (int dy = -d; dy <= d; dy++)
-                        if (inside.Contains(new Vector2Int(x + dx, y + dy))) return true;
-                return false;
-            }
+            int minX = LabStartX, maxX = m.W - 1;
 
             // 3) Paredes, pisos y techos: marco de laboratorio en las orillas y relleno oscuro por dentro
             Tile[] dark = { Lab(6, 1), Lab(7, 1), Lab(6, 2), Lab(7, 2), Lab(5, 2) };
@@ -1043,7 +1103,7 @@ namespace PrimalEcho.Editor
 
             new GameObject(LabVersion).transform.SetParent(grid, false);
             AssetDatabase.SaveAssets();
-            Debug.Log($"[Primal Echo] Nivel 2: base tecnológica construida ({walls} bloques de pared/piso, {inside.Count} paneles de fondo, {placed} muebles).");
+            Debug.Log($"[Primal Echo] Nivel 2: instalación tecnológica desde la puerta hasta el final ({walls} bloques, {inside.Count} paneles de fondo, {placed} muebles).");
         }
 
         // Donde la cueva toca aire libre (sin pared de por medio), la máscara deja una línea recta y dura.

@@ -23,7 +23,11 @@ namespace PrimalEcho
             levelName = title; intro = introText; totalShards = shardCount;
         }
 
-        private void Awake() => stopped = false;
+        private static LevelHUD instance;
+        /// <summary>Muestra un aviso abajo en la pantalla desde cualquier script.</summary>
+        public static void Notify(string text, float seconds = 3f) { if (instance != null) instance.Show(text, seconds); }
+
+        private void Awake() { stopped = false; instance = this; }
         private void OnEnable() => EchoShard.Collected += OnShard;
         private void OnDisable() => EchoShard.Collected -= OnShard;
         private void OnShard() { shards++; Show("Fragmento de eco recogido"); }
@@ -69,6 +73,7 @@ namespace PrimalEcho
             string hearts = new string('♥', Mathf.Max(0, hp)) + new string('·', Mathf.Max(0, maxHealth - hp));
             GUI.Label(new Rect(20, 14, 400, 30), hearts, big);
             GUI.Label(new Rect(20, 44, 600, 24), levelName, small);
+            if (LabKey.Has) GUI.Label(new Rect(20, 66, 600, 24), "Llave de la base ✔", small);
             int m = (int)(elapsed / 60f), s = (int)(elapsed % 60f);
             string stats = (totalShards > 0 ? $"Fragmentos {shards}/{totalShards}    " : "") + $"Tiempo {m:00}:{s:00}";
             GUI.Label(new Rect(Screen.width - 340, 14, 320, 24), stats, small);
