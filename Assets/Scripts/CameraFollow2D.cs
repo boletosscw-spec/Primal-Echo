@@ -11,6 +11,11 @@ namespace PrimalEcho
         [SerializeField] private Transform target;
         [SerializeField] private Vector3 offset = new Vector3(0f, 5f, -10f);
         [SerializeField] private float smoothTime = 0.25f;
+        [Tooltip("Suavizado vertical: más alto = la cámara casi no brinca cuando Kael salta (como Hollow Knight)")]
+        [SerializeField] private float yDamping = 0.45f;
+        [Tooltip("Al caer rápido la cámara mira hacia abajo para ver dónde vas a aterrizar")]
+        [SerializeField] private float fallLookDistance = 3f;
+        [SerializeField] private float fallSpeed = 9f;
         [SerializeField] private Vector2 deadZone = new Vector2(.07f, .09f);
         [SerializeField] private float lookAheadDistance = 2f;
         [SerializeField] private float lookAheadSpeed = 5f;
@@ -28,6 +33,7 @@ namespace PrimalEcho
 
         private Transform rig;
         private PlayerController player;
+        private Rigidbody2D body2D;
         private CinemachineImpulseSource impulse;
         private PolygonCollider2D levelBounds;
         private CinemachineVirtualCamera levelCamera;
@@ -44,13 +50,13 @@ namespace PrimalEcho
             SetTarget(target);
             var camera = GetComponent<Camera>();
             camera.orthographic = true;
-            var pixels = GetComponent<PixelPerfectCamera>() ?? gameObject.AddComponent<PixelPerfectCamera>();
+            if (!TryGetComponent(out PixelPerfectCamera pixels)) pixels = gameObject.AddComponent<PixelPerfectCamera>();
             pixels.assetsPPU = pixelsPerUnit;
             pixels.refResolutionX = referenceResolution.x;
             pixels.refResolutionY = referenceResolution.y;
-            pixels.cropFrame = PixelPerfectCamera.CropFrame.Windowbox;
+            pixels.cropFrame = PixelPerfectCamera.CropFrame.StretchFill; // llena toda la pantalla, sin marco negro
             pixels.gridSnapping = PixelPerfectCamera.GridSnapping.UpscaleRenderTexture;
-            var brain = GetComponent<CinemachineBrain>() ?? gameObject.AddComponent<CinemachineBrain>();
+            if (!TryGetComponent(out CinemachineBrain brain)) brain = gameObject.AddComponent<CinemachineBrain>();
             brain.m_UpdateMethod = CinemachineBrain.UpdateMethod.LateUpdate;
             brain.m_DefaultBlend = new CinemachineBlendDefinition(CinemachineBlendDefinition.Style.EaseInOut, roomBlend);
 
@@ -80,7 +86,8 @@ namespace PrimalEcho
             body.m_TrackedObjectOffset = new Vector3(offset.x + look.x, offset.y + look.y);
             body.m_DeadZoneWidth = deadZone.x;
             body.m_DeadZoneHeight = deadZone.y;
-            body.m_XDamping = body.m_YDamping = smoothTime;
+            body.m_XDamping = smoothTime;
+            body.m_YDamping = yDamping;
             bodies.Add(body);
             go.AddComponent<CinemachinePixelPerfect>();
             if (polygon) go.AddComponent<CinemachineConfiner2D>().m_BoundingShape2D = polygon;
@@ -116,6 +123,7 @@ namespace PrimalEcho
         {
             target = value;
             player = target ? target.GetComponent<PlayerController>() : null;
+            body2D = target ? target.GetComponent<Rigidbody2D>() : null;
             if (levelCamera) levelCamera.Follow = value;
             foreach (var cam in cameras.Values) cam.Follow = value;
         }
@@ -146,6 +154,7 @@ namespace PrimalEcho
             lastVertical = vertical;
             held += Time.deltaTime;
             Vector2 desired = new Vector2(player.Facing * lookAheadDistance, held >= verticalHold ? vertical * verticalDistance : 0f);
+            if (body2D && body2D.linearVelocity.y < -fallSpeed) desired.y = Mathf.Min(desired.y, -fallLookDistance);
             look = Vector2.MoveTowards(look, desired, lookAheadSpeed * Time.deltaTime);
             foreach (var body in bodies)
                 body.m_TrackedObjectOffset = new Vector3(offset.x + look.x, offset.y + look.y);

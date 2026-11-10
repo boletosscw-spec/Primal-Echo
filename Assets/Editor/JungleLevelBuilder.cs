@@ -157,7 +157,7 @@ namespace PrimalEcho.Editor
                         if (Cell(map, x, y) == 0 && IsCaveBack(map, x, y) && bg.GetTile(new Vector3Int(x, y, 0)) == fill) { hasBlack = true; break; }
             bool hasCave = group != null && group.Find("Cueva_Lejos") != null && group.GetComponent<CaveAmbience>() != null
                 && scene.GetRootGameObjects().Any(rootGo => rootGo.name == "Mascara_Cuevas" && rootGo.transform.Find("_v3") != null);
-            bool treesChanged = SetupJungleParticles();
+            bool treesChanged = SetupJungleParticles() | SetupHollowCamera();
             if (grid != null && grid.transform.Find(TreesVersion) == null)
             {
                 PlantTrees(map, grid.transform, bg);
@@ -413,6 +413,7 @@ namespace PrimalEcho.Editor
 
             SetupCamera(map, player.transform.position);
             SetupJungleParticles();
+            SetupHollowCamera();
 
             // Juego
             var enemies = new List<(Vector2Int cell, GameObject go)>();
@@ -956,6 +957,20 @@ namespace PrimalEcho.Editor
             return true;
         }
 
+        // Cámara estilo Hollow Knight: Kael un poco abajo del centro (se ve más de lo que hay arriba y adelante).
+        private static readonly Vector3 CameraOffset = new Vector3(0f, 2.5f, -10f);
+        private const string CameraVersion = "_Camara_v2";
+
+        private static bool SetupHollowCamera()
+        {
+            Camera cam = Camera.main;
+            if (cam == null || cam.transform.Find(CameraVersion) != null || !cam.TryGetComponent(out CameraFollow2D follow)) return false;
+            SetField(follow, "offset", CameraOffset);
+            new GameObject(CameraVersion).transform.SetParent(cam.transform, false); // marcador de versión
+            EditorUtility.SetDirty(follow);
+            return true;
+        }
+
         private static Material ParticleMaterial(string name)
         {
             string texPath = $"{ParticlesFolder}/{name}.png", matPath = $"{ParticlesFolder}/Mat_{name}.mat";
@@ -1278,7 +1293,7 @@ namespace PrimalEcho.Editor
             if (follow != null)
             {
                 follow.SetBounds(min, max);
-                SetField(follow, "offset", new Vector3(0f, 1.5f, -10f));
+                SetField(follow, "offset", CameraOffset);
                 EditorUtility.SetDirty(follow);
             }
             // El fondo parallax lo construye BuildJungleParallax (kit de selva)
