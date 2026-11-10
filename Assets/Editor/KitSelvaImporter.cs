@@ -15,6 +15,7 @@ namespace PrimalEcho.Editor
         public const string TempleRoot = "Assets/Sprites/Fondos/TemploPixel/Capas/";
         public const string ForestRoot = "Assets/Sprites/Fondos/BosqueCaricatura/Imagenes/";
         public const string ParticlesRoot = "Assets/Sprites/Particulas/";
+        public const string LabRoot = "Assets/Sprites/Laboratorio/";
 
         private struct Wanted { public FilterMode filter; public bool mips; }
 
@@ -23,6 +24,7 @@ namespace PrimalEcho.Editor
             w = default;
             if (path.StartsWith(ForestRoot)) { w.filter = FilterMode.Bilinear; w.mips = true; return true; }
             if (path.StartsWith(TempleRoot)) { w.filter = FilterMode.Point; return true; }
+            if (path.StartsWith(LabRoot)) { w.filter = FilterMode.Point; return true; } // laboratorio (Foozle): pixel art
             if (path.StartsWith(Root) && !path.StartsWith(Root + "Vistas/"))
             {
                 bool illustration = path.StartsWith(Root + "Parallax/") || path.StartsWith(Root + "Corregidas/");

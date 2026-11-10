@@ -156,8 +156,11 @@ namespace PrimalEcho.Editor
                 for (int y = 0; y < map.H && !hasBlack; y++)
                     for (int x = 0; x < map.W; x++)
                         if (Cell(map, x, y) == 0 && IsCaveBack(map, x, y) && bg.GetTile(new Vector3Int(x, y, 0)) == fill) { hasBlack = true; break; }
-            bool hasCave = group != null && group.Find("Cueva_Lejos") != null && group.GetComponent<CaveAmbience>() != null
-                && scene.GetRootGameObjects().Any(rootGo => rootGo.name == "Mascara_Cuevas" && rootGo.transform.Find("_v5") != null);
+            bool lab = map.Theme == "templo"; // Nivel 2: base tecnológica en lugar de cueva
+            bool maskOk = scene.GetRootGameObjects().Any(rootGo => rootGo.name == "Mascara_Cuevas" && rootGo.transform.Find("_v5") != null);
+            bool hasCave = lab
+                ? maskOk && grid != null && grid.transform.Find(LabVersion) != null
+                : maskOk && group != null && group.Find("Cueva_Lejos") != null && group.GetComponent<CaveAmbience>() != null;
             bool treesChanged = SetupJungleParticles() | SetupHollowCamera();
             if (grid != null && grid.transform.Find(TreesVersion) == null)
             {
@@ -166,7 +169,7 @@ namespace PrimalEcho.Editor
             }
             if (quiet && !hasBlack && hasCave && !jungleChanged && !doorChanged) return treesChanged;
             SetupCaveBackdrop(map, bg);
-            Debug.Log($"[Primal Echo] {scene.name}: fondo de cueva parallax aplicado (se quitó el relleno negro de tiles).");
+            if (lab && grid != null) BuildLabBase(map, grid.transform);
             return true;
         }
 
@@ -423,6 +426,7 @@ namespace PrimalEcho.Editor
             if (jungleGroup != null) BuildJungleParallax(jungleGroup.transform, map.Theme);
             SetupCaveBackdrop(map, bg);
             PlantTrees(map, gridObj.transform, bg);
+            if (map.Theme == "templo") BuildLabBase(map, gridObj.transform);
             AttachHandPainted(sceneName, gridObj.transform);
 
             Transform root = new GameObject("Jugabilidad").transform;
@@ -854,6 +858,165 @@ namespace PrimalEcho.Editor
             ambience.Configure(zones.ToArray(), outdoor.ToArray(), cave.ToArray());
             EditorUtility.SetDirty(group);
             Debug.Log($"[Primal Echo] Fondo de cueva: {zones.Count} zonas de cueva.");
+        }
+
+        // ───────────── Base tecnológica del Nivel 2 (Assets/Sprites/Laboratorio, Foozle Sci-Fi Lab, CC0) ─────────────
+        // Sustituye TODO lo que era cueva: paredes y pisos de laboratorio, fondo de paneles de metal,
+        // plataformas metálicas, pinchos láser y decoración (barriles, computadoras, tanques).
+        // Sin fondo de cueva, sin degradados y sin oscuridad. Los tiles se pintan una sola vez (marcador LabVersion);
+        // lo que edites después a mano se respeta.
+        private const string LabVersion = "Base_Tecnologica_v1";
+        private const string LabPieces = "Assets/Sprites/Laboratorio/Tileset/Piezas";
+        private const string LabDecor = "Assets/Sprites/Laboratorio/Decor/Piezas";
+        private const string LabTilesFolder = "Assets/Tiles/Laboratorio";
+
+        private static Tile LabTile(string spritePath, string name)
+        {
+            if (!AssetDatabase.IsValidFolder(LabTilesFolder)) AssetDatabase.CreateFolder("Assets/Tiles", "Laboratorio");
+            string path = $"{LabTilesFolder}/{name}.asset";
+            var tile = AssetDatabase.LoadAssetAtPath<Tile>(path);
+            if (tile != null && tile.sprite != null) return tile;
+            var sprite = LoadKitSprite(spritePath);
+            if (sprite == null) return null;
+            if (tile == null) { tile = ScriptableObject.CreateInstance<Tile>(); AssetDatabase.CreateAsset(tile, path); }
+            tile.sprite = sprite; tile.color = Color.white; tile.colliderType = Tile.ColliderType.Grid;
+            EditorUtility.SetDirty(tile);
+            return tile;
+        }
+        // Pieza del tileset por columna y fila (la hoja es de 10 columnas; las piezas son de 32x32)
+        private static Tile Lab(int col, int row) => LabTile($"{LabPieces}/tile{row * 10 + col:000}.png", $"lab_{row * 10 + col:000}");
+
+        private static void BuildLabBase(Map m, Transform grid)
+        {
+            // 1) Fuera todo lo de cueva: capas de fondo, degradados y oscuridad (CaveAmbience). La máscara se queda
+            //    solo para que la jungla, las hojas y los insectos no se vean dentro de la base.
+            var group = GameObject.Find("Fondo_Parallax");
+            if (group != null)
+            {
+                foreach (string old in new[] { "Cueva_Lejos", "Cueva_Media", "Cueva_Cerca" })
+                {
+                    var t = group.transform.Find(old);
+                    if (t != null) Object.DestroyImmediate(t.gameObject);
+                }
+                if (group.TryGetComponent(out CaveAmbience ambience)) Object.DestroyImmediate(ambience);
+            }
+            var mask = GameObject.Find("Mascara_Cuevas");
+            var fades = mask != null ? mask.transform.Find("Transiciones_Cueva") : null;
+            if (fades != null) Object.DestroyImmediate(fades.gameObject);
+            var room = GameObject.Find("Sala_Cueva");
+            if (room != null) room.name = "Sala_Base";
+
+            if (grid.Find(LabVersion) != null) return;
+            var solid = grid.Find("mapa")?.GetComponent<Tilemap>();
+            var bg = grid.Find("Fondo_Cueva_Y_Arboles")?.GetComponent<Tilemap>();
+            var deco = grid.Find("Decoracion_Sin_Colision")?.GetComponent<Tilemap>();
+            var branches = grid.Find("Ramas_Un_Sentido")?.GetComponent<Tilemap>();
+            if (solid == null || bg == null || deco == null || Lab(0, 0) == null)
+            {
+                Debug.LogWarning("[Primal Echo] No se pudo construir la base tecnológica (faltan capas o Assets/Sprites/Laboratorio).");
+                return;
+            }
+            bool Sol(int x, int y) => y >= m.H || solid.HasTile(new Vector3Int(x, y, 0));
+
+            // 2) Celdas interiores de la base = lo que era cueva
+            var inside = new HashSet<Vector2Int>();
+            for (int y = 0; y < m.H; y++)
+                for (int x = 0; x < m.W; x++)
+                    if (!Sol(x, y) && IsCaveBack(m, x, y)) inside.Add(new Vector2Int(x, y));
+            if (inside.Count == 0) return;
+            int minX = inside.Min(cell => cell.x), maxX = inside.Max(cell => cell.x);
+            bool Near(int x, int y, int d)
+            {
+                for (int dx = -d; dx <= d; dx++)
+                    for (int dy = -d; dy <= d; dy++)
+                        if (inside.Contains(new Vector2Int(x + dx, y + dy))) return true;
+                return false;
+            }
+
+            // 3) Paredes, pisos y techos: marco de laboratorio en las orillas y relleno oscuro por dentro
+            Tile[] dark = { Lab(6, 1), Lab(7, 1), Lab(6, 2), Lab(7, 2), Lab(5, 2) };
+            int walls = 0;
+            for (int y = 0; y < m.H; y++)
+                for (int x = Mathf.Max(0, minX - 3); x <= Mathf.Min(m.W - 1, maxX + 3); x++)
+                {
+                    if (!solid.HasTile(new Vector3Int(x, y, 0))) continue;
+                    if (!((x >= minX && x <= maxX + 2) || Near(x, y, 3))) continue;
+                    if (x < minX && !Near(x, y, 3)) continue;
+                    bool up = Sol(x, y + 1), down = y == 0 || Sol(x, y - 1), left = Sol(x - 1, y), right = Sol(x + 1, y);
+                    Tile chosen;
+                    if (up && down && left && right) chosen = dark[Mathf.Abs(x * 3 + y * 5) % dark.Length];
+                    else if (!left && !right) chosen = !up && !down ? Lab(5, 1) : Lab(4, !up ? 0 : (!down ? 2 : 1));        // pilar de 1 de ancho
+                    else if (!up && !down) chosen = Lab(!left ? 5 : (!right ? 7 : 6), 0);                                   // viga de 1 de alto
+                    else chosen = Lab(!left ? 0 : (!right ? 3 : 1 + Mathf.Abs(x) % 2), !up ? 0 : (!down ? 3 : 1 + Mathf.Abs(y) % 2));
+                    if (chosen == null) continue;
+                    solid.SetTile(new Vector3Int(x, y, 0), chosen);
+                    walls++;
+                }
+
+            // 4) Fondo: paneles de metal con tubos y rejillas (también detrás de las orillas, por las esquinas redondeadas)
+            Tile plain = Lab(8, 3), pipe = Lab(8, 4), vent = Lab(6, 3), ventSmall = Lab(6, 4), cables = Lab(7, 3), box = Lab(7, 4);
+            var treeLayers = new[] { "Arboles_Copa_Lejana", "Arboles_Copa", "Arboles_Hojas" }
+                .Select(n => grid.Find(n)?.GetComponent<Tilemap>()).Where(tm => tm != null).ToArray();
+            for (int y = 0; y < m.H; y++)
+                for (int x = Mathf.Max(0, minX - 1); x <= Mathf.Min(m.W - 1, maxX + 1); x++)
+                {
+                    if (!Near(x, y, 1)) continue;
+                    var pos = new Vector3Int(x, y, 0);
+                    Tile panel = plain;
+                    if (x % 13 == 6) panel = pipe;                                  // tubo vertical de piso a techo
+                    else if (x % 13 == 2 && Sol(x, y + 1)) panel = cables;          // cables que bajan del techo
+                    else if (x % 13 == 2 && Sol(x, y + 2) && !Sol(x, y + 1)) panel = box;
+                    else if (x % 9 == 4 && y % 5 == 2) panel = vent;
+                    else if (x % 11 == 8 && y % 6 == 4) panel = ventSmall;
+                    bg.SetTile(pos, panel ?? plain);
+                    foreach (var layer in treeLayers) layer.SetTile(pos, null);
+                    if (!inside.Contains(new Vector2Int(x, y))) continue;
+                    // Decoración de jungla dentro de la base: fuera (pasto, lianas, flores…)
+                    var old = deco.GetTile(pos);
+                    bool lamp = m.At(x, y) == 'C' || m.At(x, y - 1) == 'C'; // la farola del checkpoint se queda
+                    if (old != null && !lamp && old.name.StartsWith("tile_jungle")) deco.SetTile(pos, null);
+                }
+
+            // 5) Trampas: los pinchos de la base son láser (la zona de daño es la misma de antes)
+            Tile spikes = Lab(6, 8);
+            if (spikes != null)
+                foreach (var c in m.Find('^'))
+                    if (inside.Contains(c)) deco.SetTile(new Vector3Int(c.x, c.y, 0), spikes);
+
+            // 6) Cornisas de un sentido: plataformas de metal con franja amarilla
+            if (branches != null)
+                foreach (var c in inside)
+                {
+                    var pos = new Vector3Int(c.x, c.y, 0);
+                    if (!branches.HasTile(pos)) continue;
+                    bool l = branches.HasTile(pos + Vector3Int.left), r = branches.HasTile(pos + Vector3Int.right);
+                    Tile plat = !l && !r ? Lab(5, 1) : Lab(!l ? 5 : (!r ? 7 : 6), 0);
+                    if (plat != null) branches.SetTile(pos, plat);
+                }
+
+            // 7) Muebles de laboratorio sobre el piso, donde no estorban a enemigos, checkpoints ni objetos
+            var props = Enumerable.Range(1, 8).Select(i => LabTile($"{LabDecor}/decor_{i}.png", $"lab_decor_{i}")).Where(tile => tile != null).ToArray();
+            int placed = 0, lastX = -99;
+            if (props.Length > 0)
+                foreach (var c in inside.Where(cell => solid.HasTile(new Vector3Int(cell.x, cell.y - 1, 0))).OrderBy(cell => cell.x).ThenBy(cell => cell.y))
+                {
+                    if (c.x - lastX < 5 || Mathf.Abs(c.x * 7 + c.y * 3) % 3 != 0) continue;
+                    bool free = true;
+                    for (int dx = -2; dx <= 2 && free; dx++)
+                        for (int dy = 0; dy <= 2 && free; dy++)
+                        {
+                            char ch = m.At(c.x + dx, c.y + dy);
+                            if (ch != ' ' && ch != ':') free = false;
+                        }
+                    var pos = new Vector3Int(c.x, c.y, 0);
+                    if (!free || deco.HasTile(pos) || (branches != null && branches.HasTile(pos))) continue;
+                    deco.SetTile(pos, props[Mathf.Abs(c.x * 5 + c.y) % props.Length]);
+                    lastX = c.x; placed++;
+                }
+
+            new GameObject(LabVersion).transform.SetParent(grid, false);
+            AssetDatabase.SaveAssets();
+            Debug.Log($"[Primal Echo] Nivel 2: base tecnológica construida ({walls} bloques de pared/piso, {inside.Count} paneles de fondo, {placed} muebles).");
         }
 
         // Donde la cueva toca aire libre (sin pared de por medio), la máscara deja una línea recta y dura.
