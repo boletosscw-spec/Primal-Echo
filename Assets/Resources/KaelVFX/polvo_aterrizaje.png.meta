@@ -174,7 +174,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -984,7 +984,42 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      polvo_aterrizaje_0: -1730994918340098554
+      polvo_aterrizaje_1: 978681425886188605
+      polvo_aterrizaje_10: 1487581067419509076
+      polvo_aterrizaje_11: 7054903996556357169
+      polvo_aterrizaje_12: -7656228795857352817
+      polvo_aterrizaje_13: -6385294761357810008
+      polvo_aterrizaje_14: -8725966816494175516
+      polvo_aterrizaje_15: -244163974114449059
+      polvo_aterrizaje_16: -8969443885872722637
+      polvo_aterrizaje_17: -7201498919252015745
+      polvo_aterrizaje_18: -5392115062821181582
+      polvo_aterrizaje_19: -2828138858650319724
+      polvo_aterrizaje_2: 7196236317680442116
+      polvo_aterrizaje_20: -7753677600998310256
+      polvo_aterrizaje_21: -7187552242370462308
+      polvo_aterrizaje_22: -9063178717287732355
+      polvo_aterrizaje_23: -5774470832151199797
+      polvo_aterrizaje_24: -8806564641438681414
+      polvo_aterrizaje_25: -520975392990331002
+      polvo_aterrizaje_26: -2389697436209898680
+      polvo_aterrizaje_27: -2452662283032051066
+      polvo_aterrizaje_28: 5566491945051302612
+      polvo_aterrizaje_29: 6861311064124664401
+      polvo_aterrizaje_3: -8071330423747100229
+      polvo_aterrizaje_30: 6110212766820066238
+      polvo_aterrizaje_31: 6382041038538597209
+      polvo_aterrizaje_32: 4592044901253108722
+      polvo_aterrizaje_33: 2456610604696915780
+      polvo_aterrizaje_34: -1157319502267413210
+      polvo_aterrizaje_4: -8229849790603046024
+      polvo_aterrizaje_5: 6560324821669069709
+      polvo_aterrizaje_6: 7194602030389372146
+      polvo_aterrizaje_7: -6144835014282283618
+      polvo_aterrizaje_8: 2055573064166733393
+      polvo_aterrizaje_9: -8079669578944401839
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

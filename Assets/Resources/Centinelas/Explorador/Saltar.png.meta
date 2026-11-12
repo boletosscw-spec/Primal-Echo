@@ -96,7 +96,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Saltar_0: 6156691491995337746
+      Saltar_1: -4614804162162560053
+      Saltar_2: -796082263642566375
+      Saltar_3: -2918064054789024787
+      Saltar_4: 6593712893893466647
+      Saltar_5: -8024211522749203433
+      Saltar_6: 985360367717536456
+      Saltar_7: -6086575453250235124
+      Saltar_8: -7118723008134904870
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -93,7 +93,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Correr_0: -8162772500803238640
+      Correr_1: 7140295813193712541
+      Correr_2: -94264484200773978
+      Correr_3: 1811846521044008781
+      Correr_4: 1583781831178099037
+      Correr_5: 4653232653034363821
+      Correr_6: 4404653046430555815
+      Correr_7: 2861529029639686132
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -87,7 +87,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dano_0: -7784009452189988802
+      Dano_1: -4827235475358640339
+      Dano_2: -5007277658039764637
+      Dano_3: -604520713022018542
+      Dano_4: 5079469799895632414
+      Dano_5: 3092197589734415693
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

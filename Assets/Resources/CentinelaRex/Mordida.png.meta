@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mordida_0: -4749411014419917225
+      Mordida_1: 5735604446376443504
+      Mordida_2: 9055835498437820409
+      Mordida_3: -9020542884688110635
+      Mordida_4: 7379578217770809488
+      Mordida_5: -6482313365248734886
+      Mordida_6: 8256789097843106498
+      Mordida_7: 8585350000707674408
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

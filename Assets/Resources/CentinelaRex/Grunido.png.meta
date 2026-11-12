@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Grunido_0: 4327223223222642360
+      Grunido_1: 7184212690371633494
+      Grunido_2: -2642028360754199350
+      Grunido_3: 4533965021358776672
+      Grunido_4: -6272026552776699503
+      Grunido_5: 2442196586017888349
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

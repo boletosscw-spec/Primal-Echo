@@ -225,7 +225,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -1409,7 +1409,59 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      choque_bloqueo_0: -5592948301510898817
+      choque_bloqueo_1: -1789125515919169119
+      choque_bloqueo_10: 8216253899843876937
+      choque_bloqueo_11: -5292888198222920087
+      choque_bloqueo_12: 6228931986603885478
+      choque_bloqueo_13: -8416670964208749749
+      choque_bloqueo_14: -5798276419165723609
+      choque_bloqueo_15: 520503130637999276
+      choque_bloqueo_16: -2713227064228282808
+      choque_bloqueo_17: -2006229881261553619
+      choque_bloqueo_18: 4415716404042589408
+      choque_bloqueo_19: 4194780664550224232
+      choque_bloqueo_2: 2196322023957745758
+      choque_bloqueo_20: -4048095314493281531
+      choque_bloqueo_21: 7453052948300072156
+      choque_bloqueo_22: -8909815736707614356
+      choque_bloqueo_23: 7321816512817458276
+      choque_bloqueo_24: 7923124483301284990
+      choque_bloqueo_25: 8955783525805879451
+      choque_bloqueo_26: -2790561005138458267
+      choque_bloqueo_27: -8750081786842072519
+      choque_bloqueo_28: 162088926663278495
+      choque_bloqueo_29: 8441376983422859961
+      choque_bloqueo_3: 7853422288094477777
+      choque_bloqueo_30: -2462962625277996599
+      choque_bloqueo_31: -8356724097005000319
+      choque_bloqueo_32: 891305760258983442
+      choque_bloqueo_33: -4444771872007830062
+      choque_bloqueo_34: 6740449231448879152
+      choque_bloqueo_35: -5130193483397646216
+      choque_bloqueo_36: 4679126535053907627
+      choque_bloqueo_37: -1668359525534480468
+      choque_bloqueo_38: 3851411196987395979
+      choque_bloqueo_39: 4472425479246205230
+      choque_bloqueo_4: 3630812495983919225
+      choque_bloqueo_40: -1409221679833836914
+      choque_bloqueo_41: 3076788980260148316
+      choque_bloqueo_42: 5144855832400725442
+      choque_bloqueo_43: 3664036369685058039
+      choque_bloqueo_44: 4051746936212241284
+      choque_bloqueo_45: 1020260005951483200
+      choque_bloqueo_46: 2343818083391173113
+      choque_bloqueo_47: -4949619693006438056
+      choque_bloqueo_48: -1419695479004949227
+      choque_bloqueo_49: 4205162754305297171
+      choque_bloqueo_5: 8346382047113588311
+      choque_bloqueo_50: -5099407156835946836
+      choque_bloqueo_51: -401950253089104985
+      choque_bloqueo_6: -4168113343000081204
+      choque_bloqueo_7: 70478634989864462
+      choque_bloqueo_8: 8330212118526545662
+      choque_bloqueo_9: -5749727718594244743
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

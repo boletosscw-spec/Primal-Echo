@@ -13,8 +13,11 @@ namespace PrimalEcho
         private void OnTriggerEnter2D(Collider2D other) => Touch(other);
         private void OnTriggerStay2D(Collider2D other) => Touch(other);
 
+        internal System.Func<bool> CanDealDamage { get; set; }
+
         private void Touch(Collider2D other)
         {
+            if (CanDealDamage != null && !CanDealDamage()) return;
             var health = other.GetComponentInParent<KaelHealth>();
             if (health) health.Hit(damage, transform.position);
         }

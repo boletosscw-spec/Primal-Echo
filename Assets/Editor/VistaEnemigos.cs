@@ -19,7 +19,7 @@ namespace PrimalEcho.Editor
     public static class VistaEnemigos
     {
         private const string Folder = "Assets/Sprites/Enemigos/Vista";
-        private const float Size = 1.4f, EliteScale = 1.3f, FlyerDrop = 0.54f; // mismos valores que Centinelas.cs
+        private const float GroundSize = 3.2f, FlyerSize = 2f, EliteScale = 1.15f, FlyerDrop = 0.54f; // mismos valores que Centinelas.cs
 
         static VistaEnemigos()
         {
@@ -83,15 +83,16 @@ namespace PrimalEcho.Editor
             var plants = all.SelectMany(r => r.GetComponentsInChildren<CarnivorousPlant>(true)).ToList();
             if (robots.Count == 0 && wasps.Count == 0 && plants.Count == 0) return;
 
-            Sprite explorer = Preview("Explorador", 56f, 0.23f), cyan = Preview("AlaCian", 56f, 0.25f), amber = Preview("AlaAmbar", 56f, 0.19f);
+            Sprite explorer = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Resources/CentinelaTerrestre/01_Idle/Idle_01.png");
+            Sprite cyan = Preview("AlaCian", 56f, 0.25f), amber = Preview("AlaAmbar", 56f, 0.19f);
             bool changed = false;
             foreach (var robot in robots)
             {
-                float scale = (robot.name.StartsWith("Robot_Pesado") ? EliteScale : 1f) * Size;
+                float scale = (robot.name.StartsWith("Robot_Pesado") ? EliteScale : 1f) * GroundSize;
                 changed |= Set(robot.GetComponentInChildren<SpriteRenderer>(true), explorer, scale, Vector3.zero);
             }
             for (int i = 0; i < wasps.Count; i++)
-                changed |= Set(wasps[i].GetComponentInChildren<SpriteRenderer>(true), i % 2 == 0 ? cyan : amber, Size, new Vector3(0f, -FlyerDrop * Size, 0f));
+                changed |= Set(wasps[i].GetComponentInChildren<SpriteRenderer>(true), i % 2 == 0 ? cyan : amber, FlyerSize, new Vector3(0f, -FlyerDrop * FlyerSize, 0f));
             foreach (var plant in plants)
             {
                 var sr = plant.GetComponentInChildren<SpriteRenderer>(true);

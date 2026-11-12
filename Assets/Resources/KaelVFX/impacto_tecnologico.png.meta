@@ -171,7 +171,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -959,7 +959,41 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      impacto_tecnologico_0: -7332115884222149787
+      impacto_tecnologico_1: -650602718995442611
+      impacto_tecnologico_10: 6169891221087406929
+      impacto_tecnologico_11: 6043961560465172725
+      impacto_tecnologico_12: -9183130738846381286
+      impacto_tecnologico_13: 4665490083622192060
+      impacto_tecnologico_14: -2768044121148523458
+      impacto_tecnologico_15: -6140718110484641881
+      impacto_tecnologico_16: -2392781087175968382
+      impacto_tecnologico_17: -6824308175364350093
+      impacto_tecnologico_18: 1999537670728679945
+      impacto_tecnologico_19: 146586325620950262
+      impacto_tecnologico_2: 6664799757230162621
+      impacto_tecnologico_20: 5174303337960564402
+      impacto_tecnologico_21: 2331085323590385021
+      impacto_tecnologico_22: 4147024121473541229
+      impacto_tecnologico_23: -6584166020995190924
+      impacto_tecnologico_24: 5420072651585825392
+      impacto_tecnologico_25: 3560042458163917860
+      impacto_tecnologico_26: -9014558006209302046
+      impacto_tecnologico_27: 5703310948906079826
+      impacto_tecnologico_28: 6326265420394309456
+      impacto_tecnologico_29: -3677386760588492870
+      impacto_tecnologico_3: -3306287809986621511
+      impacto_tecnologico_30: 8422468816318697037
+      impacto_tecnologico_31: -954119494224799971
+      impacto_tecnologico_32: 5128416349360998526
+      impacto_tecnologico_33: -561964117533733779
+      impacto_tecnologico_4: 6907664152980028355
+      impacto_tecnologico_5: -4145467128437644123
+      impacto_tecnologico_6: -7896070896071248712
+      impacto_tecnologico_7: -4342505655434577847
+      impacto_tecnologico_8: 3432644593124541200
+      impacto_tecnologico_9: -4786254289070719363
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

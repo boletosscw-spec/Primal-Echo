@@ -168,7 +168,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -934,7 +934,40 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      impacto_general_0: -7874759331546694710
+      impacto_general_1: 1889002635650332003
+      impacto_general_10: -1111470161064730670
+      impacto_general_11: -6021945971026557407
+      impacto_general_12: 2950311203485807748
+      impacto_general_13: 4701165795663680428
+      impacto_general_14: -4326786306343847385
+      impacto_general_15: -1037480109969127786
+      impacto_general_16: 3651490588784330099
+      impacto_general_17: -8278830922398107538
+      impacto_general_18: -8857872876647154581
+      impacto_general_19: 6316558110536168748
+      impacto_general_2: 4692552431699461279
+      impacto_general_20: 1020413219649094376
+      impacto_general_21: -270907530575408964
+      impacto_general_22: -3057925148127499007
+      impacto_general_23: -6009749869806379978
+      impacto_general_24: 8686967786694499526
+      impacto_general_25: -3999529658773165059
+      impacto_general_26: -6982515640465696617
+      impacto_general_27: -1832425362711982770
+      impacto_general_28: -495363750603289271
+      impacto_general_29: 7103805753614811840
+      impacto_general_3: 2477826792318973682
+      impacto_general_30: -7089225418568154702
+      impacto_general_31: 4751197219969485624
+      impacto_general_32: 8043248563280333950
+      impacto_general_4: 5207875612073954655
+      impacto_general_5: 4026286320933877473
+      impacto_general_6: 9157275734735302942
+      impacto_general_7: 7182017112254140612
+      impacto_general_8: 2739578295833556568
+      impacto_general_9: -7992946722184839317
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

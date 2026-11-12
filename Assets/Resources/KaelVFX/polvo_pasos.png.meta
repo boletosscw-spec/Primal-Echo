@@ -114,7 +114,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -484,7 +484,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      polvo_pasos_0: -4338347346358407373
+      polvo_pasos_1: -3021390441676827850
+      polvo_pasos_10: -9109685430721355871
+      polvo_pasos_11: 9168073508089423391
+      polvo_pasos_12: -1849408565842815035
+      polvo_pasos_13: -2688715418238581988
+      polvo_pasos_14: -8570734340283300533
+      polvo_pasos_2: 8679383238250000945
+      polvo_pasos_3: -3050880443037801900
+      polvo_pasos_4: -1044425828197711863
+      polvo_pasos_5: -1067014685988924668
+      polvo_pasos_6: -5049860358679973952
+      polvo_pasos_7: 6174317524276361519
+      polvo_pasos_8: -5056038176155913613
+      polvo_pasos_9: 3831526689484128606
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

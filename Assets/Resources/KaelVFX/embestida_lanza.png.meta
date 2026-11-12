@@ -162,7 +162,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -884,7 +884,38 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      embestida_lanza_0: 8584383367948206956
+      embestida_lanza_1: 7930303098002711194
+      embestida_lanza_10: -3313533265452735319
+      embestida_lanza_11: -6310432128988252229
+      embestida_lanza_12: -8641130169715690278
+      embestida_lanza_13: 9146741873254397003
+      embestida_lanza_14: -9079816625021227975
+      embestida_lanza_15: 5194541852182178215
+      embestida_lanza_16: 6208281210834528944
+      embestida_lanza_17: -4716776860965643859
+      embestida_lanza_18: -6407193808897172643
+      embestida_lanza_19: -8033075494609562340
+      embestida_lanza_2: 4763508197880947099
+      embestida_lanza_20: 4995299961498426527
+      embestida_lanza_21: -3548605346431023778
+      embestida_lanza_22: -5347315647951566762
+      embestida_lanza_23: 478020870469646923
+      embestida_lanza_24: -2270592407684911349
+      embestida_lanza_25: 8357007017164906284
+      embestida_lanza_26: -4856384618676615194
+      embestida_lanza_27: 2780149469496814484
+      embestida_lanza_28: 8071779604948097291
+      embestida_lanza_29: 4091307245362862418
+      embestida_lanza_3: 7073274391923069648
+      embestida_lanza_30: 6361524756077849753
+      embestida_lanza_4: 1730018742956728911
+      embestida_lanza_5: 8634501294904155059
+      embestida_lanza_6: -1445841040459012338
+      embestida_lanza_7: -912526492335425298
+      embestida_lanza_8: 2406119742274645604
+      embestida_lanza_9: -2532708926540547824
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

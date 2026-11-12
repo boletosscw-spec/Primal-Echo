@@ -159,7 +159,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -859,7 +859,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      disparo_flecha_0: -7831237252257746014
+      disparo_flecha_1: -9112923189725469418
+      disparo_flecha_10: -4413275949935782865
+      disparo_flecha_11: -6341503555695502530
+      disparo_flecha_12: -484311558752645573
+      disparo_flecha_13: -2527906090490027618
+      disparo_flecha_14: 4405340284240136676
+      disparo_flecha_15: 8413116571247732680
+      disparo_flecha_16: 5093461501447618907
+      disparo_flecha_17: -2606995825125410173
+      disparo_flecha_18: -2411447548487868214
+      disparo_flecha_19: 7217781334241219698
+      disparo_flecha_2: 8905918702337058133
+      disparo_flecha_20: 1103101638072758401
+      disparo_flecha_21: 1754767825896134714
+      disparo_flecha_22: -9047329267681052492
+      disparo_flecha_23: 6083334378568717284
+      disparo_flecha_24: -5277707581448571576
+      disparo_flecha_25: -8756139452444294047
+      disparo_flecha_26: -7537554327102387296
+      disparo_flecha_27: -4841408474141232388
+      disparo_flecha_28: 1453886173342697971
+      disparo_flecha_29: 4225175190706457499
+      disparo_flecha_3: 3830258199779665574
+      disparo_flecha_4: 2099520028151111953
+      disparo_flecha_5: 434979932885419860
+      disparo_flecha_6: 5156907275600369584
+      disparo_flecha_7: -7696975146393799113
+      disparo_flecha_8: -3708013747496494384
+      disparo_flecha_9: 292826589708192368
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

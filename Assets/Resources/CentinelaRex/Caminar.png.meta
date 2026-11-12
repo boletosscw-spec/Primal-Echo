@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Caminar_0: 4945353442346458087
+      Caminar_1: 5495545746660003379
+      Caminar_2: 3383419655628932442
+      Caminar_3: 5383548030397598089
+      Caminar_4: -2028349968658515996
+      Caminar_5: -8823759891750444627
+      Caminar_6: 310587710320841436
+      Caminar_7: 803870063747273184
+      Caminar_8: 3266076593871132127
+      Caminar_9: -3474650177710110850
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

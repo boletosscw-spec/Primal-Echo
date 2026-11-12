@@ -240,7 +240,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -1534,7 +1534,64 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kiro_reparacion_0: -5678644887439283331
+      kiro_reparacion_1: 5252596853527767186
+      kiro_reparacion_10: 7763379443227085745
+      kiro_reparacion_11: -6957689671648391002
+      kiro_reparacion_12: -5791062222392052237
+      kiro_reparacion_13: 390795457976520401
+      kiro_reparacion_14: -1676248725823777030
+      kiro_reparacion_15: -7237656542137845888
+      kiro_reparacion_16: -2706224906028990522
+      kiro_reparacion_17: -4200397446194312997
+      kiro_reparacion_18: -2925989721628721166
+      kiro_reparacion_19: 1244431209754068806
+      kiro_reparacion_2: 5046709727715020932
+      kiro_reparacion_20: -2889133790717999407
+      kiro_reparacion_21: -194482457392575427
+      kiro_reparacion_22: 7494867101351145071
+      kiro_reparacion_23: -1407925528568176068
+      kiro_reparacion_24: -5489770866962636251
+      kiro_reparacion_25: 3127942154329429484
+      kiro_reparacion_26: -4181810083489284432
+      kiro_reparacion_27: -2363683622933544222
+      kiro_reparacion_28: -5362315894572965982
+      kiro_reparacion_29: -3052910405501806699
+      kiro_reparacion_3: -4711041277763681166
+      kiro_reparacion_30: -5837990274207490480
+      kiro_reparacion_31: 1853929051508846617
+      kiro_reparacion_32: -6887799463010270891
+      kiro_reparacion_33: 5150019387082650339
+      kiro_reparacion_34: -1609129635177366560
+      kiro_reparacion_35: 1713419236589717749
+      kiro_reparacion_36: -7678632441027260379
+      kiro_reparacion_37: 812436400672799139
+      kiro_reparacion_38: -6659112054068038424
+      kiro_reparacion_39: -8664496526008352307
+      kiro_reparacion_4: 5129743204313170706
+      kiro_reparacion_40: 6632578406205200862
+      kiro_reparacion_41: 8394354620150476567
+      kiro_reparacion_42: -6335778744664429448
+      kiro_reparacion_43: 6003515996338946347
+      kiro_reparacion_44: -9161814250380798072
+      kiro_reparacion_45: 9012364613052202660
+      kiro_reparacion_46: 2061610406651258507
+      kiro_reparacion_47: -9127565841095380463
+      kiro_reparacion_48: 1067911430078583903
+      kiro_reparacion_49: 2610573809262093963
+      kiro_reparacion_5: 5616078811105704026
+      kiro_reparacion_50: -6901874971808161111
+      kiro_reparacion_51: -5556265866339873007
+      kiro_reparacion_52: -1489772378545982582
+      kiro_reparacion_53: -8195245617756775228
+      kiro_reparacion_54: -8288613874755556212
+      kiro_reparacion_55: -1466896080323718603
+      kiro_reparacion_56: 2876318254004623354
+      kiro_reparacion_6: -7187233454149013294
+      kiro_reparacion_7: 7853446064031270834
+      kiro_reparacion_8: -7296234872858828299
+      kiro_reparacion_9: 4534328605081219353
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

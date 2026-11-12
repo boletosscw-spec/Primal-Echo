@@ -183,7 +183,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -1059,7 +1059,45 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      polvo_salto_0: 8729051210159445901
+      polvo_salto_1: 4967388889313386675
+      polvo_salto_10: -4014473409474031151
+      polvo_salto_11: -3967555403159531425
+      polvo_salto_12: -1117517910731550636
+      polvo_salto_13: -1201456910267480921
+      polvo_salto_14: 1537376823954013465
+      polvo_salto_15: 2385863036447144961
+      polvo_salto_16: 2243630949184109775
+      polvo_salto_17: 7839622281336782192
+      polvo_salto_18: -4302191180610721836
+      polvo_salto_19: -3165538225729849950
+      polvo_salto_2: 777202674443661178
+      polvo_salto_20: 2887421633463807570
+      polvo_salto_21: 5588957674120548747
+      polvo_salto_22: 7037077535432760244
+      polvo_salto_23: 135972188152123861
+      polvo_salto_24: -7919021171525069308
+      polvo_salto_25: -3479243352383215746
+      polvo_salto_26: 6046090768360785177
+      polvo_salto_27: -5636557417275882635
+      polvo_salto_28: 2263894148797961887
+      polvo_salto_29: -5430399060576924240
+      polvo_salto_3: -4866062784785343770
+      polvo_salto_30: 1560273493521967714
+      polvo_salto_31: 983456546967346366
+      polvo_salto_32: 5691168766362730234
+      polvo_salto_33: -1006741862770236112
+      polvo_salto_34: -7616955669880306880
+      polvo_salto_35: 3007793385147188360
+      polvo_salto_36: -9007980406737963540
+      polvo_salto_37: -8855932765679444426
+      polvo_salto_4: 1002749038173851171
+      polvo_salto_5: 5650890758487014002
+      polvo_salto_6: -885825296292221754
+      polvo_salto_7: 2370637632903370048
+      polvo_salto_8: 2939457986681586530
+      polvo_salto_9: -3508720823637853771
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
