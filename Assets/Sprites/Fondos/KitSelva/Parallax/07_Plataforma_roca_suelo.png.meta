@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      07_Plataforma_roca_suelo_0: -4038000458498704359
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,1378 @@
+{
+    "items": [
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 12,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 13,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 14,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 15,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 110,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r10_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 111,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r10_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 112,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r10_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 113,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r10_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 128,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 129,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 130,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 131,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 13,
+            "y": 9,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r9_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 14,
+            "y": 9,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r9_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 111,
+            "y": 9,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r9_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 112,
+            "y": 9,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r9_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 129,
+            "y": 9,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r9_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 130,
+            "y": 9,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r9_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 13,
+            "y": 10,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r8_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 14,
+            "y": 10,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r8_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 29,
+            "y": 10,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 30,
+            "y": 10,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 31,
+            "y": 10,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 32,
+            "y": 10,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 111,
+            "y": 10,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r8_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 112,
+            "y": 10,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r8_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 129,
+            "y": 10,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r8_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 130,
+            "y": 10,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r8_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 11,
+            "y": 11,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 12,
+            "y": 11,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 13,
+            "y": 11,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 14,
+            "y": 11,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 30,
+            "y": 11,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r9_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 31,
+            "y": 11,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r9_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 109,
+            "y": 11,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r7_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 110,
+            "y": 11,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r7_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 111,
+            "y": 11,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r7_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 112,
+            "y": 11,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r7_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 127,
+            "y": 11,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 128,
+            "y": 11,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 129,
+            "y": 11,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 130,
+            "y": 11,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 11,
+            "y": 12,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 12,
+            "y": 12,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 13,
+            "y": 12,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 14,
+            "y": 12,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 30,
+            "y": 12,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r8_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 31,
+            "y": 12,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r8_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 109,
+            "y": 12,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r6_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 110,
+            "y": 12,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r6_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 111,
+            "y": 12,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r6_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 112,
+            "y": 12,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r6_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 127,
+            "y": 12,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 128,
+            "y": 12,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 129,
+            "y": 12,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 130,
+            "y": 12,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 10,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c0.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 11,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 12,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 13,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 14,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 15,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 16,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c6.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 17,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c7.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 28,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 29,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 30,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 31,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 108,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c0.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 109,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 110,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 111,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 112,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 113,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 114,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c6.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 115,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c7.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 126,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c0.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 127,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 128,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 129,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 130,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 131,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 132,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c6.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 133,
+            "y": 13,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c7.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 11,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 12,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 13,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 14,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 15,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 28,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 29,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 30,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 31,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 49,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r10_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 50,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r10_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 51,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r10_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 52,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r10_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 77,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r10_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 78,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r10_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 79,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r10_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 80,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r10_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 109,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r4_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 110,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r4_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 111,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r4_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 112,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r4_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 113,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r4_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 127,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 128,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 129,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 130,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 131,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 13,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r3_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 14,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r3_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 27,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c0.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 28,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 29,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 30,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 31,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 32,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 33,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c6.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 34,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c7.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 50,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r9_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 51,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r9_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 78,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r9_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 79,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r9_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 111,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r3_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 112,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r3_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 129,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r3_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 130,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r3_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 157,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 158,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 159,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 160,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r10_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 28,
+            "y": 16,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 29,
+            "y": 16,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 30,
+            "y": 16,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 31,
+            "y": 16,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 32,
+            "y": 16,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 50,
+            "y": 16,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r8_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 51,
+            "y": 16,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r8_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 78,
+            "y": 16,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r8_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 79,
+            "y": 16,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r8_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 158,
+            "y": 16,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r9_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 159,
+            "y": 16,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r9_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 30,
+            "y": 17,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r3_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 31,
+            "y": 17,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r3_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 48,
+            "y": 17,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r7_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 49,
+            "y": 17,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r7_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 50,
+            "y": 17,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r7_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 51,
+            "y": 17,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r7_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 76,
+            "y": 17,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r7_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 77,
+            "y": 17,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r7_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 78,
+            "y": 17,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r7_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 79,
+            "y": 17,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r7_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 158,
+            "y": 17,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r8_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 159,
+            "y": 17,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r8_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 48,
+            "y": 18,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r6_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 49,
+            "y": 18,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r6_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 50,
+            "y": 18,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r6_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 51,
+            "y": 18,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r6_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 76,
+            "y": 18,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r6_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 77,
+            "y": 18,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r6_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 78,
+            "y": 18,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r6_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 79,
+            "y": 18,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r6_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 156,
+            "y": 18,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 157,
+            "y": 18,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 158,
+            "y": 18,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 159,
+            "y": 18,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r7_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 47,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c0.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 48,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 49,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 50,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 51,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 52,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 53,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c6.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 54,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c7.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 75,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c0.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 76,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 77,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 78,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 79,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 80,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 81,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c6.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 82,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r5_c7.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 156,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 157,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 158,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 159,
+            "y": 19,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r6_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 48,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r4_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 49,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r4_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 50,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r4_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 51,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r4_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 52,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r4_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 76,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r4_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 77,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r4_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 78,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r4_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 79,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r4_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 80,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r4_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 155,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c0.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 156,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 157,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 158,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 159,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 160,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 161,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c6.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 162,
+            "y": 20,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r5_c7.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 50,
+            "y": 21,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r3_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 51,
+            "y": 21,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r3_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 78,
+            "y": 21,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r3_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 79,
+            "y": 21,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_dark_r3_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 156,
+            "y": 21,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c1.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 157,
+            "y": 21,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c2.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 158,
+            "y": 21,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 159,
+            "y": 21,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c4.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 160,
+            "y": 21,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r4_c5.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 158,
+            "y": 22,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r3_c3.asset"
+        },
+        {
+            "layer": "Fondo_Cueva_Y_Arboles",
+            "x": 159,
+            "y": 22,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_tree_light_r3_c4.asset"
+        },
+        {
+            "layer": "Decoracion_Sin_Colision",
+            "x": 114,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_plants_objects_r11_c5.asset"
+        },
+        {
+            "layer": "Decoracion_Sin_Colision",
+            "x": 116,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_plants_objects_r11_c5.asset"
+        },
+        {
+            "layer": "Decoracion_Sin_Colision",
+            "x": 130,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_plants_objects_r3_c8.asset"
+        },
+        {
+            "layer": "Decoracion_Sin_Colision",
+            "x": 131,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_plants_objects_r3_c9.asset"
+        },
+        {
+            "layer": "Decoracion_Sin_Colision",
+            "x": 132,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_plants_objects_r3_c8.asset"
+        },
+        {
+            "layer": "Decoracion_Sin_Colision",
+            "x": 133,
+            "y": 8,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_plants_objects_r3_c9.asset"
+        },
+        {
+            "layer": "Decoracion_Sin_Colision",
+            "x": 114,
+            "y": 9,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_plants_objects_r10_c5.asset"
+        },
+        {
+            "layer": "Decoracion_Sin_Colision",
+            "x": 116,
+            "y": 9,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_plants_objects_r10_c5.asset"
+        },
+        {
+            "layer": "Decoracion_Sin_Colision",
+            "x": 55,
+            "y": 14,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_plants_objects_r11_c5.asset"
+        },
+        {
+            "layer": "Decoracion_Sin_Colision",
+            "x": 55,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_plants_objects_r10_c5.asset"
+        },
+        {
+            "layer": "Decoracion_Sin_Colision",
+            "x": 143,
+            "y": 15,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_plants_objects_r11_c5.asset"
+        },
+        {
+            "layer": "Decoracion_Sin_Colision",
+            "x": 143,
+            "y": 16,
+            "tile": "Assets/Tiles/Jungle/tile_jungle_plants_objects_r10_c5.asset"
+        }
+    ]
+}

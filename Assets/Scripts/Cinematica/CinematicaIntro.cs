@@ -9,7 +9,7 @@ namespace PrimalEcho
     [RequireComponent(typeof(PlayableDirector))]
     public sealed class CinematicaIntro : MonoBehaviour
     {
-        [SerializeField] private string siguienteEscena = "Nivel_01_Valle_del_Eco";
+        [SerializeField] private string siguienteEscena = "Nivel_00_Tutorial";
         [SerializeField] private bool sePuedeSaltar = true;
         private PlayableDirector director;
         private bool cargando;
@@ -25,7 +25,10 @@ namespace PrimalEcho
             bool saltar = sePuedeSaltar && Time.timeSinceLevelLoad > 0.5f && SaltarPulsado();
             if (!termino && !saltar) return;
             cargando = true;
-            if (!string.IsNullOrEmpty(siguienteEscena)) SceneManager.LoadScene(siguienteEscena);
+            if (string.IsNullOrEmpty(siguienteEscena)) return;
+            // Si el tutorial aún no se ha generado, se pasa directo al Nivel 1 en lugar de fallar.
+            bool existe = Application.CanStreamedLevelBeLoaded(siguienteEscena);
+            SceneManager.LoadScene(existe ? siguienteEscena : "Nivel_01_Valle_del_Eco");
         }
 
         private static bool SaltarPulsado()

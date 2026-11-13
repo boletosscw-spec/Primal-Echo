@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Selva_Derecha_0: -2625222197181094375
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

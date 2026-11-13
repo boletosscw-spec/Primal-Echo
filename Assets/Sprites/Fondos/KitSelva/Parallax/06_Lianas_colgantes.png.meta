@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      06_Lianas_colgantes_0: -6646994501414058372
+      06_Lianas_colgantes_1: 7162740814759763574
+      06_Lianas_colgantes_2: 5141753587521278508
+      06_Lianas_colgantes_3: 6782471483624416161
+      06_Lianas_colgantes_4: -8974033226375804141
+      06_Lianas_colgantes_5: 6081195615442402429
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

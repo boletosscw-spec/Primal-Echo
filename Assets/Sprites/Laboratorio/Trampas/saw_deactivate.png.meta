@@ -434,7 +434,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      saw_deactivate_0: -1845145238352130057
+      saw_deactivate_1: -7672970287237845676
+      saw_deactivate_10: -2001025817005292844
+      saw_deactivate_11: -2897093388034046602
+      saw_deactivate_12: 1938001307341358254
+      saw_deactivate_2: -5795113904769017325
+      saw_deactivate_3: 4306123149295531262
+      saw_deactivate_4: -3693764559020540515
+      saw_deactivate_5: -7158951862556412627
+      saw_deactivate_6: 7621074610450826481
+      saw_deactivate_7: 3510670762150576842
+      saw_deactivate_8: 3930289900410934004
+      saw_deactivate_9: -5134254533233256801
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

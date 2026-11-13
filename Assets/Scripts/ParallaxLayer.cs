@@ -163,7 +163,7 @@ namespace PrimalEcho.Environment
                 if (!initialized) return;
             }
 
-            if (cameraTransform == null) return;
+            if (cameraTransform == null || ParallaxFreeze.Active) return;
 
             Vector3 camPos = cameraTransform.position;
             Vector3 camDelta = camPos - startCameraPos;

@@ -135,7 +135,7 @@ namespace PrimalEcho
             var visual = new GameObject("Visual");
             visual.transform.SetParent(transform, false);
             sprite = visual.AddComponent<SpriteRenderer>();
-            sprite.sortingOrder = 5;
+            sprite.sortingOrder = 8; // por encima de la decoración del mapa (5), por debajo de Kael (10)
 
             // Tocarlo también hace daño
             var hurt = new GameObject("Golpe");

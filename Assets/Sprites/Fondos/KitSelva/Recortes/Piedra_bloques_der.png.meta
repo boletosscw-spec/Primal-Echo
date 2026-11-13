@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Piedra_bloques_der_0: 1100178401595707554
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

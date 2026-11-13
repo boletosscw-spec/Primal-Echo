@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ruin_glow_02_0: -6717330636748104973
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

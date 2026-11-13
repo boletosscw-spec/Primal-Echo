@@ -19,7 +19,7 @@ namespace PrimalEcho.Editor
         private const string ScenePath = "Assets/Scenes/Cinematica_Intro.unity";
         private const string Folder = "Assets/Cinematicas";
         private const string TimelinePath = Folder + "/Intro_Primal_Echo.playable";
-        private const string NextScene = "Nivel_01_Valle_del_Eco";
+        private const string NextScene = "Nivel_00_Tutorial";
 
         private const string SkyArt = "Assets/Sprites/Environment/Backgrounds/HorizonteUrbano.png";
         private const string CityArt = "Assets/Sprites/Environment/Backgrounds/BarrioEnRuinas.png";

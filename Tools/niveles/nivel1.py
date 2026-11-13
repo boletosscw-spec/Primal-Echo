@@ -26,20 +26,23 @@ gr(104, 110, 3)                     # foso de 8 (96–104): doble salto
 pl(114, 118, 4)                     # rama sobre foso de 12 (110–122)
 put(116, 8, 'W')
 gr(122, 140, 3); put(124, 3, 'T')
+gr(133, 140, 5)                     # loma junto al gran árbol
 put(128, 3, 'C')
 
 # D · Gran árbol y dosel
 gr(140, 216, 3); put(142, 3, 'T')
+put(166, 3, 'E'); put(188, 3, 'E')   # los terrestres van en el suelo, bajo el dosel
 pl(146, 150, 6); pl(152, 156, 10); pl(146, 150, 14); pl(152, 156, 18)
 put(151, 13, 'W')
 pl(141, 144, 18); put(142, 19, 'o')
-f(158, 164, 17, 19); put(161, 19, 'E')
+f(158, 164, 17, 19)
 f(170, 178, 17, 19); put(174, 23, 'W')
-f(186, 194, 17, 19); put(190, 19, 'E')
+f(186, 194, 17, 19)
 pl(199, 203, 18)
 f(208, 216, 17, 19)
 pl(211, 214, 22); put(212, 23, 'o')
 pl(196, 200, 6); pl(201, 205, 10); pl(196, 200, 14)   # para volver a subir si caes
+gr(206, 216, 5)                     # ladera al pie del muro
 f(216, 220, 0, 17)                  # muro: solo se pasa por arriba
 gr(220, 226, 12); gr(226, 232, 7)
 
@@ -59,8 +62,8 @@ gr(318, 326, 3)
 # F · Géiseres sobre el abismo
 ruin(330, 333, 3)
 for x in (330, 331, 332): put(x, 2, 'J')
-f(336, 344, 10, 12, '='); put(340, 12, 'E')
-f(355, 362, 10, 12, '='); put(358, 12, 'K')   # hueco de 11: doble salto + dash
+f(336, 344, 10, 12, '=')
+f(355, 362, 10, 12, '=')   # hueco de 11: doble salto + dash
 gr(362, 380, 3)
 
 # G · Cueva de las raíces
@@ -93,8 +96,9 @@ f(545, 560, 0, 10)
 put(550, 10, '^'); put(551, 10, '^'); put(556, 10, 'K')
 f(560, 566, 0, 14); f(566, 572, 0, 18)
 f(572, 599, 0, 18)
+f(589, 599, 0, 20)                  # escalón final: el mirador
 put(580, 18, 'B'); put(585, 18, 'T')
-put(594, 18, 'X')
+put(594, 20, 'X')
 
 META = """@titulo NIVEL 1 · VALLE DEL ECO
 @subtitulo El valle despertó. Sigue el eco hasta el mirador.
@@ -110,7 +114,36 @@ META = """@titulo NIVEL 1 · VALLE DEL ECO
 @cartel 148 22 Trepa por las ramas
 @cartel 340 16 Doble salto + DASH
 @cartel 446 11 ¡Emboscada!
-@cartel 590 22 MIRADOR"""
+@cartel 590 24 MIRADOR
+@sin_arbol 20 5
+@sin_arbol 35 9
+@sin_arbol 52 3
+@sin_arbol 76 3
+@sin_arbol 93 3
+@sin_arbol 107 3
+@sin_arbol 136 5
+@sin_arbol 154 3
+@sin_arbol 172 3
+@sin_arbol 180 3
+@sin_arbol 196 3
+@sin_arbol 210 5
+@sin_arbol 322 3
+@sin_arbol 365 3
+@sin_arbol 376 3
+@sin_arbol 494 3
+@sin_arbol 506 10
+@sin_arbol 517 10
+@sin_arbol 547 10
+@sin_arbol 563 14
+@sin_arbol 569 18
+@sin_arbol 575 18
+@sin_arbol 591 20
+@chip REGISTRO 01|La Tierra llego a su limite. Encendimos a NEMESIS para que restaurara el equilibrio. Le dimos control total del valle.
+@chip REGISTRO 02|Los centinelas ya no obedecen. NEMESIS los rediseno con forma de bestias antiguas. Dice que asi el valle se defiende solo."""
+
+# Objetos: F = fruta de la selva (junto a cada checkpoint), M = chip de memoria (junto a un fragmento)
+for x in (130, 236, 379): put(x, 3, 'F')
+put(88, 6, 'M'); put(285, 7, 'M')
 
 if __name__ == '__main__':
     open('Nivel_01_Valle_del_Eco.txt', 'w', encoding='utf-8').write(META + '\n---\n' + L.text() + '\n')

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Helecho_izquierdo_0: 4508443531497300654
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

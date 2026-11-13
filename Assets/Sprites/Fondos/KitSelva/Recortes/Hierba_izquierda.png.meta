@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hierba_izquierda_0: -4938060526069009124
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

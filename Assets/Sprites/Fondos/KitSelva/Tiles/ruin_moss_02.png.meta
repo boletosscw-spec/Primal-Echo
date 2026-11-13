@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ruin_moss_02_0: 2467950448848185314
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

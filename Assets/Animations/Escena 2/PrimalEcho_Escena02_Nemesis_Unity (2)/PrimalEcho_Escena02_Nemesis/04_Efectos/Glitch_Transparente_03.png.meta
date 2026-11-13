@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Glitch_Transparente_03_0: 2017294571518925304
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

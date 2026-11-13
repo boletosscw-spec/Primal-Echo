@@ -19,7 +19,7 @@ public class PrimalEchoParallax : MonoBehaviour
     }
     private void LateUpdate()
     {
-        if (targetCamera == null) return;
+        if (targetCamera == null || ParallaxFreeze.Active) return;
         Vector3 delta = targetCamera.position - originCameraPosition;
         transform.position = originPosition + new Vector3(delta.x * factor, delta.y * factor, 0f);
     }

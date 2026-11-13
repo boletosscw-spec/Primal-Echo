@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      03_Nemesis_Roja_Escena_0: -1794151804909831488
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

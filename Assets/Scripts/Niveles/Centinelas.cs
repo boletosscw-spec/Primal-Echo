@@ -22,8 +22,11 @@ namespace PrimalEcho
         private const float GroundSize = 3.2f;     // terrestres: con 3.2 el cuerpo mide ≈ 6.7 x 3.5 unidades (antes 1.4)
         private const float FlyerSize = 2f;        // alados (antes 1.4)
         private const float MinSize = 1.4f;        // si no caben (techo bajo, pasillo estrecho) se encogen como mucho hasta aquí
+        // VIDA de los centinelas (la lanza y las flechas quitan 2 sin mejoras).
+        private const int GroundHealth = 10, EliteHealth = 18, FlyerHealth = 5;
         private const float EliteScale = 1.15f;    // los antiguos robots pesados son Exploradores aún más grandes
         private const int TerrainLayer = 6;
+        private const int EnemySortingOrder = 8;   // la decoración del mapa está en 5: con menos de 6 el enemigo queda tapado (invisible)
         private static readonly string[] Folders = { "Explorador", "AlaCian", "AlaAmbar" };
         private static readonly float[] FeetPivot = { 0.23f, 0.25f, 0.19f };
         private static readonly float[] Fps = { 6f, 10f, 14f, 12f };
@@ -87,6 +90,7 @@ namespace PrimalEcho
         {
             tipo = type;
             health = GetComponent<EnemyHealth>();
+            if (health != null) health.SetHealth(type != CentinelaTipo.Explorador ? FlyerHealth : elite ? EliteHealth : GroundHealth);
             feedback = GetComponent<EnemyFeedback>();
             sprite = GetComponentInChildren<SpriteRenderer>(true);
             bool ground = tipo == CentinelaTipo.Explorador;
@@ -105,6 +109,7 @@ namespace PrimalEcho
                 if (old != null) { old.enabled = false; Destroy(old); }
 
             sprite.flipX = false;
+            sprite.sortingOrder = EnemySortingOrder; // por encima de la decoración (orden 5) y por debajo de Kael (10)
             scale = ground ? FitGround((elite ? EliteScale : 1f) * GroundSize) : FlyerSize;
             sprite.transform.localScale = new Vector3(scale, scale, 1f);
 
@@ -266,7 +271,7 @@ namespace PrimalEcho
         [SerializeField, Min(0f)] private float windupSeconds = 0.6f;
         [SerializeField, Min(0f)] private float chargeSpeed = 13.5f;
         [SerializeField, Min(0.1f)] private float chargeMaxSeconds = 1.1f;
-        [SerializeField] private Vector2 chargeCooldown = new Vector2(1.2f, 2.2f);
+        [SerializeField] private Vector2 chargeCooldown = new Vector2(2.2f, 3.2f);
         [Header("Cornada")]
         [SerializeField, Min(0.1f)] private float goreRange = 1.3f;
         [SerializeField, Min(0f)] private float goreWindup = 0.32f;
@@ -275,9 +280,9 @@ namespace PrimalEcho
         [Header("Coletazo")]
         [SerializeField, Min(0f)] private float tailRange = 2.4f;
         [Header("Pausas")]
-        [SerializeField, Min(0f)] private float wallStunSeconds = 1.1f;
+        [SerializeField, Min(0f)] private float wallStunSeconds = 1.8f;
         [SerializeField, Min(0f)] private float brakeSeconds = 0.28f;
-        [SerializeField, Min(0f)] private float recoverSeconds = 0.45f;
+        [SerializeField, Min(0f)] private float recoverSeconds = 1.3f;   // quieto y sin defensa después de cada ataque
         [SerializeField] private LayerMask groundLayers = 1 << 6;
 
         private Rigidbody2D body;
@@ -299,6 +304,7 @@ namespace PrimalEcho
         private EnemyHealth health;
         private int initialHealth;
         private bool heavy, hitWindow;
+        public bool Heavy => heavy;
         private float stunEnds, hitStart;
         private int playing;
         private static readonly int Idle = Clip("Idle"), Walk = Clip("Caminar"), Run = Clip("Correr"),
@@ -512,7 +518,7 @@ namespace PrimalEcho
             if (wasHit)
             {
                 wasHit = false;
-                if (state == State.WallStun) { /* sigue aturdido */ }
+                if (state == State.WallStun || state == State.Recover) { /* sigue quieto: es la ventana para pegarle, no contraataca */ }
                 else if (sees && reachable && gap < tailRange && Time.time >= counterAt)
                 {
                     counterAt = Time.time + 2.5f;
@@ -578,16 +584,15 @@ namespace PrimalEcho
                     if (gap <= goreRange)
                     {
                         if (ready) { attackDir = direction; Begin(State.GoreWindup, goreWindup); }
-                        else if (CanRun(-direction, b)) vx = -direction * backSpeed;
-                        break;
+                        break; // entre ataques se queda plantado: no huye de Kael
                     }
                     if (gap < chargeMinGap)
                     {
                         // Demasiado cerca para embestir: retrocede para tomar carrera; si Kael lo acosa
                         // o está acorralado, va a por la cornada
                         crowded += dt;
-                        if (crowded < 1.1f && CanRun(-direction, b)) vx = -direction * backSpeed;
-                        else if (CanRun(direction, b)) vx = direction * runSpeed;
+                        // Espera quieto un momento; si Kael sigue encima, se acerca para la cornada
+                        if (crowded >= 1.6f && CanRun(direction, b)) vx = direction * walkSpeed;
                         break;
                     }
                     crowded = 0f;
@@ -654,7 +659,7 @@ namespace PrimalEcho
                     if (thrust < 0.7f && gap > 0.05f && CanRun(attackDir, b)) vx = attackDir * goreSpeed;
                     if (timer <= 0f)
                     {
-                        nextAttack = Time.time + Random.Range(0.8f, 1.4f);
+                        nextAttack = Time.time + Random.Range(1.6f, 2.2f);
                         Begin(State.Recover, recoverSeconds);
                     }
                     break;
@@ -706,7 +711,7 @@ namespace PrimalEcho
         [SerializeField, Min(1f)] private float ambarDistance = 5f;
         [SerializeField, Min(1f)] private float cianDistance = 7f;
         [SerializeField, Min(1f)] private float fleeDistance = 9f;
-        [SerializeField, Min(0f)] private float holdSeconds = 0.6f;   // tiempo quieto en la diagonal antes de atacar
+        [SerializeField, Min(0f)] private float holdSeconds = 1.3f;   // tiempo quieto en la diagonal antes de atacar
         [Header("Ámbar: picada")]
         [SerializeField, Min(0f)] private float telegraphSeconds = 0.28f;
         [SerializeField, Min(0f)] private float diveSpeed = 13f;

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Piedra_bloques_centro_0: 3816626107081680651
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

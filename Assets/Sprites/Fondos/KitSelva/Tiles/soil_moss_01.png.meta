@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      soil_moss_01_0: -6040705607637709805
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      02_Bosque_intermedio_0: -2752637919414926928
+      02_Bosque_intermedio_1: -5509842707412988157
+      02_Bosque_intermedio_2: 4543255740286930169
+      02_Bosque_intermedio_3: -9033567489345027534
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Plantas_rodales_izq_0: -9010572003786038290
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

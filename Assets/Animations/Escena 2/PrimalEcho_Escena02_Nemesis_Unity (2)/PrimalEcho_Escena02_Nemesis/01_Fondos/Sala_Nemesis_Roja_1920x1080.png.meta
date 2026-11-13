@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sala_Nemesis_Roja_1920x1080_0: 740174041940499796
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

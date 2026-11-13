@@ -609,7 +609,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      control_panel_idle_0: 8475035003810483235
+      control_panel_idle_1: -2622505841680044790
+      control_panel_idle_10: 3148645210878342777
+      control_panel_idle_11: -8605946627169088690
+      control_panel_idle_12: 2776944600033075096
+      control_panel_idle_13: 6765013052033708574
+      control_panel_idle_14: -710532949670838974
+      control_panel_idle_15: 8216069368920565659
+      control_panel_idle_16: -1872064792873971434
+      control_panel_idle_17: -6735338178369691608
+      control_panel_idle_18: -7675393456264723563
+      control_panel_idle_19: 2740055979832001408
+      control_panel_idle_2: 1751457918166090105
+      control_panel_idle_3: -3119333467295344622
+      control_panel_idle_4: -3214582343990044201
+      control_panel_idle_5: -2754440404762301771
+      control_panel_idle_6: -6531158363850987003
+      control_panel_idle_7: 4282639208550704957
+      control_panel_idle_8: 8622937690870470253
+      control_panel_idle_9: 1082524147185566233
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

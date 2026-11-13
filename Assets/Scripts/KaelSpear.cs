@@ -28,6 +28,10 @@ namespace PrimalEcho
         private bool connected;
         private bool thrustShown;
 
+        public bool IsAttacking => state != 0;
+        public void AddDamage(int amount) => damage += amount;
+        public int Damage => damage;
+
         private void Awake()
         {
             player = GetComponent<PlayerController>();

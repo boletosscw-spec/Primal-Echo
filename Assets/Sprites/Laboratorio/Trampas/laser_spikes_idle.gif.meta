@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      laser_spikes_idle_0: 8384120293112784383
+      laser_spikes_idle_1: -2671030743208601619
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

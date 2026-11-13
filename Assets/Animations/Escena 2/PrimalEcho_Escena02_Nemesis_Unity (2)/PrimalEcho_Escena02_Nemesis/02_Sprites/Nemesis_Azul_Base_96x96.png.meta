@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nemesis_Azul_Base_96x96_0: -6526429406980421382
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

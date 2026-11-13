@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      04_Rojo_Dialogo_96px_0: -1656768198527702388
+      04_Rojo_Dialogo_96px_1: 3576577935980244654
+      04_Rojo_Dialogo_96px_10: 1289823731619012312
+      04_Rojo_Dialogo_96px_11: -5084277583040754412
+      04_Rojo_Dialogo_96px_2: -7463768719662517735
+      04_Rojo_Dialogo_96px_3: 6232725281195883564
+      04_Rojo_Dialogo_96px_4: 8338181395111700088
+      04_Rojo_Dialogo_96px_5: -7346806036644378618
+      04_Rojo_Dialogo_96px_6: 5305295929954706208
+      04_Rojo_Dialogo_96px_7: -1786580506505858805
+      04_Rojo_Dialogo_96px_8: -5759857854435532161
+      04_Rojo_Dialogo_96px_9: -4189952763313583165
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

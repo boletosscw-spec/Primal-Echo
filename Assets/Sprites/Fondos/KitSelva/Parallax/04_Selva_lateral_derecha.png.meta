@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      04_Selva_lateral_derecha_0: 4564311041161569878
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

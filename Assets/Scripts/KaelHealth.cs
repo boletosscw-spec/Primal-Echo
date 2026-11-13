@@ -25,6 +25,20 @@ namespace PrimalEcho
             visual = GetComponentInChildren<SpriteRenderer>();
         }
 
+        public void IncreaseMaxHealth(int amount)
+        {
+            maxHealth = Max + amount;
+            health = Mathf.Min(maxHealth, health + amount);
+        }
+
+        /// <summary>Recupera vida sin pasar del máximo. Devuelve false si ya estaba llena.</summary>
+        public bool Heal(int amount)
+        {
+            if (health <= 0 || health >= Max) return false;
+            health = Mathf.Min(Max, health + amount);
+            return true;
+        }
+
         public void Hit(int damage, Vector2 source)
         {
             if (!player.CanAct || Time.time < vulnerableAt || health <= 0) return;

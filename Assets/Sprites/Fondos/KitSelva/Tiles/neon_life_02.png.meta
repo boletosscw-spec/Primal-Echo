@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      neon_life_02_0: -8264490517029203389
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

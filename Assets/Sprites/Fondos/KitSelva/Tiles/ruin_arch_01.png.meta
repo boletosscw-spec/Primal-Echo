@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ruin_arch_01_0: 1418209434078096342
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

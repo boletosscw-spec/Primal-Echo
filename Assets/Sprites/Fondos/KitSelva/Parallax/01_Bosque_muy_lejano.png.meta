@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      01_Bosque_muy_lejano_0: -8968942933183658679
+      01_Bosque_muy_lejano_1: 6245835849059909271
+      01_Bosque_muy_lejano_2: -566904276444062758
+      01_Bosque_muy_lejano_3: -3496172413814517701
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

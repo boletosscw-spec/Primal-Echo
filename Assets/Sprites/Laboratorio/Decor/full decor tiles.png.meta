@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      full decor tiles_0: -8659747304852164099
+      full decor tiles_1: -5407741160301183260
+      full decor tiles_2: 1942045031450387316
+      full decor tiles_3: 7182796385201085851
+      full decor tiles_4: 2442833603509712432
+      full decor tiles_5: 6225060033222291213
+      full decor tiles_6: 907521955783336717
+      full decor tiles_7: -4153249107426631151
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

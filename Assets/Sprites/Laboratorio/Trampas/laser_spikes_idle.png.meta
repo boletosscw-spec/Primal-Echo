@@ -384,7 +384,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      laser_spikes_idle_0: 8384120293112784383
+      laser_spikes_idle_1: -2671030743208601619
+      laser_spikes_idle_10: -1984847368370040281
+      laser_spikes_idle_2: 4737210321552860599
+      laser_spikes_idle_3: 1839412135972409069
+      laser_spikes_idle_4: 7667291574286221033
+      laser_spikes_idle_5: -5916145410576205033
+      laser_spikes_idle_6: 4942992293184974621
+      laser_spikes_idle_7: 7078253372316379091
+      laser_spikes_idle_8: 7619077833170398543
+      laser_spikes_idle_9: -1139092969267034357
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

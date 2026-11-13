@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      underside_02_0: 5612883443096748287
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

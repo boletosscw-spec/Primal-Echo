@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      soil_cracked_01_0: 292172496992305307
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

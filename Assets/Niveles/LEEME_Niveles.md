@@ -20,6 +20,8 @@ Cada nivel es un archivo de texto en `Assets/Niveles`. Para generarlos o actuali
 | `K` | Planta carnívora fija: 4 de vida. |
 | `C` | Checkpoint con farola. Toma los nombres de las líneas `@checkpoint`, en orden. |
 | `o` | Fragmento de eco (opcional). |
+| `F` | Fruta de la selva: consumible que cura 1 corazón (máximo 3). |
+| `M` | Chip de memoria. Toma título y texto de las líneas `@chip TITULO|Texto`, en orden. |
 | `T` | Árbol grande de fondo. |
 | `P` / `X` | Inicio / salida. Si hay `@siguiente`, la salida carga ese nivel. |
 

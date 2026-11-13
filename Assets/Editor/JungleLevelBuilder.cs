@@ -43,6 +43,15 @@ namespace PrimalEcho.Editor
                     EditorSceneManager.MarkSceneDirty(active);
                 }
             };
+            // Regeneración pedida desde fuera del editor: si existe el archivo de aviso, se generan los niveles
+            // una sola vez al terminar de compilar (fuera del modo Play) y el aviso se borra.
+            EditorApplication.delayCall += () =>
+            {
+                if (!File.Exists(RegenerateFlag) || EditorApplication.isPlayingOrWillChangePlaymode) return;
+                try { File.Delete(RegenerateFlag); } catch (Exception e) { Debug.LogException(e); return; }
+                Debug.Log("[Primal Echo] Regenerando Tutorial, Nivel 1 y Nivel 2 (pedido por Claude)...");
+                GenerateAll(askFirst: false);
+            };
             // Al abrir un nivel, si todavía tiene el relleno negro de tiles en las cuevas, se cambia por el parallax
             EditorSceneManager.sceneOpened += (scene, mode) =>
             {
@@ -56,6 +65,7 @@ namespace PrimalEcho.Editor
         }
 
         private static bool generating;
+        private const string RegenerateFlag = "Logs/regenerar_niveles.flag";
 
         private const string MapsFolder = "Assets/Niveles";
         private const string ScenesFolder = "Assets/Scenes";
@@ -67,13 +77,14 @@ namespace PrimalEcho.Editor
 
         private static readonly (string map, string scene)[] Levels =
         {
+            ("Nivel_00_Tutorial.txt", "Nivel_00_Tutorial"),
             ("Nivel_01_Valle_del_Eco.txt", "Nivel_01_Valle_del_Eco"),
             ("Nivel_02_Templo_Nemesis.txt", "Nivel_02_Templo_Nemesis"),
         };
 
         private static string ScenePath(string scene) => $"{ScenesFolder}/{scene}.unity";
 
-        [MenuItem("Primal Echo/Niveles/Generar Nivel 1 y Nivel 2", false, 0)]
+        [MenuItem("Primal Echo/Niveles/Generar Tutorial, Nivel 1 y Nivel 2", false, 0)]
         public static void GenerateAll() => GenerateAll(askFirst: true);
 
         private static void GenerateAll(bool askFirst)
@@ -82,7 +93,7 @@ namespace PrimalEcho.Editor
             if (!File.Exists(BaseScene)) { Debug.LogError("No encuentro " + BaseScene); return; }
             if (askFirst && Levels.Any(l => File.Exists(ScenePath(l.scene))) &&
                 !EditorUtility.DisplayDialog("Primal Echo",
-                    "Se regenerarán Nivel 1 y Nivel 2 desde los mapas de texto.\n\n" +
+                    "Se regenerarán el Tutorial, Nivel 1 y Nivel 2 desde los mapas de texto.\n\n" +
                     "Lo que pintaste o borraste en las capas de tiles SE CONSERVA y se vuelve a aplicar encima.\n" +
                     "Enemigos y objetos vuelven a la posición del mapa de texto.", "Regenerar", "Cancelar"))
                 return;
@@ -92,9 +103,18 @@ namespace PrimalEcho.Editor
             {
                 generating = true;
                 foreach (var level in Levels) Build(level.map, level.scene);
-                var ours = Levels.Select(l => new EditorBuildSettingsScene(ScenePath(l.scene), true)).ToList();
-                var paths = new HashSet<string>(ours.Select(s => s.path));
-                EditorBuildSettings.scenes = ours.Concat(EditorBuildSettings.scenes.Where(s => !paths.Contains(s.path))).ToArray();
+                // Build Settings: se respeta el orden que ya tengas (la cinemática primero); un nivel nuevo
+                // entra justo antes del nivel que le sigue (el tutorial queda antes del Nivel 1).
+                var buildList = EditorBuildSettings.scenes.ToList();
+                for (int i = Levels.Length - 1; i >= 0; i--)
+                {
+                    string scenePath = ScenePath(Levels[i].scene);
+                    if (buildList.Any(s => s.path == scenePath)) continue;
+                    int next = i + 1 < Levels.Length ? buildList.FindIndex(s => s.path == ScenePath(Levels[i + 1].scene)) : -1;
+                    var entry = new EditorBuildSettingsScene(scenePath, true);
+                    if (next >= 0) buildList.Insert(next, entry); else buildList.Add(entry);
+                }
+                EditorBuildSettings.scenes = buildList.ToArray();
                 AssetDatabase.SaveAssets();
             }
             catch (Exception e)
@@ -105,7 +125,7 @@ namespace PrimalEcho.Editor
             }
             finally { generating = false; EditorUtility.ClearProgressBar(); }
             EditorSceneManager.OpenScene(ScenePath(Levels[0].scene), OpenSceneMode.Single);
-            Debug.Log("<color=#4CAF50><b>[Primal Echo]</b> Nivel 1 y Nivel 2 generados. Abre Nivel_01_Valle_del_Eco y pulsa Play.</color>");
+            Debug.Log("<color=#4CAF50><b>[Primal Echo]</b> Tutorial, Nivel 1 y Nivel 2 generados. Abre Nivel_00_Tutorial y pulsa Play.</color>");
         }
 
         [MenuItem("Primal Echo/Niveles/Actualizar colisiones del nivel abierto", false, 10)]
@@ -114,6 +134,37 @@ namespace PrimalEcho.Editor
             var scene = SceneManager.GetActiveScene();
             RebuildCollisionIn(scene);
             EditorSceneManager.MarkSceneDirty(scene);
+        }
+
+        // Coloca solo las frutas ('F') y los chips ('M') del mapa de texto en el nivel abierto.
+        // No regenera nada más: enemigos, tiles y objetos que hayas movido a mano se quedan como están.
+        [MenuItem("Primal Echo/Niveles/Colocar frutas y chips en el nivel abierto", false, 12)]
+        public static void PlaceItemsInOpenLevel()
+        {
+            if (EditorApplication.isPlayingOrWillChangePlaymode) { Debug.LogWarning("Sal del modo Play primero."); return; }
+            var scene = SceneManager.GetActiveScene();
+            if (!Levels.Any(l => l.scene == scene.name)) { Debug.LogWarning("Abre primero Nivel 1 o Nivel 2."); return; }
+            Map map = Parse($"{MapsFolder}/{Levels.First(l => l.scene == scene.name).map}");
+            foreach (var old in scene.GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<ItemPickup>(true)).ToList())
+                Object.DestroyImmediate(old.gameObject);
+            var parent = GameObject.Find("Jugabilidad");
+            Transform root = parent != null ? parent.transform : new GameObject("Jugabilidad").transform;
+            int count = PlaceItems(map, root, scene.name);
+            EditorSceneManager.MarkSceneDirty(scene);
+            Debug.Log($"[Primal Echo] {scene.name}: {count} frutas y chips colocados. Guarda la escena (Ctrl+S).");
+        }
+
+        private static int PlaceItems(Map map, Transform root, string sceneName)
+        {
+            int count = 0;
+            foreach (var cell in map.Find('F')) { Item(root, cell, ItemKind.Fruit, "", "", ""); count++; }
+            var chipCells = map.Find('M').OrderBy(cell => cell.x).ToList();
+            for (int n = 0; n < chipCells.Count; n++, count++)
+            {
+                var chip = n < map.Chips.Count ? map.Chips[n] : (title: "REGISTRO " + (n + 1), text: "");
+                Item(root, chipCells[n], ItemKind.Chip, sceneName + "_chip_" + n, chip.title, chip.text);
+            }
+            return count;
         }
 
         [MenuItem("Primal Echo/Niveles/Aplicar fondo parallax de cueva al nivel abierto", false, 11)]
@@ -187,7 +238,7 @@ namespace PrimalEcho.Editor
                 : maskOk && group != null && group.Find("Cueva_Lejos") != null && group.GetComponent<CaveAmbience>() != null;
             bool treesChanged = SetupJungleParticles() | SetupHollowCamera() | SetupLabKey(map) | ThinEnemies(scene);
             if (lab && grid != null) treesChanged |= SetupNemesisFinale(scene, grid.transform);
-            if (grid != null && grid.transform.Find(TreesVersion) == null)
+            if (!map.NoTrees && grid != null && grid.transform.Find(TreesVersion) == null)
             {
                 PlantTrees(map, grid.transform, bg);
                 treesChanged = true;
@@ -300,11 +351,14 @@ namespace PrimalEcho.Editor
             return true;
         }
 
+        [MenuItem("Primal Echo/Niveles/Abrir Tutorial", false, 19)]
+        public static void Open0() => OpenLevel(0);
+
         [MenuItem("Primal Echo/Niveles/Abrir Nivel 1", false, 20)]
-        public static void Open1() => OpenLevel(0);
+        public static void Open1() => OpenLevel(1);
 
         [MenuItem("Primal Echo/Niveles/Abrir Nivel 2", false, 21)]
-        public static void Open2() => OpenLevel(1);
+        public static void Open2() => OpenLevel(2);
 
         private static void OpenLevel(int i)
         {
@@ -318,7 +372,11 @@ namespace PrimalEcho.Editor
         private sealed class Map
         {
             public string Title = "", Subtitle = "", Completed = "", Next = "", Theme = "jungla";
+            public bool NoKey; // @llave no: nivel sin la llave de la base (tutorial)
+            public bool NoTrees; // @arboles no: nivel sin los árboles grandes de tiles
+            public readonly List<Vector2Int> NoTreeAt = new List<Vector2Int>(); // @sin_arbol x y: ahí ya no va un árbol
             public readonly List<string> Checkpoints = new List<string>();
+            public readonly List<(string title, string text)> Chips = new List<(string, string)>();
             public readonly List<(float x, float y, string text)> Signs = new List<(float, float, string)>();
             public char[,] C;
             public int W, H;
@@ -351,7 +409,17 @@ namespace PrimalEcho.Editor
                     case "completado": m.Completed = val; break;
                     case "siguiente": m.Next = val; break;
                     case "tema": m.Theme = val; break;
+                    case "llave": m.NoKey = val.Trim().ToLowerInvariant() == "no"; break;
+                    case "arboles": m.NoTrees = val.Trim().ToLowerInvariant() == "no"; break;
+                    case "sin_arbol":
+                        var spot = val.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                        m.NoTreeAt.Add(new Vector2Int(int.Parse(spot[0], CultureInfo.InvariantCulture), int.Parse(spot[1], CultureInfo.InvariantCulture)));
+                        break;
                     case "checkpoint": m.Checkpoints.Add(val); break;
+                    case "chip": // @chip TITULO|Texto del registro (se asignan a las 'M' de izquierda a derecha)
+                        var chipParts = val.Split(new[] { '|' }, 2);
+                        m.Chips.Add((chipParts[0].Trim(), chipParts.Length > 1 ? chipParts[1].Trim() : ""));
+                        break;
                     case "cartel":
                         var p = val.Split(new[] { ' ' }, 3);
                         m.Signs.Add((float.Parse(p[0], CultureInfo.InvariantCulture), float.Parse(p[1], CultureInfo.InvariantCulture), p[2]));
@@ -446,11 +514,12 @@ namespace PrimalEcho.Editor
             };
             SaveBaseline(sceneName, layers);       // lo que generó la máquina
             ApplyUserEdits(edits, layers);         // + lo que tú cambiaste
+            ClearRemovedTrees(map, bg);            // troncos de árboles que el mapa ya no tiene
             BuildCollisionFromTiles(gridObj.transform, solid, branches);
             var jungleGroup = GameObject.Find("Fondo_Parallax");
             if (jungleGroup != null) BuildJungleParallax(jungleGroup.transform, map.Theme);
             SetupCaveBackdrop(map, bg);
-            PlantTrees(map, gridObj.transform, bg);
+            if (!map.NoTrees) PlantTrees(map, gridObj.transform, bg);
             if (map.Theme == "templo") BuildLabBase(map, gridObj.transform);
             AttachHandPainted(sceneName, gridObj.transform);
 
@@ -486,6 +555,7 @@ namespace PrimalEcho.Editor
             Runs(map, 'J', (x0, len, y) => Geyser(root, lights, x0, len, y));
             int shards = 0;
             foreach (var c in map.Find('o')) { Shard(root, lights, c, art.shard); shards++; }
+            PlaceItems(map, root, sceneName);
             Arena(map, root, enemies);
             Goal(map, lights);
             SetupLabKey(map);
@@ -999,7 +1069,7 @@ namespace PrimalEcho.Editor
         // Llave de la base: se recoge en el Nivel 1, en el camino justo antes de la meta (no se puede saltar).
         private static bool SetupLabKey(Map m)
         {
-            if (m.Theme == "templo" || GameObject.Find("Llave_Base") != null || !m.Find('X').Any()) return false;
+            if (m.NoKey || m.Theme == "templo" || GameObject.Find("Llave_Base") != null || !m.Find('X').Any()) return false;
             var sprite = LoadKitSprite("Assets/Sprites/Laboratorio/Llave.png");
             if (sprite == null) return false;
             Vector2Int goal = m.Find('X').First();
@@ -1611,6 +1681,29 @@ namespace PrimalEcho.Editor
             return edits;
         }
 
+        // Los troncos de los árboles se pintan después de guardar la línea base, así que al regenerar
+        // vuelven como si fueran "pintados a mano". Aquí se borran los de árboles que el mapa ya quitó:
+        // todos si el mapa lleva @arboles no, o los de cada @sin_arbol x y.
+        private static void ClearRemovedTrees(Map m, Tilemap bg)
+        {
+            if (bg == null || (!m.NoTrees && m.NoTreeAt.Count == 0)) return;
+            void Clear(Vector3Int pos)
+            {
+                var tile = bg.GetTile(pos);
+                if (tile != null && tile.name.StartsWith("tile_jungle_tree_")) bg.SetTile(pos, null);
+            }
+            if (m.NoTrees)
+            {
+                bg.CompressBounds();
+                foreach (var pos in bg.cellBounds.allPositionsWithin) Clear(pos);
+                return;
+            }
+            foreach (var t in m.NoTreeAt)
+                for (int x = t.x - 4; x <= t.x + 6; x++)
+                    for (int y = t.y; y <= t.y + 12; y++)
+                        Clear(new Vector3Int(x, y, 0));
+        }
+
         private static void ApplyUserEdits(List<TileEdit> edits, Dictionary<string, Tilemap> layers)
         {
             if (editsAreFullCopy)
@@ -1808,7 +1901,7 @@ namespace PrimalEcho.Editor
             var box = go.AddComponent<BoxCollider2D>();
             box.size = heavy ? new Vector2(1.5f, 2.1f) : new Vector2(0.9f, 1.5f);
             box.offset = new Vector2(0f, box.size.y / 2f);
-            var sr = Visual(go.transform, (heavy ? art.heavy : art.robot)[0], 4);
+            var sr = Visual(go.transform, (heavy ? art.heavy : art.robot)[0], 8);
             go.AddComponent<SpriteFrames>().Configure(sr, heavy ? art.heavy : art.robot, 2.5f);
             SetField(go.AddComponent<EnemyHealth>(), "health", heavy ? 10 : 4);
             var hurt = new GameObject("Golpe");
@@ -1831,7 +1924,7 @@ namespace PrimalEcho.Editor
             rb.interpolation = RigidbodyInterpolation2D.Interpolate;
             var circle = go.AddComponent<CircleCollider2D>();
             circle.isTrigger = true; circle.radius = 0.55f;
-            var sr = Visual(go.transform, art.wasp[0], 6);
+            var sr = Visual(go.transform, art.wasp[0], 8);
             go.AddComponent<SpriteFrames>().Configure(sr, art.wasp, 12f);
             SetField(go.AddComponent<EnemyHealth>(), "health", 2);
             go.AddComponent<ContactHazard>();
@@ -1923,6 +2016,17 @@ namespace PrimalEcho.Editor
             box.isTrigger = true; box.size = new Vector2(Mathf.Max(0.8f, len - 0.1f), 5f);
             go.AddComponent<GeyserColumn>();
             Light(lights, "Luz_Geiser", new Vector3(x0 + len / 2f, y + 1.5f, 0f), new Color(0.3f, 0.92f, 1f), 1.3f, 4f);
+        }
+
+        // Fruta ('F') o chip de memoria ('M'): el objeto dibuja su propio icono al empezar la partida.
+        private static void Item(Transform root, Vector2Int c, ItemKind kind, string id, string title, string text)
+        {
+            var go = new GameObject(kind == ItemKind.Fruit ? "Fruta_Selva" : "Chip_Memoria");
+            go.transform.SetParent(root);
+            go.transform.position = new Vector3(c.x + 0.5f, c.y + 0.6f, 0f);
+            var circle = go.AddComponent<CircleCollider2D>();
+            circle.isTrigger = true; circle.radius = 0.6f;
+            go.AddComponent<ItemPickup>().Configure(kind, id, title, text);
         }
 
         private static void Shard(Transform root, Transform lights, Vector2Int c, Sprite sprite)

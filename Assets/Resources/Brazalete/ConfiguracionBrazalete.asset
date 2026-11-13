@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a97c092900c434cbbba4e96525f4e35, type: 3}
+  m_Name: ConfiguracionBrazalete
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 4218214746239165400, guid: 543dde966d094eb9b3827e1224c138c8, type: 3}
+  - {fileID: 4595823065331852091, guid: 543dde966d094eb9b3827e1224c138c8, type: 3}
+  - {fileID: 3151723153591877525, guid: 543dde966d094eb9b3827e1224c138c8, type: 3}
+  - {fileID: 3551050669320237352, guid: 543dde966d094eb9b3827e1224c138c8, type: 3}
+  - {fileID: 3743390270844109202, guid: 543dde966d094eb9b3827e1224c138c8, type: 3}
+  - {fileID: 3655690871610213413, guid: 543dde966d094eb9b3827e1224c138c8, type: 3}
+  - {fileID: 2516608208398956117, guid: 543dde966d094eb9b3827e1224c138c8, type: 3}
+  - {fileID: 4436512937734036395, guid: 543dde966d094eb9b3827e1224c138c8, type: 3}
+  framesPerSecond: 12
+  projectionSeconds: 0.25
+  wrist: {x: 0.24, y: 0.76}
+  backgroundDim: 0.5
+  zoom: 0.78
+  cameraSeconds: 0.3
+  minimumVisiblePlayerHeights: 2.2
+  cyan: {r: 0.25, g: 0.92, b: 1, a: 1}
+  orange: {r: 1, g: 0.52, b: 0.18, a: 1}
+  locked: {r: 0.4, g: 0.46, b: 0.5, a: 1}
+  panel: {r: 0.015, g: 0.12, b: 0.17, a: 0.78}
+  referenceResolution: {x: 960, y: 540}
+  panelRect:
+    serializedVersion: 2
+    x: 370
+    y: 78
+    width: 550
+    height: 380
+  corner: 8
+  scanlineSpacing: 4
+  scanlineSpeed: 5
+  flicker: 0.025
+  cursorSeconds: 0.16
+  cursorBounce: 4
+  deadZone: 0.5
+  repeatDelay: 0.3
+  repeatInterval: 0.12
+  upgrades:
+  - id: vida_1
+    title: VITALIDAD
+    description: Aumenta la vida maxima de Kael en un corazon y recupera ese punto de vida.
+    cost: 3
+    amount: 1
+    effect: 0
+    prerequisite: -1
+    position: {x: 50, y: 185}
+    icon: {fileID: 2800000, guid: f691cbc1c58e3de74b3ae9f34f764189, type: 3}
+  - id: lanza_1
+    title: LANZA
+    description: Los golpes de lanza causan un punto de dano adicional.
+    cost: 5
+    amount: 1
+    effect: 1
+    prerequisite: 0
+    position: {x: 145, y: 125}
+    icon: {fileID: 2800000, guid: 129fdfb629cfd953cbd2bec233e36e9d, type: 3}
+  - id: flechas_1
+    title: FLECHAS
+    description: Las flechas causan un punto de dano adicional.
+    cost: 4
+    amount: 1
+    effect: 2
+    prerequisite: 0
+    position: {x: 145, y: 245}
+    icon: {fileID: 2800000, guid: fd0e65d5b8ef5f78481a202f15e0dfa1, type: 3}
+  - id: lanza_2
+    title: LANZA II
+    description: Punta reforzada con un nucleo de centinela. Un punto de dano adicional por golpe.
+    cost: 6
+    coreCost: 1
+    amount: 1
+    effect: 1
+    prerequisite: 1
+    position: {x: 245, y: 125}
+    icon: {fileID: 2800000, guid: 129fdfb629cfd953cbd2bec233e36e9d, type: 3}
+  - id: flechas_2
+    title: FLECHAS II
+    description: Flechas cargadas con un nucleo de centinela. Un punto de dano adicional por flecha.
+    cost: 5
+    coreCost: 1
+    amount: 1
+    effect: 2
+    prerequisite: 2
+    position: {x: 245, y: 245}
+    icon: {fileID: 2800000, guid: fd0e65d5b8ef5f78481a202f15e0dfa1, type: 3}
+  items: []

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nemesis_Rojo_Base_96x96_0: 6768736345161572462
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

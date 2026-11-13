@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      00_Cielo_atmosferico_0: 2378596827449487054
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

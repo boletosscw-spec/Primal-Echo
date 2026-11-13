@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hierba_derecha_0: 470959374540479059
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

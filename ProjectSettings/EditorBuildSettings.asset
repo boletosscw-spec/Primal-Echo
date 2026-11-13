@@ -6,14 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Cinematica_Intro.unity
+    guid: ca0aa07ee6d65718bb1a4705e3bd71d3
+  - enabled: 1
+    path: Assets/Scenes/Nivel_00_Tutorial.unity
+    guid: b4ff15af455b16110815bf3935ebcca0
+  - enabled: 1
     path: Assets/Scenes/Nivel_01_Valle_del_Eco.unity
     guid: 8fa053e81cacaa52b85abe4e0fa9cba7
   - enabled: 1
     path: Assets/Scenes/Nivel_02_Templo_Nemesis.unity
     guid: 0cefbff669f570ffabe946134c279530
-  - enabled: 1
-    path: Assets/Scenes/Cinematica_Intro.unity
-    guid: ca0aa07ee6d65718bb1a4705e3bd71d3
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02

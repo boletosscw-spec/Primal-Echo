@@ -884,7 +884,38 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tileset_vista_3x_0: -735600453915912765
+      Tileset_vista_3x_1: -5315556858975721593
+      Tileset_vista_3x_10: 4173323994858156568
+      Tileset_vista_3x_11: -7649956923320554247
+      Tileset_vista_3x_12: -2968430183660343649
+      Tileset_vista_3x_13: 163053498063523385
+      Tileset_vista_3x_14: -8937201805651699180
+      Tileset_vista_3x_15: -8911624008963240651
+      Tileset_vista_3x_16: -797282091401811422
+      Tileset_vista_3x_17: -3767863481330481247
+      Tileset_vista_3x_18: -7406800230392784963
+      Tileset_vista_3x_19: -172882177500013339
+      Tileset_vista_3x_2: -3452377457892745403
+      Tileset_vista_3x_20: 4918088224177019705
+      Tileset_vista_3x_21: -7850956379398213008
+      Tileset_vista_3x_22: 3811184573792332087
+      Tileset_vista_3x_23: 7750929247465965172
+      Tileset_vista_3x_24: -8303420002656518761
+      Tileset_vista_3x_25: -5017595122295801317
+      Tileset_vista_3x_26: -2000496486843974932
+      Tileset_vista_3x_27: -4303101136013840595
+      Tileset_vista_3x_28: 4505109064076985995
+      Tileset_vista_3x_29: 7165435625297123833
+      Tileset_vista_3x_3: 956866745131385182
+      Tileset_vista_3x_30: 4668404459826531954
+      Tileset_vista_3x_4: 2595269459514542770
+      Tileset_vista_3x_5: -2206775465056697298
+      Tileset_vista_3x_6: 2544839502563718406
+      Tileset_vista_3x_7: 8754421943045719409
+      Tileset_vista_3x_8: 1456433063801976344
+      Tileset_vista_3x_9: -7573532613305279844
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

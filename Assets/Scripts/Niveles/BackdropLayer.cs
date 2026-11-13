@@ -66,7 +66,7 @@ namespace PrimalEcho
 
         private void LateUpdate()
         {
-            if (cam == null || main == null || main.sprite == null) return;
+            if (ParallaxFreeze.Active || cam == null || main == null || main.sprite == null) return;
             float viewH = cam.orthographicSize * 2f, viewW = viewH * cam.aspect;
             Vector2 size = main.sprite.bounds.size;
             float scale = Mathf.Max(viewW * cover / size.x, viewH * cover / size.y);

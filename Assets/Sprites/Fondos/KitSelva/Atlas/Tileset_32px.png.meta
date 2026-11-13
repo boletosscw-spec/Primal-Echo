@@ -859,7 +859,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tileset_32px_0: -5555636384978073901
+      Tileset_32px_1: 3704091628337559789
+      Tileset_32px_10: 5415655260378666074
+      Tileset_32px_11: 8522917921154291014
+      Tileset_32px_12: 2509503086586469964
+      Tileset_32px_13: 3855847590932320843
+      Tileset_32px_14: 1128534451741775004
+      Tileset_32px_15: -1739734228222636469
+      Tileset_32px_16: -9051994504973282297
+      Tileset_32px_17: 6688349193910637666
+      Tileset_32px_18: -4321870652657573674
+      Tileset_32px_19: 5783743187967025934
+      Tileset_32px_2: -3190795986992176020
+      Tileset_32px_20: 1403345532899659987
+      Tileset_32px_21: -3678964026499789355
+      Tileset_32px_22: 7938410639539820350
+      Tileset_32px_23: 7573324786574250857
+      Tileset_32px_24: 8019999741700627099
+      Tileset_32px_25: 4770725678739516281
+      Tileset_32px_26: -6875952356083142627
+      Tileset_32px_27: -839314316048585509
+      Tileset_32px_28: -8436251245987628680
+      Tileset_32px_29: 1754469607216771509
+      Tileset_32px_3: -8742187554926235138
+      Tileset_32px_4: -8108290308786461929
+      Tileset_32px_5: -3404908319809392434
+      Tileset_32px_6: 8891136377207119185
+      Tileset_32px_7: -7611540176104598318
+      Tileset_32px_8: -812272729980083944
+      Tileset_32px_9: -5114841249387201929
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

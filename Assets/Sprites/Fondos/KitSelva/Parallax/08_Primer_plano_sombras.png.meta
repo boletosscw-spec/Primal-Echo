@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      08_Primer_plano_sombras_0: 7499364217093360619
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

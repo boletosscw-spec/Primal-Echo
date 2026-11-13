@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ruin_cap_02_0: -2060569828820523896
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

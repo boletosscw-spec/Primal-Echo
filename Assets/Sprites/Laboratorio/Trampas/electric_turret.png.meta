@@ -1009,7 +1009,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      electric_turret_0: 4290917670762974922
+      electric_turret_1: 5716217351907241777
+      electric_turret_10: -6513258196898786719
+      electric_turret_11: -7514511856400588124
+      electric_turret_12: 9099014144261803628
+      electric_turret_13: 2024268203624450017
+      electric_turret_14: -8971765019120054284
+      electric_turret_15: 595054799623719047
+      electric_turret_16: -2500708265370126081
+      electric_turret_17: 1048517727330368406
+      electric_turret_18: 4140838045748975342
+      electric_turret_19: -2539853051261475192
+      electric_turret_2: -8173043143343967893
+      electric_turret_20: -6825283335829157880
+      electric_turret_21: -9213866651182945247
+      electric_turret_22: -5826615131248334021
+      electric_turret_23: 4167064952182849179
+      electric_turret_24: 2710147774784370051
+      electric_turret_25: -1415104395308727889
+      electric_turret_26: 883339754970386415
+      electric_turret_27: 1152847634146724450
+      electric_turret_28: 8182920150228191485
+      electric_turret_29: -2095425241373413675
+      electric_turret_3: -454720683015034482
+      electric_turret_30: 6611513683657395542
+      electric_turret_31: 8238484934444511850
+      electric_turret_32: -2276940599590321382
+      electric_turret_33: -2682093132794425639
+      electric_turret_34: 5392147416729988632
+      electric_turret_35: 350091198298486447
+      electric_turret_4: 4083433931146768840
+      electric_turret_5: -5698494869995660913
+      electric_turret_6: -6559995205204633730
+      electric_turret_7: -7458139727609657848
+      electric_turret_8: 2615062223617126199
+      electric_turret_9: 3277322632366742675
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

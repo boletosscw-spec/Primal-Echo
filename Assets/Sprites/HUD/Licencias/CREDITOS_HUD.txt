@@ -1,0 +1,6 @@
+Creditos del HUD (mezcla en Assets/Resources/HUD)
+
+- Marcos, paneles, iconos y fuente: Pixel UI Sci-Fi Free by heyheythere - https://heyheythere.itch.io/pixel-ui-scifi-free - CC BY 4.0
+- Corazones: Health Progress Series #2 Hearts (Free Version 1.1) by Humble Pixel - https://humblepixel.itch.io/health-progress-series-2-hearts (ver License.pdf)
+
+Pon estas lineas en la pantalla de creditos del juego.

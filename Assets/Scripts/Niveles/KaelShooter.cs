@@ -36,6 +36,9 @@ namespace PrimalEcho
         private Vector2 aim;
         private bool drawing;
 
+        public void AddDamage(int amount) => damage += amount;
+        public int Damage => damage;
+
         public bool Rooted => Time.time < rootedUntil;
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]

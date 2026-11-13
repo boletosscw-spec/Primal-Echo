@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ruin_pillar_02_0: 1256704183771500652
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nemesis_0: 7791737524285958716
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

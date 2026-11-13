@@ -834,7 +834,36 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wall_blades_0: 797455046131895002
+      wall_blades_1: -6139386299244885051
+      wall_blades_10: 7565939474615756632
+      wall_blades_11: 2769706886682777471
+      wall_blades_12: 2216586256069703050
+      wall_blades_13: -7873860199343544703
+      wall_blades_14: -3003990368261782272
+      wall_blades_15: -5968170666654614386
+      wall_blades_16: -6670085705304686469
+      wall_blades_17: -5346005418119503882
+      wall_blades_18: -2402677281186686074
+      wall_blades_19: 522531273569647410
+      wall_blades_2: -6746905665574951919
+      wall_blades_20: 7213422782362492263
+      wall_blades_21: 9026301092145685510
+      wall_blades_22: -6558535162401941441
+      wall_blades_23: -1855470759410371875
+      wall_blades_24: 1503736173344700660
+      wall_blades_25: 6581229810523519861
+      wall_blades_26: 7236712991648344407
+      wall_blades_27: 4673118113372986668
+      wall_blades_28: 763611121795334991
+      wall_blades_3: 714401424365977101
+      wall_blades_4: 8109325670837998591
+      wall_blades_5: -4084727891321359974
+      wall_blades_6: 935974770199493970
+      wall_blades_7: -1085324483777853002
+      wall_blades_8: 1713103903089522479
+      wall_blades_9: 1953106017017594219
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
