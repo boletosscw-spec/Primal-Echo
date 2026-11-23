@@ -13,6 +13,7 @@ namespace PrimalEcho
         {
             if (collision.GetComponent<PlayerController>() != null || collision.CompareTag("Player") || collision.name == "Player")
             {
+                if (TryGetComponent(out NextLevelExit exit) && !exit.CanExit) return;
                 isCompleted = true;
                 var pc = collision.GetComponent<PlayerController>();
                 if (pc != null)

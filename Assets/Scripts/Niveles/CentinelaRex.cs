@@ -70,6 +70,8 @@ namespace PrimalEcho
         private Texture2D pixel;
 
         private bool Furious => health != null && health.Remaining * 2 <= maxHealth;
+        /// <summary>¿Está peleando contra Kael? (lo usa la música para el tema del jefe)</summary>
+        public bool Engaged => engaged;
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
         private static void ResetStatics()

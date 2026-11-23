@@ -23,7 +23,6 @@ namespace PrimalEcho.Editor
             EditorSceneManager.sceneOpened += (scene, mode) => Limpiar(scene);
         }
 
-        [MenuItem("Primal Echo/Quitar === de los nombres (escena abierta)")]
         private static void Menu() => Limpiar(SceneManager.GetActiveScene());
 
         private static void Limpiar(Scene scene)

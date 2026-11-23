@@ -1,10 +1,10 @@
-@titulo NIVEL 2 · TEMPLO DE NÉMESIS
-@subtitulo Las máquinas de NÉMESIS custodian el templo.
+@titulo NIVEL 2 · BASE DE NÉMESIS
+@subtitulo Los centinelas de NÉMESIS vigilan cada pasillo de la base.
 @completado NIVEL 2 COMPLETADO
 @tema templo
-@checkpoint Galería del Templo
+@checkpoint Hangar de Mantenimiento
 @checkpoint Cornisa del Eco
-@checkpoint Umbral de la Cámara
+@checkpoint Antesala del Núcleo
 @cartel 12 35 Baja por las cornisas: el fondo está lleno de espinas
 @cartel 156 9 Géiser: déjate llevar y luego salta
 @cartel 218 30 Doble salto

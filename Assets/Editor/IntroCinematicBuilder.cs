@@ -229,10 +229,11 @@ namespace PrimalEcho.Editor
 
             EditorSceneManager.SaveScene(scene, ScenePath);
 
-            // La cinemática es lo primero que se ve al iniciar el juego
+            // La cinemática va justo después del menú de inicio
             var buildScenes = EditorBuildSettings.scenes.ToList();
             buildScenes.RemoveAll(s => s.path == ScenePath);
-            buildScenes.Insert(0, new EditorBuildSettingsScene(ScenePath, true));
+            int menu = buildScenes.FindIndex(s => s.path == "Assets/Scenes/Menu_Inicio.unity"); // el menú va antes
+            buildScenes.Insert(menu + 1, new EditorBuildSettingsScene(ScenePath, true));
             EditorBuildSettings.scenes = buildScenes.ToArray();
 
             Selection.activeGameObject = directorGo;

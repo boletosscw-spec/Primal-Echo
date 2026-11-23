@@ -104,6 +104,7 @@ namespace PrimalEcho
                     break;
             }
             taken = true;
+            Sonidos.Play(kind == ItemKind.Core ? "llave_recoger" : "objeto_recoger", 0.6f, kind == ItemKind.Fruit ? 1.1f : 1f, transform.position, 0.02f);
             Destroy(gameObject);
         }
     }

@@ -49,13 +49,11 @@ namespace PrimalEcho
         private static readonly Sprite[][] Cache = new Sprite[Sheets.Length][];
         private static readonly int BlockState = Animator.StringToHash("Base Layer.Bloquear");
         private static readonly int RepairState = Animator.StringToHash("Base Layer.Reparar_Kiro");
-        private static readonly int RollState = Animator.StringToHash("Base Layer.Rodar");
         private static KaelVFX current;
         private static float unit = 1.8f; // altura de Kael en unidades de mundo
 
         [SerializeField, Min(0.05f)] private float stepInterval = 0.26f;
         [SerializeField, Min(0f)] private float runSpeed = 4f;      // velocidad mínima para levantar polvo al correr
-        [SerializeField, Min(0f)] private float dashSpeed = 13f;    // por encima de esto se considera dash/rodada
         [SerializeField, Min(0f)] private float landSpeed = 6f;     // caída mínima para el polvo de aterrizaje
 
         private PlayerController player;
@@ -64,7 +62,7 @@ namespace PrimalEcho
         private Animator animator;
         private SpriteRenderer visual;
         private bool wasGrounded = true, wasSliding;
-        private float airVy, stepTimer;
+        private float airVy, stepTimer, nextEcho, nextWallDust;
         private Vector3 lastFeet;
         private int lastState;
 
@@ -133,8 +131,7 @@ namespace PrimalEcho
             else if (entered && state == RepairState)
                 Play(KaelFx.KiroReparacion, Front(0.45f, 0.45f), flipX: facing < 0f, follow: transform);
 
-            // Deslizamiento / rodada (dash a ras de suelo)
-            bool sliding = grounded && (Mathf.Abs(velocity.x) > dashSpeed || state == RollState);
+            bool sliding = grounded && player.IsDashing && player.DashStartedOnGround;
             if (sliding && !wasSliding)
                 Play(KaelFx.PolvoDeslizamiento, feet - new Vector3(facing * 0.2f * unit, 0f, 0f), flipX: facing > 0f);
             wasSliding = sliding;
@@ -144,9 +141,28 @@ namespace PrimalEcho
             if (!running) { stepTimer = Mathf.Min(stepTimer, 0.08f); return; }
             stepTimer -= Time.deltaTime;
             if (stepTimer > 0f) return;
-            stepTimer = stepInterval;
+            stepTimer = player.IsSprinting ? stepInterval * 0.66f : stepInterval;
             float dir = Mathf.Sign(velocity.x);
             Play(KaelFx.PolvoPasos, feet - new Vector3(dir * 0.22f * unit, 0f, 0f), flipX: dir > 0f);
+        }
+
+        private void LateUpdate()
+        {
+            if (player.IsWallSliding && Time.time >= nextWallDust && col != null)
+            {
+                Bounds bounds = col.bounds;
+                var contact = new Vector2(bounds.center.x + player.Facing * bounds.extents.x, bounds.center.y);
+                Play(KaelFx.PolvoDeslizamiento, contact, player.Facing * 90f);
+                nextWallDust = Time.time + 0.20f;
+            }
+            if (!player.IsDashing || player.DashStartedOnGround || visual == null ||
+                !visual.enabled || visual.sprite == null || Time.time < nextEcho) return;
+
+            nextEcho = Time.time + 0.034f;
+            var echo = new GameObject("Estela_Impulso");
+            echo.transform.SetPositionAndRotation(visual.transform.position, visual.transform.rotation);
+            echo.transform.localScale = visual.transform.lossyScale;
+            echo.AddComponent<KaelVfxEcho>().Init(visual);
         }
 
         // Punto frente a Kael: forward y height en "alturas de Kael"
@@ -251,6 +267,34 @@ namespace PrimalEcho
             if (frames == null || index >= frames.Length) { Destroy(gameObject); return; }
             target.sprite = frames[index];
             if (follow != null) transform.position = follow.position + offset;
+        }
+    }
+
+    internal sealed class KaelVfxEcho : MonoBehaviour
+    {
+        private const float Life = 0.13f;
+        private SpriteRenderer echo;
+        private float age;
+
+        public void Init(SpriteRenderer source)
+        {
+            echo = gameObject.AddComponent<SpriteRenderer>();
+            echo.sprite = source.sprite;
+            echo.flipX = source.flipX;
+            echo.flipY = source.flipY;
+            echo.sortingLayerID = source.sortingLayerID;
+            echo.sortingOrder = source.sortingOrder - 1;
+            echo.sharedMaterial = source.sharedMaterial;
+            echo.color = new Color(.30f, .91f, 1f, .45f);
+            Destroy(gameObject, Life);
+        }
+
+        private void Update()
+        {
+            age += Time.deltaTime;
+            var color = echo.color;
+            color.a = .45f * (1f - Mathf.Clamp01(age / Life));
+            echo.color = color;
         }
     }
 }

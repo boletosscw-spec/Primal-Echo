@@ -13,7 +13,6 @@ namespace PrimalEcho.Editor
     {
         // Auto-construcción desactivada para que el usuario pueda pintar su propio mapa libremente con la Tile Palette.
 
-        [MenuItem("Primal Echo/Actualizar Animaciones de Kael (19 Sprites Transparentes)")]
         public static void UpdateKaelAnimationsMenu()
         {
             GameObject player = GameObject.Find("Player");
@@ -28,7 +27,6 @@ namespace PrimalEcho.Editor
             }
         }
 
-        [MenuItem("Primal Echo/Construir Primer Mapa (Valle del Eco)")]
         [MenuItem("Tools/Kael/Reconstruir Mapa y Parallax")]
         public static void BuildFirstMap()
         {

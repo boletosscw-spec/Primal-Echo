@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff1e120d72974e598f3e92f7c4f6f4e2, type: 3}
+  m_Name: PistasMusica
+  m_EditorClassIdentifier: 
+  menu: {fileID: 8300000, guid: 587bffd8f2e74141b36a3f77f2d88d13, type: 3}
+  exploracion: {fileID: 8300000, guid: babd5944a14b4404879d3b01d671a511, type: 3}
+  combate: {fileID: 8300000, guid: 4ef7c0e052d34b30b7d0e97fcc73a280, type: 3}
+  jefe: {fileID: 8300000, guid: cc957154815f474eaf66f84b58e5ab35, type: 3}
+  nemesis: {fileID: 8300000, guid: 25d6b477d95841a69e4c42f0ca6208df, type: 3}
+  volumen: 0.6

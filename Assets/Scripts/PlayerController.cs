@@ -45,13 +45,30 @@ namespace PrimalEcho
         [SerializeField] private KaelTraversal traversal = new KaelTraversal();
 
         private InputAction move, jump, dash;
-        private bool dashRequested, cutRequested;
-        private float lockedUntil;
+        private KaelSpear spear;
+        private KaelShooter shooter;
+        private bool cutRequested;
+        private float dashBufferedUntil = float.NegativeInfinity;
+        private float lockedUntil, wallKickEnds, spearDiveEnds, spearReboundEnds;
+        private Vector2 spearDiveVelocity;
         private readonly Collider2D[] terrainHits = new Collider2D[1];
         public bool IsGrounded => isGrounded;
         public float Facing => isFacingRight ? 1f : -1f;
         public bool CanAct => currentState != AnimState.Death && currentState != AnimState.Victory;
         public Vector2 MoveInput => move.ReadValue<Vector2>();
+        /// <summary>Caminata guiada para cinemáticas: NaN = control normal; entre -1 y 1 Kael camina solo
+        /// en esa dirección y no responde a salto, dash ni lanza hasta que se vuelva a poner NaN.</summary>
+        public float MovimientoGuiado { get; set; } = float.NaN;
+        public bool Guiado => !float.IsNaN(MovimientoGuiado);
+        public bool IsDashing => traversal.IsDashing;
+        public bool DashStartedOnGround => traversal.DashStartedOnGround;
+        public bool IsSprinting => traversal.IsSprinting;
+        public bool IsWallSliding { get; private set; }
+        public bool IsWallKicking => Time.fixedTime < wallKickEnds;
+        public bool IsSpearDiving => Time.fixedTime < spearDiveEnds;
+        public bool IsSpearRebounding => Time.fixedTime < spearReboundEnds;
+        internal bool CanUseSpear => CanAct && !Guiado && Time.fixedTime >= lockedUntil && !IsDashing &&
+            (shooter == null || (!shooter.Rooted && !shooter.AimLocked));
 
         [Header("Sprites & Animation")]
         [SerializeField] private SpriteRenderer spriteRenderer;
@@ -91,6 +108,7 @@ namespace PrimalEcho
         private float horizontalInput;
         private bool isFacingRight = true;
         private float preLandYVelocity;
+        private float pasoDist = 1.3f;
 
         // Smooth squash & stretch preserving user's base Transform scale
         private Vector3 baseScale = Vector3.one;
@@ -118,6 +136,7 @@ namespace PrimalEcho
         {
             rb = GetComponent<Rigidbody2D>();
             col = GetComponent<CapsuleCollider2D>();
+            spear = GetComponent<KaelSpear>();
             if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
 
             // Los sprites de Kael tienen pivote BottomCenter (0.5, 0) en los pies (localY = 0).
@@ -154,6 +173,8 @@ namespace PrimalEcho
 #endif
             PrepareJumpFallLandArrays();
         }
+
+        private void Start() => shooter = GetComponent<KaelShooter>();
 
 #if UNITY_EDITOR
         private void OnValidate()
@@ -315,17 +336,19 @@ namespace PrimalEcho
             jump.canceled -= CutJump;
             dash.performed -= QueueDash;
             jumpBufferCounter = 0f;
-            dashRequested = cutRequested = false;
-            traversal.CancelDash();
+            CancelTraversal();
         }
 
         private void QueueJump(InputAction.CallbackContext context)
         {
-            if (CanAct) jumpBufferCounter = jumpBufferTime;
+            if (CanAct && !Guiado && Time.timeScale > 0f) jumpBufferCounter = jumpBufferTime;
         }
 
         private void CutJump(InputAction.CallbackContext context) => cutRequested = true;
-        private void QueueDash(InputAction.CallbackContext context) => dashRequested = CanAct;
+        private void QueueDash(InputAction.CallbackContext context)
+        {
+            if (CanAct && !Guiado && Time.timeScale > 0f) dashBufferedUntil = Time.time + 0.13f;
+        }
 
         private bool TouchesTerrain(Vector2 center, Vector2 size)
         {
@@ -355,8 +378,8 @@ namespace PrimalEcho
 
         private void Update()
         {
-            horizontalInput = CanAct ? MoveInput.x : 0f;
-            if (CanAct)
+            horizontalInput = CanAct ? (Guiado ? Mathf.Clamp(MovimientoGuiado, -1f, 1f) : MoveInput.x) : 0f;
+            if (CanAct && Time.fixedTime >= lockedUntil && !IsDashing && (spear == null || !spear.IsAttacking))
             {
                 if (Mathf.Abs(horizontalInput) > facingDeadZone)
                     isFacingRight = horizontalInput > 0f;
@@ -378,28 +401,33 @@ namespace PrimalEcho
             }
             coyoteCounter = coyoteTime;
             extraJumpsRemaining = maxExtraJumps;
+            traversal.Land();
+            spearDiveEnds = spearReboundEnds = 0f;
             if (!wasGrounded && preLandYVelocity < -3f)
             {
                 float impact = Mathf.Clamp01(Mathf.Abs(preLandYVelocity) / 18f);
                 TriggerSquashStretch(new Vector2(1f + 0.12f * impact, 1f - 0.12f * impact));
+                if (impact > 0.35f) Vibracion.Pulso(0.15f + 0.45f * impact, 0.1f, 0.07f + 0.08f * impact); // caída fuerte
+                if (impact > 0.12f) Sonidos.Play("kael_aterrizaje", 0.25f + 0.5f * impact, 1.1f - 0.2f * impact, transform.position);
                 SpawnDustPuff(3);
             }
         }
 
-        private void TryJump()
+        private void TryJump(int wall)
         {
             if (jumpBufferCounter <= 0f) return;
             if (isGrounded || coyoteCounter > 0f)
                 ExecuteJump(jumpForce, false);
             else
             {
-                int wall = WallSide();
                 if (wall != 0)
                 {
                     ExecuteJump(traversal.WallJump.y, false);
                     rb.linearVelocityX = -wall * traversal.WallJump.x;
                     lockedUntil = Time.fixedTime + traversal.WallControlDelay;
+                    wallKickEnds = Time.fixedTime + 0.18f;
                     isFacingRight = wall < 0;
+                    Vibracion.Pulso(0.15f, 0.3f, 0.08f); // impulso contra la pared
                 }
                 else if (extraJumpsRemaining > 0)
                 {
@@ -420,6 +448,8 @@ namespace PrimalEcho
             }
 
             rb.linearVelocity = new Vector2(vx, force);
+            Vibracion.Pulso(isDoubleJump ? 0.12f : 0.05f, isDoubleJump ? 0.32f : 0.16f, isDoubleJump ? 0.09f : 0.06f); // salto / doble salto
+            Sonidos.Play(isDoubleJump ? "kael_doble_salto" : "kael_salto", isDoubleJump ? 0.5f : 0.4f, 1f, transform.position);
             jumpBufferCounter = 0f;
             coyoteCounter = 0f;
             jumpGraceTimer = detachTime;
@@ -453,29 +483,55 @@ namespace PrimalEcho
         {
             if (!CanAct)
             {
-                traversal.CancelDash();
+                CancelTraversal();
                 jumpBufferCounter = 0f;
-                dashRequested = cutRequested = false;
                 rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
                 return;
             }
 
             UpdateGround();
+            // Pasos: uno cada cierta distancia recorrida en el suelo
+            if (isGrounded && Mathf.Abs(rb.linearVelocity.x) > 1.2f)
+            {
+                pasoDist += Mathf.Abs(rb.linearVelocity.x) * Time.fixedDeltaTime;
+                if (pasoDist > 1.7f) { pasoDist = 0f; Sonidos.Play("kael_paso", 0.3f, 1f, transform.position, 0.12f); }
+            }
+            else pasoDist = 1.3f;
+            bool bowBraced = shooter != null && (shooter.Rooted || (shooter.AimLocked && isGrounded));
+            float input = bowBraced ? 0f : horizontalInput;
             float gravityStep = Physics2D.gravity.y * rb.gravityScale * Time.fixedDeltaTime;
-            bool dashing = traversal.StepDash(rb, dashRequested && Time.fixedTime >= lockedUntil, Facing, gravityStep);
-            dashRequested = false;
-            if (dashing)
+            float dashDirection = Mathf.Abs(input) > facingDeadZone ? Mathf.Sign(input) : Facing;
+            if (Time.fixedTime <= dashBufferedUntil && Time.fixedTime >= lockedUntil &&
+                !bowBraced && !IsSpearDiving && traversal.TryStartDash(isGrounded, dashDirection))
+            {
+                dashBufferedUntil = float.NegativeInfinity;
+                spear?.CancelStrike();
+                spearReboundEnds = wallKickEnds = 0f;
+                isFacingRight = dashDirection > 0f;
+                Vibracion.Pulso(0.25f, 0.45f, 0.12f); // dash
+                Sonidos.Play("kael_dash", 0.55f, 1f, transform.position);
+            }
+
+            IsWallSliding = false;
+            if (traversal.StepDash(rb, gravityStep))
             {
                 jumpBufferCounter -= Time.fixedDeltaTime;
                 return;
             }
+            if (IsSpearDiving)
+            {
+                rb.linearVelocity = spearDiveVelocity - Vector2.up * gravityStep;
+                jumpBufferCounter -= Time.fixedDeltaTime;
+                return;
+            }
 
-            TryJump();
+            int wall = isGrounded ? 0 : WallSide();
+            TryJump(wall);
             if (!fixedHeightJump && cutRequested && rb.linearVelocity.y > 0f) rb.linearVelocityY *= jumpCut;
             cutRequested = false;
 
             // Responsive horizontal movement
-            float targetSpeed = horizontalInput * moveSpeed;
+            float targetSpeed = input * traversal.RunSpeed(moveSpeed, isGrounded, dash.IsPressed(), input);
             float accel = isGrounded
                 ? ((Mathf.Abs(targetSpeed) > 0.01f) ? acceleration : deceleration)
                 : airAcceleration;
@@ -483,12 +539,15 @@ namespace PrimalEcho
 
             // Hollow Knight gravity curve: floaty apex + snappy fall + terminal velocity clamp
             float yVel = rb.linearVelocity.y;
+            IsWallSliding = !isGrounded && yVel <= 0f && Time.fixedTime >= lockedUntil &&
+                wall != 0 && wall * input > 0.25f;
             float multiplier = 1f;
             if (yVel < 0f) multiplier = fallMultiplier;
             else if (!isGrounded && yVel < apexThreshold && (jump.IsPressed() || fixedHeightJump)) multiplier = apexGravityMultiplier;
             else if (yVel > 0f && !jump.IsPressed() && !fixedHeightJump) multiplier = lowJumpMultiplier;
             // Unity applies its own gravity step immediately after FixedUpdate.
-            yVel = Mathf.Max(maxFallSpeed, yVel + gravityStep * multiplier) - gravityStep;
+            float fallLimit = IsWallSliding ? -traversal.WallSlideSpeed : maxFallSpeed;
+            yVel = Mathf.Max(fallLimit, yVel + gravityStep * multiplier) - gravityStep;
             rb.linearVelocity = new Vector2(newSpeed, yVel);
         }
 
@@ -759,8 +818,13 @@ namespace PrimalEcho
 
         public void ApplyImpulse(Vector2 velocity, float controlDelay)
         {
-            traversal.CancelDash();
-            dashRequested = cutRequested = false;
+            spear?.CancelStrike();
+            CancelTraversal();
+            SetImpulse(velocity, controlDelay);
+        }
+
+        private void SetImpulse(Vector2 velocity, float controlDelay)
+        {
             jumpBufferCounter = coyoteCounter = 0f;
             lockedUntil = Time.fixedTime + controlDelay;
             rb.linearVelocity = velocity;
@@ -768,7 +832,38 @@ namespace PrimalEcho
             isGrounded = false;
         }
 
-        public void Bounce(float speed) => ApplyImpulse(new Vector2(rb.linearVelocityX, speed), 0f);
+        internal void BeginSpearDive(float direction, float duration)
+        {
+            spearDiveVelocity = new Vector2(Mathf.Sign(direction) * 6.8f, -12.8f);
+            spearDiveEnds = Time.fixedTime + duration;
+            spearReboundEnds = wallKickEnds = 0f;
+            isFacingRight = direction > 0f;
+        }
+
+        internal void FaceStrike(float direction) => isFacingRight = direction > 0f;
+
+        public void Bounce(float speed)
+        {
+            Vibracion.Pulso(0.2f, 0.35f, 0.08f); // rebote (pogo)
+            Sonidos.Play("kael_rebote", 0.45f, 1f, transform.position);
+            traversal.Cancel();
+            traversal.RechargeFromRebound();
+            spearDiveEnds = wallKickEnds = 0f;
+            spearReboundEnds = Time.fixedTime + 0.21f;
+            IsWallSliding = false;
+            cutRequested = false;
+            extraJumpsRemaining = maxExtraJumps;
+            SetImpulse(new Vector2(rb.linearVelocityX, speed), 0f);
+        }
+
+        private void CancelTraversal()
+        {
+            traversal.Cancel();
+            IsWallSliding = false;
+            dashBufferedUntil = float.NegativeInfinity;
+            wallKickEnds = spearDiveEnds = spearReboundEnds = 0f;
+            cutRequested = false;
+        }
 
         public void PlayHurt()
         {
@@ -804,6 +899,9 @@ namespace PrimalEcho
 
         public void ResetState()
         {
+            CancelTraversal();
+            traversal.RechargeFromRebound();
+            spear?.CancelStrike();
             currentState = AnimState.Idle;
             currentFrame = 0;
             animTimer = 0f;

@@ -41,7 +41,8 @@ namespace PrimalEcho
             if (taken || other.GetComponentInParent<PlayerController>() == null) return;
             taken = true;
             LabKey.Has = true;
-            LevelHUD.Notify("¡Llave de la base obtenida! Abre la puerta del Templo de Némesis", 5f);
+            Sonidos.Play("llave_recoger", 0.75f, 1f, transform.position, 0f);
+            LevelHUD.Notify("¡Llave de la base obtenida! Con ella se abre la puerta de la base de NÉMESIS", 5f);
             Destroy(gameObject);
         }
     }

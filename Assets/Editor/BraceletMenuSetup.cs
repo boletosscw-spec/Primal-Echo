@@ -5,7 +5,6 @@ using UnityEngine;
 
 public static class BraceletMenuSetup
 {
-    [MenuItem("Primal Echo/Brazalete/Agregar al Kael de esta escena")]
     public static void Attach()
     {
         var player = Object.FindFirstObjectByType<PlayerController>();

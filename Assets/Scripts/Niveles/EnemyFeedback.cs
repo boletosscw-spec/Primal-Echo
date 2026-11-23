@@ -26,6 +26,9 @@ namespace PrimalEcho
 
         public void Configure(SpriteRenderer renderer) => visual = renderer;
 
+        /// <summary>Lo inmoviliza unos segundos sin dañarlo (Destello de Kiro).</summary>
+        public void Aturdir(float segundos) => StunnedUntil = Mathf.Max(StunnedUntil, Time.time + segundos);
+
         private void Awake()
         {
             health = GetComponent<EnemyHealth>();

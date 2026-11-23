@@ -10,13 +10,25 @@ namespace PrimalEcho
     {
         [SerializeField] private string nextScene = "";
         [SerializeField, Min(0f)] private float delay = 3.5f;
+        [SerializeField] private bool requiresLabKey;
         private bool done;
 
-        public void Configure(string scene) => nextScene = scene;
+        public bool CanExit => !requiresLabKey || LabKey.Has;
+
+        public void Configure(string scene, bool requireKey = false)
+        {
+            nextScene = scene;
+            requiresLabKey = requireKey;
+        }
 
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (done || other.GetComponentInParent<PlayerController>() == null) return;
+            if (!CanExit)
+            {
+                LevelHUD.Notify("Necesitas la llave de la base para seguir.", 4f);
+                return;
+            }
             done = true;
             LevelHUD.StopTimer();
             if (!string.IsNullOrEmpty(nextScene)) StartCoroutine(Load());

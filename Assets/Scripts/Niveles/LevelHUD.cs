@@ -32,7 +32,12 @@ namespace PrimalEcho
 
         private static LevelHUD instance;
         /// <summary>Muestra un aviso abajo en la pantalla desde cualquier script.</summary>
-        public static void Notify(string text, float seconds = 3f) { if (instance != null) instance.Show(text, seconds); }
+        public static void Notify(string text, float seconds = 3f)
+        {
+            if (instance == null) return;
+            instance.Show(text, seconds);
+            if (text != null && text.StartsWith("Kiro")) Sonidos.Voz("kiro", text); // Kiro "habla" con pitidos
+        }
 
         private void Awake() { stopped = false; instance = this; }
         private void OnEnable() => EchoShard.Collected += OnShard;

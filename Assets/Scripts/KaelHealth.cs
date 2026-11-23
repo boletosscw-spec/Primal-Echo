@@ -31,6 +31,9 @@ namespace PrimalEcho
             health = Mathf.Min(maxHealth, health + amount);
         }
 
+        /// <summary>Unos instantes sin recibir daño (el Destello de Kiro bloquea ataques).</summary>
+        public void Invulnerable(float segundos) => vulnerableAt = Mathf.Max(vulnerableAt, Time.time + segundos);
+
         /// <summary>Recupera vida sin pasar del máximo. Devuelve false si ya estaba llena.</summary>
         public bool Heal(int amount)
         {
@@ -48,9 +51,13 @@ namespace PrimalEcho
             if (Camera.main && Camera.main.TryGetComponent(out CameraFollow2D camera)) camera.Shake(direction);
             if (health == 0)
             {
+                Vibracion.Pulso(1f, 1f, 0.5f);
+                Sonidos.Play("kael_muerte", 0.8f, 1f, null, 0f);
                 player.PlayDeath();
                 return;
             }
+            Vibracion.Pulso(0.55f, 0.8f, 0.22f); // recibir daño se siente en el control
+            Sonidos.Play("kael_dano", 0.75f);
             vulnerableAt = Time.time + invulnerability;
             blinking = true;
             player.PlayHurt();

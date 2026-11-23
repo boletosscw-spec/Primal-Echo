@@ -15,13 +15,20 @@ namespace PrimalEcho
         [SerializeField] private float lightRadius = 3.5f;
         [Tooltip("Desde esta distancia ya está oscuro del todo")]
         [SerializeField] private float darkRadius = 11f;
-        [SerializeField] private Color color = new Color(0.03f, 0.02f, 0.07f, 1f);
+        [SerializeField] private Color color = new Color(0.015f, 0.012f, 0.035f, 1f);
         [SerializeField] private int sortingOrder = 30; // encima de Kael (10) y los enemigos; el HUD siempre va arriba
+
+        /// <summary>Linterna de Kiro: 0 = apagada, 1 = encendida. Mueve el círculo de luz hacia Kiro y lo agranda.</summary>
+        public static float Atenuar;
 
         private const float Size = 60f;
         private Transform player;
         private SpriteRenderer overlay;
-        private float amount;
+        private float amount, luzJefe;
+        private static float deslumbre, velDeslumbre = 1f;
+
+        /// <summary>El destello de Kiro aclara la cueva de golpe y vuelve a oscurecer en 'segundos'.</summary>
+        public static void Deslumbrar(float segundos) { deslumbre = 1f; velDeslumbre = 1f / Mathf.Max(0.05f, segundos); }
 
         private void Start()
         {
@@ -63,8 +70,25 @@ namespace PrimalEcho
             overlay.enabled = amount > 0.001f;
             if (!overlay.enabled) return;
             Vector3 center = player != null ? player.position + Vector3.up : transform.position;
+            // La luz sale de Kiro: el círculo se acerca a él y crece con su linterna, con un leve parpadeo.
+            // Sin Kiro cerca, Kael apenas ve a su alrededor.
+            float luzKiro = Mathf.Clamp01(Atenuar);
+            var kiro = KiroCompanero.Actual;
+            float escala = 1f; // sin Kiro en el nivel: igual que antes
+            if (kiro != null && player != null && Vector2.Distance(kiro.transform.position, player.position) < 7f)
+            {
+                center = Vector3.Lerp(center, kiro.transform.position + Vector3.up * 0.4f, 0.7f * luzKiro);
+                escala = Mathf.Lerp(0.7f, 1.35f, luzKiro);
+            }
+            else if (kiro != null) escala = 0.7f; // Kiro se quedó atrás: casi a oscuras
+            // Pelea contra un jefe dentro de la cueva: la sala se aclara para poder leer sus ataques
+            luzJefe = Mathf.MoveTowards(luzJefe, JefeBase.AlgunoPeleando ? 1f : 0f, Time.deltaTime / 1.2f);
+            escala *= Mathf.Lerp(1f, 1.8f, luzJefe);
+            float parpadeo = 1f + 0.025f * Mathf.Sin(Time.time * 7.3f) + 0.015f * Mathf.Sin(Time.time * 13.1f);
             overlay.transform.position = new Vector3(center.x, center.y, 0f);
-            var c = color; c.a = amount * maxDarkness;
+            overlay.transform.localScale = Vector3.one * Size * escala * parpadeo;
+            deslumbre = Mathf.MoveTowards(deslumbre, 0f, Time.deltaTime * velDeslumbre);
+            var c = color; c.a = amount * maxDarkness * Mathf.Lerp(1f, 0.55f, luzJefe) * (1f - 0.85f * deslumbre);
             overlay.color = c;
         }
     }

@@ -1,0 +1,1699 @@
+{
+"estaticos": [
+{
+"n": "musgo_bloque",
+"w": 9.22,
+"h": 9.22,
+"borde": 128,
+"surf": 0.24
+},
+{
+"n": "plat_tira",
+"w": 6.56,
+"h": 2.82,
+"borde": 0,
+"surf": 0.24
+},
+{
+"n": "plat_bola",
+"w": 1.63,
+"h": 1.99,
+"borde": 0,
+"surf": 0.29
+},
+{
+"n": "plat_larga_a",
+"w": 6.56,
+"h": 2.82,
+"borde": 0,
+"surf": 0.24
+},
+{
+"n": "plat_columna",
+"w": 2.81,
+"h": 5.89,
+"borde": 0,
+"surf": 0.19
+},
+{
+"n": "plat_cuadro",
+"w": 2.38,
+"h": 2.31,
+"borde": 0,
+"surf": 0.24
+},
+{
+"n": "plat_larga_b",
+"w": 6.56,
+"h": 2.82,
+"borde": 0,
+"surf": 0.24
+},
+{
+"n": "plat_bolita",
+"w": 1.78,
+"h": 1.72,
+"borde": 0,
+"surf": 0.27
+},
+{
+"n": "plat_larga_c",
+"w": 9.76,
+"h": 2.82,
+"borde": 0,
+"surf": 0.23
+},
+{
+"n": "plat_larga_d",
+"w": 12.59,
+"h": 2.82,
+"borde": 0,
+"surf": 0.24
+},
+{
+"n": "loma_0",
+"w": 1.65,
+"h": 1.99,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "loma_1",
+"w": 7.23,
+"h": 3.05,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "loma_2",
+"w": 2.38,
+"h": 2.31,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "loma_3",
+"w": 7.76,
+"h": 5.37,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "loma_4",
+"w": 1.78,
+"h": 1.72,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "loma_5",
+"w": 8.29,
+"h": 2.82,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "loma_6",
+"w": 3.34,
+"h": 2.66,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "silueta_0",
+"w": 6.56,
+"h": 25.18,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "silueta_1",
+"w": 6.48,
+"h": 14.66,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "silueta_2",
+"w": 6.79,
+"h": 6.26,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "silueta_3",
+"w": 10.52,
+"h": 5.69,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "silueta_4",
+"w": 10.54,
+"h": 10.79,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "silueta_5",
+"w": 5.78,
+"h": 4.02,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "roca_0",
+"w": 6.42,
+"h": 3.54,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "roca_1",
+"w": 5.28,
+"h": 4.58,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "roca_2",
+"w": 5.74,
+"h": 2.56,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "espina_0",
+"w": 7.38,
+"h": 3.14,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "espina_1",
+"w": 6.14,
+"h": 4.05,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "espina_2",
+"w": 4.6,
+"h": 4.26,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "espina_3",
+"w": 2.28,
+"h": 2.12,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "espina_4",
+"w": 3.05,
+"h": 2.02,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "espina_5",
+"w": 3.7,
+"h": 1.58,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "liana_0",
+"w": 2.27,
+"h": 8.06,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "liana_1",
+"w": 2.35,
+"h": 8.12,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "liana_2",
+"w": 2.32,
+"h": 8.14,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "liana_3",
+"w": 1.36,
+"h": 8.27,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "hierba_0",
+"w": 1.44,
+"h": 1.29,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "hierba_1",
+"w": 1.37,
+"h": 1.9,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "hierba_2",
+"w": 0.75,
+"h": 1.8,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "hierba_3",
+"w": 1.72,
+"h": 2.2,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "hierba_4",
+"w": 1.5,
+"h": 1.14,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "hierba_5",
+"w": 0.86,
+"h": 2.04,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "mata_0",
+"w": 2.02,
+"h": 2.24,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "mata_1",
+"w": 1.84,
+"h": 2.0,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "tallo_0",
+"w": 0.5,
+"h": 2.25,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "tallo_1",
+"w": 1.28,
+"h": 2.38,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "tallo_2",
+"w": 0.31,
+"h": 2.0,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "tallo_3",
+"w": 0.42,
+"h": 1.98,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "brote_0",
+"w": 0.7,
+"h": 0.88,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "brote_1",
+"w": 0.36,
+"h": 0.84,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "brote_2",
+"w": 0.34,
+"h": 0.84,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "colg_hoja_0",
+"w": 1.82,
+"h": 5.88,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "colg_hoja_1",
+"w": 1.82,
+"h": 4.88,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "colg_hoja_2",
+"w": 1.81,
+"h": 4.88,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "colg_hoja_3",
+"w": 1.52,
+"h": 4.1,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "colg_hoja_4",
+"w": 1.34,
+"h": 4.74,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "colg_musgo_0",
+"w": 2.33,
+"h": 6.88,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "colg_musgo_1",
+"w": 2.33,
+"h": 6.88,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "hoja_curva_0",
+"w": 3.8,
+"h": 2.54,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "hoja_curva_1",
+"w": 3.8,
+"h": 2.54,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "hoja_curva_2",
+"w": 3.8,
+"h": 2.54,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_bloque",
+"w": 4.5,
+"h": 2.91,
+"borde": 40,
+"surf": 0.04
+},
+{
+"n": "cueva_plat_a",
+"w": 3.11,
+"h": 1.51,
+"borde": 0,
+"surf": 0.03
+},
+{
+"n": "cueva_plat_b",
+"w": 1.53,
+"h": 1.53,
+"borde": 0,
+"surf": 0.04
+},
+{
+"n": "cueva_plat_c",
+"w": 3.11,
+"h": 2.91,
+"borde": 0,
+"surf": 0.05
+},
+{
+"n": "cueva_plat_d",
+"w": 3.11,
+"h": 0.84,
+"borde": 0,
+"surf": 0.03
+},
+{
+"n": "cueva_losa_larga",
+"w": 7.93,
+"h": 0.65,
+"borde": 0,
+"surf": 0.09
+},
+{
+"n": "cueva_losa_media",
+"w": 6.34,
+"h": 0.63,
+"borde": 0,
+"surf": 0.07
+},
+{
+"n": "cueva_repisa_a",
+"w": 11.76,
+"h": 1.3,
+"borde": 0,
+"surf": 0.23
+},
+{
+"n": "cueva_repisa_b",
+"w": 11.39,
+"h": 2.07,
+"borde": 0,
+"surf": 0.65
+},
+{
+"n": "cueva_monte_a",
+"w": 5.65,
+"h": 1.65,
+"borde": 0,
+"surf": 0.39
+},
+{
+"n": "cueva_monte_b",
+"w": 5.42,
+"h": 1.27,
+"borde": 0,
+"surf": 0.18
+},
+{
+"n": "cueva_monte_c",
+"w": 6.34,
+"h": 1.92,
+"borde": 0,
+"surf": 0.5
+},
+{
+"n": "cueva_monte_d",
+"w": 6.34,
+"h": 2.46,
+"borde": 0,
+"surf": 0.74
+},
+{
+"n": "cueva_pilar_a",
+"w": 1.71,
+"h": 2.83,
+"borde": 0,
+"surf": 0.08
+},
+{
+"n": "cueva_pilar_b",
+"w": 1.71,
+"h": 2.83,
+"borde": 0,
+"surf": 0.08
+},
+{
+"n": "cueva_piedras_a",
+"w": 2.83,
+"h": 1.72,
+"borde": 0,
+"surf": 0.04
+},
+{
+"n": "cueva_piedras_b",
+"w": 2.83,
+"h": 1.72,
+"borde": 0,
+"surf": 0.1
+},
+{
+"n": "cueva_losa_bola",
+"w": 3.4,
+"h": 1.12,
+"borde": 0,
+"surf": 0.2
+},
+{
+"n": "cueva_rocas_0",
+"w": 4.6,
+"h": 2.74,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_rocas_1",
+"w": 2.5,
+"h": 2.06,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_rocas_2",
+"w": 3.77,
+"h": 2.9,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_rocas_3",
+"w": 3.12,
+"h": 1.95,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_rocas_4",
+"w": 2.35,
+"h": 2.14,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_rocas_5",
+"w": 3.48,
+"h": 3.21,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_rocas_6",
+"w": 3.43,
+"h": 2.06,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_rocas_7",
+"w": 1.93,
+"h": 1.98,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_rocas_8",
+"w": 1.98,
+"h": 1.63,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_rocas_9",
+"w": 5.56,
+"h": 2.98,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_rocas_10",
+"w": 4.59,
+"h": 2.32,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_rocas_11",
+"w": 4.59,
+"h": 2.98,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_rocas_12",
+"w": 4.6,
+"h": 4.78,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_rocas_13",
+"w": 3.38,
+"h": 5.34,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_rocas_14",
+"w": 2.91,
+"h": 5.16,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_rocas_15",
+"w": 3.19,
+"h": 5.04,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_estalactita_0",
+"w": 1.16,
+"h": 2.76,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_estalactita_1",
+"w": 1.38,
+"h": 2.06,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_estalactita_2",
+"w": 1.38,
+"h": 1.28,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_estalactita_3",
+"w": 0.98,
+"h": 1.42,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_estalactitas_4",
+"w": 2.45,
+"h": 1.14,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_estalagmita_0",
+"w": 1.5,
+"h": 1.94,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_estalagmita_1",
+"w": 1.5,
+"h": 3.06,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_estalagmita_2",
+"w": 1.5,
+"h": 4.7,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_estalagmita_3",
+"w": 1.5,
+"h": 2.95,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_piedra_0",
+"w": 1.06,
+"h": 1.02,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_piedra_1",
+"w": 1.4,
+"h": 1.1,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_piedra_2",
+"w": 1.38,
+"h": 1.34,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_piedra_3",
+"w": 1.5,
+"h": 1.14,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_piedra_4",
+"w": 3.03,
+"h": 1.39,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_piedra_5",
+"w": 2.49,
+"h": 2.14,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_pena_0",
+"w": 5.88,
+"h": 4.53,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_pena_1",
+"w": 5.87,
+"h": 3.27,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_pena_2",
+"w": 2.76,
+"h": 3.1,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_pena_3",
+"w": 2.5,
+"h": 2.62,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_pena_4",
+"w": 3.01,
+"h": 2.93,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_roca_grande_0",
+"w": 5.85,
+"h": 4.53,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_roca_grande_1",
+"w": 3.1,
+"h": 2.07,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_roca_grande_2",
+"w": 2.53,
+"h": 4.0,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_roca_grande_3",
+"w": 2.0,
+"h": 1.66,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_roca_grande_4",
+"w": 4.62,
+"h": 1.98,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_roca_grande_5",
+"w": 1.87,
+"h": 6.06,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_roca_grande_6",
+"w": 2.76,
+"h": 3.1,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_roca_grande_7",
+"w": 5.54,
+"h": 3.1,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cueva_roca_grande_8",
+"w": 4.82,
+"h": 3.05,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "orbe_eco",
+"w": 1.28,
+"h": 1.28,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "cristal_llave",
+"w": 1.2,
+"h": 2.2,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "negro",
+"w": 0.08,
+"h": 0.08,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "abismo",
+"w": 0.16,
+"h": 2.56,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "bruma",
+"w": 10.24,
+"h": 2.56,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "rayo_luz",
+"w": 2.56,
+"h": 10.24,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "halo",
+"w": 2.56,
+"h": 2.56,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "flor_azul_0_f0",
+"w": 2.99,
+"h": 2.74,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "flor_azul_1_f0",
+"w": 3.01,
+"h": 2.73,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "planta_1_f0",
+"w": 0.97,
+"h": 1.72,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "planta_2_f0",
+"w": 2.2,
+"h": 1.67,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "planta_3_f0",
+"w": 2.45,
+"h": 1.81,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "planta_4_f0",
+"w": 0.85,
+"h": 2.0,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "planta_5_f0",
+"w": 1.43,
+"h": 2.3,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "planta_6_f0",
+"w": 1.21,
+"h": 2.24,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "planta_7_f0",
+"w": 1.18,
+"h": 1.82,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "planta_veneno_f0",
+"w": 2.37,
+"h": 1.7,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "planta_viento_f0",
+"w": 1.93,
+"h": 1.58,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "hongo_rebote_f0",
+"w": 1.82,
+"h": 1.36,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "hongo_rebote_b_f0",
+"w": 1.82,
+"h": 1.24,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "pasto_0_f0",
+"w": 0.83,
+"h": 1.1,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "pasto_1_f0",
+"w": 1.16,
+"h": 0.98,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "pasto_2_f0",
+"w": 1.5,
+"h": 1.79,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "pasto_3_f0",
+"w": 1.43,
+"h": 2.17,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "pasto_4_f0",
+"w": 2.45,
+"h": 2.7,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "pasto_5_f0",
+"w": 1.96,
+"h": 1.26,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "slime_verde_f0",
+"w": 1.52,
+"h": 1.02,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "slime_naranja_f0",
+"w": 2.14,
+"h": 1.3,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "mago_quieto_f0",
+"w": 0.94,
+"h": 1.68,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "mago_camina_f0",
+"w": 0.97,
+"h": 1.67,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "mago_salto_f0",
+"w": 1.0,
+"h": 1.67,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "mago_dash_f0",
+"w": 1.34,
+"h": 1.81,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "base_bloque",
+"w": 5.12,
+"h": 3.2,
+"borde": 48,
+"surf": 0.0
+},
+{
+"n": "base_fondo",
+"w": 5.12,
+"h": 5.12,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_plat",
+"w": 4.2,
+"h": 1.2,
+"borde": 0,
+"surf": 0.06
+},
+{
+"n": "base_tubo",
+"w": 5.12,
+"h": 0.9,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_pantalla",
+"w": 2.2,
+"h": 1.7,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_monitor_f0",
+"w": 2.2,
+"h": 1.7,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "base_servidor",
+"w": 1.7,
+"h": 3.4,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_rack_f0",
+"w": 1.7,
+"h": 3.4,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "base_cable",
+"w": 3.6,
+"h": 2.2,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_rejilla",
+"w": 2.0,
+"h": 1.3,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_columna",
+"w": 1.5,
+"h": 6.2,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_alarma",
+"w": 0.9,
+"h": 0.9,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_baliza_f0",
+"w": 0.9,
+"h": 0.9,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "base_electrico",
+"w": 3.0,
+"h": 0.9,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_tanque_f0",
+"w": 1.7,
+"h": 3.8,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "base_consola",
+"w": 2.8,
+"h": 1.7,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_logo",
+"w": 2.2,
+"h": 2.2,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_puerta_fondo",
+"w": 3.2,
+"h": 4.2,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_raiz",
+"w": 3.6,
+"h": 3.0,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_franja",
+"w": 5.12,
+"h": 0.36,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_viga",
+"w": 5.12,
+"h": 0.7,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_caja",
+"w": 1.5,
+"h": 1.2,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_barril",
+"w": 0.9,
+"h": 1.3,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_lampara",
+"w": 0.8,
+"h": 1.6,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_engranaje",
+"w": 3.2,
+"h": 3.2,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_antena",
+"w": 2.6,
+"h": 9.0,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_escombro",
+"w": 2.6,
+"h": 1.2,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_tuberia_v",
+"w": 0.9,
+"h": 5.12,
+"borde": 0,
+"surf": 0.0
+},
+{
+"n": "base_chispas_f0",
+"w": 1.6,
+"h": 1.6,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "base_vapor_f0",
+"w": 1.6,
+"h": 2.6,
+"borde": 0,
+"surf": 0
+},
+{
+"n": "base_ventilador_f0",
+"w": 2.0,
+"h": 2.0,
+"borde": 0,
+"surf": 0
+}
+],
+"animaciones": [
+{
+"n": "flor_azul_0",
+"cols": 8,
+"filas": 4,
+"cuadros": 30,
+"fw": 299,
+"fh": 274,
+"pad": 2,
+"fps": 15,
+"w": 2.99,
+"h": 2.74
+},
+{
+"n": "flor_azul_1",
+"cols": 8,
+"filas": 4,
+"cuadros": 30,
+"fw": 301,
+"fh": 273,
+"pad": 2,
+"fps": 15,
+"w": 3.01,
+"h": 2.73
+},
+{
+"n": "planta_1",
+"cols": 8,
+"filas": 4,
+"cuadros": 30,
+"fw": 97,
+"fh": 172,
+"pad": 2,
+"fps": 10,
+"w": 0.97,
+"h": 1.72
+},
+{
+"n": "planta_2",
+"cols": 8,
+"filas": 4,
+"cuadros": 30,
+"fw": 220,
+"fh": 167,
+"pad": 2,
+"fps": 10,
+"w": 2.2,
+"h": 1.67
+},
+{
+"n": "planta_3",
+"cols": 8,
+"filas": 4,
+"cuadros": 30,
+"fw": 245,
+"fh": 181,
+"pad": 2,
+"fps": 10,
+"w": 2.45,
+"h": 1.81
+},
+{
+"n": "planta_4",
+"cols": 8,
+"filas": 3,
+"cuadros": 20,
+"fw": 85,
+"fh": 200,
+"pad": 2,
+"fps": 10,
+"w": 0.85,
+"h": 2.0
+},
+{
+"n": "planta_5",
+"cols": 8,
+"filas": 3,
+"cuadros": 20,
+"fw": 143,
+"fh": 230,
+"pad": 2,
+"fps": 10,
+"w": 1.43,
+"h": 2.3
+},
+{
+"n": "planta_6",
+"cols": 8,
+"filas": 3,
+"cuadros": 20,
+"fw": 121,
+"fh": 224,
+"pad": 2,
+"fps": 10,
+"w": 1.21,
+"h": 2.24
+},
+{
+"n": "planta_7",
+"cols": 8,
+"filas": 3,
+"cuadros": 20,
+"fw": 118,
+"fh": 182,
+"pad": 2,
+"fps": 10,
+"w": 1.18,
+"h": 1.82
+},
+{
+"n": "planta_veneno",
+"cols": 8,
+"filas": 4,
+"cuadros": 30,
+"fw": 237,
+"fh": 170,
+"pad": 2,
+"fps": 15,
+"w": 2.37,
+"h": 1.7
+},
+{
+"n": "planta_viento",
+"cols": 8,
+"filas": 4,
+"cuadros": 30,
+"fw": 193,
+"fh": 158,
+"pad": 2,
+"fps": 15,
+"w": 1.93,
+"h": 1.58
+},
+{
+"n": "hongo_rebote",
+"cols": 8,
+"filas": 3,
+"cuadros": 20,
+"fw": 182,
+"fh": 136,
+"pad": 2,
+"fps": 30,
+"w": 1.82,
+"h": 1.36
+},
+{
+"n": "hongo_rebote_b",
+"cols": 8,
+"filas": 3,
+"cuadros": 20,
+"fw": 182,
+"fh": 124,
+"pad": 2,
+"fps": 30,
+"w": 1.82,
+"h": 1.24
+},
+{
+"n": "pasto_0",
+"cols": 8,
+"filas": 2,
+"cuadros": 15,
+"fw": 83,
+"fh": 110,
+"pad": 2,
+"fps": 15,
+"w": 0.83,
+"h": 1.1
+},
+{
+"n": "pasto_1",
+"cols": 8,
+"filas": 2,
+"cuadros": 15,
+"fw": 116,
+"fh": 98,
+"pad": 2,
+"fps": 15,
+"w": 1.16,
+"h": 0.98
+},
+{
+"n": "pasto_2",
+"cols": 8,
+"filas": 2,
+"cuadros": 15,
+"fw": 150,
+"fh": 179,
+"pad": 2,
+"fps": 15,
+"w": 1.5,
+"h": 1.79
+},
+{
+"n": "pasto_3",
+"cols": 8,
+"filas": 2,
+"cuadros": 15,
+"fw": 143,
+"fh": 217,
+"pad": 2,
+"fps": 15,
+"w": 1.43,
+"h": 2.17
+},
+{
+"n": "pasto_4",
+"cols": 8,
+"filas": 3,
+"cuadros": 20,
+"fw": 245,
+"fh": 270,
+"pad": 2,
+"fps": 15,
+"w": 2.45,
+"h": 2.7
+},
+{
+"n": "pasto_5",
+"cols": 8,
+"filas": 2,
+"cuadros": 15,
+"fw": 196,
+"fh": 126,
+"pad": 2,
+"fps": 10,
+"w": 1.96,
+"h": 1.26
+},
+{
+"n": "slime_verde",
+"cols": 8,
+"filas": 4,
+"cuadros": 30,
+"fw": 152,
+"fh": 102,
+"pad": 2,
+"fps": 24,
+"w": 1.52,
+"h": 1.02
+},
+{
+"n": "slime_naranja",
+"cols": 8,
+"filas": 4,
+"cuadros": 30,
+"fw": 214,
+"fh": 130,
+"pad": 2,
+"fps": 24,
+"w": 2.14,
+"h": 1.3
+},
+{
+"n": "mago_quieto",
+"cols": 8,
+"filas": 3,
+"cuadros": 20,
+"fw": 94,
+"fh": 168,
+"pad": 2,
+"fps": 20,
+"w": 0.94,
+"h": 1.68
+},
+{
+"n": "mago_camina",
+"cols": 8,
+"filas": 3,
+"cuadros": 20,
+"fw": 97,
+"fh": 167,
+"pad": 2,
+"fps": 20,
+"w": 0.97,
+"h": 1.67
+},
+{
+"n": "mago_salto",
+"cols": 8,
+"filas": 1,
+"cuadros": 8,
+"fw": 100,
+"fh": 167,
+"pad": 2,
+"fps": 16,
+"w": 1.0,
+"h": 1.67
+},
+{
+"n": "mago_dash",
+"cols": 8,
+"filas": 2,
+"cuadros": 16,
+"fw": 134,
+"fh": 181,
+"pad": 2,
+"fps": 24,
+"w": 1.34,
+"h": 1.81
+},
+{
+"n": "base_monitor",
+"cols": 8,
+"filas": 1,
+"cuadros": 8,
+"fw": 220,
+"fh": 170,
+"pad": 2,
+"fps": 8,
+"w": 2.2,
+"h": 1.7
+},
+{
+"n": "base_rack",
+"cols": 6,
+"filas": 1,
+"cuadros": 6,
+"fw": 170,
+"fh": 340,
+"pad": 2,
+"fps": 6,
+"w": 1.7,
+"h": 3.4
+},
+{
+"n": "base_baliza",
+"cols": 8,
+"filas": 1,
+"cuadros": 8,
+"fw": 90,
+"fh": 90,
+"pad": 2,
+"fps": 10,
+"w": 0.9,
+"h": 0.9
+},
+{
+"n": "base_tanque",
+"cols": 6,
+"filas": 2,
+"cuadros": 12,
+"fw": 170,
+"fh": 380,
+"pad": 2,
+"fps": 8,
+"w": 1.7,
+"h": 3.8
+},
+{
+"n": "base_chispas",
+"cols": 5,
+"filas": 2,
+"cuadros": 10,
+"fw": 160,
+"fh": 160,
+"pad": 2,
+"fps": 14,
+"w": 1.6,
+"h": 1.6
+},
+{
+"n": "base_vapor",
+"cols": 6,
+"filas": 2,
+"cuadros": 12,
+"fw": 160,
+"fh": 260,
+"pad": 2,
+"fps": 10,
+"w": 1.6,
+"h": 2.6
+},
+{
+"n": "base_ventilador",
+"cols": 8,
+"filas": 1,
+"cuadros": 8,
+"fw": 200,
+"fh": 200,
+"pad": 2,
+"fps": 16,
+"w": 2.0,
+"h": 2.0
+}
+]
+}

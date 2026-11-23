@@ -15,27 +15,34 @@ namespace PrimalEcho
         [SerializeField] private float maxRunSpeed = 8.0f;
 
         private Animator animator;
+        private KaelSpear spear;
         public GameObject ArrowPrefab => arrowPrefab;
         // Control de Xbox (o cualquier gamepad): Y arco · LB bloquear · RB/RT rodar-dash · B interactuar
         private static Gamepad Pad => Gamepad.current;
         private static bool PadDown(UnityEngine.InputSystem.Controls.ButtonControl b) => b != null && b.wasPressedThisFrame;
         private static bool PadHeld(UnityEngine.InputSystem.Controls.ButtonControl b) => b != null && b.isPressed;
         private PlayerController.AnimState lastControllerState = PlayerController.AnimState.Idle;
-        private bool isClimbingTest;
         private float bowShotTimer;
         private Vector2 pendingBowDir;
+
+        private enum Pose { None, GroundDash, AirDash, Sprint, WallSlide, WallKick, Thrust, Dive, Rebound }
+
+        private static readonly string[] ClipNames =
+        {
+            "", "Kael_Rodada_Impulso", "Kael_Impulso_Aereo", "Kael_Carrera_Impulso", "Kael_Deslizamiento_Muro",
+            "Kael_Salto_Muro", "Kael_Estocada", "Kael_Picado_Lanza", "Kael_Rebote_Lanza"
+        };
+        private static AnimationClip[] motionClips;
+        private Pose currentPose;
+        private float poseStarted;
 
         private static readonly int SpeedHash = Animator.StringToHash("Speed");
         private static readonly int VerticalVelHash = Animator.StringToHash("VerticalVelocity");
         private static readonly int IsGroundedHash = Animator.StringToHash("IsGrounded");
         private static readonly int IsCrouchingHash = Animator.StringToHash("IsCrouching");
-        private static readonly int IsClimbingHash = Animator.StringToHash("IsClimbing");
         private static readonly int IsBlockingHash = Animator.StringToHash("IsBlocking");
 
         private static readonly int JumpHash = Animator.StringToHash("Jump");
-        private static readonly int RollHash = Animator.StringToHash("Roll");
-        private static readonly int AttackSpearHash = Animator.StringToHash("AttackSpear");
-        private static readonly int AttackSpearAirHash = Animator.StringToHash("AttackSpearAir");
         private static readonly int AttackBowHash = Animator.StringToHash("AttackBow");
         private static readonly int AttackBowDiagHash = Animator.StringToHash("AttackBowDiagonal");
         private static readonly int BlockHash = Animator.StringToHash("Block");
@@ -58,8 +65,15 @@ namespace PrimalEcho
         private void Awake()
         {
             animator = GetComponent<Animator>();
+            spear = GetComponent<KaelSpear>();
             if (playerController == null) playerController = GetComponent<PlayerController>();
             if (rb == null) rb = GetComponent<Rigidbody2D>();
+            if (motionClips == null)
+            {
+                motionClips = new AnimationClip[ClipNames.Length];
+                for (int i = 1; i < ClipNames.Length; i++)
+                    motionClips[i] = Resources.Load<AnimationClip>("KaelMovimiento/" + ClipNames[i]);
+            }
 
 #if UNITY_EDITOR
             if (animator != null && animator.runtimeAnimatorController == null)
@@ -143,13 +157,6 @@ namespace PrimalEcho
                 }
             }
 
-            // Rodar (LeftShift o C)
-            if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.C)
-                || (Pad != null && (PadDown(Pad.rightShoulder) || PadDown(Pad.rightTrigger))))
-            {
-                animator.SetTrigger(RollHash);
-            }
-
             // Ataque con Arco: horizontal o diagonal arriba si mantiene W/Arriba (K, X o Clic Derecho)
             // Si Kael tiene KaelShooter (disparo estilo Cuphead), ese script se encarga del arco
             if (GetComponentInParent<KaelShooter>() == null &&
@@ -197,18 +204,6 @@ namespace PrimalEcho
                 animator.SetTrigger(RepairKiroHash);
             }
 
-            // Trepar (Alternar con T para probar o mantener en escalera)
-            if (Input.GetKeyDown(KeyCode.T))
-            {
-                isClimbingTest = !isClimbingTest;
-                animator.SetBool(IsClimbingHash, isClimbingTest);
-            }
-            else if (isClimbingTest && (Input.GetKeyDown(KeyCode.Space) || isGrounded && normalizedSpeed > 0.5f))
-            {
-                isClimbingTest = false;
-                animator.SetBool(IsClimbingHash, false);
-            }
-
             // Teclas rápidas de prueba para Daño (H) y Victoria (V)
             if (Input.GetKeyDown(KeyCode.H))
             {
@@ -218,6 +213,39 @@ namespace PrimalEcho
             {
                 animator.SetTrigger(VictoryHash);
             }
+        }
+
+        private Pose GetMotionPose()
+        {
+            if (playerController == null || !playerController.CanAct ||
+                playerController.CurrentState == PlayerController.AnimState.Hurt) return Pose.None;
+            if (playerController.IsDashing)
+                return playerController.DashStartedOnGround ? Pose.GroundDash : Pose.AirDash;
+            if (playerController.IsSpearRebounding) return Pose.Rebound;
+            if (spear != null && spear.IsAttacking) return spear.AimingDown ? Pose.Dive : Pose.Thrust;
+            if (playerController.IsWallKicking) return Pose.WallKick;
+            if (playerController.IsWallSliding) return Pose.WallSlide;
+            if (playerController.IsSprinting && Mathf.Abs(rb.linearVelocity.x) > maxRunSpeed + 0.25f) return Pose.Sprint;
+            return Pose.None;
+        }
+
+        // Estas curvas solo cambian SpriteRenderer.sprite. Se aplican después del Animator base;
+        // la pose responde al movimiento efectivo y nunca escribe en el collider ni en el Transform.
+        private void LateUpdate()
+        {
+            Pose pose = GetMotionPose();
+            if (pose != currentPose)
+            {
+                currentPose = pose;
+                poseStarted = Time.time;
+            }
+            if (pose == Pose.None) return;
+            var clip = motionClips[(int)pose];
+            if (clip == null || clip.length <= 0f) return;
+            float elapsed = pose == Pose.Dive || pose == Pose.Thrust
+                ? spear.SwingProgress * clip.length : Time.time - poseStarted;
+            float frameTime = clip.isLooping ? Mathf.Repeat(elapsed, clip.length) : Mathf.Min(elapsed, clip.length);
+            clip.SampleAnimation(gameObject, frameTime);
         }
 
         private void SpawnArrow(Vector2 dir)

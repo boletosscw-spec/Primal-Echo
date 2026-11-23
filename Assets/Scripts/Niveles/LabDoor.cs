@@ -27,7 +27,21 @@ namespace PrimalEcho
         {
             var p = GameObject.FindGameObjectWithTag("Player");
             if (p != null) player = p.transform;
+#if UNITY_EDITOR
+            // Para probar: si le diste Play directo en este nivel (sin pasar por el Nivel 1), se te presta la llave.
+            if (!LabKey.Has && UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == escenaInicial)
+            {
+                LabKey.Has = true;
+                Debug.Log("[Primal Echo] Play directo en " + escenaInicial + ": se presta la llave de la base para probar.");
+            }
+#endif
         }
+
+#if UNITY_EDITOR
+        private static string escenaInicial;
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
+        private static void RecordarEscenaInicial() => escenaInicial = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+#endif
 
         private void Update()
         {

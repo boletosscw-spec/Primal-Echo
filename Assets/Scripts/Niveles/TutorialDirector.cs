@@ -29,7 +29,6 @@ namespace PrimalEcho
         private PlayerController player;
         private Collider2D body;
         private BraceletMenu bracelet;
-        private InputAction dash;
         private HoloText panel;
         private string shown;
         private int current;
@@ -60,7 +59,6 @@ namespace PrimalEcho
             if (player == null) { enabled = false; return; }
             body = player.GetComponent<Collider2D>();
             bracelet = player.GetComponent<BraceletMenu>();
-            dash = InputSystem.actions.FindAction("Player/Dash", false);
             startX = X;
 
             // Los carteles fijos del mapa no se usan aquí: la guía muestra un texto a la vez.
@@ -87,8 +85,8 @@ namespace PrimalEcho
             Add("Dispara el ARCO con [Y] · Derriba al volador · Con [ARRIBA] apuntas en diagonal",
                 "Dispara el ARCO con [K] · Derriba al volador · Con [W] apuntas en diagonal",
                 () => !flyerAlive, 128.6f, 8f);
-            Add("Opcional: en el aire, [ABAJO] + [X] sobre las espinas hace POGO · O simplemente saltalas",
-                "Opcional: en el aire, [S] + [J] sobre las espinas hace POGO · O simplemente saltalas",
+            Add("En el aire: [ABAJO] + [X] para rebotar en espinas · Inclina el stick para picar en diagonal",
+                "En el aire: [S] + [J] para rebotar en espinas · Añade [A] o [D] para picar en diagonal",
                 () => X >= 134.5f);
             Add("Entra al GEISER: el agua te sube al risco", "Entra al GEISER: el agua te sube al risco",
                 () => StandingAt(140f, 15f));
@@ -129,7 +127,7 @@ namespace PrimalEcho
             if (player == null || steps.Count == 0) return;
             if (bracelet == null) bracelet = player.GetComponent<BraceletMenu>();
             if (bracelet != null && bracelet.IsActive && current >= 4) braceletOpened = true;
-            if (dash != null && dash.WasPerformedThisFrame() && current == 5) dashed = true;
+            if (current == 5 && player.IsDashing && !player.DashStartedOnGround) dashed = true;
 
             if (Time.unscaledTime >= nextEnemyScan)
             {

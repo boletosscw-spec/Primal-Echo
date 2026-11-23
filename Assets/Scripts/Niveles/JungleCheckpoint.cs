@@ -25,12 +25,16 @@ namespace PrimalEcho
         {
             var respawn = other.GetComponentInParent<KaelRespawn>();
             if (respawn == null) return;
+            if (!encendida) Sonidos.Play("checkpoint", 0.55f, 1f, transform.position, 0f);
             respawn.SetCheckpoint(transform.position, label);
             foreach (var cp in FindObjectsByType<JungleCheckpoint>(FindObjectsSortMode.None)) cp.SetLit(cp == this);
         }
 
+        private bool encendida;
+
         private void SetLit(bool on)
         {
+            encendida = on;
             if (lamp == null) return;
             lamp.color = on ? onColor : offColor;
             lamp.intensity = on ? onIntensity : offIntensity;

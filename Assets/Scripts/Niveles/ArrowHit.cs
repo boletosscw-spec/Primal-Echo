@@ -18,6 +18,7 @@ namespace PrimalEcho
             if (enemy == null) return;
             done = true;
             KaelVFX.Impact(other.ClosestPoint(transform.position), enemy);
+            Sonidos.Play("flecha_impacto", 0.55f, 1f, transform.position);
             enemy.Hit(damage, dir * 2f);
             Destroy(gameObject);
         }

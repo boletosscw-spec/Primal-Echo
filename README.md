@@ -22,8 +22,16 @@ Videojuego 2D de plataformas y acción en pixel art, hecho en **Unity 6 (6000.0.
 | --- | --- | --- |
 | Moverse | A/D o flechas | Stick / cruceta |
 | Saltar / doble salto | Espacio | A |
-| Lanza (arriba/abajo para dirigir, pogo en el aire) | J / Z / clic izq. | X |
-| Dash | Shift / C | RB / RT |
+| Lanza (arriba o abajo para dirigir) | J / Z / clic izq. | X |
+| Impulso en tierra o en el aire | Shift / C | RB / RT |
+| Carrera tras el impulso en tierra | Mantén Shift / C y avanza | Mantén RB / RT y avanza |
+| Deslizarse por una pared | En caída, mantén la dirección hacia la pared | En caída, inclina el stick hacia la pared |
+| Saltar desde una pared | Espacio junto a la pared | A junto a la pared |
+| Picado diagonal con lanza | En el aire, abajo + izquierda o derecha + J | En el aire, stick en diagonal hacia abajo + X |
 | Arco (una flecha) | K / X / clic der. | Y |
 | Fijar apuntado (8 direcciones) | Ctrl | LT |
 | Bloquear | L / F | LB |
+
+Un ataque de lanza hacia abajo rebota al golpear a un enemigo o unas espinas. El rebote recupera el impulso aéreo y el doble salto.
+
+Las secuencias de estos movimientos están en la carpeta `Assets/Resources/KaelMovimiento` y usan los sprites de Kael.

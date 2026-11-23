@@ -45,5 +45,7 @@ python3 jsim.py ../../Assets/Niveles/*.txt
 
 | Nivel | Experto | Primera vez |
 | --- | --- | --- |
-| Nivel 1 · Valle del Eco (600×30) | ~3,1 min | ~5–6,5 min |
+| Nivel 1 · Valle del Eco (448×32) | ~1,7 min | ~2,8–3,7 min |
 | Nivel 2 · Templo de NÉMESIS (461×40) | ~3,0 min | ~5–6,5 min |
+
+El mapa del Valle se dibuja en `Tools/niveles/nivel1.py`. Sus líneas `@reliquia nombre x y ancho` sitúan el arte ambiental en unidades del mapa. `@cueva_valle` indica las cuatro coordenadas X entre las que se mezclan los fondos al entrar y salir de la cueva.

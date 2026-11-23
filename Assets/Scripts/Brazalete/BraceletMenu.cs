@@ -171,7 +171,7 @@ namespace PrimalEcho
 
         public bool TryOpen()
         {
-            if (IsActive || !player.enabled || !player.CanAct || !player.IsGrounded || Time.timeScale <= 0f) return false;
+            if (IsActive || !player.enabled || !player.CanAct || !player.IsGrounded || player.IsDashing || Time.timeScale <= 0f) return false;
             if (player.CurrentState == PlayerController.AnimState.Hurt || player.CurrentState == PlayerController.AnimState.Spawn) return false;
             spear = GetComponent<KaelSpear>();
             shooter = GetComponent<KaelShooter>();

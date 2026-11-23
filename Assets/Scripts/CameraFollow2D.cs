@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
@@ -143,6 +144,27 @@ namespace PrimalEcho
         public void Shake(Vector2 direction)
         {
             if (impulse) impulse.GenerateImpulseWithVelocity(direction.normalized * shakeStrength);
+            Vibracion.Pulso(0.15f, 0.3f, 0.08f); // toque ligero en el control (golpes de lanza, etc.)
+        }
+
+        /// <summary>
+        /// Temblor sostenido: 'fuerza' ≈ 1 es un golpe normal y 4 un impacto enorme; se apaga poco a poco
+        /// durante 'segundos'. (Para temblor + vibración del control juntos usa Sacudida.Hacer.)
+        /// </summary>
+        public void Temblor(float fuerza, float segundos)
+        {
+            if (impulse && isActiveAndEnabled) StartCoroutine(TemblorRutina(fuerza, segundos));
+        }
+
+        private IEnumerator TemblorRutina(float fuerza, float segundos)
+        {
+            const float paso = 0.05f;
+            for (float t = 0f; t < segundos; t += paso)
+            {
+                float k = 1f - t / Mathf.Max(0.01f, segundos);
+                impulse.GenerateImpulseWithVelocity((Vector3)(Random.insideUnitCircle.normalized * shakeStrength * fuerza * k));
+                yield return new WaitForSeconds(paso);
+            }
         }
 
         private void Update()

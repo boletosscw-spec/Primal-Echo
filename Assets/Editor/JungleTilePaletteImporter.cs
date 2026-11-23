@@ -87,7 +87,6 @@ namespace PrimalEcho.Editor
         }
 
         [MenuItem("Tools/Kael/Construir Mapa Paso del Rey (Hollow Knight) con Jungla")]
-        [MenuItem("Primal Echo/Construir Paso del Rey (Hollow Knight) con Tiles de Jungla")]
         public static void ImportJungleTilesToPaletteAndBuildKingsPass()
         {
             if (!AssetDatabase.IsValidFolder("Assets/Tiles"))

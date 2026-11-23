@@ -18,7 +18,7 @@ namespace PrimalEcho.Editor
     /// Copia SampleScene (Kael, cámara, parallax y luces) y repinta los tilemaps. SampleScene no se modifica.
     /// </summary>
     [InitializeOnLoad]
-    public static class JungleLevelBuilder
+    public static partial class JungleLevelBuilder
     {
         // Los niveles YA NO se regeneran solos. Al guardar (Ctrl+S) un nivel, sus colisiones
         // se recalculan a partir de lo que esté pintado en las capas "mapa" y "Ramas_Un_Sentido".
@@ -26,7 +26,7 @@ namespace PrimalEcho.Editor
         {
             EditorSceneManager.sceneSaving += (scene, path) =>
             {
-                if (generating || !Levels.Any(l => ScenePath(l.scene) == path)) return;
+                if (generating || !Generados.Any(l => ScenePath(l.scene) == path)) return;
                 ApplyCaveBackdrop(scene, quiet: false); // recalcula el fondo de cueva con lo que hayas pintado
                 RebuildCollisionIn(scene);
             };
@@ -36,7 +36,7 @@ namespace PrimalEcho.Editor
             {
                 if (EditorApplication.isPlayingOrWillChangePlaymode) return;
                 var active = SceneManager.GetActiveScene();
-                if (!Levels.Any(l => l.scene == active.name)) return;
+                if (!Generados.Any(l => l.scene == active.name)) return;
                 if (ApplyCaveBackdrop(active, quiet: true))
                 {
                     RebuildCollisionIn(active);
@@ -55,13 +55,30 @@ namespace PrimalEcho.Editor
             // Al abrir un nivel, si todavía tiene el relleno negro de tiles en las cuevas, se cambia por el parallax
             EditorSceneManager.sceneOpened += (scene, mode) =>
             {
-                if (generating || !Levels.Any(l => l.scene == scene.name)) return;
+                if (generating || !Generados.Any(l => l.scene == scene.name)) return;
                 if (ApplyCaveBackdrop(scene, quiet: true))
                 {
                     RebuildCollisionIn(scene);
                     EditorSceneManager.MarkSceneDirty(scene);
                 }
             };
+        }
+
+        // El Nivel 1 y el Nivel 2 ya no salen del mapa de texto: los construye Nivel1MusgoBuilder
+        // (Bosque del Musgo y Base de NÉMESIS). Este constructor ya no los toca al abrirlos ni al guardarlos.
+        private const string Nivel2Scene = "Nivel_02_Templo_Nemesis";
+        private static IEnumerable<(string map, string scene)> Generados => Levels.Where(l => l.scene != ValleyScene && l.scene != Nivel2Scene);
+
+        /// <summary>
+        /// Lo usa Nivel1MusgoBuilder al rehacer el Nivel 2 desde SampleScene: el mismo encuadre de cámara,
+        /// partículas de la jungla y fondo parallax del bosque que tenían los niveles generados aquí.
+        /// </summary>
+        internal static void PrepararEscenaNivel2(Scene scene)
+        {
+            var group = scene.GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<Transform>(true)).FirstOrDefault(t => t.name == "Fondo_Parallax");
+            if (group != null && group.Find(JungleVersion) == null) BuildJungleParallax(group, "templo");
+            SetupJungleParticles();
+            SetupHollowCamera();
         }
 
         private static bool generating;
@@ -84,7 +101,7 @@ namespace PrimalEcho.Editor
 
         private static string ScenePath(string scene) => $"{ScenesFolder}/{scene}.unity";
 
-        [MenuItem("Primal Echo/Niveles/Generar Tutorial, Nivel 1 y Nivel 2", false, 0)]
+        [MenuItem("Primal Echo/Niveles/Generar Tutorial (mapa de texto)", false, 0)]
         public static void GenerateAll() => GenerateAll(askFirst: true);
 
         private static void GenerateAll(bool askFirst)
@@ -93,7 +110,7 @@ namespace PrimalEcho.Editor
             if (!File.Exists(BaseScene)) { Debug.LogError("No encuentro " + BaseScene); return; }
             if (askFirst && Levels.Any(l => File.Exists(ScenePath(l.scene))) &&
                 !EditorUtility.DisplayDialog("Primal Echo",
-                    "Se regenerarán el Tutorial, Nivel 1 y Nivel 2 desde los mapas de texto.\n\n" +
+                    "Se regenerará el Tutorial desde su mapa de texto (el Nivel 1 y el Nivel 2 no se tocan).\n\n" +
                     "Lo que pintaste o borraste en las capas de tiles SE CONSERVA y se vuelve a aplicar encima.\n" +
                     "Enemigos y objetos vuelven a la posición del mapa de texto.", "Regenerar", "Cancelar"))
                 return;
@@ -102,7 +119,7 @@ namespace PrimalEcho.Editor
             try
             {
                 generating = true;
-                foreach (var level in Levels) Build(level.map, level.scene);
+                foreach (var level in Generados) Build(level.map, level.scene);
                 // Build Settings: se respeta el orden que ya tengas (la cinemática primero); un nivel nuevo
                 // entra justo antes del nivel que le sigue (el tutorial queda antes del Nivel 1).
                 var buildList = EditorBuildSettings.scenes.ToList();
@@ -172,6 +189,11 @@ namespace PrimalEcho.Editor
         {
             var scene = SceneManager.GetActiveScene();
             if (!Levels.Any(l => l.scene == scene.name)) { EditorUtility.DisplayDialog("Primal Echo", "Abre primero Nivel_01 o Nivel_02.", "OK"); return; }
+            if (scene.name == ValleyScene && FindInScene(scene, ValleyArtRoot) != null)
+            {
+                Debug.Log("[Primal Echo] Valle del Eco ya usa el fondo integrado del nivel.");
+                return;
+            }
             ApplyCaveBackdrop(scene, quiet: false);
             EditorSceneManager.MarkSceneDirty(scene);
             Debug.Log("[Primal Echo] Fondo de cueva aplicado. Guarda la escena (Ctrl+S).");
@@ -206,6 +228,7 @@ namespace PrimalEcho.Editor
 
         private static bool ApplyCaveBackdropCore(Scene scene, bool quiet)
         {
+            if (scene.name == ValleyScene && FindInScene(scene, ValleyArtRoot) != null) return false;
             var level = Levels.FirstOrDefault(l => l.scene == scene.name);
             if (level.map == null) return false;
             bool doorChanged = OpenCaveDoor(scene); // entrada horizontal del Nivel 2 (una sola vez)
@@ -378,6 +401,9 @@ namespace PrimalEcho.Editor
             public readonly List<string> Checkpoints = new List<string>();
             public readonly List<(string title, string text)> Chips = new List<(string, string)>();
             public readonly List<(float x, float y, string text)> Signs = new List<(float, float, string)>();
+            public Vector4? ValleyCave;
+            public readonly List<(string name, float x, float y, float width)> ValleyRelics =
+                new List<(string, float, float, float)>();
             public char[,] C;
             public int W, H;
             public char At(int x, int y) => x < 0 || y < 0 || x >= W || y >= H ? ' ' : C[x, y];
@@ -416,6 +442,16 @@ namespace PrimalEcho.Editor
                         m.NoTreeAt.Add(new Vector2Int(int.Parse(spot[0], CultureInfo.InvariantCulture), int.Parse(spot[1], CultureInfo.InvariantCulture)));
                         break;
                     case "checkpoint": m.Checkpoints.Add(val); break;
+                    case "cueva_valle":
+                        var bounds = ParseValleyValues(val, 4);
+                        m.ValleyCave = new Vector4(bounds[0], bounds[1], bounds[2], bounds[3]);
+                        break;
+                    case "reliquia":
+                        int nameEnd = val.IndexOf(' ');
+                        if (nameEnd < 1) throw new FormatException("Una reliquia necesita nombre, x, y y ancho.");
+                        var coords = ParseValleyValues(val.Substring(nameEnd + 1), 3);
+                        m.ValleyRelics.Add((val.Substring(0, nameEnd), coords[0], coords[1], coords[2]));
+                        break;
                     case "chip": // @chip TITULO|Texto del registro (se asignan a las 'M' de izquierda a derecha)
                         var chipParts = val.Split(new[] { '|' }, 2);
                         m.Chips.Add((chipParts[0].Trim(), chipParts.Length > 1 ? chipParts[1].Trim() : ""));
@@ -483,9 +519,15 @@ namespace PrimalEcho.Editor
 
             string path = ScenePath(sceneName);
             List<TileEdit> edits = CaptureUserEdits(sceneName);
-            if (File.Exists(path)) AssetDatabase.DeleteAsset(path);
-            if (!AssetDatabase.CopyAsset(BaseScene, path)) throw new IOException("No se pudo copiar SampleScene a " + path);
-            Scene scene = EditorSceneManager.OpenScene(path, OpenSceneMode.Single);
+            bool valley = sceneName == ValleyScene && map.ValleyCave.HasValue;
+            // La copia del Valle se construye en memoria y se guarda al final en la ruta existente.
+            // Así conserva el GUID al que apuntan los ajustes de compilación.
+            if (!valley)
+            {
+                if (File.Exists(path)) AssetDatabase.DeleteAsset(path);
+                if (!AssetDatabase.CopyAsset(BaseScene, path)) throw new IOException("No se pudo copiar SampleScene a " + path);
+            }
+            Scene scene = EditorSceneManager.OpenScene(valley ? BaseScene : path, OpenSceneMode.Single);
 
             GameObject player = GameObject.FindGameObjectWithTag("Player") ?? GameObject.Find("Player");
             if (player == null) throw new InvalidOperationException("SampleScene no tiene a Kael (Player).");
@@ -518,7 +560,7 @@ namespace PrimalEcho.Editor
             BuildCollisionFromTiles(gridObj.transform, solid, branches);
             var jungleGroup = GameObject.Find("Fondo_Parallax");
             if (jungleGroup != null) BuildJungleParallax(jungleGroup.transform, map.Theme);
-            SetupCaveBackdrop(map, bg);
+            if (!valley) SetupCaveBackdrop(map, bg);
             if (!map.NoTrees) PlantTrees(map, gridObj.transform, bg);
             if (map.Theme == "templo") BuildLabBase(map, gridObj.transform);
             AttachHandPainted(sceneName, gridObj.transform);
@@ -538,6 +580,7 @@ namespace PrimalEcho.Editor
             SetupCamera(map, player.transform.position);
             SetupJungleParticles();
             SetupHollowCamera();
+            if (valley) BuildValleyArt(map, jungleGroup, lights);
 
             // Juego
             var enemies = new List<(Vector2Int cell, GameObject go)>();
@@ -547,8 +590,9 @@ namespace PrimalEcho.Editor
             foreach (var c in map.Find('K')) enemies.Add((c, Plant(root, c, art)));
 
             var cps = map.Find('C').OrderBy(c => c.x).ToList();
+            var beacon = valley ? LoadKitSprite(ValleyRelicsFolder + "/BalizaRefugio.png") : null;
             for (int i = 0; i < cps.Count; i++)
-                Checkpoint(root, deco, lights, cps[i], i < map.Checkpoints.Count ? map.Checkpoints[i] : "Checkpoint " + (i + 1));
+                Checkpoint(root, deco, lights, cps[i], i < map.Checkpoints.Count ? map.Checkpoints[i] : "Checkpoint " + (i + 1), beacon);
 
             Runs(map, '^', (x0, len, y) => Thorns(root, deco, x0, len, y));
             Runs(map, '%', (x0, len, y) => Crumble(root, x0, len, y));
@@ -557,16 +601,18 @@ namespace PrimalEcho.Editor
             foreach (var c in map.Find('o')) { Shard(root, lights, c, art.shard); shards++; }
             PlaceItems(map, root, sceneName);
             Arena(map, root, enemies);
-            Goal(map, lights);
+            Goal(map, lights, valley);
             SetupLabKey(map);
             Signs(map);
+            if (valley) TintValleyTerrain(map.ValleyCave.Value, solid, deco, branches);
 
             var hud = new GameObject("HUD_Nivel").AddComponent<LevelHUD>();
             hud.transform.SetParent(root);
             hud.Configure(map.Title, map.Subtitle, shards);
 
             EditorSceneManager.MarkSceneDirty(scene);
-            EditorSceneManager.SaveScene(scene);
+            if (!EditorSceneManager.SaveScene(scene, path))
+                throw new IOException("No se pudo guardar " + path);
             Debug.Log($"[Primal Echo] {sceneName}: {map.W}×{map.H} tiles, {enemies.Count} enemigos, {cps.Count} checkpoints, {shards} fragmentos.");
         }
 
@@ -647,13 +693,16 @@ namespace PrimalEcho.Editor
             Tile[] greyL = Enumerable.Range(0, 4).Select(i => T($"tile_jungle_wall_grey_r{i}_c0")).ToArray();
             Tile[] greyR = Enumerable.Range(0, 4).Select(i => T($"tile_jungle_wall_grey_r{i}_c1")).ToArray();
             Tile fill = T("tile_jungle_wall_brown_r0_c2");
+            bool valley = m.ValleyCave.HasValue;
+            Tile valleyStone = valley ? T("tile_jungle_wall_grey_r0_c2") : null;
             Tile[] accents = { T("tile_jungle_wall_brown_r1_c2"), T("tile_jungle_wall_brown_r2_c3"), T("tile_jungle_wall_grey_r1_c2") };
 
             for (int x = 0; x < m.W; x++)
             {
-                for (int y = 0; y < m.H; y++)
+                // Extiende los estratos visibles por debajo de la cámara sin tapar los fosos.
+                for (int y = valley ? -5 : 0; y < m.H; y++)
                 {
-                    int type = Cell(m, x, y);
+                    int type = Cell(m, x, Mathf.Max(0, y));
                     if (type == 0)
                     {
                         continue; // el fondo de las cuevas ahora es parallax (SetupCaveBackdrop)
@@ -663,7 +712,8 @@ namespace PrimalEcho.Editor
                     string b = grey ? "tile_jungle_bottom_grey" : "tile_jungle_bottom_brown";
                     bool up = Cell(m, x, y + 1) != 0, down = Cell(m, x, y - 1) != 0;
                     bool left = Cell(m, x - 1, y) != 0, right = Cell(m, x + 1, y) != 0;
-                    Tile chosen = fill;
+                    Tile interior = grey && valleyStone != null ? valleyStone : fill;
+                    Tile chosen = interior;
                     if (!up)
                     {
                         int row = Mathf.Abs(x) % 3 == 0 ? 3 : 1;
@@ -678,10 +728,11 @@ namespace PrimalEcho.Editor
                     }
                     else if (!down && y > 0)
                         chosen = !left ? T($"{b}_r0_c0") : (!right ? T($"{b}_r0_c3") : T($"{b}_r0_c{x % 2 + 1}"));
-                    else if (!left) chosen = (grey ? greyL : brownL)[y % 4] ?? fill;
-                    else if (!right) chosen = (grey ? greyR : brownR)[y % 4] ?? fill;
-                    else if (Hash(x, y) % 11 == 0) chosen = accents[Hash(x, y) % accents.Length] ?? fill;
-                    solid.SetTile(new Vector3Int(x, y, 0), GridTile(chosen ?? fill));
+                    else if (!left) chosen = (grey ? greyL : brownL)[y & 3] ?? fill;
+                    else if (!right) chosen = (grey ? greyR : brownR)[y & 3] ?? fill;
+                    else if (Hash(x, y) % 11 == 0)
+                        chosen = grey && valleyStone != null ? accents[2] : accents[Hash(x, y) % accents.Length];
+                    solid.SetTile(new Vector3Int(x, y, 0), GridTile(chosen ?? interior));
                 }
             }
         }
@@ -1111,7 +1162,6 @@ namespace PrimalEcho.Editor
             Debug.Log("[Primal Echo] Nivel 2: puerta de la base colocada (se abre con la llave del Nivel 1).");
         }
 
-        [MenuItem("Primal Echo/Llave de la base: dar o quitar (para pruebas)", false, 30)]
         public static void ToggleLabKey()
         {
             LabKey.Has = !LabKey.Has;
@@ -1962,12 +2012,17 @@ namespace PrimalEcho.Editor
             return l;
         }
 
-        private static void Checkpoint(Transform root, Tilemap deco, Transform lights, Vector2Int c, string label)
+        private static void Checkpoint(Transform root, Tilemap deco, Transform lights, Vector2Int c, string label, Sprite beacon)
         {
-            Stamp(deco, "tile_jungle_plants_objects", c.x, c.y, 10, 11, 5, 5); // farola
             var go = new GameObject("Checkpoint_" + label);
             go.transform.SetParent(root);
             go.transform.position = new Vector3(c.x + 0.5f, c.y + 0.02f, 0f);
+            if (beacon == null) Stamp(deco, "tile_jungle_plants_objects", c.x, c.y, 10, 11, 5, 5);
+            else
+            {
+                var sr = Visual(go.transform, beacon, 4);
+                sr.transform.localScale = Vector3.one * (2f / beacon.bounds.size.x);
+            }
             var box = go.AddComponent<BoxCollider2D>();
             box.isTrigger = true; box.size = new Vector2(1.6f, 2.4f); box.offset = new Vector2(0f, 1.2f);
             var lamp = Light(lights, "Luz_" + label, new Vector3(c.x + 0.5f, c.y + 1.5f, 0f), new Color(1f, 0.82f, 0.45f), 1.4f, 5f);
@@ -2084,7 +2139,7 @@ namespace PrimalEcho.Editor
             room.AddComponent<CameraRoom2D>();
         }
 
-        private static void Goal(Map m, Transform lights)
+        private static void Goal(Map m, Transform lights, bool requiresLabKey)
         {
             Vector2Int x = m.Find('X').First();
             GameObject goal = GameObject.Find("Meta_Mirador_Nivel1");
@@ -2104,7 +2159,7 @@ namespace PrimalEcho.Editor
                 SetField(lg, "levelSubtitle", string.IsNullOrEmpty(m.Next) ? "Fin de la demo · gracias por jugar" : "Siguiente: " + m.Next.Replace('_', ' '));
             }
             var exit = GetOrAdd<NextLevelExit>(goal);
-            exit.Configure(m.Next);
+            exit.Configure(m.Next, requiresLabKey);
             EditorUtility.SetDirty(goal);
             Light(lights, "Luz_Meta", goal.transform.position, new Color(0.3f, 0.92f, 1f), 1.8f, 7f);
         }

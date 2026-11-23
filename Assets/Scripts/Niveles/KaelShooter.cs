@@ -29,6 +29,7 @@ namespace PrimalEcho
         private Rigidbody2D body;
         private Animator animator;
         private KaelAnimationDriver driver;
+        private KaelSpear spear;
         private InputAction shoot, aimLock;
         private Transform reticle;
         private SpriteRenderer reticleSprite;
@@ -59,6 +60,7 @@ namespace PrimalEcho
             player = GetComponent<PlayerController>();
             body = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
+            spear = GetComponent<KaelSpear>();
             driver = GetComponentInChildren<KaelAnimationDriver>();
             shoot = new InputAction("Disparar", InputActionType.Button);
             shoot.AddBinding("<Keyboard>/k");
@@ -80,9 +82,16 @@ namespace PrimalEcho
 
         private void Update()
         {
+            if (!player.CanAct || player.CurrentState == PlayerController.AnimState.Hurt)
+            {
+                drawing = false;
+                rootedUntil = -1f;
+                if (reticle != null) reticle.gameObject.SetActive(false);
+                return;
+            }
             UpdateReticle();
-            if (!player.CanAct) { drawing = false; return; }
-            if (!drawing && shoot.WasPressedThisFrame() && Time.time >= nextShot)
+            if (!drawing && shoot.WasPressedThisFrame() && Time.time >= nextShot && !player.IsDashing &&
+                (spear == null || !spear.IsAttacking))
             {
                 drawing = true;
                 aim = AimDirection();
@@ -180,6 +189,8 @@ namespace PrimalEcho
             GameObject prefab = driver != null ? driver.ArrowPrefab : null;
             Vector3 origin = BowTip(dir);
             KaelVFX.BowShot(origin, dir);
+            Vibracion.Pulso(0.08f, 0.22f, 0.06f); // disparo del arco
+            Sonidos.Play("kael_arco", 0.55f, 1f, origin, 0.08f);
             GameObject arrow;
             if (prefab != null) arrow = Instantiate(prefab, origin, Quaternion.identity);
             else

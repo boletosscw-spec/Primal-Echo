@@ -28,7 +28,6 @@ namespace PrimalEcho.Editor
             EditorSceneManager.sceneSaving += (scene, path) => Apply(scene, false);
         }
 
-        [MenuItem("Primal Echo/Ver enemigos con su diseño actual (escena abierta)", false, 41)]
         public static void ApplyMenu() => Apply(SceneManager.GetActiveScene(), true);
 
         private static Sprite Preview(string name, float ppu, float pivotY)
