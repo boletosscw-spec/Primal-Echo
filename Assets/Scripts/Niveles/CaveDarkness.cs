@@ -3,8 +3,8 @@ using UnityEngine;
 namespace PrimalEcho
 {
     /// <summary>
-    /// Al entrar a una cueva la pantalla se oscurece poco a poco, dejando un círculo de luz alrededor de Kael
-    /// (como en Hollow Knight). Al salir vuelve la luz. Se añade sola a la cámara (lo hace CaveAmbience).
+    /// Al entrar a una cueva la pantalla se oscurece poco a poco, dejando un círculo de luz alrededor de Kael.
+    /// Al salir vuelve la luz. Se añade sola a la cámara (lo hace CaveAmbience).
     /// </summary>
     [DisallowMultipleComponent]
     public sealed class CaveDarkness : MonoBehaviour

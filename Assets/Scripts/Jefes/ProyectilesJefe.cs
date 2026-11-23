@@ -218,7 +218,7 @@ namespace PrimalEcho
 
     /// <summary>
     /// Objeto cian: al golpearlo con la LANZA (no con flechas) da 1 carga de Eco y desaparece.
-    /// Con pogo hacia abajo Kael además rebota, como el parry de Cuphead.
+    /// Un golpe de lanza hacia abajo hace rebotar a Kael.
     /// </summary>
     [RequireComponent(typeof(Rigidbody2D))]
     public sealed class ObjetoEco : MonoBehaviour

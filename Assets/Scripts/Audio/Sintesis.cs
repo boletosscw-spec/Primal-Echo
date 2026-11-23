@@ -493,7 +493,7 @@ namespace PrimalEcho
             });
         }
 
-        // Sílaba de "voz" estilo Animal Crossing / Hollow Knight: armónicos con forma de vocal
+        // Sílaba sintetizada con armónicos con forma de vocal
         private static AudioClip Silaba(string n, string quien, int variante)
         {
             float f0, dur; bool robot = false, grave = false;

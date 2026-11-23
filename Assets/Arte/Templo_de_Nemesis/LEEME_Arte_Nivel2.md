@@ -7,7 +7,7 @@ pídeselas a ChatGPT con el bloque de estilo de siempre y **reemplaza el PNG con
 
 Bloque de estilo para pegar primero:
 ```
-Estilo: pixel art 2D pintado para un plataformas tipo Hollow Knight: Silksong, formas con contorno oscuro y sombreado suave.
+Estilo: pixel art 2D pintado para un juego de plataformas, con formas con contorno oscuro y sombreado suave.
 Una base tecnológica antigua de una IA (NÉMESIS) que la selva está reclamando: acero azul grisáceo, remaches, luces cian,
 algo de óxido y musgo. Fondo TRANSPARENTE (o magenta #FF00FF sólido para recortar), sin texto, vista lateral.
 ```

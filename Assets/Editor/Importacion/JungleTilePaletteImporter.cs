@@ -82,12 +82,12 @@ namespace PrimalEcho.Editor
             if (!alreadyCreated || EditorPrefs.GetInt(AutoImportKey, 0) < 5)
             {
                 EditorPrefs.SetInt(AutoImportKey, 5);
-                ImportJungleTilesToPaletteAndBuildKingsPass();
+                ImportJungleTilesToPaletteAndBuildSampleMap();
             }
         }
 
-        [MenuItem("Tools/Kael/Construir Mapa Paso del Rey (Hollow Knight) con Jungla")]
-        public static void ImportJungleTilesToPaletteAndBuildKingsPass()
+        [MenuItem("Tools/Kael/Importar paleta de jungla y construir mapa de prueba")]
+        public static void ImportJungleTilesToPaletteAndBuildSampleMap()
         {
             if (!AssetDatabase.IsValidFolder("Assets/Tiles"))
             {
@@ -183,15 +183,15 @@ namespace PrimalEcho.Editor
                 PopulatePalettePrefab(JunglePalettePrefabPath, tiles, keepExistingTiles: false);
             }
 
-            // Paso 4: Construir el mapa detallado estilo Paso del Rey (Hollow Knight) usando 100% la Tile Palette de Jungla
-            // Solo reconstruye Paso del Rey en SampleScene (no toca Nivel_01 / Nivel_02)
+            // Paso 4: Construir el mapa de prueba con la paleta de jungla
+            // Solo reconstruye el mapa de prueba en SampleScene (no toca Nivel_01 / Nivel_02)
             if (EditorSceneManager.GetActiveScene().name == "SampleScene")
-                BuildKingsPassMap(tiles);
+                BuildJungleSampleMap(tiles);
 
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();
 
-            Debug.Log($"<color=#4CAF50><b>[Primal Echo]</b> ¡Mapa 'Paso del Rey' (Hollow Knight) construido al detalle con {tiles.Count} tiles de la Tile Palette de Jungla!</color>");
+            Debug.Log($"<color=#4CAF50><b>[Primal Echo]</b> ¡Mapa de prueba de jungla construido con {tiles.Count} tiles de la Tile Palette de Jungla!</color>");
         }
 
         private static void SliceJungleSheet32x32(string assetPath, SpriteDataProviderFactories factory)
@@ -343,7 +343,7 @@ namespace PrimalEcho.Editor
             }
         }
 
-        private static void BuildKingsPassMap(Dictionary<string, Tile> tiles)
+        private static void BuildJungleSampleMap(Dictionary<string, Tile> tiles)
         {
             Tile T(string name)
             {
@@ -359,7 +359,7 @@ namespace PrimalEcho.Editor
             GameObject oldDeco = GameObject.Find("Agua_Y_Detalles");
             if (oldDeco != null) Object.DestroyImmediate(oldDeco);
 
-            // 1. Configurar Kael en la base de La Caída del Paso del Rey (x = -11, Y = 1.0)
+            // 1. Configurar Kael al pie de la caída inicial (x = -11, Y = 1.0)
             GameObject player = GameObject.Find("Player");
             if (player != null)
             {
@@ -499,7 +499,7 @@ namespace PrimalEcho.Editor
             }
 
             // =========================================================================
-            // DISEÑO DE NIVEL: PASO DEL REY (KING'S PASS - HOLLOW KNIGHT)
+            // DISEÑO DEL MAPA DE PRUEBA DE JUNGLA
             // =========================================================================
 
             // --- ZONA 1: La Caída del Abismo (x = -20 a 5) ---
@@ -625,7 +625,7 @@ namespace PrimalEcho.Editor
             }
 
             // =========================================================================
-            // DETALLES ICÓNICOS DE KING'S PASS CON LA TILE PALETTE DE JUNGLA
+            // DECORACIÓN CON LA PALETA DE JUNGLA
             // =========================================================================
 
             // Helper para estampar un bloque rectangular de tiles de una hoja en un Tilemap
@@ -742,7 +742,7 @@ namespace PrimalEcho.Editor
                 StampBlock(fgDecoMap, "tile_jungle_plants_objects", x, groundSurfaceY, 10, 11, 5, 5);
             }
 
-            PlaceLantern(-7, 1);   // Farola de bienvenida tras caer a King's Pass
+            PlaceLantern(-7, 1);   // Farola junto a la caída inicial
             PlaceLantern(25, 1);   // Farola antes del puente colgante
             PlaceLantern(50, 1);   // Farola al pie de la caverna vertical
             PlaceLantern(74, 4);   // Farola antes del abismo de los pilares

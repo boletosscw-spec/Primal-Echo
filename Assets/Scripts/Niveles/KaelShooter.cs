@@ -6,7 +6,7 @@ namespace PrimalEcho
 {
     // Arco: una flecha por disparo. Kael se queda quieto mientras tensa y suelta.
     //  · Normal: recto, diagonal arriba o arriba (en el aire también abajo).
-    //  · Apuntado fijo (como en Cuphead): mantén el botón de fijar, Kael no se mueve y apuntas en 8 direcciones
+    //  · Apuntado fijo: mantén el botón de fijar, Kael no se mueve y apuntas en 8 direcciones
     //    con el stick / flechas (en el suelo, todo menos recto hacia abajo). Se muestra una mira.
     // Teclado: K / X / clic derecho = disparar · Ctrl = fijar apuntado
     // Control: Y = disparar · LT = fijar apuntado
@@ -132,7 +132,7 @@ namespace PrimalEcho
             Vector2 m = player.MoveInput;
             if (AimLocked)
             {
-                // 8 direcciones como en Cuphead
+                // Apuntado en 8 direcciones
                 int ax = Mathf.Abs(m.x) > 0.35f ? (int)Mathf.Sign(m.x) : 0;
                 int ay = Mathf.Abs(m.y) > 0.35f ? (int)Mathf.Sign(m.y) : 0;
                 if (ax == 0 && ay == 0) ax = (int)player.Facing;

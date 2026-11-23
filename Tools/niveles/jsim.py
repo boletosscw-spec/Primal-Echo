@@ -1,4 +1,4 @@
-# Validador de mapas para Primal 1.1: simula PlayerController (salto, doble salto, dash, gravedad estilo Hollow Knight).
+# Validador de mapas para Primal 1.1: simula PlayerController (salto, doble salto, dash, gravedad variable).
 import math, sys, heapq
 from collections import deque
 

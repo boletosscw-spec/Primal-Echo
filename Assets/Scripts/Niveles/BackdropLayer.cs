@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace PrimalEcho
 {
-    // Capa de fondo estilo Hollow Knight: siempre cubre toda la cámara, se repite en horizontal
+    // Capa de fondo que siempre cubre toda la cámara, se repite en horizontal
     // y se desplaza más lento que el mundo según su profundidad.
     [DefaultExecutionOrder(10000)] // después de Cinemachine, para que no tiemble
     [RequireComponent(typeof(SpriteRenderer))]

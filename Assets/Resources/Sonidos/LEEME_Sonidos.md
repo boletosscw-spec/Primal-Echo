@@ -104,7 +104,7 @@ Pide siempre: *"single sound effect, no music, no voice, dry"* si el generador a
 | `ambiente_cueva` | Fondo dentro de la cueva (reemplaza las gotas sintetizadas) | dark cave ambience loop, distant water drips, low wind, seamless |
 | `ambiente_bosque` | Fondo del bosque en el Nivel 1 | jungle forest ambience loop, birds and insects, gentle, seamless |
 
-## Voces (estilo Hollow Knight: sin palabras)
+## Voces sin palabras
 
 Cada línea de diálogo suena con la voz de quien habla. Graba o genera **varias frases cortas sin palabras** (0.5–1.2 s) y guárdalas como variantes:
 

@@ -7,7 +7,7 @@ namespace PrimalEcho
     [RequireComponent(typeof(BoxCollider2D))]
     public sealed class HazardZone : MonoBehaviour
     {
-        [Tooltip("Si está activo, además de dañar regresa a Kael al último suelo seguro (como Hollow Knight)")]
+        [Tooltip("Si está activo, además de dañar regresa a Kael al último suelo seguro")]
         [SerializeField] private bool respawnOnTouch = false;
         [SerializeField, Min(0.1f)] private float height = 0.4f;
         [SerializeField, Min(0f)] private float sideInset = 0.25f;

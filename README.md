@@ -1,6 +1,6 @@
 # Primal Echo: El mundo despertó
 
-Videojuego 2D de plataformas y acción en pixel art, hecho en **Unity 6 (6000.0.38f1)**, con jugabilidad estilo Hollow Knight. Kael explora un mundo donde NÉMESIS, una IA, decidió eliminar a la humanidad para salvar la Tierra.
+Primal Echo es un videojuego 2D de plataformas y acción en pixel art, hecho en **Unity 6 (6000.0.38f1)**. Combina exploración, combate con lanza y arco, y saltos de precisión. Kael explora un mundo donde NÉMESIS, una IA, decidió eliminar a la humanidad para salvar la Tierra.
 
 ## Abrir el proyecto
 1. Instala Unity **6000.0.38f1** con Unity Hub.

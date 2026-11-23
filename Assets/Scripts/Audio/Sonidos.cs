@@ -13,7 +13,7 @@ namespace PrimalEcho
     //    ya suena desde hoy y cada archivo que agregues lo reemplaza automáticamente.
     //  · Variación ligera de tono, paneo según dónde ocurre en la pantalla, eco de cueva dentro de
     //    las cuevas y tono más grave en cámara lenta.
-    //  · Voces estilo Hollow Knight: cada línea de diálogo suena con la "voz" del personaje
+    //  · Voces sin palabras: cada línea de diálogo suena con la "voz" del personaje
     //    (voz_orin, voz_kael, voz_kiro, voz_nemesis); sin archivo, se generan sílabas sintetizadas.
     //  · Volumen en Opciones → "Efectos" (PlayerPrefs "pe_vol_efectos").
     public sealed class Sonidos : MonoBehaviour
@@ -157,7 +157,7 @@ namespace PrimalEcho
 
             if (propios.Count > 0)
             {
-                // Con archivos: una frase corta por línea (como Hollow Knight)
+                // Con archivos: una frase corta por línea
                 Reproducir(archivo, 0.8f, 1f, null, 0.04f);
                 yield break;
             }

@@ -441,7 +441,7 @@ namespace PrimalEcho
         private void ExecuteJump(float force, bool isDoubleJump)
         {
             float vx = rb.linearVelocity.x;
-            // On double jump, allow instant horizontal redirect in mid-air like Hollow Knight's Monarch Wings
+            // Allow immediate horizontal redirection during a double jump
             if (isDoubleJump && Mathf.Abs(horizontalInput) > 0.1f)
             {
                 vx = horizontalInput * moveSpeed;
@@ -537,7 +537,7 @@ namespace PrimalEcho
                 : airAcceleration;
             float newSpeed = Time.fixedTime < lockedUntil ? rb.linearVelocity.x : Mathf.MoveTowards(rb.linearVelocity.x, targetSpeed, accel * Time.fixedDeltaTime);
 
-            // Hollow Knight gravity curve: floaty apex + snappy fall + terminal velocity clamp
+            // Gravity curve: slower near the apex, faster fall, and a terminal speed limit
             float yVel = rb.linearVelocity.y;
             IsWallSliding = !isGrounded && yVel <= 0f && Time.fixedTime >= lockedUntil &&
                 wall != 0 && wall * input > 0.25f;
@@ -741,7 +741,7 @@ namespace PrimalEcho
             }
         }
 
-        // Procedural Hollow Knight Monarch Wings / Primal Echo Double Jump Burst VFX
+        // Procedural double-jump burst effect
         private void SpawnDoubleJumpWingsVFX()
         {
             if (col == null) return;

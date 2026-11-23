@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace PrimalEcho
 {
-    // Fondo por zonas, como en Hollow Knight: dentro del área de las cuevas (máscara) se ven las capas
+    // Fondo por zonas: dentro del área de las cuevas (máscara) se ven las capas
     // de cueva y fuera de ella las de jungla. No depende de dónde esté Kael.
     [DefaultExecutionOrder(10001)]
     public sealed class CaveAmbience : MonoBehaviour

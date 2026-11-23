@@ -480,7 +480,7 @@ namespace PrimalEcho.Editor
         private const string SolidTilesFolder = "Assets/Tiles/NivelesSolidos";
         private static readonly Dictionary<Tile, Tile> gridTiles = new Dictionary<Tile, Tile>();
 
-        // Copia del tile con colisión de cuadro completo: suelo plano y paredes rectas (como Hollow Knight).
+        // Copia del tile con colisión de cuadro completo: suelo plano y paredes rectas.
         // No modifica los tiles de tu Tile Palette.
         private static Tile GridTile(Tile source)
         {
@@ -515,7 +515,7 @@ namespace PrimalEcho.Editor
                 if (t != null) tiles[t.name] = t;
             }
             if (T("tile_jungle_ground_brown_r1_c1") == null)
-                throw new InvalidOperationException("No encuentro los tiles de jungla. Usa primero 'Primal Echo → Construir Paso del Rey' para cortarlos.");
+                throw new InvalidOperationException("No encuentro los tiles de jungla. Usa primero 'Tools → Kael → Importar paleta de jungla y construir mapa de prueba' para cortarlos.");
             var art = LoadEnemyArt();
 
             string path = ScenePath(sceneName);
@@ -1507,7 +1507,7 @@ namespace PrimalEcho.Editor
             return true;
         }
 
-        // Cámara estilo Hollow Knight: Kael un poco abajo del centro (se ve más de lo que hay arriba y adelante).
+        // Encuadre de cámara: Kael un poco abajo del centro (se ve más de lo que hay arriba y adelante).
         private static readonly Vector3 CameraOffset = new Vector3(0f, 2.5f, -10f);
         private const string CameraVersion = "_Camara_v2";
 

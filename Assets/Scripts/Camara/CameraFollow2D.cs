@@ -12,7 +12,7 @@ namespace PrimalEcho
         [SerializeField] private Transform target;
         [SerializeField] private Vector3 offset = new Vector3(0f, 5f, -10f);
         [SerializeField] private float smoothTime = 0.25f;
-        [Tooltip("Suavizado vertical: más alto = la cámara casi no brinca cuando Kael salta (como Hollow Knight)")]
+        [Tooltip("Suavizado vertical: más alto = la cámara casi no brinca cuando Kael salta")]
         [SerializeField] private float yDamping = 0.45f;
         [Tooltip("Al caer rápido la cámara mira hacia abajo para ver dónde vas a aterrizar")]
         [SerializeField] private float fallLookDistance = 3f;

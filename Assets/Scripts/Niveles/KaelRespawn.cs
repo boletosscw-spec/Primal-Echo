@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace PrimalEcho
 {
-    // Reaparición estilo Hollow Knight:
+    // Reaparición desde el último punto seguro:
     //  · Espinas y fosos: -1 de vida y vuelta al último suelo seguro.
     //  · Sin vida: vuelta al último checkpoint (farola) con la vida llena.
     [RequireComponent(typeof(PlayerController), typeof(KaelHealth))]

@@ -158,7 +158,7 @@ namespace PrimalEcho
             }
 
             // Ataque con Arco: horizontal o diagonal arriba si mantiene W/Arriba (K, X o Clic Derecho)
-            // Si Kael tiene KaelShooter (disparo estilo Cuphead), ese script se encarga del arco
+            // Si Kael tiene KaelShooter, ese script se encarga del arco
             if (GetComponentInParent<KaelShooter>() == null &&
                 (Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.X) || Input.GetMouseButtonDown(1)
                 || (Pad != null && PadDown(Pad.buttonNorth))))
