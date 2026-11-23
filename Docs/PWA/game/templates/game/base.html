@@ -1,0 +1,592 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Primal Echo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap"
+          rel="stylesheet">
+
+    <style>
+
+        :root {
+            --primal-blue: #00d9ff;
+            --primal-orange: #ff8c00;
+            --primal-dark: #07111f;
+            --primal-dark2: #0f172a;
+        }
+
+        body {
+            background:
+            linear-gradient(
+                180deg,
+                #020611 0%,
+                #051120 35%,
+                #07192d 50%,
+                #051120 65%,
+                #020611 100%
+            );
+
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            min-height: 100vh;
+        }
+
+        /* NAVBAR */
+
+        .navbar {
+            background: rgba(0,0,0,.60);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(123,212,255,.15);
+            padding: 18px 0;
+        }
+
+        .navbar-brand {
+            font-family: 'Cinzel', serif;
+            font-size: 2rem;
+            color: white !important;
+            letter-spacing: 4px;
+            font-weight: 600;
+        }
+
+        .btn-outline-info {
+            border: 1px solid rgba(123,212,255,.35);
+            color: white;
+            background: none;
+        }
+
+        .btn-outline-info:hover {
+            background: rgba(123,212,255,.15);
+            color: white;
+        }
+
+        .btn-warning {
+            background: none;
+            color: white;
+            border: 1px solid rgba(123,212,255,.35);
+        }
+
+        .btn-warning:hover {
+            background: rgba(123,212,255,.15);
+            color: white;
+        }
+
+        .nav-link {
+            color: white !important;
+            font-size: 1.1rem;
+            transition: .3s;
+        }
+
+        .nav-link:hover {
+            color: var(--primal-orange) !important;
+        }
+
+        /* CONTENIDO */
+
+        .main-content {
+            min-height: 80vh;
+            padding-top: 120px;
+            padding-bottom: 60px;
+        }
+
+        /* TITULOS */
+
+        h1, h2, h3 {
+            font-family: 'Orbitron', sans-serif;
+            color: var(--primal-blue);
+
+            text-shadow:
+                0 0 15px rgba(0,217,255,.5);
+        }
+
+        /* TARJETAS */
+
+        .panel {
+            background:
+            linear-gradient(
+                rgba(25,35,55,.95),
+                rgba(15,25,40,.95)
+            );
+
+            border: 1px solid rgba(0,217,255,.2);
+            border-radius: 25px;
+            padding: 30px;
+
+            box-shadow:
+                0 0 25px rgba(0,217,255,.08);
+        }
+
+        /* FOOTER */
+
+        footer {
+            border-top: 1px solid rgba(0,217,255,.2);
+            text-align: center;
+            padding: 25px;
+            background: #05090f;
+        }
+
+        .user-buttons button {
+            margin-left: 10px;
+        }
+
+        /* MODALES LOGIN Y REGISTRO */
+
+        .modal-content {
+            background:
+            linear-gradient(
+                180deg,
+                rgba(2,8,20,.98),
+                rgba(5,18,35,.98)
+            ) !important;
+
+            border: 1px solid rgba(123,212,255,.20);
+            border-radius: 10px;
+            color: white;
+        }
+
+        .modal-header {
+            border-bottom: 1px solid rgba(123,212,255,.15);
+        }
+
+        .modal-title {
+            font-family: 'Cinzel', serif;
+            font-size: 2rem;
+            color: white;
+        }
+
+        .form-control {
+            background: rgba(255,255,255,.03);
+            border: 1px solid rgba(123,212,255,.20);
+            color: white;
+        }
+
+        .form-control:focus {
+            background: rgba(255,255,255,.05);
+            color: white;
+            border-color: #7bd4ff;
+
+            box-shadow:
+                0 0 15px rgba(123,212,255,.25);
+        }
+
+        .form-control::placeholder {
+            color: #93a8bb;
+        }
+
+        .login-btn {
+            background: none;
+            border: 1px solid rgba(123,212,255,.35);
+            color: white;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: .3s;
+        }
+
+        .login-btn:hover {
+            background: rgba(123,212,255,.15);
+            color: white;
+        }
+
+        .login-help {
+            color: #93a8bb;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        /* CAMPOS DE REGISTRO */
+
+        .registro-label {
+            color: #b9d9ed;
+            margin-bottom: 7px;
+        }
+
+        .registro-link {
+            color: var(--primal-blue);
+            text-decoration: none;
+        }
+
+        .registro-link:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .modal-body hr {
+            border-color: rgba(123,212,255,.20);
+        }
+
+    </style>
+
+<link rel="stylesheet" href="{% static 'game/progreso.css' %}">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg fixed-top">
+
+    <div class="container">
+
+        <a class="navbar-brand"
+           href="/">
+
+            PRIMAL ECHO
+
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse"
+             id="menu">
+
+            <div class="user-buttons ms-auto">
+
+                <button
+                    class="btn btn-outline-info"
+                    data-bs-toggle="modal"
+                    data-bs-target="#loginModal">
+
+                    Iniciar sesión
+
+                </button>
+
+                <button
+                    class="btn btn-warning"
+                    data-bs-toggle="modal"
+                    data-bs-target="#registroModal">
+
+                    Registrarse
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<!-- CONTENIDO DINÁMICO -->
+
+<div class="container main-content">
+
+    {% block content %}
+    {% endblock %}
+
+</div>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    MonsterByte Studios © 2026
+
+</footer>
+
+
+<!-- MODAL LOGIN -->
+
+<div class="modal fade"
+     id="loginModal"
+     tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title">
+
+                    Iniciar Sesión
+
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <form
+                    method="POST"
+                    action="/login/">
+
+                    {% csrf_token %}
+
+                    <div class="mb-3">
+
+                        <label class="registro-label">
+                            Usuario
+                        </label>
+
+                        <input
+                            type="text"
+                            name="usuario"
+                            class="form-control"
+                            placeholder="Ingresa tu usuario"
+                            required>
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label class="registro-label">
+                            Contraseña
+                        </label>
+
+                        <input
+                            type="password"
+                            name="password"
+                            class="form-control"
+                            placeholder="Ingresa tu contraseña"
+                            required>
+
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="btn login-btn w-100">
+
+                        ACCEDER
+
+                    </button>
+
+                </form>
+
+                <hr>
+
+                <div class="login-help">
+
+                    Usuario de prueba:
+                    <strong>admin</strong>
+
+                    <br>
+
+                    Contraseña:
+                    <strong>1234</strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- MODAL REGISTRO -->
+
+<div class="modal fade"
+     id="registroModal"
+     tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title">
+
+                    Crear Cuenta
+
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <div class="text-center mb-4">
+
+                    <h3 style="font-family:'Cinzel',serif;">
+
+                        PRIMAL ECHO
+
+                    </h3>
+
+                    <p class="login-help">
+
+                        Únete a la aventura
+
+                    </p>
+
+                </div>
+
+                <form
+                    method="POST"
+                    action="/registro/">
+
+                    {% csrf_token %}
+
+                    <!-- USUARIO -->
+
+                    <div class="mb-3">
+
+                        <label class="registro-label">
+
+                            Nombre de usuario
+
+                        </label>
+
+                        <input
+                            type="text"
+                            name="username"
+                            class="form-control"
+                            placeholder="Elige un nombre de usuario"
+                            required>
+
+                    </div>
+
+                    <!-- CORREO -->
+
+                    <div class="mb-3">
+
+                        <label class="registro-label">
+
+                            Correo electrónico
+
+                        </label>
+
+                        <input
+                            type="email"
+                            name="email"
+                            class="form-control"
+                            placeholder="Ingresa tu correo electrónico"
+                            required>
+
+                    </div>
+
+                    <!-- CONTRASEÑA -->
+
+                    <div class="mb-3">
+
+                        <label class="registro-label">
+
+                            Contraseña
+
+                        </label>
+
+                        <input
+                            type="password"
+                            name="password1"
+                            class="form-control"
+                            placeholder="Crea una contraseña"
+                            required>
+
+                    </div>
+
+                    <!-- CONFIRMAR CONTRASEÑA -->
+
+                    <div class="mb-4">
+
+                        <label class="registro-label">
+
+                            Confirmar contraseña
+
+                        </label>
+
+                        <input
+                            type="password"
+                            name="password2"
+                            class="form-control"
+                            placeholder="Confirma tu contraseña"
+                            required>
+
+                    </div>
+
+                    <!-- BOTÓN REGISTRO -->
+
+                    <button
+                        type="submit"
+                        class="btn login-btn w-100">
+
+                        CREAR CUENTA
+
+                    </button>
+
+                </form>
+
+                <div class="login-help">
+
+                    ¿Ya tienes una cuenta?
+
+                    <a href="#"
+                       class="registro-link"
+                       data-bs-toggle="modal"
+                       data-bs-target="#loginModal"
+                       data-bs-dismiss="modal">
+
+                        Inicia sesión
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- BOOTSTRAP JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    if ('serviceWorker' in navigator) {
+
+        window.addEventListener('load', function() {
+
+            navigator.serviceWorker.register('/service-worker.js')
+                .then(function(registration) {
+                    console.log('Primal Echo: Service Worker activo');
+                })
+                .catch(function(error) {
+                    console.error('Error al registrar:', error);
+                });
+
+        });
+
+    }
+</script>
+
+</body>
+
+</html>

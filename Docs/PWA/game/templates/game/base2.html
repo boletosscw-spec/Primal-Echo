@@ -1,0 +1,520 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Primal Echo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap"
+          rel="stylesheet">
+
+    <style>
+
+        :root{
+
+            --accent:#7bd4ff;
+            --bg:#020814;
+            --bg2:#041426;
+            --text:#d6dee8;
+
+        }
+
+        *{
+
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+
+        }
+
+        body{
+
+
+            background:
+    linear-gradient(
+        180deg,
+        #020814,
+        #041426,
+        #020814
+    );
+
+
+            color:white;
+
+            font-family:'Poppins',sans-serif;
+
+            min-height:100vh;
+
+        }
+
+        /* HEADER */
+
+        .navbar{
+
+            background:
+            rgba(0,0,0,.55);
+
+            backdrop-filter:blur(10px);
+
+            border-bottom:
+            1px solid rgba(123,212,255,.15);
+
+            padding:18px 0;
+
+        }
+
+        .navbar-brand{
+
+            font-family:'Cinzel',serif;
+
+            color:white !important;
+
+            font-size:2rem;
+
+            letter-spacing:4px;
+
+        }
+
+        .navbar-brand span{
+
+            color:var(--accent);
+
+        }
+
+        .nav-link{
+
+            color:#aeb9c5 !important;
+
+            font-size:.9rem;
+
+            letter-spacing:3px;
+
+            text-transform:uppercase;
+
+            margin:0 10px;
+
+            transition:.3s;
+
+        }
+
+        .nav-link:hover{
+
+            color:var(--accent) !important;
+
+        }
+
+        /* CONTENIDO */
+
+        .main-content{
+
+            width:90%;
+
+            max-width:1400px;
+
+            margin:auto;
+
+            padding-top:140px;
+
+            padding-bottom:80px;
+
+        }
+
+        /* TITULOS */
+
+        h1,
+        h2,
+        h3{
+
+            font-family:'Cinzel',serif;
+
+            color:white;
+
+            letter-spacing:2px;
+
+        }
+
+        /* ESTILO AAA */
+
+        .panel{
+
+            background:
+            rgba(255,255,255,.02);
+
+            border:
+            1px solid rgba(123,212,255,.10);
+
+            border-radius:10px;
+
+            padding:30px;
+
+            backdrop-filter:blur(6px);
+
+            transition:.3s;
+
+        }
+
+        .panel:hover{
+
+            border-color:
+            rgba(123,212,255,.30);
+
+        }
+
+        p{
+
+            color:var(--text);
+
+            line-height:2;
+
+        }
+
+        /* USUARIO */
+
+        .user-area{
+
+            display:flex;
+
+            align-items:center;
+
+            gap:15px;
+
+        }
+
+        .user-name{
+
+            color:var(--accent);
+
+            font-size:.95rem;
+
+        }
+
+        .logout-btn{
+
+            border:
+            1px solid rgba(123,212,255,.35);
+
+            color:white;
+
+            text-decoration:none;
+
+            padding:10px 18px;
+
+            transition:.3s;
+
+        }
+
+        .logout-btn:hover{
+
+            color:white;
+
+            background:
+            rgba(123,212,255,.15);
+
+        }
+
+        /* FOOTER */
+
+        footer{
+
+            text-align:center;
+
+            padding:35px;
+
+            color:#8da5ba;
+
+            border-top:
+            1px solid rgba(123,212,255,.10);
+
+        }
+
+        /* MOVIL */
+
+        @media(max-width:991px){
+
+            .navbar-brand{
+
+                font-size:1.5rem;
+
+            }
+
+            .user-area{
+
+                margin-top:20px;
+
+            }
+
+        }
+.character-card{
+
+    background:
+    linear-gradient(
+        180deg,
+        rgba(2,8,20,.95),
+        rgba(6,18,35,.95)
+    );
+
+    border:
+    1px solid rgba(123,212,255,.20);
+
+    height:100%;
+
+    transition:.3s;
+
+    overflow:hidden;
+
+}
+
+.character-card:hover{
+
+    transform:translateY(-5px);
+
+    border-color:
+    rgba(123,212,255,.55);
+
+}
+
+.character-image{
+
+    height:300px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-bottom:
+    1px solid rgba(123,212,255,.15);
+
+    padding:15px;
+
+}
+
+.character-image img{
+
+    max-height:230px;
+
+    width:auto;
+
+}
+
+.character-content{
+
+    padding:18px;
+
+}
+
+.character-number{
+
+    color:#7bd4ff;
+
+    margin-bottom:10px;
+
+}
+
+.character-role{
+
+    color:#7bd4ff;
+
+    letter-spacing:4px;
+
+    font-size:.8rem;
+
+    margin-bottom:15px;
+
+}
+
+.character-name{
+
+    font-family:'Cinzel',serif;
+
+    font-size:2rem;
+
+    margin-bottom:15px;
+
+}
+.contact-btn{
+
+    background:none;
+
+    color:white;
+
+    border:
+    1px solid rgba(123,212,255,.35);
+
+    padding:14px 35px;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    transition:.3s;
+
+}
+
+.contact-btn:hover{
+
+    background:
+    rgba(123,212,255,.12);
+
+    border-color:#7bd4ff;
+
+}
+.form-control{
+
+    background:
+    rgba(2,8,20,.85) !important;
+
+    border:
+    1px solid rgba(123,212,255,.20);
+
+    color:white !important;
+
+    border-radius:0;
+
+}
+
+.form-control:focus{
+
+    background:
+    rgba(4,12,24,.95) !important;
+
+    color:white !important;
+
+    border-color:#7bd4ff;
+
+    box-shadow:
+    0 0 15px rgba(123,212,255,.15);
+
+}
+
+.form-control::placeholder{
+
+    color:#91a7bb;
+
+}
+
+
+    </style>
+
+<link rel="stylesheet" href="{% static 'game/progreso.css' %}">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+
+    <div class="container-fluid px-5">
+
+        <a class="navbar-brand"
+           href="/inicio2/">
+
+            PRIMAL <span>ECHO</span>
+
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse"
+             id="menu">
+
+            <ul class="navbar-nav mx-auto">
+
+
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="/como-jugar/">
+
+                        JUGABILIDAD
+
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="/personajes/">
+
+                        PERSONAJES
+
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="/novedades/">
+
+                        NOVEDADES
+
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="/contacto/">
+
+                        CONTACTO
+
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="user-area">
+
+                <span class="user-name">
+
+                    Bienvenido {{ usuario }}
+
+                </span>
+
+                <a href="/logout/"
+                   class="logout-btn">
+
+                    CERRAR SESIÓN
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<div class="main-content">
+
+    {% block content %}
+    {% endblock %}
+
+</div>
+
+<footer>
+
+    MonsterByte Studios © 2026
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>if ('serviceWorker' in navigator) { window.addEventListener('load', () => { navigator.serviceWorker.register('/service-worker.js').catch(console.error); }); }</script>
+</body>
+
+</html>

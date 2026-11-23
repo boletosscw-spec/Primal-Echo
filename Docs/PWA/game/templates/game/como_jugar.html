@@ -1,0 +1,71 @@
+{% extends 'game/base2.html' %}
+{% load static %}
+{% block content %}
+<header class="echo-section">
+<p class="echo-eyebrow">GUÍA DEL EXPLORADOR</p>
+<h1>Aprende el ritmo del eco.</h1>
+<p class="echo-lead">Controles documentados para la versión de Unity. La PWA es una guía del proyecto; no incluye una versión jugable web.</p>
+</header>
+<section class="echo-card">
+<h2>Teclado y mando</h2>
+<div class="echo-table-wrap">
+<table class="echo-table">
+<caption>Controles del juego</caption>
+<thead>
+<tr>
+<th scope="col">Acción</th>
+<th scope="col">Teclado / ratón</th>
+<th scope="col">Xbox</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Moverse / dirigir</th>
+<td>A/D o flechas</td>
+<td>Stick / cruceta</td>
+</tr>
+<tr>
+<th scope="row">Salto y doble salto</th>
+<td>Espacio</td>
+<td>A</td>
+</tr>
+<tr>
+<th scope="row">Lanza / pogo</th>
+<td>J / Z / clic izquierdo; abajo en el aire para pogo</td>
+<td>X</td>
+</tr>
+<tr>
+<th scope="row">Dash</th>
+<td>Shift / C</td>
+<td>RB / RT</td>
+</tr>
+<tr>
+<th scope="row">Arco</th>
+<td>K / X / clic derecho</td>
+<td>Y</td>
+</tr>
+<tr>
+<th scope="row">Fijar apuntado</th>
+<td>Ctrl + dirección</td>
+<td>LT + dirección</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>El README también enumera bloqueo con L/F o LB. Se encontró su animación, pero no una reducción de daño asociada en el sistema de vida: no lo tomes aún como defensa confirmada.</p>
+</section>
+<section class="echo-section echo-grid">
+<article class="echo-card">
+<h2>Busca las farolas</h2>
+<p>Al quedarte sin vida vuelves al último checkpoint con la vida llena. Los peligros pueden devolverte al suelo seguro con pérdida de vida.</p>
+</article>
+<article class="echo-card">
+<h2>Controla la distancia</h2>
+<p>Kael se detiene mientras tensa y suelta el arco. Anticipa la embestida de los robots y usa la lanza para atacar cerca.</p>
+</article>
+<article class="echo-card">
+<h2>Explora las alturas</h2>
+<p>Combina doble salto y dash. Los géiseres impulsan a Kael; las piedras quebradizas exigen moverse rápido. Los fragmentos de eco son opcionales.</p>
+</article>
+</section>
+{% endblock %}
