@@ -1,6 +1,6 @@
 # Niveles de Primal Echo (Primal 1.1)
 
-Cada nivel es un archivo de texto en `Assets/Niveles`. Para generarlos o actualizarlos usa **Primal Echo → Niveles → Generar Nivel 1 y Nivel 2**. El constructor copia `SampleScene` (Kael, cámara, parallax y luz global), repinta el mapa con la **Tile Palette de Jungla** y coloca enemigos y objetos. `SampleScene` no se modifica.
+Los mapas de texto y los mapas de Musgo están en `Assets/Niveles/Mapas`. Los datos de edición y los prefabs pintados a mano están en `Assets/Niveles/Edicion`. Para generarlos o actualizarlos usa **Primal Echo → Niveles** y el comando del nivel correspondiente. El constructor copia `SampleScene` (Kael, cámara, parallax y luz global), repinta el mapa con la **Tile Palette de Jungla** y coloca enemigos y objetos. `SampleScene` no se modifica.
 
 ## Leyenda (1 carácter = 1 tile)
 
@@ -40,7 +40,7 @@ Para validar los mapas con la física simulada de Kael y estimar la duración:
 
 ```
 cd Tools/niveles
-python3 jsim.py ../../Assets/Niveles/*.txt
+python3 jsim.py ../../Assets/Niveles/Mapas/*.txt
 ```
 
 | Nivel | Experto | Primera vez |

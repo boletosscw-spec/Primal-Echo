@@ -1,11 +1,11 @@
-# Nivel 1 · Valle del Eco (Bosque del Musgo). Genera Assets/Niveles/Nivel_01_Musgo.json
+# Nivel 1 · Valle del Eco (Bosque del Musgo). Genera Assets/Niveles/Mapas/Nivel_01_Musgo.json
 # Unidades del mundo: 1 = 32 px del juego. Kael mide ~2.5 de alto.
 # Salto ~2.7 de alto / ~6 de largo · doble salto ~4.9 de alto / ~9 de largo.
 import json, random, sys, os
 
 W, H = 524, 40
 rng = random.Random(20261120)
-OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'Assets', 'Niveles', 'Nivel_01_Musgo.json')
+OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'Assets', 'Niveles', 'Mapas', 'Nivel_01_Musgo.json')
 ART = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'arte_dict.json')))
 EST, ANI = ART['estaticos'], ART['animaciones']
 

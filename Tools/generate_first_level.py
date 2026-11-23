@@ -7,7 +7,7 @@ import shutil
 from pathlib import Path
 
 ROOT = Path("/home/loq-cris/Proyectos/Monster Adventure/Primal 1.1")
-SCENE_PATH = ROOT / "Assets/Scenes/SampleScene.unity"
+SCENE_PATH = ROOT / "Assets/Scenes/Plantillas/SampleScene.unity"
 MAPA_PREFAB = ROOT / "Assets/Tiles/Paleta/mapa.prefab"
 
 def get_guid(meta_path):
@@ -18,11 +18,11 @@ def get_guid(meta_path):
         return m.group(1) if m else None
 
 # Script GUIDs
-GUID_PLAYER_CONTROLLER = get_guid(ROOT / "Assets/Scripts/PlayerController.cs.meta")
-GUID_CAMERA_FOLLOW = get_guid(ROOT / "Assets/Scripts/CameraFollow2D.cs.meta")
-GUID_PARALLAX_LAYER = get_guid(ROOT / "Assets/Scripts/ParallaxLayer.cs.meta")
-GUID_ATMOSPHERE_GLOW = get_guid(ROOT / "Assets/Scripts/AtmosphereGlow.cs.meta")
-GUID_LEVEL_GOAL = get_guid(ROOT / "Assets/Scripts/LevelGoal.cs.meta")
+GUID_PLAYER_CONTROLLER = get_guid(ROOT / "Assets/Scripts/Kael/PlayerController.cs.meta")
+GUID_CAMERA_FOLLOW = get_guid(ROOT / "Assets/Scripts/Camara/CameraFollow2D.cs.meta")
+GUID_PARALLAX_LAYER = get_guid(ROOT / "Assets/Scripts/Camara/ParallaxLayer.cs.meta")
+GUID_ATMOSPHERE_GLOW = get_guid(ROOT / "Assets/Scripts/Niveles/AtmosphereGlow.cs.meta")
+GUID_LEVEL_GOAL = get_guid(ROOT / "Assets/Scripts/Niveles/LevelGoal.cs.meta")
 GUID_LIGHT2D = "073797afb82c5a1438f328866b10b3f0" # Light2D URP
 GUID_URP_CAM_DATA = "a79441f348de89743a2939f4d699eac1" # UniversalAdditionalCameraData
 
@@ -30,46 +30,46 @@ GUID_URP_CAM_DATA = "a79441f348de89743a2939f4d699eac1" # UniversalAdditionalCame
 GUID_PHYSICS_MAT = get_guid(ROOT / "Assets/Settings/KaelMovementMaterial.physicsMaterial2D.meta")
 
 # Background GUIDs
-GUID_BG_SKY = get_guid(ROOT / "Assets/Sprites/Environment/Backgrounds/SwampSky.png.meta")
-GUID_BG_CITY = get_guid(ROOT / "Assets/Sprites/Environment/Backgrounds/HorizonteUrbano.png.meta")
-GUID_BG_DIST = get_guid(ROOT / "Assets/Sprites/Environment/Backgrounds/SwampDistantTrees.png.meta")
-GUID_BG_MID = get_guid(ROOT / "Assets/Sprites/Environment/Backgrounds/SwampMidTrees.png.meta")
-GUID_BG_MIST = get_guid(ROOT / "Assets/Sprites/Environment/Backgrounds/SwampMist.png.meta")
-GUID_BG_NEAR = get_guid(ROOT / "Assets/Sprites/Environment/Backgrounds/SwampNearTrees.png.meta")
+GUID_BG_SKY = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Backgrounds/SwampSky.png.meta")
+GUID_BG_CITY = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Backgrounds/HorizonteUrbano.png.meta")
+GUID_BG_DIST = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Backgrounds/SwampDistantTrees.png.meta")
+GUID_BG_MID = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Backgrounds/SwampMidTrees.png.meta")
+GUID_BG_MIST = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Backgrounds/SwampMist.png.meta")
+GUID_BG_NEAR = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Backgrounds/SwampNearTrees.png.meta")
 
 # Relics GUIDs
-GUID_BALIZA = get_guid(ROOT / "Assets/Sprites/Environment/Relics/BalizaRefugio.png.meta")
-GUID_ARCO = get_guid(ROOT / "Assets/Sprites/Environment/Relics/ArcoRuinado.png.meta")
-GUID_HONGOS = get_guid(ROOT / "Assets/Sprites/Environment/Relics/HongosDeLuz.png.meta")
-GUID_CRISTAL = get_guid(ROOT / "Assets/Sprites/Environment/Relics/CristalesEnergia.png.meta")
-GUID_TERMINAL = get_guid(ROOT / "Assets/Sprites/Environment/Relics/TerminalAncestral.png.meta")
-GUID_FOSIL = get_guid(ROOT / "Assets/Sprites/Environment/Relics/FosilDinorobot.png.meta")
-GUID_ANTENA = get_guid(ROOT / "Assets/Sprites/Environment/Relics/AntenaCaida.png.meta")
-GUID_COLUMNA = get_guid(ROOT / "Assets/Sprites/Environment/Relics/ColumnaAncestral.png.meta")
-GUID_PUENTE = get_guid(ROOT / "Assets/Sprites/Environment/Relics/PuenteRuinado.png.meta")
-GUID_RELE = get_guid(ROOT / "Assets/Sprites/Environment/Relics/ReleAncestral.png.meta")
+GUID_BALIZA = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Relics/BalizaRefugio.png.meta")
+GUID_ARCO = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Relics/ArcoRuinado.png.meta")
+GUID_HONGOS = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Relics/HongosDeLuz.png.meta")
+GUID_CRISTAL = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Relics/CristalesEnergia.png.meta")
+GUID_TERMINAL = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Relics/TerminalAncestral.png.meta")
+GUID_FOSIL = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Relics/FosilDinorobot.png.meta")
+GUID_ANTENA = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Relics/AntenaCaida.png.meta")
+GUID_COLUMNA = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Relics/ColumnaAncestral.png.meta")
+GUID_PUENTE = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Relics/PuenteRuinado.png.meta")
+GUID_RELE = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Relics/ReleAncestral.png.meta")
 
 # Nature Props GUIDs
-GUID_WILLOW1 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Willows_1.png.meta")
-GUID_WILLOW2 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Willows_2.png.meta")
-GUID_WILLOW3 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Willows_3.png.meta")
-GUID_TREE1 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Trees_1.png.meta")
-GUID_TREE2 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Trees_2.png.meta")
-GUID_TREE3 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Trees_3.png.meta")
-GUID_STONE1 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Stones_1.png.meta")
-GUID_STONE2 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Stones_2.png.meta")
-GUID_STONE3 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Stones_3.png.meta")
-GUID_STONE4 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Stones_4.png.meta")
-GUID_BUSH1 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Bushes_1.png.meta")
-GUID_BUSH2 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Bushes_2.png.meta")
-GUID_BUSH3 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Bushes_3.png.meta")
-GUID_BUSH4 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Bushes_4.png.meta")
-GUID_FENCE1 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Fence_1.png.meta")
-GUID_POINTER1 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Pointers_1.png.meta")
-GUID_BOX1 = get_guid(ROOT / "Assets/Sprites/Environment/Props/Boxes_1.png.meta")
+GUID_WILLOW1 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Willows_1.png.meta")
+GUID_WILLOW2 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Willows_2.png.meta")
+GUID_WILLOW3 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Willows_3.png.meta")
+GUID_TREE1 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Trees_1.png.meta")
+GUID_TREE2 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Trees_2.png.meta")
+GUID_TREE3 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Trees_3.png.meta")
+GUID_STONE1 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Stones_1.png.meta")
+GUID_STONE2 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Stones_2.png.meta")
+GUID_STONE3 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Stones_3.png.meta")
+GUID_STONE4 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Stones_4.png.meta")
+GUID_BUSH1 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Bushes_1.png.meta")
+GUID_BUSH2 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Bushes_2.png.meta")
+GUID_BUSH3 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Bushes_3.png.meta")
+GUID_BUSH4 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Bushes_4.png.meta")
+GUID_FENCE1 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Fence_1.png.meta")
+GUID_POINTER1 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Pointers_1.png.meta")
+GUID_BOX1 = get_guid(ROOT / "Assets/Arte/Sprites/Environment/Props/Boxes_1.png.meta")
 
 # Player GUIDs & Spritesheets (Transparentes Mejorados)
-TRANSPARENT_SPRITES_DIR = ROOT / "Assets/Sprites/Personajes/KaelSprites/HojasTransparentes"
+TRANSPARENT_SPRITES_DIR = ROOT / "Assets/Arte/Sprites/Personajes/KaelSprites/HojasTransparentes"
 
 def load_meta_sprite_info(meta_path):
     text = meta_path.read_text()
@@ -971,7 +971,7 @@ for idx, gx in enumerate(grass_x):
     gname = f"Hierba_{idx+1}"
     gy = 0.2 if gx <= 7 else (-3.8 if gx <= 34 else (3.2 if gx <= 56 else (7.2 if gx <= 80 else 9.2)))
     gnum = (idx % 10) + 1
-    gguid = get_guid(ROOT / f"Assets/Sprites/Environment/Props/Grass_{gnum}.png.meta") or GUID_BUSH1
+    gguid = get_guid(ROOT / f"Assets/Arte/Sprites/Environment/Props/Grass_{gnum}.png.meta") or GUID_BUSH1
     g_go, g_tr = sb.make_go(gname)
     nature_children.append(g_tr)
     sr_id = sb.add_sprite_renderer(g_go, gguid, order=4)
@@ -1198,7 +1198,8 @@ SceneRoots:
 {roots_str}""")
 
 # Backup and write scene
-backup_path = ROOT / "Assets/Scenes/SampleScene.unity.bak"
+backup_path = ROOT / "Respaldos/Niveles/SampleScene.unity.bak"
+backup_path.parent.mkdir(parents=True, exist_ok=True)
 shutil.copy2(SCENE_PATH, backup_path)
 print(f"Backed up {SCENE_PATH} to {backup_path}")
 

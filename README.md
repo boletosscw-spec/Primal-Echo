@@ -5,16 +5,23 @@ Videojuego 2D de plataformas y acción en pixel art, hecho en **Unity 6 (6000.0.
 ## Abrir el proyecto
 1. Instala Unity **6000.0.38f1** con Unity Hub.
 2. Unity Hub → *Add project from disk* → selecciona esta carpeta.
-3. Abre `Assets/Scenes/Nivel_01_Valle_del_Eco.unity` y pulsa Play.
+3. Abre `Assets/Scenes/Menu/Menu_Inicio.unity` y pulsa Play.
+
+## Carpetas del proyecto
+
+- **Escenas** en `Assets/Scenes`, agrupadas en `Menu`, `Cinematicas`, `Niveles` y `Plantillas`.
+- **Arte y sonido** en `Assets/Arte`, `Assets/Cinematicas` y `Assets/Audio`. `Assets/Resources` contiene los recursos que el juego carga por nombre.
+- **Diseño de niveles** en `Assets/Niveles`, con `Mapas`, `Edicion` y `Materiales`. Las herramientas de Unity están en `Assets/Editor` y los generadores de mapas en `Tools/niveles`.
+- **Pósteres** en `Docs/Promocion` y respaldos locales de escenas en `Respaldos/Niveles`.
 
 ## Niveles
-- **Nivel 1 · Valle del Eco** y **Nivel 2 · Templo de NÉMESIS**: los mapas base están en `Assets/Niveles/*.txt`.
+- **Nivel 1 · Valle del Eco** y **Nivel 2 · Templo de NÉMESIS**: los mapas de Musgo (.json) y los mapas de texto (.txt) están en `Assets/Niveles/Mapas`.
 - Menú **Primal Echo → Niveles** para generar o regenerar (tus cambios de tiles se conservan).
 - Leyenda y reglas de diseño en `Assets/Niveles/LEEME_Niveles.md`.
 
 ## Cinemática de intro
-- Menú **Primal Echo → Cinemática → Generar cinemática de intro**: crea `Assets/Scenes/Cinematica_Intro.unity` y el Timeline `Assets/Cinematicas/Intro_Primal_Echo.playable`, y la pone como primera escena del juego.
-- Cuenta lo que pasa primero: NÉMESIS decide eliminar a la humanidad, la naturaleza recupera las ciudades y Kael repara a Kiro. Al terminar (o con Espacio / A) carga el Nivel 1.
+- Menú **Primal Echo → Cinemática → Generar cinemática de intro**: crea `Assets/Scenes/Cinematicas/Cinematica_Intro.unity` y el Timeline `Assets/Cinematicas/Intro/Intro_Primal_Echo.playable`, y coloca la cinemática después del menú en el orden de compilación.
+- Cuenta lo que pasa primero: NÉMESIS decide eliminar a la humanidad, la naturaleza recupera las ciudades y Kael repara a Kiro. Al terminar (o con Espacio / A) carga el tutorial.
 - Se edita en **Window → Sequencing → Timeline** con el objeto `Cinematica_Intro` seleccionado. Pistas propias (`Assets/Scripts/Cinematica`): **Narración** (texto del clip), **Plano** (imagen con paneo y zoom), **Fundido a negro** y **Deslizar**.
 
 ## Controles

@@ -1,4 +1,4 @@
-# Nivel 2 · Base de NÉMESIS. Genera Assets/Niveles/Nivel_02_Musgo.json
+# Nivel 2 · Base de NÉMESIS. Genera Assets/Niveles/Mapas/Nivel_02_Musgo.json
 # Primera mitad: bosque de musgo (mismo arte y estilo que el Nivel 1).
 # Segunda mitad: base tecnológica (arte en Assets/Arte/Nivel2/Estaticos) con dos jefes:
 #   AERIS (pteranodón) en la arena alta y el CENTINELA REX en la sala del núcleo, antes de la salida.
@@ -9,7 +9,7 @@ import json, random, sys, os
 W, H = 330, 40
 rng = random.Random(20261122)
 AQUI = os.path.dirname(os.path.abspath(__file__))
-OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(AQUI, '..', '..', 'Assets', 'Niveles', 'Nivel_02_Musgo.json')
+OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(AQUI, '..', '..', 'Assets', 'Niveles', 'Mapas', 'Nivel_02_Musgo.json')
 ART = json.load(open(os.path.join(AQUI, 'arte_dict.json')))
 EST, ANI = ART['estaticos'], ART['animaciones']
 # arte de la base tecnológica (tamaños en unidades, 100 px = 1). Lo genera Tools/niveles/arte_base2.py

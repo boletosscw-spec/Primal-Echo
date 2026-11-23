@@ -180,6 +180,6 @@ META = """@titulo NIVEL 1 · VALLE DEL ECO
 
 
 if __name__ == '__main__':
-    maps = Path(__file__).resolve().parents[2] / 'Assets' / 'Niveles'
+    maps = Path(__file__).resolve().parents[2] / 'Assets' / 'Niveles' / 'Mapas'
     (maps / 'Nivel_01_Valle_del_Eco.txt').write_text(
         f'{META}\n---\n{L.text()}\n', encoding='utf-8')

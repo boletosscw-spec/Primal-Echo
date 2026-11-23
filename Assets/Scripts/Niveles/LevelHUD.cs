@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace PrimalEcho
 {
-    // HUD con sprites (mezcla de Pixel UI Sci-Fi Free + corazones de Humble Pixel; ver Assets/Sprites/HUD/Licencias).
+    // HUD con sprites (mezcla de Pixel UI Sci-Fi Free + corazones de Humble Pixel; ver Assets/Arte/Sprites/HUD/Licencias).
     // Vida, fragmentos, tiempo, llave y avisos de checkpoint. Los sprites están en Assets/Resources/HUD.
     public sealed class LevelHUD : MonoBehaviour
     {
