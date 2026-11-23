@@ -9,7 +9,7 @@ Videojuego 2D de plataformas y acción en pixel art, hecho en **Unity 6 (6000.0.
 
 ## Carpetas del proyecto
 
-- **Escenas** en `Assets/Scenes`, agrupadas en `Menu`, `Cinematicas`, `Niveles` y `Plantillas`.
+- **Escenas** en `Assets/Scenes`, agrupadas en `Menu`, `Cinematicas`, `Niveles` y `Plantillas_de_Nivel`.
 - **Arte y sonido** en `Assets/Arte`, `Assets/Cinematicas` y `Assets/Audio`. `Assets/Resources` contiene los recursos que el juego carga por nombre.
 - **Diseño de niveles** en `Assets/Niveles`, con `Mapas`, `Edicion` y `Materiales`. Las herramientas de Unity están en `Assets/Editor` y los generadores de mapas en `Tools/niveles`.
 - **Pósteres** en `Docs/Promocion` y respaldos locales de escenas en `Respaldos/Niveles`.

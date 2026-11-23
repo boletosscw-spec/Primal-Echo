@@ -21,9 +21,9 @@ namespace PrimalEcho.Editor
         private const string TimelinePath = Folder + "/Intro_Primal_Echo.playable";
         private const string NextScene = "Nivel_00_Tutorial";
 
-        private const string SkyArt = "Assets/Arte/Sprites/Environment/Backgrounds/HorizonteUrbano.png";
-        private const string CityArt = "Assets/Arte/Sprites/Environment/Backgrounds/BarrioEnRuinas.png";
-        private const string TowerArt = "Assets/Arte/Sprites/Environment/Backgrounds/TorreDeLasRaices.png";
+        private const string SkyArt = "Assets/Arte/Sprites/Entorno/Fondos/HorizonteUrbano.png";
+        private const string CityArt = "Assets/Arte/Sprites/Entorno/Fondos/BarrioEnRuinas.png";
+        private const string TowerArt = "Assets/Arte/Sprites/Entorno/Fondos/TorreDeLasRaices.png";
         private const string ValleyArt = "Assets/Arte/Sprites/Fondos/Valle de Ruinas y Cascadas al Atardecer.png";
         private const string ClearingArt = "Assets/Arte/Sprites/Fondos/fondo.png";
         private const string KiroSheet = "Assets/Arte/Sprites/Personajes/KaelAnimaciones/Acciones/Kael_Reparar_Kiro_Reactivacion_06frames.png";

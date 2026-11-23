@@ -445,7 +445,7 @@ fondo_lejano(-5, 312, 'musgo'); fondo_lejano(312, 420, 'cueva'); fondo_lejano(42
 primer_plano(0, 312, 'musgo'); primer_plano(312, 420, 'cueva'); primer_plano(420, W, 'musgo')
 
 
-# ───────── sprites que de verdad existen en Assets/Arte/Nivel1 (y Nivel2) ─────────
+# ───────── sprites que de verdad existen en Assets/Arte/Valle_del_Eco (y Templo_de_Nemesis) ─────────
 # arte_dict.json lista más piezas de las que se exportaron: las que faltan se cambian por una parecida
 # para que el constructor no deje huecos ("Falta el sprite ...").
 EXISTEN = set('''abismo bruma colg_hoja_0 colg_hoja_1 colg_hoja_2 colg_hoja_3 colg_hoja_4 colg_musgo_0 colg_musgo_1 cristal_llave

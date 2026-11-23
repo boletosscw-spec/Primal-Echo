@@ -1,6 +1,6 @@
 # Nivel 2 · Base de NÉMESIS. Genera Assets/Niveles/Mapas/Nivel_02_Musgo.json
 # Primera mitad: bosque de musgo (mismo arte y estilo que el Nivel 1).
-# Segunda mitad: base tecnológica (arte en Assets/Arte/Nivel2/Estaticos) con dos jefes:
+# Segunda mitad: base tecnológica (arte en Assets/Arte/Templo_de_Nemesis/Estaticos) con dos jefes:
 #   AERIS (pteranodón) en la arena alta y el CENTINELA REX en la sala del núcleo, antes de la salida.
 # Unidades del mundo: 1 = 32 px del juego. Kael mide ~2.5 de alto.
 # Salto ~2.7 de alto / ~6 de largo · doble salto ~4.9 de alto / ~9 de largo.
@@ -736,7 +736,7 @@ D['fondoBase'].append(dict(x0=160, x1=W + 12, y0=-6, y1=34))
 primer_plano(0, 158, 'musgo')
 
 
-# ───────── sprites que de verdad existen en Assets/Arte/Nivel1 (y Nivel2) ─────────
+# ───────── sprites que de verdad existen en Assets/Arte/Valle_del_Eco (y Templo_de_Nemesis) ─────────
 # arte_dict.json lista más piezas de las que se exportaron: las que faltan se cambian por una parecida
 # para que el constructor no deje huecos ("Falta el sprite ...").
 EXISTEN = set('''abismo bruma colg_hoja_0 colg_hoja_1 colg_hoja_2 colg_hoja_3 colg_hoja_4 colg_musgo_0 colg_musgo_1 cristal_llave

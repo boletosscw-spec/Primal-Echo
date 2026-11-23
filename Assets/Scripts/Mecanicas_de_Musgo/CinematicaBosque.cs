@@ -10,7 +10,7 @@ namespace PrimalEcho
     // ya en el juego, Kael entra caminando solo un par de segundos antes de devolver el control.
     // El juego queda en pausa mientras dura (Time.timeScale = 0). Espacio / Enter / Esc / A / Start la saltan.
     //
-    // Arte en Assets/Cinematicas/Nivel1 (composición de 3840x2160, se ve a la mitad en una pantalla 1920x1080):
+    // Arte en Assets/Cinematicas/Valle_del_Eco (composición de 3840x2160, se ve a la mitad en una pantalla 1920x1080):
     //   vista_1_cielo, vista_2_valle, vista_3_copas, vista_4_risco, vista_5_frente  (3840x2160 cada una)
     //   kael_espalda (8 cuadros de 1024x1024: 0-3 respira, 4-5 se asoma, 6-7 curiosidad)  ·  destello (8 de 256x256)
     public sealed class CinematicaBosque : MonoBehaviour
@@ -61,7 +61,7 @@ namespace PrimalEcho
             if (completo) foreach (var c in capas) completo &= c != null;
             if (!completo)
             {
-                if (activa) Debug.LogWarning("[Cinemática Nivel 1] Falta arte en Assets/Cinematicas/Nivel1; se omite.");
+                if (activa) Debug.LogWarning("[Cinemática Nivel 1] Falta arte en Assets/Cinematicas/Valle_del_Eco; se omite.");
                 fase = Fase.Terminada;
                 Destroy(gameObject);
                 return;

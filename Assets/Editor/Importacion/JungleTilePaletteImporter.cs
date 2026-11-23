@@ -12,7 +12,7 @@ namespace PrimalEcho.Editor
     [InitializeOnLoad]
     public static class JungleTilePaletteImporter
     {
-        private const string JungleSourceFolder = "Assets/Arte/Sprites/JungleTiles/environment/tiles/jungle";
+        private const string JungleSourceFolder = "Assets/Arte/Sprites/Tiles_de_Jungla/environment/tiles/jungle";
         private const string JungleTilesAssetFolder = "Assets/Tiles/Jungle";
         private const string MainPalettePrefabPath = "Assets/Tiles/Paleta/mapa.prefab";
         private const string JunglePalettePrefabPath = "Assets/Tiles/Jungle/Jungle_Palette.prefab";

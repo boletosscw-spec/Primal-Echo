@@ -792,9 +792,9 @@ namespace PrimalEcho.Editor
             }
 
             PlayerController existingPlayer = UnityEngine.Object.FindFirstObjectByType<PlayerController>();
-            if (existingPlayer == null && File.Exists("Assets/Scenes/Plantillas/SampleScene.unity"))
+            if (existingPlayer == null && File.Exists("Assets/Scenes/Plantillas_de_Nivel/SampleScene.unity"))
             {
-                EditorSceneManager.OpenScene("Assets/Scenes/Plantillas/SampleScene.unity");
+                EditorSceneManager.OpenScene("Assets/Scenes/Plantillas_de_Nivel/SampleScene.unity");
                 existingPlayer = UnityEngine.Object.FindFirstObjectByType<PlayerController>();
             }
             if (existingPlayer != null)

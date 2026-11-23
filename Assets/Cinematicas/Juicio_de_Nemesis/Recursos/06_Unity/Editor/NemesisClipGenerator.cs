@@ -9,7 +9,7 @@ using UnityEngine;
 
 public static class NemesisClipGenerator
 {
-    private const string Root = "Assets/Cinematicas/Juicio_de_Nemesis/PrimalEcho_Escena02_Nemesis_Unity/PrimalEcho_Escena02_Nemesis";
+    private const string Root = "Assets/Cinematicas/Juicio_de_Nemesis/Recursos";
     private const string FramesPath = Root + "/02_Sprites";
     private const string OutPath = Root + "/06_Unity/Clips";
 

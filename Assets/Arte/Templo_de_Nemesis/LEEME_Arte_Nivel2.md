@@ -1,7 +1,7 @@
 # Arte del Nivel 2 · Base de NÉMESIS
 
 La primera mitad del nivel usa el arte del Nivel 1 (bosque de musgo). La base tecnológica usa piezas
-**generadas por código** (`Tools/niveles/arte_base2.py`) en `Assets/Arte/Nivel2/Estaticos/`. Para cambiarlas por arte final,
+**generadas por código** (`Tools/niveles/arte_base2.py`) en `Assets/Arte/Templo_de_Nemesis/Estaticos/`. Para cambiarlas por arte final,
 pídeselas a ChatGPT con el bloque de estilo de siempre y **reemplaza el PNG con el mismo nombre y tamaño**
 (no toques el `.meta`). Después vuelve a construir el Nivel 2 (crea el archivo `Logs/construir_nivel2_musgo.flag`).
 
@@ -39,7 +39,7 @@ algo de óxido y musgo. Fondo TRANSPARENTE (o magenta #FF00FF sólido para recor
 | `base_escombro.png` | 260 × 120 | Montón de chatarra con musgo. |
 | `base_tuberia_v.png` | 90 × 512 | Tubería vertical (que se repita a lo alto). |
 
-Animaciones en `Assets/Arte/Nivel2/Animaciones/` (hoja de cuadros en una o dos filas, 2 px entre cuadros) y su primer cuadro
+Animaciones en `Assets/Arte/Templo_de_Nemesis/Animaciones/` (hoja de cuadros en una o dos filas, 2 px entre cuadros) y su primer cuadro
 como `<nombre>_f0.png` en `Estaticos`: `base_monitor` (8), `base_rack` (6), `base_baliza` (8), `base_tanque` (12),
 `base_chispas` (10), `base_vapor` (12), `base_ventilador` (8). Si reemplazas una hoja, conserva el tamaño de cuadro y el número de cuadros.
 Todo este arte lo genera `Tools/niveles/arte_base2.py`.

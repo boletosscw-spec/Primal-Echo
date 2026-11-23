@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace PrimalEcho
 {
-    // Anima un SpriteRenderer con una hoja de cuadros (Assets/Arte/Nivel1/Animaciones).
+    // Anima un SpriteRenderer con una hoja de cuadros (Assets/Arte/Valle_del_Eco/Animaciones).
     // Los cuadros se cortan una sola vez por textura y se comparten entre todas las plantas.
     public sealed class AnimacionHoja : MonoBehaviour
     {

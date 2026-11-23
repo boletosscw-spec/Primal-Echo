@@ -120,9 +120,9 @@ namespace PrimalEcho.Editor
             string[] folders = new string[]
             {
                 "Assets/Arte/Sprites/Fondos",
-                "Assets/Arte/Sprites/Environment/Backgrounds",
-                "Assets/Arte/Sprites/Environment/Props",
-                "Assets/Arte/Sprites/Environment/Relics"
+                "Assets/Arte/Sprites/Entorno/Fondos",
+                "Assets/Arte/Sprites/Entorno/Decoracion",
+                "Assets/Arte/Sprites/Entorno/Reliquias"
             };
 
             foreach (string folder in folders)
@@ -490,7 +490,7 @@ namespace PrimalEcho.Editor
             // 2. Dosel de Bosque Tropical Pixelado Transparente (1672x941) - 100% OPACO y encajado en la cámara
             CreateBgLayer(
                 bgGroup.transform,
-                "Assets/Arte/Sprites/Environment/Backgrounds/Bosque pixelado tropical transparente.png",
+                "Assets/Arte/Sprites/Entorno/Fondos/Bosque pixelado tropical transparente.png",
                 "02_Bosque_Tropical_Parallax",
                 new Vector3(cx, cy + 0.8f, 24f),
                 new Vector2(0.72f, 1.0f),
@@ -503,7 +503,7 @@ namespace PrimalEcho.Editor
             // 3. Vegetación cercana en silueta apoyada justo sobre el nivel del suelo (sin sobresalir)
             CreateBgLayer(
                 bgGroup.transform,
-                "Assets/Arte/Sprites/Environment/Backgrounds/SwampNearTrees.png",
+                "Assets/Arte/Sprites/Entorno/Fondos/SwampNearTrees.png",
                 "03_Vegetacion_Cercana",
                 new Vector3(cx, 0.85f, 8f),
                 new Vector2(0.48f, 1.0f),
@@ -561,41 +561,41 @@ namespace PrimalEcho.Editor
 
             // === SECCIÓN 1: Refugio del Eco (tile topY = 0 -> superficie Y = 1.0) ===
             float s1Y = SurfaceY(0);
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/ArbolDelEco.png", "ArbolDelEco_Refugio", new Vector3(-9.5f, s1Y, 0f), -8, new Vector3(1.15f, 1.15f, 1f));
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/BalizaRefugio.png", "BalizaRefugio", new Vector3(-5.5f, s1Y, 0f), 2, new Vector3(1.05f, 1.05f, 1f));
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/ArcoRuinado.png", "ArcoRuinado_Entrada", new Vector3(5.2f, s1Y, 0f), -5, new Vector3(1.25f, 1.25f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/ArbolDelEco.png", "ArbolDelEco_Refugio", new Vector3(-9.5f, s1Y, 0f), -8, new Vector3(1.15f, 1.15f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/BalizaRefugio.png", "BalizaRefugio", new Vector3(-5.5f, s1Y, 0f), 2, new Vector3(1.05f, 1.05f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/ArcoRuinado.png", "ArcoRuinado_Entrada", new Vector3(5.2f, s1Y, 0f), -5, new Vector3(1.25f, 1.25f, 1f));
 
             // === SECCIÓN 2: Valle Inundado (tile topY = -4 -> superficie Y = -3.0) ===
             float s2Y = SurfaceY(-4);
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/RaizTecnologica.png", "RaizTecnologica_Entrada", new Vector3(12f, SurfaceY(-2), 0f), -6, new Vector3(1.1f, 1.1f, 1f));
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/HongosDeLuz.png", "HongosDeLuz_Valle1", new Vector3(18f, s2Y, 0f), 3, new Vector3(0.95f, 0.95f, 1f));
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/NidoMecanico.png", "NidoMecanico_Pantano", new Vector3(24f, s2Y, 0f), -2, new Vector3(1.0f, 1.0f, 1f));
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/HongosDeLuz.png", "HongosDeLuz_Valle2", new Vector3(29f, s2Y, 0f), 3, new Vector3(1.05f, 1.05f, 1f), true);
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/RaizTecnologica.png", "RaizTecnologica_Entrada", new Vector3(12f, SurfaceY(-2), 0f), -6, new Vector3(1.1f, 1.1f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/HongosDeLuz.png", "HongosDeLuz_Valle1", new Vector3(18f, s2Y, 0f), 3, new Vector3(0.95f, 0.95f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/NidoMecanico.png", "NidoMecanico_Pantano", new Vector3(24f, s2Y, 0f), -2, new Vector3(1.0f, 1.0f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/HongosDeLuz.png", "HongosDeLuz_Valle2", new Vector3(29f, s2Y, 0f), 3, new Vector3(1.05f, 1.05f, 1f), true);
             // Cristal sobre la isla flotante (x = 20..23, tile y = 1 -> superficie Y = 2.0)
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/CristalesEnergia.png", "CristalesEnergia_1", new Vector3(21.5f, SurfaceY(1), 0f), -1, new Vector3(0.75f, 0.75f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/CristalesEnergia.png", "CristalesEnergia_1", new Vector3(21.5f, SurfaceY(1), 0f), -1, new Vector3(0.75f, 0.75f, 1f));
 
             // === SECCIÓN 3: Meseta del Coloso Fósil (tile topY = 3 -> superficie Y = 4.0) ===
             float s3Y = SurfaceY(3);
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/ColumnaAncestral.png", "Columna_1", new Vector3(39f, s3Y, 0f), -5, new Vector3(1.1f, 1.1f, 1f));
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/TerminalAncestral.png", "TerminalAncestral", new Vector3(41.2f, s3Y, 0f), -1, new Vector3(0.95f, 0.95f, 1f));
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/FosilDinorobot.png", "Fosil_Dinorobot_Ancestral", new Vector3(46.5f, s3Y, 0f), -4, new Vector3(1.45f, 1.45f, 1f));
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/CristalesEnergia.png", "CristalesEnergia_2", new Vector3(51.2f, s3Y, 0f), -1, new Vector3(0.9f, 0.9f, 1f));
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/AntenaCaida.png", "AntenaCaida_Ruinas", new Vector3(54f, s3Y, 0f), -3, new Vector3(1.15f, 1.15f, 1f));
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/ColumnaAncestral.png", "Columna_2", new Vector3(55.8f, s3Y, 0f), -5, new Vector3(1.15f, 1.15f, 1f), true);
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/ColumnaAncestral.png", "Columna_1", new Vector3(39f, s3Y, 0f), -5, new Vector3(1.1f, 1.1f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/TerminalAncestral.png", "TerminalAncestral", new Vector3(41.2f, s3Y, 0f), -1, new Vector3(0.95f, 0.95f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/FosilDinorobot.png", "Fosil_Dinorobot_Ancestral", new Vector3(46.5f, s3Y, 0f), -4, new Vector3(1.45f, 1.45f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/CristalesEnergia.png", "CristalesEnergia_2", new Vector3(51.2f, s3Y, 0f), -1, new Vector3(0.9f, 0.9f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/AntenaCaida.png", "AntenaCaida_Ruinas", new Vector3(54f, s3Y, 0f), -3, new Vector3(1.15f, 1.15f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/ColumnaAncestral.png", "Columna_2", new Vector3(55.8f, s3Y, 0f), -5, new Vector3(1.15f, 1.15f, 1f), true);
             // Vestigios en la pasarela superior (tile y = 7 -> superficie Y = 8.0)
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/RestosMecanicos.png", "RestosMecanicos_Pasarela", new Vector3(50.5f, SurfaceY(7), 0f), -2, new Vector3(0.85f, 0.85f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/RestosMecanicos.png", "RestosMecanicos_Pasarela", new Vector3(50.5f, SurfaceY(7), 0f), -2, new Vector3(0.85f, 0.85f, 1f));
 
             // === SECCIÓN 4: Abismo del Puente Roto (pilares en y = 4, 5, 6) ===
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/PuenteRuinado.png", "PuenteRuinado", new Vector3(65f, SurfaceY(5) - 1.1f, 0f), -2, new Vector3(1.25f, 1.25f, 1f));
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/CristalesEnergia.png", "CristalesEnergia_3", new Vector3(65f, SurfaceY(5), 0f), -1, new Vector3(0.75f, 0.75f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/PuenteRuinado.png", "PuenteRuinado", new Vector3(65f, SurfaceY(5) - 1.1f, 0f), -2, new Vector3(1.25f, 1.25f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/CristalesEnergia.png", "CristalesEnergia_3", new Vector3(65f, SurfaceY(5), 0f), -1, new Vector3(0.75f, 0.75f, 1f));
 
             // === SECCIÓN 5: Acantilado y Cumbre del Mirador (tile topY = 9 -> superficie Y = 10.0) ===
             float s5Y = SurfaceY(9);
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/ArcoRuinado.png", "ArcoRuinado_Mirador", new Vector3(79f, SurfaceY(7), 0f), -5, new Vector3(1.2f, 1.2f, 1f));
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/ColumnaAncestral.png", "Columna_Mirador_1", new Vector3(84.5f, s5Y, 0f), -4, new Vector3(1.15f, 1.15f, 1f));
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/ReleAncestral.png", "ReleAncestral_Mirador", new Vector3(88f, s5Y, 0f), 2, new Vector3(1.3f, 1.3f, 1f));
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/ColumnaAncestral.png", "Columna_Mirador_2", new Vector3(91.5f, s5Y, 0f), -4, new Vector3(1.15f, 1.15f, 1f), true);
-            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Environment/Relics/ArbolDelEco.png", "ArbolDelEco_Cumbre", new Vector3(95.5f, s5Y, 0f), -8, new Vector3(1.25f, 1.25f, 1f), true);
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/ArcoRuinado.png", "ArcoRuinado_Mirador", new Vector3(79f, SurfaceY(7), 0f), -5, new Vector3(1.2f, 1.2f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/ColumnaAncestral.png", "Columna_Mirador_1", new Vector3(84.5f, s5Y, 0f), -4, new Vector3(1.15f, 1.15f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/ReleAncestral.png", "ReleAncestral_Mirador", new Vector3(88f, s5Y, 0f), 2, new Vector3(1.3f, 1.3f, 1f));
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/ColumnaAncestral.png", "Columna_Mirador_2", new Vector3(91.5f, s5Y, 0f), -4, new Vector3(1.15f, 1.15f, 1f), true);
+            CreateProp(relicsGroup.transform, "Assets/Arte/Sprites/Entorno/Reliquias/ArbolDelEco.png", "ArbolDelEco_Cumbre", new Vector3(95.5f, s5Y, 0f), -8, new Vector3(1.25f, 1.25f, 1f), true);
         }
 
         private static void CreateNatureProps(Transform root)
@@ -606,30 +606,30 @@ namespace PrimalEcho.Editor
             natureGroup.transform.position = Vector3.zero;
 
             // 1. Sauces Colosales (Willows) sobre la superficie real del terreno
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Willows_1.png", "Sauce_Refugio", new Vector3(-11f, SurfaceY(0), 0f), -15, new Vector3(1.1f, 1.1f, 1f));
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Willows_2.png", "Sauce_Valle", new Vector3(16f, SurfaceY(-4), 0f), -15, new Vector3(1.15f, 1.15f, 1f));
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Willows_3.png", "Sauce_Meseta", new Vector3(48.5f, SurfaceY(3), 0f), -15, new Vector3(1.15f, 1.15f, 1f));
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Willows_1.png", "Sauce_Mirador", new Vector3(82.8f, SurfaceY(9), 0f), -15, new Vector3(1.15f, 1.15f, 1f), true);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Willows_1.png", "Sauce_Refugio", new Vector3(-11f, SurfaceY(0), 0f), -15, new Vector3(1.1f, 1.1f, 1f));
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Willows_2.png", "Sauce_Valle", new Vector3(16f, SurfaceY(-4), 0f), -15, new Vector3(1.15f, 1.15f, 1f));
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Willows_3.png", "Sauce_Meseta", new Vector3(48.5f, SurfaceY(3), 0f), -15, new Vector3(1.15f, 1.15f, 1f));
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Willows_1.png", "Sauce_Mirador", new Vector3(82.8f, SurfaceY(9), 0f), -15, new Vector3(1.15f, 1.15f, 1f), true);
 
             // 2. Árboles Ancestrales
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Trees_1.png", "Arbol_1", new Vector3(1.5f, SurfaceY(0), 0f), -12, new Vector3(1.1f, 1.1f, 1f));
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Trees_2.png", "Arbol_2", new Vector3(32.5f, SurfaceY(-4), 0f), -12, new Vector3(1.1f, 1.1f, 1f));
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Trees_3.png", "Arbol_3", new Vector3(74.8f, SurfaceY(5), 0f), -12, new Vector3(1.1f, 1.1f, 1f));
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Trees_1.png", "Arbol_1", new Vector3(1.5f, SurfaceY(0), 0f), -12, new Vector3(1.1f, 1.1f, 1f));
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Trees_2.png", "Arbol_2", new Vector3(32.5f, SurfaceY(-4), 0f), -12, new Vector3(1.1f, 1.1f, 1f));
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Trees_3.png", "Arbol_3", new Vector3(74.8f, SurfaceY(5), 0f), -12, new Vector3(1.1f, 1.1f, 1f));
 
             // 3. Rocas Musgosas
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Stones_1.png", "Roca_1", new Vector3(-2.2f, SurfaceY(0), 0f), 1, Vector3.one);
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Stones_2.png", "Roca_2", new Vector3(14.8f, SurfaceY(-4), 0f), 1, Vector3.one);
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Stones_3.png", "Roca_3", new Vector3(33.8f, SurfaceY(-4), 0f), 1, Vector3.one);
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Stones_4.png", "Roca_4", new Vector3(43.5f, SurfaceY(3), 0f), 1, Vector3.one);
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Stones_5.png", "Roca_5", new Vector3(78f, SurfaceY(7), 0f), 1, Vector3.one);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Stones_1.png", "Roca_1", new Vector3(-2.2f, SurfaceY(0), 0f), 1, Vector3.one);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Stones_2.png", "Roca_2", new Vector3(14.8f, SurfaceY(-4), 0f), 1, Vector3.one);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Stones_3.png", "Roca_3", new Vector3(33.8f, SurfaceY(-4), 0f), 1, Vector3.one);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Stones_4.png", "Roca_4", new Vector3(43.5f, SurfaceY(3), 0f), 1, Vector3.one);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Stones_5.png", "Roca_5", new Vector3(78f, SurfaceY(7), 0f), 1, Vector3.one);
 
             // 4. Arbustos Frondosos
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Bushes_5.png", "Arbusto_1", new Vector3(-3.8f, SurfaceY(0), 0f), -2, Vector3.one);
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Bushes_7.png", "Arbusto_2", new Vector3(3.2f, SurfaceY(0), 0f), -2, Vector3.one);
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Bushes_8.png", "Arbusto_3", new Vector3(20.5f, SurfaceY(-4), 0f), -2, Vector3.one);
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Bushes_6.png", "Arbusto_4", new Vector3(40.2f, SurfaceY(3), 0f), -2, Vector3.one);
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Bushes_9.png", "Arbusto_5", new Vector3(52.5f, SurfaceY(3), 0f), -2, Vector3.one);
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Bushes_4.png", "Arbusto_6", new Vector3(85.8f, SurfaceY(9), 0f), -2, Vector3.one);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Bushes_5.png", "Arbusto_1", new Vector3(-3.8f, SurfaceY(0), 0f), -2, Vector3.one);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Bushes_7.png", "Arbusto_2", new Vector3(3.2f, SurfaceY(0), 0f), -2, Vector3.one);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Bushes_8.png", "Arbusto_3", new Vector3(20.5f, SurfaceY(-4), 0f), -2, Vector3.one);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Bushes_6.png", "Arbusto_4", new Vector3(40.2f, SurfaceY(3), 0f), -2, Vector3.one);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Bushes_9.png", "Arbusto_5", new Vector3(52.5f, SurfaceY(3), 0f), -2, Vector3.one);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Bushes_4.png", "Arbusto_6", new Vector3(85.8f, SurfaceY(9), 0f), -2, Vector3.one);
 
             // 5. Hierbas y Cañas de Ribera bien apoyadas sobre el césped
             int[] grassX = new int[] { -10, -7, -4, -1, 2, 4, 6, 9, 15, 19, 22, 27, 31, 36, 40, 44, 48, 52, 74, 78, 83, 86, 90, 93 };
@@ -638,15 +638,15 @@ namespace PrimalEcho.Editor
                 int gx = grassX[i];
                 float gy = SurfaceY(GetGroundTopTileY(gx));
                 int grassNum = (i % 10) + 1;
-                CreateProp(natureGroup.transform, $"Assets/Arte/Sprites/Environment/Props/Grass_{grassNum}.png", $"Hierba_{i + 1}", new Vector3(gx + 0.5f, gy, 0f), 4, Vector3.one);
+                CreateProp(natureGroup.transform, $"Assets/Arte/Sprites/Entorno/Decoracion/Grass_{grassNum}.png", $"Hierba_{i + 1}", new Vector3(gx + 0.5f, gy, 0f), 4, Vector3.one);
             }
 
             // 6. Vallas, Cajas y Señalizaciones del Refugio
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Fence_1.png", "Valla_Refugio_1", new Vector3(-0.8f, SurfaceY(0), 0f), -1, Vector3.one);
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Fence_2.png", "Valla_Refugio_2", new Vector3(0.1f, SurfaceY(0), 0f), -1, Vector3.one);
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Pointers_1.png", "Cartel_Guia", new Vector3(6.6f, SurfaceY(0), 0f), 2, Vector3.one);
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Boxes_1.png", "Cajas_Suministros_1", new Vector3(-6.8f, SurfaceY(0), 0f), 1, Vector3.one);
-            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Environment/Props/Boxes_3.png", "Cajas_Suministros_2", new Vector3(-6.0f, SurfaceY(0), 0f), 2, new Vector3(0.85f, 0.85f, 1f));
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Fence_1.png", "Valla_Refugio_1", new Vector3(-0.8f, SurfaceY(0), 0f), -1, Vector3.one);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Fence_2.png", "Valla_Refugio_2", new Vector3(0.1f, SurfaceY(0), 0f), -1, Vector3.one);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Pointers_1.png", "Cartel_Guia", new Vector3(6.6f, SurfaceY(0), 0f), 2, Vector3.one);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Boxes_1.png", "Cajas_Suministros_1", new Vector3(-6.8f, SurfaceY(0), 0f), 1, Vector3.one);
+            CreateProp(natureGroup.transform, "Assets/Arte/Sprites/Entorno/Decoracion/Boxes_3.png", "Cajas_Suministros_2", new Vector3(-6.0f, SurfaceY(0), 0f), 2, new Vector3(0.85f, 0.85f, 1f));
         }
 
         private static GameObject CreateProp(Transform parent, string path, string name, Vector3 pos, int order, Vector3 scale, bool flipX = false)

@@ -87,7 +87,7 @@ namespace PrimalEcho.Editor
         private const string MapsFolder = "Assets/Niveles/Mapas";
         private const string EditsFolder = "Assets/Niveles/Edicion";
         private const string ScenesFolder = "Assets/Scenes/Niveles";
-        private const string BaseScene = "Assets/Scenes/Plantillas/SampleScene.unity";
+        private const string BaseScene = "Assets/Scenes/Plantillas_de_Nivel/SampleScene.unity";
         private const string TilesFolder = "Assets/Tiles/Jungle";
         private const string EnemySprites = "Assets/Arte/Sprites/Enemigos";
         private const int TerrainLayer = 6;

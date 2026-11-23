@@ -10,8 +10,8 @@ namespace PrimalEcho.Editor
     {
         private const string ValleyScene = "Nivel_01_Valle_del_Eco";
         private const string ValleyArtRoot = "Ambientacion_Valle";
-        private const string ValleyRelicsFolder = "Assets/Arte/Sprites/Environment/Relics";
-        private const string ValleySceneryFolder = "Assets/Arte/Sprites/Environment/Backgrounds";
+        private const string ValleyRelicsFolder = "Assets/Arte/Sprites/Entorno/Reliquias";
+        private const string ValleySceneryFolder = "Assets/Arte/Sprites/Entorno/Fondos";
 
         private static float[] ParseValleyValues(string value, int count)
         {

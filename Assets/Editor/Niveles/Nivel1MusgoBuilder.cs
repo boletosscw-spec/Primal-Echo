@@ -13,13 +13,13 @@ namespace PrimalEcho.Editor
 {
     /// <summary>
     /// Construye el Nivel 1 (Bosque del Musgo) desde Assets/Niveles/Mapas/Nivel_01_Musgo.json con el arte de
-    /// Assets/Arte/Nivel1. Conserva de la escena anterior solo a Kael, la cámara, la luz global y el fondo
+    /// Assets/Arte/Valle_del_Eco. Conserva de la escena anterior solo a Kael, la cámara, la luz global y el fondo
     /// parallax del bosque; todo lo demás se reemplaza. Se ejecuta solo cuando existe el archivo
     /// Logs/construir_nivel1_musgo.flag (lo borra al terminar). v2 El mapa se edita en Tools/niveles/nivel1_musgo.py.
     ///
     /// También construye el NIVEL 2 (bosque de musgo + base tecnológica) desde Assets/Niveles/Mapas/Nivel_02_Musgo.json
     /// cuando existe Logs/construir_nivel2_musgo.flag. El mapa del Nivel 2 se edita en Tools/niveles/nivel2_musgo.py
-    /// y el arte de la base está en Assets/Arte/Nivel2/Estaticos. La escena del Nivel 2 se rehace desde
+    /// y el arte de la base está en Assets/Arte/Templo_de_Nemesis/Estaticos. La escena del Nivel 2 se rehace desde
     /// SampleScene en cada construcción (la versión anterior se respalda una vez en Respaldos/Niveles).
     /// </summary>
     [InitializeOnLoad]
@@ -28,11 +28,11 @@ namespace PrimalEcho.Editor
         private const string Flag = "Logs/construir_nivel1_musgo.flag";
         private const string Flag2 = "Logs/construir_nivel2_musgo.flag";
         private const string Flag2b = "Logs/construir_nivel2_base_v2.flag";   // aviso nuevo: solo lo entiende esta versión
-        private const string BaseScene = "Assets/Scenes/Plantillas/SampleScene.unity";
-        private const string Est = "Assets/Arte/Nivel1/Estaticos/";
-        private const string Est2 = "Assets/Arte/Nivel2/Estaticos/";
-        private const string Ani = "Assets/Arte/Nivel1/Animaciones/";
-        private const string Ani2 = "Assets/Arte/Nivel2/Animaciones/";
+        private const string BaseScene = "Assets/Scenes/Plantillas_de_Nivel/SampleScene.unity";
+        private const string Est = "Assets/Arte/Valle_del_Eco/Estaticos/";
+        private const string Est2 = "Assets/Arte/Templo_de_Nemesis/Estaticos/";
+        private const string Ani = "Assets/Arte/Valle_del_Eco/Animaciones/";
+        private const string Ani2 = "Assets/Arte/Templo_de_Nemesis/Animaciones/";
         // Lo que cambia entre niveles (por defecto: Nivel 1)
         private static string ScenePath = "Assets/Scenes/Niveles/Nivel_01_Valle_del_Eco.unity";
         private static string DataPath = "Assets/Niveles/Mapas/Nivel_01_Musgo.json";
@@ -570,7 +570,7 @@ namespace PrimalEcho.Editor
         }
 
         // Cinemática del inicio (Kael de espaldas en el risco ve el destello en el valle). Si el arte no está, no se pone.
-        private const string CinePath = "Assets/Cinematicas/Nivel1/";
+        private const string CinePath = "Assets/Cinematicas/Valle_del_Eco/";
         private static void CrearCinematica(Transform parent)
         {
             string[] nombres = { "vista_1_cielo", "vista_2_valle", "vista_3_copas", "vista_4_risco", "vista_5_frente",
