@@ -11,10 +11,12 @@ namespace PrimalEcho
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
+            if (isCompleted) return;
             if (collision.GetComponent<PlayerController>() != null || collision.CompareTag("Player") || collision.name == "Player")
             {
                 if (TryGetComponent(out NextLevelExit exit) && !exit.CanExit) return;
                 isCompleted = true;
+                SincronizacionPartida.Guardar();
                 var pc = collision.GetComponent<PlayerController>();
                 if (pc != null)
                 {

@@ -141,6 +141,13 @@
 },
 {
 "x0": 312,
+"x1": 319,
+"y0": -30,
+"y1": 6,
+"estilo": "cueva"
+},
+{
+"x0": 319,
 "x1": 330,
 "y0": -30,
 "y1": 5,
@@ -233,7 +240,14 @@
 ],
 "techos": [
 {
-"x0": 314,
+"x0": 310.5,
+"x1": 319,
+"y0": 7.75,
+"y1": 52,
+"estilo": "cueva"
+},
+{
+"x0": 319,
 "x1": 330,
 "y0": 13,
 "y1": 52,
@@ -6719,6 +6733,54 @@
 "b": 1,
 "a": 0.42827129689385185,
 "ancla": "arriba"
+},
+{
+"s": "colg_musgo_0",
+"x": 311.0,
+"y": 7.95,
+"esc": 0.5,
+"orden": 3,
+"par": 0.0,
+"flipX": false,
+"flipY": false,
+"rot": 0.0,
+"r": 1,
+"g": 1,
+"b": 1,
+"a": 1.0,
+"ancla": "arriba"
+},
+{
+"s": "colg_hoja_3",
+"x": 311.7,
+"y": 7.95,
+"esc": 0.45,
+"orden": 3,
+"par": 0.0,
+"flipX": true,
+"flipY": false,
+"rot": 0.0,
+"r": 1,
+"g": 1,
+"b": 1,
+"a": 1.0,
+"ancla": "arriba"
+},
+{
+"s": "cueva_piedra_3",
+"x": 310.2,
+"y": 5.85,
+"esc": 0.3,
+"orden": 3,
+"par": 0.0,
+"flipX": false,
+"flipY": false,
+"rot": 0.0,
+"r": 0.6,
+"g": 0.56,
+"b": 0.6,
+"a": 1.0,
+"ancla": "abajo"
 },
 {
 "s": "cueva_roca_grande_0",
@@ -15717,7 +15779,7 @@
 {
 "x": 51.5,
 "y": 5,
-"esc": 1.25,
+"esc": 1.63,
 "flipX": true,
 "desaparece": true,
 "lineas": [
@@ -15736,16 +15798,16 @@
 {
 "x": 306.5,
 "y": 6,
-"esc": 1.25,
+"esc": 1.63,
 "flipX": true,
 "desaparece": true,
 "lineas": [
 "Llegaste. Kiro te trajo directo hasta aquí.",
-"La base está del otro lado. Mi refugio queda a la salida de esta cueva; ahí guardo la llave.",
-"Pero desde que Kiro despertó, algo se mueve allá adentro. Lo oigo respirar entre las piedras.",
-"Kael: ¿Algo... como qué?",
-"No lo sé, y no pienso averiguarlo. Yo daré la vuelta por el risco.",
-"Kiro, alumbra bien el camino. Ahí abajo no se ve nada."
+"Mi refugio queda a la salida de esta cueva; ahí guardo la llave.",
+"Pero mira esa grieta: hay que arrastrarse para pasar. Con estas rodillas yo ya no quepo.",
+"Kael: ¿Y tú cómo vas a llegar?",
+"Por el risco. Es más largo, pero conozco el camino. Te espero del otro lado.",
+"Una cosa... desde que Kiro despertó, algo respira allá adentro. Kiro, alumbra bien."
 ],
 "radio": 6.5,
 "kiroX": 0.0
@@ -15753,7 +15815,7 @@
 {
 "x": 482,
 "y": 7,
-"esc": 1.25,
+"esc": 1.63,
 "flipX": false,
 "desaparece": false,
 "lineas": [
@@ -15832,6 +15894,14 @@
 "alto": 8.0,
 "texto": "Kael: Las espinas brillan... los desechos de la base envenenaron las raíces.",
 "dur": 4.5
+},
+{
+"x": 309.6,
+"y": 6,
+"ancho": 2.5,
+"alto": 8.0,
+"texto": "Mantén ABAJO para AGACHARTE y pasar por la grieta.",
+"dur": 5
 },
 {
 "x": 333,

@@ -14,7 +14,7 @@ namespace PrimalEcho
     // Assets/Resources/MenuInicio, reproduce la intro animada y luego deja el menú en reposo
     // (partículas de eco, niebla, lanza de Kael, pulsos de eco y fallas de NÉMESIS en el título).
     // Se maneja con teclado, control de Xbox o mouse.
-    public sealed class MenuInicio : MonoBehaviour
+    public sealed partial class MenuInicio : MonoBehaviour
     {
         [Header("Escenas")]
         [SerializeField] private string escenaNuevaPartida = "Cinematica_Intro";
@@ -46,6 +46,9 @@ namespace PrimalEcho
             public Action confirmar;
             public Action<int> cambiar;
             public bool habilitada = true;
+            public bool esCampo, oculto;       // campo de texto (login)
+            public string contenido = "";
+            public int maximo = 64;
             public Text ui;
             public float aparicion;
         }
@@ -117,12 +120,13 @@ namespace PrimalEcho
             CrearMenu();
             CrearPie();
             CrearAudio();
+            IniciarCuenta();
 
             fundido = Img("Fundido", lienzo, null, Vector2.zero, Vector2.zero, new Color(0f, 0f, 0f, 0f));
             Estirar(fundido.rectTransform);
             fundido.raycastTarget = false;
 
-            AbrirPrincipal(false);
+            AbrirInicio(false);
             AplicarIntro(0f);
             IniciarVideo();
         }
@@ -353,12 +357,19 @@ namespace PrimalEcho
         {
             var e = new List<Entrada>
             {
-                new Entrada { texto = "Iniciar partida", confirmar = () => Cargar(escenaNuevaPartida) },
+                new Entrada { texto = "Iniciar partida", confirmar = IniciarPartida },
                 new Entrada { texto = "Elegir nivel", confirmar = AbrirNiveles },
                 new Entrada { texto = "Opciones", confirmar = AbrirOpciones },
+                EntradaCuenta(),
                 new Entrada { texto = "Salir", confirmar = Salir },
             };
             CambiarPagina(e, 0, animar, "ENTER / A   ACEPTAR");
+        }
+
+        private void IniciarPartida()
+        {
+            if (GuardadoNube.Disponible) SincronizacionPartida.SincronizarConNube();
+            Cargar(escenaNuevaPartida);
         }
 
         private void AbrirNiveles()
@@ -435,7 +446,7 @@ namespace PrimalEcho
 
         private void Volver()
         {
-            if (EnPrincipal) return;
+            if (EnPrincipal || VolverCuenta()) return;
             Sonar(sVolver, 0.6f);
             AbrirPrincipal(true);
         }
@@ -479,6 +490,7 @@ namespace PrimalEcho
             selAncho = pagina[sel].ui.preferredWidth;
             tPagina = 0f;
             txtAyuda.text = ayuda;
+            ColocarEstado();
         }
 
         private static string Etiqueta(Entrada e)
@@ -650,6 +662,7 @@ namespace PrimalEcho
             float base0 = introLista ? 0f : 3.4f;
             float tm = introLista ? tPagina : tIntro - base0;
             tPagina += dt;
+            AnimarEstado(tm);
 
             for (int i = 0; i < pagina.Count; i++)
             {
@@ -693,13 +706,17 @@ namespace PrimalEcho
             Gamepad g = Gamepad.current;
             Mouse m = Mouse.current;
 
+            // En un campo de texto las letras se escriben: solo las flechas y TAB mueven la selección.
+            bool escribiendo = CampoActivo;
             int dy = 0, dx = 0;
             if (k != null)
             {
-                if (k.upArrowKey.wasPressedThisFrame || k.wKey.wasPressedThisFrame) dy = -1;
-                if (k.downArrowKey.wasPressedThisFrame || k.sKey.wasPressedThisFrame) dy = 1;
-                if (k.leftArrowKey.wasPressedThisFrame || k.aKey.wasPressedThisFrame) dx = -1;
-                if (k.rightArrowKey.wasPressedThisFrame || k.dKey.wasPressedThisFrame) dx = 1;
+                if (k.upArrowKey.wasPressedThisFrame || (!escribiendo && k.wKey.wasPressedThisFrame)) dy = -1;
+                if (k.downArrowKey.wasPressedThisFrame || (!escribiendo && k.sKey.wasPressedThisFrame)) dy = 1;
+                if (!escribiendo && (k.leftArrowKey.wasPressedThisFrame || k.aKey.wasPressedThisFrame)) dx = -1;
+                if (!escribiendo && (k.rightArrowKey.wasPressedThisFrame || k.dKey.wasPressedThisFrame)) dx = 1;
+                if (k.tabKey.wasPressedThisFrame) dy = k.shiftKey.isPressed ? -1 : 1;
+                if (escribiendo) EditarCampo(k);
             }
             if (g != null)
             {
@@ -719,7 +736,7 @@ namespace PrimalEcho
                 Sonar(sTick, 0.7f);
             }
 
-            bool atras = (k != null && (k.escapeKey.wasPressedThisFrame || k.backspaceKey.wasPressedThisFrame))
+            bool atras = (k != null && (k.escapeKey.wasPressedThisFrame || (!escribiendo && k.backspaceKey.wasPressedThisFrame)))
                          || (g != null && g.buttonEast.wasPressedThisFrame)
                          || (m != null && m.rightButton.wasPressedThisFrame);
             if (atras) { Volver(); return; }
@@ -745,12 +762,12 @@ namespace PrimalEcho
                 if (m.leftButton.wasPressedThisFrame && bajo >= 0)
                 {
                     sel = bajo;
-                    Confirmar();
+                    if (!pagina[bajo].esCampo) Confirmar(); // clic en un campo: solo lo selecciona para escribir
                     return;
                 }
             }
 
-            if (AceptarPulsado(false)) Confirmar();
+            if (escribiendo ? EnterPulsado() : AceptarPulsado(false)) Confirmar();
         }
 
         private static int Repetir(float v, ref float timer)
@@ -792,6 +809,7 @@ namespace PrimalEcho
         private void Confirmar()
         {
             var e = pagina[sel];
+            if (e.esCampo) { Mover(1, true); return; } // ENTER en un campo pasa al siguiente
             if (!e.habilitada || e.confirmar == null) return;
             if (e.cambiar != null)
             {

@@ -322,7 +322,12 @@ namespace PrimalEcho
             if (Phase != MenuPhase.Open) return;
             if (Tab == 1)
             {
-                if (!view.IsFruit(Selection)) return;
+                if (!view.IsFruit(Selection))
+                {
+                    string hint = view.Hint(Selection);
+                    if (hint.Length > 0) { Message = hint; Play(moverCursor); }
+                    return;
+                }
                 if (Progress.UseFruit()) { Message = "FRUTA CONSUMIDA: +1 CORAZON"; Play(comprarMejora); }
                 else { Message = "LA VIDA YA ESTA COMPLETA"; Play(error); }
                 return;

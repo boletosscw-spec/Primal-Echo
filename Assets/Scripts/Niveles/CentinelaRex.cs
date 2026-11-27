@@ -368,6 +368,7 @@ namespace PrimalEcho
             if (quitting || !gameObject.scene.isLoaded) return;
             if (ReferenceEquals(health, null) || health.Remaining > 0) return;
             if (goal != null) goal.enabled = true; // vencido: se abre la salida
+            SincronizacionPartida.RegistrarJefeDerrotado("CentinelaRex");
 
             Sprite[] death = clips != null ? clips[(int)Clip.Muerte] : null;
             if (death == null) return;

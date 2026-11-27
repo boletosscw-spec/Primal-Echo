@@ -25,12 +25,12 @@ namespace PrimalEcho
         private float bowShotTimer;
         private Vector2 pendingBowDir;
 
-        private enum Pose { None, GroundDash, AirDash, Sprint, WallSlide, WallKick, Thrust, Dive, Rebound }
+        private enum Pose { None, GroundDash, AirDash, Sprint, WallSlide, WallKick, Thrust, Dive, Rebound, CrouchWalk }
 
         private static readonly string[] ClipNames =
         {
             "", "Kael_Rodada_Impulso", "Kael_Impulso_Aereo", "Kael_Carrera_Impulso", "Kael_Deslizamiento_Muro",
-            "Kael_Salto_Muro", "Kael_Estocada", "Kael_Picado_Lanza", "Kael_Rebote_Lanza"
+            "Kael_Salto_Muro", "Kael_Estocada", "Kael_Picado_Lanza", "Kael_Rebote_Lanza", "Kael_Caminar_Agachado"
         };
         private static AnimationClip[] motionClips;
         private Pose currentPose;
@@ -40,6 +40,7 @@ namespace PrimalEcho
         private static readonly int VerticalVelHash = Animator.StringToHash("VerticalVelocity");
         private static readonly int IsGroundedHash = Animator.StringToHash("IsGrounded");
         private static readonly int IsCrouchingHash = Animator.StringToHash("IsCrouching");
+        private static readonly int CrouchStateHash = Animator.StringToHash("Agacharse");
         private static readonly int IsBlockingHash = Animator.StringToHash("IsBlocking");
 
         private static readonly int JumpHash = Animator.StringToHash("Jump");
@@ -96,12 +97,16 @@ namespace PrimalEcho
             arrowPrefab = prefab;
         }
 
+        private KaelCrouch crouch;
+
         private void Update()
         {
             if (animator == null || rb == null) return;
 
             bool isGrounded = playerController != null && playerController.IsGrounded;
             float horizInput = playerController != null ? Mathf.Abs(playerController.MoveInput.x) : 0f;
+            // Plantado con el arco (tensando o fijando la mira con LT): el stick solo apunta, no camina.
+            if (playerController != null && playerController.BowBraced) horizInput = 0f;
             float velSpeed = Mathf.Abs(rb.linearVelocity.x) / Mathf.Max(0.1f, maxRunSpeed);
             float normalizedSpeed = Mathf.Max(horizInput, velSpeed);
 
@@ -117,8 +122,10 @@ namespace PrimalEcho
                 normalizedSpeed = 0f;
             }
 
-            bool isCrouching = isGrounded && (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)
-                || (playerController != null && playerController.MoveInput.y < -0.6f));
+            if (crouch == null) crouch = GetComponentInParent<KaelCrouch>();
+            bool isCrouching = crouch != null ? crouch.Crouched
+                : isGrounded && (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)
+                  || (playerController != null && playerController.MoveInput.y < -0.6f));
             if (isCrouching)
             {
                 normalizedSpeed = 0f;
@@ -158,7 +165,7 @@ namespace PrimalEcho
             }
 
             // Ataque con Arco: horizontal o diagonal arriba si mantiene W/Arriba (K, X o Clic Derecho)
-            // Si Kael tiene KaelShooter (disparo estilo Cuphead), ese script se encarga del arco
+            // Si Kael tiene KaelShooter, ese script se encarga del arco
             if (GetComponentInParent<KaelShooter>() == null &&
                 (Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.X) || Input.GetMouseButtonDown(1)
                 || (Pad != null && PadDown(Pad.buttonNorth))))
@@ -217,7 +224,7 @@ namespace PrimalEcho
 
         private Pose GetMotionPose()
         {
-            if (playerController == null || !playerController.CanAct ||
+            if (playerController == null || rb == null || !playerController.CanAct ||
                 playerController.CurrentState == PlayerController.AnimState.Hurt) return Pose.None;
             if (playerController.IsDashing)
                 return playerController.DashStartedOnGround ? Pose.GroundDash : Pose.AirDash;
@@ -225,6 +232,10 @@ namespace PrimalEcho
             if (spear != null && spear.IsAttacking) return spear.AimingDown ? Pose.Dive : Pose.Thrust;
             if (playerController.IsWallKicking) return Pose.WallKick;
             if (playerController.IsWallSliding) return Pose.WallSlide;
+            if (crouch != null && crouch.Crouched && playerController.IsGrounded &&
+                Mathf.Abs(rb.linearVelocity.x) > 0.1f && animator.runtimeAnimatorController != null &&
+                animator.GetCurrentAnimatorStateInfo(0).shortNameHash == CrouchStateHash)
+                return Pose.CrouchWalk;
             if (playerController.IsSprinting && Mathf.Abs(rb.linearVelocity.x) > maxRunSpeed + 0.25f) return Pose.Sprint;
             return Pose.None;
         }

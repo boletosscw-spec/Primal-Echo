@@ -13,7 +13,7 @@ namespace PrimalEcho
         [SerializeField] private string chipTitle = "";
         [SerializeField, TextArea] private string chipText = "";
         private Transform visual;
-        private float phase, blockedUntil;
+        private float phase;
         private bool taken;
 
         public void Configure(ItemKind value, string id = "", string title = "", string text = "")
@@ -80,36 +80,49 @@ namespace PrimalEcho
 
         private void TryTake(Collider2D other)
         {
-            if (taken || Time.time < blockedUntil) return;
+            if (taken) return;
             var player = other.GetComponentInParent<PlayerController>();
-            if (player == null || !player.TryGetComponent(out BraceletProgress progress)) return;
-            switch (kind)
-            {
-                case ItemKind.Fruit:
-                    if (!progress.AddFruit())
-                    {
-                        blockedUntil = Time.time + 3f;
-                        LevelHUD.Notify("Ya llevas " + BraceletProgress.MaxFruits + " frutas. Come una desde el brazalete");
-                        return;
-                    }
-                    LevelHUD.Notify("Fruta de la selva (" + progress.Fruits + "/" + BraceletProgress.MaxFruits + ") · comela desde el brazalete");
-                    break;
-                case ItemKind.Core:
-                    progress.AddCore();
-                    LevelHUD.Notify("Nucleo de centinela obtenido · sirve para las mejoras de nivel II", 4f);
-                    break;
-                default:
-                    progress.AddChip(chipId, chipTitle, chipText);
-                    LevelHUD.Notify("Chip de memoria: " + chipTitle + " · leelo en el inventario", 4f);
-                    break;
-            }
+            if (player == null) return;
+            // Si por alguna razón Kael no tiene el progreso del brazalete, se lo ponemos en vez de ignorar el objeto.
+            if (!player.TryGetComponent(out BraceletProgress progress)) progress = player.gameObject.AddComponent<BraceletProgress>();
+
+            // Primero se marca como recogido y se oculta, para que desaparezca pase lo que pase después.
             taken = true;
-            Sonidos.Play(kind == ItemKind.Core ? "llave_recoger" : "objeto_recoger", 0.6f, kind == ItemKind.Fruit ? 1.1f : 1f, transform.position, 0.02f);
-            Destroy(gameObject);
+            foreach (var c in GetComponents<Collider2D>()) c.enabled = false;
+            if (visual != null) visual.gameObject.SetActive(false);
+
+            try
+            {
+                switch (kind)
+                {
+                    case ItemKind.Fruit:
+                        if (progress.AddFruit())
+                            LevelHUD.Notify("Fruta de la selva (" + progress.Fruits + "/" + BraceletProgress.MaxFruits + ") · comela desde el brazalete");
+                        else if (player.TryGetComponent(out KaelHealth health) && health.Heal(1))
+                            LevelHUD.Notify("Bolsa de frutas llena · Kael se come esta (+1 corazon)");
+                        else
+                            LevelHUD.Notify("Bolsa de frutas llena (" + BraceletProgress.MaxFruits + "/" + BraceletProgress.MaxFruits + ")");
+                        break;
+                    case ItemKind.Core:
+                        progress.AddCore();
+                        LevelHUD.Notify("Nucleo de centinela obtenido · sirve para las mejoras de nivel II", 4f);
+                        break;
+                    default:
+                        progress.AddChip(chipId, chipTitle, chipText);
+                        LevelHUD.Notify("Chip de memoria: " + chipTitle + " · leelo en el inventario", 4f);
+                        break;
+                }
+                Sonidos.Play(kind == ItemKind.Core ? "llave_recoger" : "objeto_recoger", 0.6f, kind == ItemKind.Fruit ? 1.1f : 1f, transform.position, 0.02f);
+            }
+            finally
+            {
+                Destroy(gameObject);
+            }
         }
     }
 
-    // Los centinelas pesados sueltan un núcleo al morir; el Rex suelta tres.
+    // Núcleos de centinela: cada JEFE suelta uno al caer (Atlas en el Nivel 1, Aeris en el Nivel 2) y el Rex tres.
+    // Los centinelas pesados (si se usan) sueltan uno. Así LANZA II y FLECHAS II siempre se pueden comprar.
     internal static class ItemDrops
     {
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
@@ -122,10 +135,15 @@ namespace PrimalEcho
         private static void Drop(EnemyHealth enemy)
         {
             int cores = enemy.GetComponent<CentinelaRex>() ? 3
+                : enemy.GetComponent<Atlas>() || enemy.GetComponent<Aeris>() ? 1
                 : enemy.TryGetComponent(out CentinelaTerrestre walker) && walker.Heavy ? 1 : 0;
-            Vector3 origin = enemy.transform.position + Vector3.up;
+            if (cores == 0) return;
+            // Se deja en el suelo debajo del enemigo (Aeris muere volando: el núcleo no debe quedar en el aire)
+            Vector2 origin = enemy.transform.position + Vector3.up;
+            var hit = Physics2D.Raycast(origin, Vector2.down, 40f, 1 << 6);
+            Vector3 floor = hit.collider != null ? (Vector3)hit.point + Vector3.up * 0.9f : (Vector3)origin;
             for (int i = 0; i < cores; i++)
-                ItemPickup.Spawn(ItemKind.Core, origin + Vector3.right * (i - (cores - 1) * .5f) * 1.2f);
+                ItemPickup.Spawn(ItemKind.Core, floor + Vector3.right * (i - (cores - 1) * .5f) * 1.2f);
         }
     }
 }

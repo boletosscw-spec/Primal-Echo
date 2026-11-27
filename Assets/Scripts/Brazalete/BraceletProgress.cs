@@ -109,7 +109,100 @@ namespace PrimalEcho
             data.purchased.Add(upgrade.id);
             Save();
             ApplyPurchased();
+            SincronizacionPartida.Guardar();
             return true;
+        }
+
+        /// <summary>Aplica en este componente un DatosPartida descargado de la nube y lo guarda en PlayerPrefs.</summary>
+        public void AplicarDatosPartida(DatosPartida partida)
+        {
+            if (partida == null) return;
+            if (data == null) data = LeerDatosPrefs();
+            FusionarConDatosPartida(data, partida);
+            Save();
+            ApplyPurchased();
+        }
+
+        /// <summary>Guarda un DatosPartida en PlayerPrefs y actualiza el BraceletProgress activo si existe en la escena.</summary>
+        public static void AplicarDesdeNube(DatosPartida partida)
+        {
+            if (partida == null) return;
+            var activo = FindFirstObjectByType<BraceletProgress>();
+            if (activo != null)
+            {
+                activo.AplicarDatosPartida(partida);
+                return;
+            }
+            SaveData local = LeerDatosPrefs();
+            FusionarConDatosPartida(local, partida);
+            PlayerPrefs.SetString(SaveKey, JsonUtility.ToJson(local));
+            PlayerPrefs.Save();
+        }
+
+        /// <summary>Copia fragmentos, frutas, núcleos, mejoras y chips actuales hacia un DatosPartida.</summary>
+        public static void RellenarDatosPartida(DatosPartida destino)
+        {
+            if (destino == null) return;
+            var activo = FindFirstObjectByType<BraceletProgress>();
+            SaveData origen = activo != null && activo.data != null ? activo.data : LeerDatosPrefs();
+            destino.fragmentos = Mathf.Max(0, origen.fragments);
+            destino.frutas = Mathf.Clamp(origen.fruits, 0, MaxFruits);
+            destino.nucleos = Mathf.Max(0, origen.cores);
+            destino.mejoras = origen.purchased != null ? new List<string>(origen.purchased) : new List<string>();
+            destino.chips = origen.chipIds != null ? new List<string>(origen.chipIds) : new List<string>();
+        }
+
+        private static SaveData LeerDatosPrefs()
+        {
+            SaveData d;
+            try { d = JsonUtility.FromJson<SaveData>(PlayerPrefs.GetString(SaveKey, "{}")); }
+            catch (ArgumentException) { d = new SaveData(); }
+            if (d == null) d = new SaveData();
+            if (d.purchased == null) d.purchased = new List<string>();
+            if (d.chipIds == null) d.chipIds = new List<string>();
+            if (d.chipTitles == null) d.chipTitles = new List<string>();
+            if (d.chipTexts == null) d.chipTexts = new List<string>();
+            return d;
+        }
+
+        private static void FusionarConDatosPartida(SaveData destino, DatosPartida partida)
+        {
+            destino.fragments = Mathf.Max(0, partida.fragmentos);
+            destino.fruits = Mathf.Clamp(partida.frutas, 0, MaxFruits);
+            destino.cores = Mathf.Max(0, partida.nucleos);
+
+            destino.purchased.Clear();
+            if (partida.mejoras != null)
+            {
+                foreach (string m in partida.mejoras)
+                    if (!string.IsNullOrEmpty(m) && !destino.purchased.Contains(m))
+                        destino.purchased.Add(m);
+            }
+
+            // Conserva título y texto si el chip ya existía localmente.
+            var titulosPrevios = new Dictionary<string, string>();
+            var textosPrevios = new Dictionary<string, string>();
+            for (int i = 0; i < destino.chipIds.Count; i++)
+            {
+                string id = destino.chipIds[i];
+                if (string.IsNullOrEmpty(id)) continue;
+                if (i < destino.chipTitles.Count) titulosPrevios[id] = destino.chipTitles[i];
+                if (i < destino.chipTexts.Count) textosPrevios[id] = destino.chipTexts[i];
+            }
+
+            destino.chipIds.Clear();
+            destino.chipTitles.Clear();
+            destino.chipTexts.Clear();
+            if (partida.chips != null)
+            {
+                foreach (string id in partida.chips)
+                {
+                    if (string.IsNullOrEmpty(id) || destino.chipIds.Contains(id)) continue;
+                    destino.chipIds.Add(id);
+                    destino.chipTitles.Add(titulosPrevios.TryGetValue(id, out string t) && !string.IsNullOrEmpty(t) ? t : id);
+                    destino.chipTexts.Add(textosPrevios.TryGetValue(id, out string tx) ? tx : "");
+                }
+            }
         }
 
         private void Save()

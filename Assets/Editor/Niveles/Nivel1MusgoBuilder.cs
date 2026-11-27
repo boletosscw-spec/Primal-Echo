@@ -28,6 +28,7 @@ namespace PrimalEcho.Editor
         private const string Flag = "Logs/construir_nivel1_musgo.flag";
         private const string Flag2 = "Logs/construir_nivel2_musgo.flag";
         private const string Flag2b = "Logs/construir_nivel2_base_v2.flag";   // aviso nuevo: solo lo entiende esta versión
+        private const string Flag0 = "Logs/construir_tutorial_musgo.flag";      // tutorial con el arte del Nivel 1
         private const string BaseScene = "Assets/Scenes/Plantillas_de_Nivel/SampleScene.unity";
         private const string Est = "Assets/Arte/Valle_del_Eco/Estaticos/";
         private const string Est2 = "Assets/Arte/Templo_de_Nemesis/Estaticos/";
@@ -40,14 +41,30 @@ namespace PrimalEcho.Editor
         private static string RootName = "Nivel1_Musgo";
         private static string Version = "_Nivel1_Musgo_v5";
         private static string Nombre = "Nivel 1";
-        private static bool EsNivel2;
+        private static bool EsNivel2, EsTutorial;
 
         private static void ConfigNivel1()
         {
             ScenePath = "Assets/Scenes/Niveles/Nivel_01_Valle_del_Eco.unity";
             DataPath = "Assets/Niveles/Mapas/Nivel_01_Musgo.json";
             ArtPath = "Assets/Niveles/Mapas/Nivel_01_Musgo_Arte.json";
-            RootName = "Nivel1_Musgo"; Version = "_Nivel1_Musgo_v5"; Nombre = "Nivel 1"; EsNivel2 = false;
+            RootName = "Nivel1_Musgo"; Version = "_Nivel1_Musgo_v5"; Nombre = "Nivel 1"; EsNivel2 = false; EsTutorial = false;
+        }
+
+        // Tutorial: misma escena de siempre (Kael, cámara y fondo del bosque se conservan), con el arte del Nivel 1.
+        private static void ConfigTutorial()
+        {
+            ScenePath = "Assets/Scenes/Niveles/Nivel_00_Tutorial.unity";
+            DataPath = "Assets/Niveles/Mapas/Nivel_00_Musgo.json";
+            ArtPath = "Assets/Niveles/Mapas/Nivel_01_Musgo_Arte.json";
+            RootName = "Tutorial_Musgo"; Version = "_Tutorial_Musgo_v1"; Nombre = "Tutorial"; EsNivel2 = false; EsTutorial = true;
+        }
+
+        /// <summary>Construye el tutorial (Claro del Despertar) con el arte del Bosque del Musgo.</summary>
+        public static void ConstruirTutorial()
+        {
+            ConfigTutorial();
+            try { Construir(); } finally { ConfigNivel1(); }
         }
 
         private static void ConfigNivel2()
@@ -55,7 +72,7 @@ namespace PrimalEcho.Editor
             ScenePath = "Assets/Scenes/Niveles/Nivel_02_Templo_Nemesis.unity";
             DataPath = "Assets/Niveles/Mapas/Nivel_02_Musgo.json";
             ArtPath = "Assets/Niveles/Mapas/Nivel_02_Musgo_Arte.json";
-            RootName = "Nivel2_Musgo_Base"; Version = "_Nivel2_Musgo_v1"; Nombre = "Nivel 2"; EsNivel2 = true;
+            RootName = "Nivel2_Musgo_Base"; Version = "_Nivel2_Musgo_v1"; Nombre = "Nivel 2"; EsNivel2 = true; EsTutorial = false;
         }
 
         /// <summary>Construye el Nivel 2 (bosque de musgo + base tecnológica).</summary>
@@ -101,6 +118,11 @@ namespace PrimalEcho.Editor
                 catch (Exception e) { Debug.LogException(e); return; }
                 ConstruirNivel2();
             }
+            if (File.Exists(Flag0))
+            {
+                try { File.Delete(Flag0); } catch (Exception e) { Debug.LogException(e); return; }
+                ConstruirTutorial();
+            }
         }
 
         // ───────────── datos ─────────────
@@ -120,6 +142,7 @@ namespace PrimalEcho.Editor
         [Serializable] private class Punto { public float x, y; }
         [Serializable] private class Rango { public float x0, x1, y0, y1; }
         [Serializable] private class Jefe { public string n; public float x, y; }
+        [Serializable] private class Derrumbe { public float x0, x1, y; }
         [Serializable]
         private class Datos
         {
@@ -146,6 +169,8 @@ namespace PrimalEcho.Editor
             public Jefe[] jefes;               // marcadores "Vista_<n>" para que cada jefe sepa dónde aparecer
             public string subMeta;             // subtítulo al terminar el nivel
             public bool metaSinLlave;          // la salida no pide la llave
+            // Tutorial
+            public Derrumbe[] derrumbes;       // piedras que se caen al pisarlas
         }
         [Serializable] private class ArteEst { public string n; public float w, h, borde, surf; }
         [Serializable] private class ArteAni { public string n; public int cols, filas, cuadros, fw, fh, pad; public float fps, w, h; }
@@ -221,6 +246,7 @@ namespace PrimalEcho.Editor
                     .OrderBy(t => t.b.y1).ToList();
                 for (int i = 0; i < todos.Count; i++) CrearBloque(terreno, todos[i].b, todos[i].techo, i % 2);
                 foreach (var p in d.plataformas ?? Array.Empty<Plat>()) CrearPlataforma(terreno, p);
+                foreach (var b in d.derrumbes ?? Array.Empty<Derrumbe>()) CrearDerrumbe(terreno, b);
 
                 EditorUtility.DisplayProgressBar("Primal Echo", "Decoración…", 0.5f);
                 foreach (var s in d.sprites ?? Array.Empty<Deco>())
@@ -249,7 +275,7 @@ namespace PrimalEcho.Editor
                 foreach (var f in d.frutas ?? Array.Empty<Punto>()) CrearObjeto(juego, f.x, f.y, ItemKind.Fruit, "", "", "");
                 var chips = d.chips ?? Array.Empty<Chip>();
                 for (int i = 0; i < chips.Length; i++)
-                    CrearObjeto(juego, chips[i].x, chips[i].y, ItemKind.Chip, "Nivel_01_Musgo_chip_" + i, chips[i].titulo, chips[i].texto);
+                    CrearObjeto(juego, chips[i].x, chips[i].y, ItemKind.Chip, IdChip(i), chips[i].titulo, chips[i].texto);
                 int orbes = 0;
                 foreach (var o in d.fragmentos ?? Array.Empty<Punto>()) { CrearOrbe(juego, o); orbes++; }
                 // JsonUtility nunca deja un campo en null: sin "llave" en el JSON llega en (0,0) y no se pone
@@ -267,7 +293,9 @@ namespace PrimalEcho.Editor
 
                 // Kael, cámara y cueva
                 player.transform.position = new Vector3(d.inicio.x, d.inicio.y + 0.05f, 0f);
-                if (player.TryGetComponent(out KaelRespawn respawn)) SetField(respawn, "startName", "Inicio");
+                var respawn = player.GetComponent<KaelRespawn>();
+                if (respawn == null) respawn = player.gameObject.AddComponent<KaelRespawn>(); // SampleScene no la trae (Nivel 2)
+                SetField(respawn, "startName", "Inicio");
                 EditorUtility.SetDirty(player);
                 ConfigurarCamara(cam, d, player.transform.position);
                 ConfigurarCueva(cam, d);
@@ -275,7 +303,7 @@ namespace PrimalEcho.Editor
                 var hud = new GameObject("HUD_Nivel").AddComponent<LevelHUD>();
                 hud.transform.SetParent(juego);
                 hud.Configure(d.titulo, d.subtitulo, orbes);
-                if (!EsNivel2) CrearCinematica(historia);
+                if (!EsNivel2 && !EsTutorial) CrearCinematica(historia);
 
                 EditorSceneManager.MarkSceneDirty(scene);
                 if (!EditorSceneManager.SaveScene(scene, ScenePath)) throw new IOException("No se pudo guardar " + ScenePath);
@@ -293,7 +321,7 @@ namespace PrimalEcho.Editor
 
         private static void Limpiar()
         {
-            foreach (var name in new[] { "Ambientacion_Valle", "Carteles", "Jugabilidad", RootName, "Sala del mirador" })
+            foreach (var name in new[] { "Ambientacion_Valle", "Carteles", "Jugabilidad", RootName, "Sala del mirador", "Mascara_Cuevas" })
             {
                 var go = GameObject.Find(name);
                 while (go != null && go.transform.parent == null) { Object.DestroyImmediate(go); go = GameObject.Find(name); }
@@ -342,6 +370,33 @@ namespace PrimalEcho.Editor
             sr.tileMode = SpriteTileMode.Adaptive;
             sr.size = new Vector2(b.x1 - b.x0 + extra * 2f, b.y1 - b.y0 + extra * 2f);
             sr.sortingOrder = orden;
+        }
+
+        // Cada nivel con su prefijo: antes el chip 0 del Nivel 2 usaba el id del chip 0 del Nivel 1 y nunca aparecía.
+        private static string IdChip(int i) => (EsTutorial ? "Nivel_00_Musgo" : EsNivel2 ? "Nivel_02_Musgo" : "Nivel_01_Musgo") + "_chip_" + i;
+
+        // Piedra de musgo que se derrumba al pisarla (tutorial). Bloque sólido de 1 de alto con la cima en b.y.
+        private static void CrearDerrumbe(Transform parent, Derrumbe b)
+        {
+            float w = b.x1 - b.x0;
+            var go = new GameObject("Piedra_Que_Se_Derrumba") { layer = Terrain };
+            go.transform.SetParent(parent, false);
+            go.transform.position = new Vector3((b.x0 + b.x1) / 2f, b.y - 0.5f, 0f);
+            go.AddComponent<BoxCollider2D>().size = new Vector2(w, 1f);
+            var vis = new GameObject("Visual");
+            vis.transform.SetParent(go.transform, false);
+            var sprite = Cargar("plat_bolita");
+            if (sprite != null && est.TryGetValue("plat_bolita", out var info))
+            {
+                float esc = w / info.w * 1.08f;
+                var sr = vis.AddComponent<SpriteRenderer>();
+                sr.sprite = sprite;
+                sr.sortingOrder = 1;
+                sr.color = new Color(0.95f, 0.86f, 0.78f);          // un poco más pálida: se nota que es distinta
+                vis.transform.localScale = new Vector3(esc, esc, 1f);
+                vis.transform.localPosition = new Vector3(0f, 0.5f + info.surf * esc - info.h * esc / 2f, 0f);
+            }
+            go.AddComponent<CrumbleBlock>().Configure(vis.transform);
         }
 
         private static void CrearPlataforma(Transform parent, Plat p)

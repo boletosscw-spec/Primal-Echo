@@ -25,9 +25,11 @@ namespace PrimalEcho
         {
             var respawn = other.GetComponentInParent<KaelRespawn>();
             if (respawn == null) return;
-            if (!encendida) Sonidos.Play("checkpoint", 0.55f, 1f, transform.position, 0f);
+            bool nueva = !encendida;
+            if (nueva) Sonidos.Play("checkpoint", 0.55f, 1f, transform.position, 0f);
             respawn.SetCheckpoint(transform.position, label);
             foreach (var cp in FindObjectsByType<JungleCheckpoint>(FindObjectsSortMode.None)) cp.SetLit(cp == this);
+            if (nueva) SincronizacionPartida.RegistrarCheckpoint(label);
         }
 
         private bool encendida;

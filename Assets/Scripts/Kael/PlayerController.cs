@@ -56,6 +56,8 @@ namespace PrimalEcho
         public float Facing => isFacingRight ? 1f : -1f;
         public bool CanAct => currentState != AnimState.Death && currentState != AnimState.Victory;
         public Vector2 MoveInput => move.ReadValue<Vector2>();
+        /// <summary>Plantado con el arco: tensando, o fijando la mira (LT / Ctrl) en el suelo. No camina.</summary>
+        public bool BowBraced => shooter != null && (shooter.Rooted || (shooter.AimLocked && isGrounded));
         /// <summary>Caminata guiada para cinemáticas: NaN = control normal; entre -1 y 1 Kael camina solo
         /// en esa dirección y no responde a salto, dash ni lanza hasta que se vuelva a poner NaN.</summary>
         public float MovimientoGuiado { get; set; } = float.NaN;
@@ -381,7 +383,10 @@ namespace PrimalEcho
             horizontalInput = CanAct ? (Guiado ? Mathf.Clamp(MovimientoGuiado, -1f, 1f) : MoveInput.x) : 0f;
             if (CanAct && Time.fixedTime >= lockedUntil && !IsDashing && (spear == null || !spear.IsAttacking))
             {
-                if (Mathf.Abs(horizontalInput) > facingDeadZone)
+                // Con el arco plantado Kael solo se voltea cuando la mira de verdad cambia de lado
+                // (mismo umbral que KaelShooter); antes se volteaba con un toque del stick y la mira quedaba al revés.
+                float turn = BowBraced ? 0.35f : facingDeadZone;
+                if (Mathf.Abs(horizontalInput) > turn)
                     isFacingRight = horizontalInput > 0f;
             }
             UpdateVisualPolish();
@@ -441,7 +446,7 @@ namespace PrimalEcho
         private void ExecuteJump(float force, bool isDoubleJump)
         {
             float vx = rb.linearVelocity.x;
-            // On double jump, allow instant horizontal redirect in mid-air like Hollow Knight's Monarch Wings
+            // Allow immediate horizontal redirection during a double jump
             if (isDoubleJump && Mathf.Abs(horizontalInput) > 0.1f)
             {
                 vx = horizontalInput * moveSpeed;
@@ -497,7 +502,7 @@ namespace PrimalEcho
                 if (pasoDist > 1.7f) { pasoDist = 0f; Sonidos.Play("kael_paso", 0.3f, 1f, transform.position, 0.12f); }
             }
             else pasoDist = 1.3f;
-            bool bowBraced = shooter != null && (shooter.Rooted || (shooter.AimLocked && isGrounded));
+            bool bowBraced = BowBraced;
             float input = bowBraced ? 0f : horizontalInput;
             float gravityStep = Physics2D.gravity.y * rb.gravityScale * Time.fixedDeltaTime;
             float dashDirection = Mathf.Abs(input) > facingDeadZone ? Mathf.Sign(input) : Facing;
@@ -537,7 +542,7 @@ namespace PrimalEcho
                 : airAcceleration;
             float newSpeed = Time.fixedTime < lockedUntil ? rb.linearVelocity.x : Mathf.MoveTowards(rb.linearVelocity.x, targetSpeed, accel * Time.fixedDeltaTime);
 
-            // Hollow Knight gravity curve: floaty apex + snappy fall + terminal velocity clamp
+            // Gravity curve: slower near the apex, faster fall, and a terminal speed limit
             float yVel = rb.linearVelocity.y;
             IsWallSliding = !isGrounded && yVel <= 0f && Time.fixedTime >= lockedUntil &&
                 wall != 0 && wall * input > 0.25f;
@@ -612,7 +617,7 @@ namespace PrimalEcho
                     else if (currentState == AnimState.Land)
                     {
                         // Cancel landing animation immediately into Run if moving horizontally after first impact frame
-                        if (Mathf.Abs(horizontalInput) > 0.1f && currentFrame >= 1)
+                        if (!BowBraced && Mathf.Abs(horizontalInput) > 0.1f && currentFrame >= 1)
                         {
                             targetState = AnimState.Run;
                         }
@@ -621,7 +626,7 @@ namespace PrimalEcho
                             targetState = AnimState.Land;
                         }
                     }
-                    else if (Mathf.Abs(horizontalInput) > 0.1f || Mathf.Abs(rb.linearVelocity.x) > 0.4f)
+                    else if ((!BowBraced && Mathf.Abs(horizontalInput) > 0.1f) || Mathf.Abs(rb.linearVelocity.x) > 0.4f)
                     {
                         targetState = AnimState.Run;
                     }
@@ -719,7 +724,7 @@ namespace PrimalEcho
                     {
                         if (currentState == AnimState.Land)
                         {
-                            currentState = Mathf.Abs(horizontalInput) > 0.1f ? AnimState.Run : AnimState.Idle;
+                            currentState = !BowBraced && Mathf.Abs(horizontalInput) > 0.1f ? AnimState.Run : AnimState.Idle;
                             currentFrame = 0;
                             currentSprites = currentState == AnimState.Run ? runSprites : idleSprites;
                         }
@@ -741,7 +746,7 @@ namespace PrimalEcho
             }
         }
 
-        // Procedural Hollow Knight Monarch Wings / Primal Echo Double Jump Burst VFX
+        // Procedural double-jump burst effect
         private void SpawnDoubleJumpWingsVFX()
         {
             if (col == null) return;

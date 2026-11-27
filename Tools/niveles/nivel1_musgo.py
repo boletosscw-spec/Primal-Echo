@@ -79,7 +79,7 @@ def CENTINELA(tipo, x, y):
 
 def NPC(x, y, lineas, desaparece, flip=True, kiroX=0.0):
     """Orin. Líneas que empiezan con 'Kael:' salen sobre Kael; '#REPARAR' = Kael repara a Kiro (en kiroX)."""
-    D['npcs'].append(dict(x=x, y=y, esc=1.25, flipX=flip, desaparece=desaparece, lineas=lineas, radio=6.5, kiroX=kiroX))
+    D['npcs'].append(dict(x=x, y=y, esc=1.63, flipX=flip, desaparece=desaparece, lineas=lineas, radio=6.5, kiroX=kiroX))
 
 def NARRA(x, y, texto, ancho=3.0, alto=8.0, dur=4.5):
     D['narraciones'].append(dict(x=x, y=y, ancho=ancho, alto=alto, texto=texto, dur=dur))
@@ -371,14 +371,18 @@ A('flor_azul_1', 300.6, 5.9, 0.85, orden=3); LUZ(300.8, 8, CYAN, 0.9, 3.5)
 FRUTA(309, 6)
 NPC(306.5, 6, [
     'Llegaste. Kiro te trajo directo hasta aquí.',
-    'La base está del otro lado. Mi refugio queda a la salida de esta cueva; ahí guardo la llave.',
-    'Pero desde que Kiro despertó, algo se mueve allá adentro. Lo oigo respirar entre las piedras.',
-    'Kael: ¿Algo... como qué?',
-    'No lo sé, y no pienso averiguarlo. Yo daré la vuelta por el risco.',
-    'Kiro, alumbra bien el camino. Ahí abajo no se ve nada.'], desaparece=True)
+    'Mi refugio queda a la salida de esta cueva; ahí guardo la llave.',
+    'Pero mira esa grieta: hay que arrastrarse para pasar. Con estas rodillas yo ya no quepo.',
+    'Kael: ¿Y tú cómo vas a llegar?',
+    'Por el risco. Es más largo, pero conozco el camino. Te espero del otro lado.',
+    'Una cosa... desde que Kiro despertó, algo respira allá adentro. Kiro, alumbra bien.'], desaparece=True)
+NARRA(309.6, 6, 'Mantén ABAJO para AGACHARTE y pasar por la grieta.', ancho=2.5, dur=5)
 D['cuevas'].append(dict(x0=316, x1=416, y0=-5, y1=30))
 D['fondoCueva'].append(dict(x0=312, x1=420, y0=-6, y1=24))
-G(312, 330, 5, 'cueva'); TECHO(314, 330, 13)
+# la boca de la cueva es una GRIETA BAJA: solo se pasa agachado (Orin no cabe y rodea por el risco)
+G(312, 319, 6, 'cueva'); TECHO(310.5, 319, 7.75); G(319, 330, 5, 'cueva'); TECHO(319, 330, 13)
+S('colg_musgo_0', 311.0, 7.95, 0.5, orden=3, ancla='arriba'); S('colg_hoja_3', 311.7, 7.95, 0.45, orden=3, ancla='arriba', flip=True)
+S('cueva_piedra_3', 310.2, 5.85, 0.3, orden=3, col=(0.6, 0.56, 0.6))
 G(330, 372, 3, 'cueva'); TECHO(330, 372, 11.5)   # arena de ATLAS (x 337-365): suelo plano, sin foso
 # (sin enemigos en el Nivel 1: solo ATLAS) CENTINELA('terrestre', 341, 3)
 G(372, 380, 5, 'cueva'); TECHO(372, 396, 15)

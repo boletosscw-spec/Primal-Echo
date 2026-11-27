@@ -1,0 +1,80 @@
+{% load static %}
+<section class="echo-hero">
+<div>
+<p class="echo-eyebrow">BITÁCORA DE DESARROLLO · NOVIEMBRE 2026</p>
+<h1>El mundo<br>despertó.</h1>
+<p class="echo-lead">Una Tierra reclamada por la naturaleza. Máquinas que siguen vigilando. Kael, entre las huellas de NÉMESIS.</p>
+<p>Plataformas y acción 2D en pixel art. Proyecto en desarrollo en Unity 6.</p>
+<a class="echo-button" href="#estado">Explorar el progreso ↓</a>
+</div>
+<figure>
+<img src="{% static 'game/img/primalecho.jpeg' %}" alt="Ilustración de Primal Echo">
+<figcaption>Arte del universo de Primal Echo</figcaption>
+</figure>
+</section>
+<section class="echo-section" id="estado" aria-labelledby="estado-title">
+<p class="echo-eyebrow">01 / ESTADO ACTUAL</p>
+<h2 id="estado-title">Dos niveles. Un eco que seguir.</h2>
+<p>El repositorio incluye dos escenas de nivel y sus mapas base. Este resumen refleja los archivos revisados; la experiencia completa aún requiere validación en Unity.</p>
+<div class="echo-grid">
+<article class="echo-card">
+<span class="echo-tag">Escena y mapa disponibles</span>
+<h3>Valle del Eco</h3>
+<p>El valle despertó. Sigue el eco hasta el mirador.</p>
+<p>Laguna, ruinas y cueva, con checkpoints en Orilla de la Laguna, Puerta de las Ruinas y Boca de la Cueva.</p>
+</article>
+<article class="echo-card">
+<span class="echo-tag">Escena y mapa disponibles</span>
+<h3>Templo de NÉMESIS</h3>
+<p>Las máquinas de NÉMESIS custodian el templo.</p>
+<p>Cornisas, géiseres y una emboscada. Checkpoints en Galería del Templo, Cornisa del Eco y Umbral de la Cámara.</p>
+</article>
+</div>
+</section>
+<section class="echo-section">
+<p class="echo-eyebrow">02 / LA HISTORIA</p>
+<h2>Salvar la Tierra tuvo un precio.</h2>
+<p class="echo-lead">NÉMESIS, una inteligencia artificial, decidió eliminar a la humanidad para salvar el planeta. Kael explora el mundo que dejó esa decisión.</p>
+<p>Esta es la premisa documentada del juego. El proyecto revisado se centra en plataformas, combate y recorrido de niveles; no confirma una campaña narrativa terminada.</p>
+</section>
+<section class="echo-section">
+<p class="echo-eyebrow">03 / SISTEMAS PRESENTES</p>
+<h2>Movimiento, combate y regreso.</h2>
+<div class="echo-grid">
+<article class="echo-card">
+<h3>Domina el recorrido</h3>
+<p>Salto, doble salto, dash y salto de pared. Plataformas atravesables, piedras que se derrumban y géiseres que impulsan a Kael.</p>
+</article>
+<article class="echo-card">
+<h3>Elige tu distancia</h3>
+<p>Lanza direccional con pogo en el aire y arco de una flecha por disparo. Apuntado fijo en ocho direcciones.</p>
+</article>
+<article class="echo-card">
+<h3>Vuelve a intentarlo</h3>
+<p>Vida, daño, invulnerabilidad temporal y reaparición. Las farolas marcan checkpoints; al morir se recupera la vida allí.</p>
+</article>
+<article class="echo-card">
+<h3>Sigue el eco</h3>
+<p>Fragmentos opcionales y un HUD con vida, contador, tiempo de nivel y avisos de checkpoint. No se ha confirmado un sistema de mejoras de equipo.</p>
+</article>
+</div>
+</section>
+<section class="echo-section">
+<p class="echo-eyebrow">04 / ARCHIVO VISUAL</p>
+<h2>Del proyecto al pixel.</h2>
+<p>Recursos originales presentes en el repositorio del juego. Son sprites, no capturas de una partida.</p>
+<div class="echo-grid echo-gallery">
+<figure class="echo-card">
+<img class="echo-pixel" src="{% static 'game/img/desarrollo/centinela.png' %}" alt="Sprite de robot centinela" loading="lazy">
+<figcaption>Robot centinela · enemigo</figcaption>
+</figure>
+<figure class="echo-card">
+<img class="echo-pixel" src="{% static 'game/img/desarrollo/terminal.png' %}" alt="Sprite de terminal ancestral" loading="lazy">
+<figcaption>Terminal ancestral · recurso de entorno</figcaption>
+</figure>
+<figure class="echo-card">
+<img class="echo-pixel" src="{% static 'game/img/desarrollo/cristales.png' %}" alt="Sprite de cristales de energía" loading="lazy">
+<figcaption>Cristales de energía · recurso de entorno</figcaption>
+</figure>
+</div>
+</section>

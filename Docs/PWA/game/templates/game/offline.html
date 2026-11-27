@@ -1,0 +1,84 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#07111f">
+    <link rel="manifest" href="{% url 'web_manifest' %}">
+    <link rel="apple-touch-icon" href="{% static 'game/img/icon-192.png' %}">
+    <title>Sin conexión | Primal Echo</title>
+
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            padding: 24px 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle, #142c42, #050b16);
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .offline-container {
+            width: 90%;
+            max-width: 500px;
+            padding: 40px 25px;
+            border: 1px solid rgba(123, 212, 255, .3);
+            border-radius: 20px;
+            background: rgba(10, 24, 40, .85);
+            box-shadow: 0 0 30px rgba(0, 200, 255, .12);
+        }
+
+        .offline-image {
+            width: min(100%, 400px);
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 16px;
+        }
+
+        h1 { color: #7bd4ff; margin-bottom: 15px; }
+        p { color: #c5d4e3; line-height: 1.6; }
+
+        .echo-table-wrap { overflow-x: auto; }
+        .echo-table { border-collapse: collapse; width: 100%; font-size: .875rem; }
+        .echo-table caption { margin: 12px 0; font-weight: bold; }
+        .echo-table th, .echo-table td {
+            border-bottom: 1px solid #31465c;
+            padding: 8px;
+            text-align: left;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 13px 25px;
+            border: none;
+            border-radius: 8px;
+            background: #12b8e8;
+            color: #06111d;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover { background: #7bd4ff; }
+    </style>
+</head>
+
+<body>
+    <div class="offline-container">
+        <img src="{% static 'game/img/offlinesinfondo.png' %}" alt="Sin conexión" class="offline-image">
+
+        <h1>¡Señal perdida!</h1>
+
+        <p>Puedes consultar los controles sin conexión. El inicio de sesión requiere internet.</p>
+        {% include 'game/tabla_controles.html' %}
+
+        <button onclick="location.reload()">REINTENTAR CONEXIÓN</button>
+    </div>
+</body>
+</html>

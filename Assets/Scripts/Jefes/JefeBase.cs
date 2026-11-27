@@ -163,7 +163,13 @@ namespace PrimalEcho
 
         protected virtual void Despertar() { engaged = true; }
         protected abstract void AlCambiarFase(int nuevaFase);
-        protected virtual void Morir() { muerto = true; engaged = false; LimpiarGenerados(); }
+        protected virtual void Morir()
+        {
+            muerto = true;
+            engaged = false;
+            LimpiarGenerados();
+            SincronizacionPartida.RegistrarJefeDerrotado(Carpeta);
+        }
         public abstract void Aturdir(float segundos);
 
         /// <summary>Kael murió: el jefe vuelve a su sitio con la vida llena.</summary>

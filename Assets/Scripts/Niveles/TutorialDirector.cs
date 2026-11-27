@@ -11,7 +11,7 @@ namespace PrimalEcho
     //  · Cada instrucción se da por cumplida cuando Kael hace de verdad la acción; hasta entonces
     //    una barrera de energía cierra el paso a la siguiente zona.
     //  · Los enemigos del tutorial no se mueven ni atacan: son blancos de práctica.
-    // Las posiciones (en tiles) corresponden a Tools/niveles/tutorial.py: si cambias el mapa, ajusta los pasos.
+    // Las posiciones (en tiles) corresponden a Tools/niveles/tutorial_musgo.py: si cambias el mapa, ajusta los pasos.
     public sealed class TutorialDirector : MonoBehaviour
     {
         private const string SceneName = "Nivel_00_Tutorial";
@@ -88,7 +88,7 @@ namespace PrimalEcho
             Add("En el aire: [ABAJO] + [X] para rebotar en espinas · Inclina el stick para picar en diagonal",
                 "En el aire: [S] + [J] para rebotar en espinas · Añade [A] o [D] para picar en diagonal",
                 () => X >= 134.5f);
-            Add("Entra al GEISER: el agua te sube al risco", "Entra al GEISER: el agua te sube al risco",
+            Add("Pisa el HONGO AZUL: te lanza hasta el risco", "Pisa el HONGO AZUL: te lanza hasta el risco",
                 () => StandingAt(140f, 15f));
             Add("Esas piedras se DERRUMBAN al pisarlas · Cruza sin detenerte", "Esas piedras se DERRUMBAN al pisarlas · Cruza sin detenerte",
                 () => StandingAt(153f, 15f));

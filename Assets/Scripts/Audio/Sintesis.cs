@@ -84,6 +84,7 @@ namespace PrimalEcho
                 case "eco_carga": return Arpegio(nombre, new[] { 880f, 1320f, 1760f, 2640f }, 0.05f, 0.5f);
                 case "objeto_recoger": return Arpegio(nombre, new[] { 660f, 990f }, 0.07f, 0.35f);
                 case "llave_recoger": return Arpegio(nombre, new[] { 523f, 784f, 1047f, 1568f }, 0.08f, 0.8f);
+                case "game_over": return Arpegio(nombre, new[] { 523f, 392f, 311f, 233f, 175f }, 0.2f, 1.4f);
                 case "checkpoint": return Acorde(nombre, new[] { 523f, 659f, 784f, 1047f }, 1.2f);
                 case "gota": return Gota(nombre);
             }
@@ -493,7 +494,7 @@ namespace PrimalEcho
             });
         }
 
-        // Sílaba de "voz" estilo Animal Crossing / Hollow Knight: armónicos con forma de vocal
+        // Sílaba sintetizada con armónicos con forma de vocal
         private static AudioClip Silaba(string n, string quien, int variante)
         {
             float f0, dur; bool robot = false, grave = false;

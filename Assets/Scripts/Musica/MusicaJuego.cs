@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 namespace PrimalEcho
 {
-    public enum Pista { Ninguna, Menu, Exploracion, Combate, Jefe, Nemesis }
+    public enum Pista { Ninguna, Menu, Exploracion, Combate, Jefe, Nemesis, GameOver }
 
     // Música de todo el juego. Se crea sola al arrancar y sobrevive entre escenas.
     //  · Menú de inicio: el menú pide su tema cuando termina el video del estudio.
@@ -12,6 +12,7 @@ namespace PrimalEcho
     //    y vuelve a exploración (donde se quedó) al alejarse o vencerlos.
     //  · Centinela Rex despierto: tema del jefe. Al vencerlo: tema de NÉMESIS.
     //  · Cinemáticas: silencio (tienen narración), salvo El Juicio de Némesis.
+    //  · Game Over: su propio tema mientras está la pantalla; al reintentar vuelve la música del nivel.
     public sealed class MusicaJuego : MonoBehaviour
     {
         /// <summary>
@@ -51,6 +52,27 @@ namespace PrimalEcho
 
         public static void Detener(float fundido = 1.5f) => Reproducir(Pista.Ninguna, fundido);
 
+        private bool enGameOver;
+
+        /// <summary>Kael cayó: suena el tema de Game Over (la revisión de jefes/exploración se pausa).</summary>
+        public static void GameOver()
+        {
+            if (instancia == null) return;
+            instancia.enGameOver = true;
+            var f = instancia.fuentes[Pista.GameOver];
+            if (f.clip != null) f.time = 0f;
+            instancia.Cambiar(Pista.GameOver, 0.6f);
+        }
+
+        /// <summary>Reintentar: vuelve la música del nivel (la exploración sigue donde iba; si hay jefe, su tema).</summary>
+        public static void FinGameOver()
+        {
+            if (instancia == null) return;
+            instancia.enGameOver = false;
+            instancia.proximaRevision = 0f;
+            instancia.Cambiar(Pista.Exploracion, 1.5f);
+        }
+
         private void Awake()
         {
             pistas = Resources.Load<PistasMusica>("PistasMusica");
@@ -60,6 +82,7 @@ namespace PrimalEcho
             Agregar(Pista.Combate, pistas != null ? pistas.combate : null);
             Agregar(Pista.Jefe, pistas != null ? pistas.jefe : null);
             Agregar(Pista.Nemesis, pistas != null ? pistas.nemesis : null);
+            Agregar(Pista.GameOver, pistas != null ? pistas.gameOver : null);
             SceneManager.sceneLoaded += AlCargarEscena;
             EnemyHealth.Died += AlMorirEnemigo;
         }
@@ -85,6 +108,7 @@ namespace PrimalEcho
         private void AlCargarEscena(Scene escena, LoadSceneMode modo)
         {
             if (modo != LoadSceneMode.Single) return;
+            enGameOver = false;
             string n = escena.name;
             kael = null;
             rexVencido = false;
@@ -132,7 +156,7 @@ namespace PrimalEcho
             if (nueva != null)
             {
                 // Combate, jefe y NÉMESIS arrancan desde el principio; exploración y menú siguen donde iban
-                bool reinicia = pista == Pista.Combate || pista == Pista.Jefe || pista == Pista.Nemesis;
+                bool reinicia = pista == Pista.Combate || pista == Pista.Jefe || pista == Pista.Nemesis || pista == Pista.GameOver;
                 if (volumenPista[pista] < 0.05f && reinicia) nueva.time = 0f;
                 if (!nueva.isPlaying) { nueva.Play(); }
             }
@@ -154,7 +178,7 @@ namespace PrimalEcho
                 if (v <= 0f && f.isPlaying) f.Pause();
             }
 
-            if (esNivel && !rexVencido && Time.unscaledTime >= proximaRevision)
+            if (esNivel && !rexVencido && !enGameOver && Time.unscaledTime >= proximaRevision)
             {
                 proximaRevision = Time.unscaledTime + 0.4f;
                 RevisarPeligro();

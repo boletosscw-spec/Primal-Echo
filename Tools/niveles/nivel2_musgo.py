@@ -522,11 +522,8 @@ def selva_fondo(x0, x1, suelo):
     while x < x1:
         S(r.choice(['silueta_0', 'silueta_1']), x, suelo - 3, r.uniform(0.75, 1.0), orden=-36, par=0.28, col=(0.2, 0.3, 0.26), a=0.85, flip=r.random() < .5)
         x += r.uniform(18, 28)
-    x = x0 + r.uniform(1, 5)
-    while x < x1:
-        S(r.choice(['liana_0', 'liana_1', 'liana_2', 'liana_3']), x, suelo + r.uniform(16.5, 18), r.uniform(1.25, 1.4), orden=-6,
-          ancla='arriba', col=(0.62, 0.78, 0.68), flip=r.random() < .5)
-        x += r.uniform(7, 13)
+    # (Antes aquí iban troncos de liana sueltos en el cielo cada 7-13 tiles: se veían flotando y todos iguales.
+    #  Ya no se ponen: lo que cuelga en el bosque sale de las plataformas y las orillas, que sí lo sostienen.)
 
 
 def antena_lejana(x, suelo, esc, par=0.38):
@@ -619,7 +616,7 @@ for yy in (14.2, 17.4, 20.6):                                                   
     S('base_tuberia_v', 160.45, yy - 1.6, 0.62, orden=2, col=(0.7, 0.78, 0.8))
 
 # ═════════ BASE · ESCLUSA (166–196) ═════════
-G(166, 196, 7, 'base')
+G(166, 240, 7, 'base')                 # esclusa + arena + servidores: un solo piso, sin costuras
 TECHO(160, 196, 13, 'base')
 libres += [(170, 175)]
 CP(172, 7, 'Esclusa de la Base')
@@ -634,7 +631,6 @@ S('base_franja', 186.5, 7.0, 0.7, orden=3, ancla='abajo')
 S('base_logo', 178.5, 10.4, 0.55, orden=-19, ancla='centro'); LUZ(178.5, 10.4, ROJO, 0.45, 2.0, pulso=True)
 
 # ═════════ BASE · ARENA DE AERIS (196–222) ═════════
-G(196, 222, 7, 'base')
 TECHO(196, 222, 23, 'base')
 P(200.5, 11.5, 'base_plat', 0.8)
 P(217.5, 11.5, 'base_plat', 0.8)
@@ -648,25 +644,27 @@ S('base_engranaje', 199.5, 19.5, 1.5, orden=-47, par=0.2, ancla='centro', col=LE
 S('base_engranaje', 219.0, 10.5, 1.3, orden=-47, par=0.2, ancla='centro', col=LEJOS, rot=5)
 for tx in (198.6, 200.4, 202.2):
     S('base_tuberia_v', tx, 6.0, 3.0, orden=-46, par=0.16, col=LEJOS)
-for tx in (215.8, 217.6, 219.4):
-    S('base_tuberia_v', tx, 6.0, 3.0, orden=-46, par=0.16, col=LEJOS)
+for tx, e in ((216.4, 2.6), (218.9, 3.2)):                                                          # lado derecho distinto al izquierdo
+    S('base_tuberia_v', tx, 6.0, e, orden=-46, par=0.16, col=LEJOS)
+S('base_columna', 221.0, 4.0, 1.9, orden=-46, par=0.18, col=LEJOS)
 S('base_logo', 209, 20.2, 1.35, orden=-19, ancla='centro'); LUZ(209, 20.2, ROJO, 0.9, 4.5, pulso=True)
-for i, tx in enumerate((203.2, 205.1, 212.9, 214.8)):
-    SA('base_tanque', tx, 6.95, 0.72, -18, flip=i % 2 == 1)
-LUZ(204.1, 8.4, VERDOSO, 0.7, 3.2, pulso=True); LUZ(213.9, 8.4, VERDOSO, 0.7, 3.2, pulso=True)
+SA('base_tanque', 203.4, 6.95, 0.72, -18); SA('base_tanque', 205.2, 6.95, 0.64, -18, flip=True)    # incubadoras (una ya vacía)
+for k in range(3): SA('base_rack', 212.4 + k * 1.15, 6.95, 0.62, -17, col=(0.8, 0.86, 0.95))         # al otro lado, racks
+S('base_caja', 215.9, 6.95, 0.6, orden=-12, col=(0.8, 0.85, 0.8))
+LUZ(204.3, 8.4, VERDOSO, 0.7, 3.2, pulso=True); LUZ(213.6, 8.6, CYAN, 0.5, 2.8, pulso=True)
 SA('base_monitor', 209, 9.2, 0.9, -15); LUZ(209, 10.0, CYAN, 0.8, 3.2)
 S('base_consola', 209, 6.95, 0.75, orden=-14)
 for cx in (197.6, 220.4):
     S('base_columna', cx, 7, 0.7, orden=-14, col=(0.66, 0.72, 0.8))
     SA('base_baliza', cx, 7 + 6.2 * 0.7, 0.55, -13); LUZ(cx, 11.9, ROJO, 0.8, 3.0, pulso=True)
-for vx in (199.0, 219.0):
-    SA('base_ventilador', vx, 15.0, 0.75, -16, centro=True)
+SA('base_ventilador', 199.0, 15.0, 0.75, -16, centro=True)
+S('base_rejilla', 219.2, 14.2, 0.7, orden=-16, ancla='centro', col=(0.8, 0.85, 0.92))
 tira('base_viga', 196, 222, 22.67, 0.95, -13, col=(0.82, 0.87, 0.96))
 tira('base_tubo', 196, 222, 22.02, 0.5, -12, col=(0.85, 0.9, 1.0))
-for ax in (203, 215):
+for ax in (203.6, 216.8):
     S('base_alarma', ax, 22.8, 0.6, orden=-10, ancla='arriba', flipY=True)
     LUZ(ax, 22.1, ROJO, 0.9, 3.0, pulso=True)
-for lx, ly in ((200.5, 22.6), (209.0, 22.6), (217.5, 22.6)):
+for lx, ly in ((200.2, 22.6), (210.3, 22.6)):
     S('base_lampara', lx, ly, 0.85, orden=-10, ancla='arriba'); LUZ(lx, ly - 1.25, CALIDA, 0.8, 4.0)
 # el techo está roto: entran raíces y luz de la selva
 S('base_raiz', 205.5, 23.2, 1.0, orden=-8, ancla='arriba', col=(0.85, 0.9, 0.85))
@@ -679,7 +677,6 @@ S('base_franja', 202.0, 7.02, 0.6, orden=3, ancla='abajo'); S('base_franja', 216
 frente_base(196, 222, 7, 23)
 
 # ═════════ BASE · SALA DE SERVIDORES (222–284) ═════════
-G(222, 240, 7, 'base')
 TECHO(222, 284, 15, 'base')
 G(240, 252, 3, 'base')
 for ex in (241.5, 244.5, 247.5, 250.5):
@@ -689,12 +686,11 @@ LUZ(246, 4.2, CYAN, 1.0, 5.0, pulso=True)
 NARRA(236, 7, 'El piso electrificado te lastima. Cruza por las rejillas.', dur=4)
 P(244, 9.5, 'base_plat', 0.6)
 P(248.5, 10.5, 'base_plat', 0.6)
-G(252, 268, 8, 'base')
+G(252, 284, 8, 'base')
 libres += [(256, 261)]
 CP(258, 8, 'Sala de Servidores')
 FRUTA(263, 8)
 NARRA(253, 8, 'KIRO capta la señal de NÉMESIS: viene de abajo, al fondo de la base.')
-G(268, 284, 8, 'base')
 NARRA(278, 8, 'Kael: No hay vuelta atrás... algo enorme respira ahí abajo.')
 sala_base(222, 240, 7, 15, tema='servidores', musgo=0.2)
 sala_base(252, 284, 8, 15, tema='servidores', musgo=0.15)
@@ -715,19 +711,20 @@ D['meta'] = dict(x=315, y=1)          # el Rex aparece 9 tiles antes de la salid
 # el núcleo: el ojo de NÉMESIS domina la sala y los tanques de los centinelas la rodean
 S('base_engranaje', 301, 7.0, 2.4, orden=-47, par=0.2, ancla='centro', col=LEJOS, rot=20)
 S('base_logo', 301, 8.3, 1.8, orden=-19, ancla='centro'); LUZ(301, 8.3, ROJO, 1.2, 6.0, pulso=True)
-for i, tx in enumerate((286.6, 288.6, 290.6, 311.4, 313.4)):
-    SA('base_tanque', tx, 0.95, 0.85, -18, flip=i % 2 == 1)
+for i, (tx, e) in enumerate(((286.6, 0.85), (288.5, 0.78), (311.8, 0.9))):                         # tanques de distinto tamaño
+    SA('base_tanque', tx, 0.95, e, -18, flip=i % 2 == 1)
+S('base_tanque_f0', 290.6, 1.62, 0.8, orden=-17, rot=-84, col=(0.55, 0.62, 0.62))                      # uno se cayó y está apagado
+for k in range(2): SA('base_rack', 313.6 + k * 1.2, 0.95, 0.7, -17, col=(0.8, 0.86, 0.95))
 LUZ(288.6, 2.6, VERDOSO, 0.8, 3.6, pulso=True); LUZ(312.4, 2.6, VERDOSO, 0.8, 3.6, pulso=True)
 for cx in (293.5, 308.5):
     S('base_columna', cx, 1, 0.95, orden=-14, col=(0.6, 0.66, 0.76))
     SA('base_baliza', cx, 1 + 6.2 * 0.95, 0.55, -13); LUZ(cx, 7.4, ROJO, 0.9, 3.2, pulso=True)
-S('base_consola', 297.0, 0.95, 0.75, orden=-14); S('base_consola', 305.0, 0.95, 0.75, orden=-14)
-SA('base_monitor', 297.0, 3.6, 0.6, -15); SA('base_monitor', 305.0, 3.6, 0.6, -15)
+S('base_consola', 297.0, 0.95, 0.75, orden=-14); S('base_escombro', 305.5, 0.88, 0.75, orden=-14, flip=True)
+SA('base_monitor', 297.0, 3.6, 0.6, -15); S('base_pantalla', 305.3, 4.4, 0.5, orden=-15, rot=7, ancla='centro', col=(0.6, 0.66, 0.7))
 LUZ(297, 4.1, CYAN, 0.5, 2.4, pulso=True); LUZ(305, 4.1, CYAN, 0.5, 2.4, pulso=True)
 SA('base_monitor', 315, 5.2, 1.0, -15); LUZ(315, 6.1, CYAN, 1.0, 4.0)
 techo_base(284, 318, 13, musgo=0.4, raices=0.12)
-for vx in (289.5, 312.5):
-    SA('base_vapor', vx, 0.95, 0.9, 4, a=0.75)
+SA('base_vapor', 289.8, 0.95, 0.9, 4, a=0.75)
 S('base_escombro', 292.0, 0.88, 0.7, orden=3); S('base_caja', 316.8, 0.95, 0.6, orden=2)
 frente_base(284, 318, 1, 13)
 

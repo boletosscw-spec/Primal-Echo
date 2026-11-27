@@ -31,6 +31,7 @@ namespace PrimalEcho
             }
             done = true;
             LevelHUD.StopTimer();
+            SincronizacionPartida.Guardar(nextScene);
             if (!string.IsNullOrEmpty(nextScene)) StartCoroutine(Load());
         }
 

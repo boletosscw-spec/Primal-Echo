@@ -17,4 +17,5 @@ MonoBehaviour:
   combate: {fileID: 8300000, guid: 4ef7c0e052d34b30b7d0e97fcc73a280, type: 3}
   jefe: {fileID: 8300000, guid: cc957154815f474eaf66f84b58e5ab35, type: 3}
   nemesis: {fileID: 8300000, guid: 25d6b477d95841a69e4c42f0ca6208df, type: 3}
+  gameOver: {fileID: 8300000, guid: 52c5fd185a854dcc839ce28b7e83a31e, type: 3}
   volumen: 0.6

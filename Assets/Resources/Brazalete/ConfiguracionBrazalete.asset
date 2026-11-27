@@ -61,7 +61,7 @@ MonoBehaviour:
   - id: lanza_1
     title: LANZA
     description: Los golpes de lanza causan un punto de dano adicional.
-    cost: 5
+    cost: 3
     amount: 1
     effect: 1
     prerequisite: 0
@@ -70,7 +70,7 @@ MonoBehaviour:
   - id: flechas_1
     title: FLECHAS
     description: Las flechas causan un punto de dano adicional.
-    cost: 4
+    cost: 3
     amount: 1
     effect: 2
     prerequisite: 0
@@ -78,8 +78,8 @@ MonoBehaviour:
     icon: {fileID: 2800000, guid: fd0e65d5b8ef5f78481a202f15e0dfa1, type: 3}
   - id: lanza_2
     title: LANZA II
-    description: Punta reforzada con un nucleo de centinela. Un punto de dano adicional por golpe.
-    cost: 6
+    description: Punta reforzada con el nucleo de un jefe. Un punto de dano adicional por golpe.
+    cost: 2
     coreCost: 1
     amount: 1
     effect: 1
@@ -88,8 +88,8 @@ MonoBehaviour:
     icon: {fileID: 2800000, guid: 129fdfb629cfd953cbd2bec233e36e9d, type: 3}
   - id: flechas_2
     title: FLECHAS II
-    description: Flechas cargadas con un nucleo de centinela. Un punto de dano adicional por flecha.
-    cost: 5
+    description: Flechas cargadas con el nucleo de un jefe. Un punto de dano adicional por flecha.
+    cost: 2
     coreCost: 1
     amount: 1
     effect: 2

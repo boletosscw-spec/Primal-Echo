@@ -12,6 +12,7 @@ namespace PrimalEcho
         public AudioClip combate;
         public AudioClip jefe;
         public AudioClip nemesis;
+        [Tooltip("Suena en la pantalla de GAME OVER.")] public AudioClip gameOver;
         [Range(0f, 1f)] public float volumen = 0.6f;
     }
 }

@@ -1,0 +1,42 @@
+{% extends 'game/base2.html' %}
+{% load static %}
+{% block content %}
+<header class="echo-section">
+<p class="echo-eyebrow">BITÁCORA / REVISIÓN DEL 12 NOV 2026</p>
+<h1>El eco toma forma.</h1>
+<p class="echo-lead">Estado observado en el repositorio local. Sin porcentajes de avance ni fechas de lanzamiento confirmadas.</p>
+</header>
+<section class="echo-grid">
+<article class="echo-card">
+<span class="echo-tag">Presente en el proyecto</span>
+<h2>Recorrido conectado</h2>
+<p>Valle del Eco y Templo de NÉMESIS tienen escenas y mapas base. La salida del primer mapa apunta al segundo; ambos figuran en la configuración de compilación.</p>
+</article>
+<article class="echo-card">
+<span class="echo-tag">Presente en el código</span>
+<h2>Combate y amenazas</h2>
+<p>Lanza, pogo y arco con apuntado fijo. Robots con patrulla, persecución y embestida; también hay lógica para avispas voladoras y plantas carnívoras.</p>
+</article>
+<article class="echo-card">
+<span class="echo-tag">Presente en el código</span>
+<h2>Una nueva oportunidad</h2>
+<p>Reaparición desde suelo seguro ante peligros, checkpoints con farola y restauración de vida tras morir. HUD de vida, fragmentos y cronómetro.</p>
+</article>
+<article class="echo-card">
+<span class="echo-tag echo-tag-amber">Pendiente de validar</span>
+<h2>Del código a la partida</h2>
+<p>Hace falta probar en Unity el recorrido completo, la transición entre escenas, el balance del combate y los controles con mando. Esta revisión de la web no certifica esas pruebas.</p>
+</article>
+</section>
+<section class="echo-section echo-card">
+<p class="echo-eyebrow">PRÓXIMOS PASOS PROPUESTOS</p>
+<h2>Probar, ajustar, documentar.</h2>
+<ol>
+<li>Validar ambos niveles de principio a fin y sus checkpoints.</li>
+<li>Revisar daño, tiempos del arco, emboscadas y accesibilidad de los saltos.</li>
+<li>Capturar partidas reales y documentar el resultado de las pruebas.</li>
+<li>Definir el alcance narrativo y comprobar la integración de personajes y arte conceptual.</li>
+</ol>
+<p>Son recomendaciones a partir de esta revisión, no una hoja de ruta oficial ni promesas de nuevas funciones.</p>
+</section>
+{% endblock %}

@@ -6,10 +6,12 @@ namespace PrimalEcho
     public sealed class BraceletHologram : MonoBehaviour
     {
         private BraceletMenu menu;
-        private Texture2D shard, key, star, heart, fruit, core, chip;
+        private Texture2D shard, key, star, fruit, core, chip;
         private int fruitIndex = -1;
         public bool IsFruit(int index) => index >= 0 && index == fruitIndex;
-        private struct Entry { public Texture2D icon; public string title, description; }
+        private struct Entry { public Texture2D icon; public string title, description, hint; }
+        /// <summary>Qué responde el brazalete al pulsar A sobre un objeto que no se consume (o "" si no hay nada).</summary>
+        public string Hint(int index) => index >= 0 && index < entries.Count ? entries[index].hint ?? "" : "";
         private readonly System.Collections.Generic.List<Entry> entries = new System.Collections.Generic.List<Entry>();
         private static readonly Color Text = new Color(.85f, 1f, .96f);
         private float opacity;
@@ -20,7 +22,6 @@ namespace PrimalEcho
             shard = Resources.Load<Texture2D>("HUD/icono_fragmento");
             key = Resources.Load<Texture2D>("HUD/icono_llave");
             star = Resources.Load<Texture2D>("HUD/icono_estrella");
-            heart = Resources.Load<Texture2D>("HUD/corazon_lleno");
             fruit = Resources.Load<Texture2D>(ItemPickup.IconName(ItemKind.Fruit));
             core = Resources.Load<Texture2D>(ItemPickup.IconName(ItemKind.Core));
             chip = Resources.Load<Texture2D>(ItemPickup.IconName(ItemKind.Chip));
@@ -229,48 +230,38 @@ namespace PrimalEcho
             if (!string.IsNullOrEmpty(menu.Message)) Label(menu.Message, 22, 320, settings.orange);
         }
 
-        private void Add(Texture2D icon, string title, string description)
-            => entries.Add(new Entry { icon = icon, title = title, description = description });
+        private void Add(Texture2D icon, string title, string description, string hint = "")
+            => entries.Add(new Entry { icon = icon, title = title, description = description, hint = hint });
 
-        private Texture2D UpgradeIcon(BraceletUpgradeEffect effect)
-        {
-            foreach (var upgrade in menu.Settings.upgrades)
-                if (upgrade.effect == effect && upgrade.icon) return upgrade.icon;
-            return star;
-        }
-
-        // El inventario se arma con el estado real de Kael: armas, vida, fragmentos, llave y mejoras instaladas.
+        // El inventario solo guarda OBJETOS: lo que Kael recoge en el mundo y sirve para algo.
+        // (La lanza, el arco y los corazones ya se ven en el HUD y en Mejoras; los fragmentos, arriba a la derecha.)
         private void BuildEntries()
         {
             entries.Clear();
-            var settings = menu.Settings;
-            if (menu.TryGetComponent(out KaelSpear spear))
-                Add(UpgradeIcon(BraceletUpgradeEffect.SpearDamage), "LANZA DE KAEL",
-                    "Arma cuerpo a cuerpo. Hacia abajo en el aire rebota sobre espinas. Dano por golpe: " + spear.Damage + ".");
-            if (menu.TryGetComponent(out KaelShooter shooter))
-                Add(UpgradeIcon(BraceletUpgradeEffect.ArrowDamage), "ARCO",
-                    "Dispara flechas en recto y en diagonal. Dano por flecha: " + shooter.Damage + ".");
-            if (menu.TryGetComponent(out KaelHealth health))
-                Add(heart, "CORAZONES", "Vida actual: " + health.Remaining + " de " + health.Max + ".");
-            string level = LevelHUD.LevelShardTotal > 0
-                ? " En este nivel: " + LevelHUD.LevelShards + " de " + LevelHUD.LevelShardTotal + "." : "";
-            Add(shard, "FRAGMENTOS DE ECO X" + menu.Progress.Fragments, "Se gastan en la pestana de mejoras." + level);
-            if (LabKey.Has)
-                Add(key, "LLAVE DE LA BASE", "Obtenida en el Nivel 1. Abre la barrera de la base en el Templo de Nemesis.");
             var progress = menu.Progress;
             fruitIndex = -1;
             if (progress.Fruits > 0)
             {
                 fruitIndex = entries.Count;
-                Add(fruit, "FRUTA DE LA SELVA X" + progress.Fruits,
-                    "Consumible. Pulsa A para comer una y recuperar 1 corazon. Puedes llevar " + BraceletProgress.MaxFruits + ".");
+                Add(fruit, "FRUTA DE LA SELVA  X" + progress.Fruits,
+                    "Cura 1 corazon. Pulsa A aqui para comerla. Puedes llevar " + BraceletProgress.MaxFruits +
+                    "; si ya llevas " + BraceletProgress.MaxFruits + " y estas herido, Kael se come la que recoja.");
             }
             if (progress.Cores > 0)
-                Add(core, "NUCLEO DE CENTINELA X" + progress.Cores,
-                    "Lo sueltan los centinelas pesados y el Rex. Se gasta en las mejoras de nivel II.");
-            for (int i = 0; i < progress.ChipCount; i++) Add(chip, "CHIP " + progress.ChipTitle(i), progress.ChipText(i));
-            if (settings.items != null)
-                foreach (var item in settings.items) Add(item.icon, item.title, item.description);
+                Add(core, "NUCLEO DE CENTINELA  X" + progress.Cores,
+                    "Lo suelta cada jefe al ser derrotado. Sirve para instalar LANZA II y FLECHAS II en la pestana MEJORAS (junto con fragmentos de eco).",
+                    "SE GASTA EN MEJORAS: LANZA II Y FLECHAS II");
+            if (LabKey.Has)
+                Add(key, "LLAVE DE LA BASE",
+                    "La encontraste en el Nivel 1. Abre la barrera de la entrada a la base de NEMESIS en el Nivel 2: solo acercate a la barrera.",
+                    "SE USA SOLA AL LLEGAR A LA BARRERA DE LA BASE");
+            for (int i = 0; i < progress.ChipCount; i++)
+                Add(chip, "CHIP · " + progress.ChipTitle(i), progress.ChipText(i), "REGISTRO DE MEMORIA: CUENTA LA HISTORIA DE NEMESIS");
+            if (menu.Settings.items != null)
+                foreach (var item in menu.Settings.items) Add(item.icon, item.title, item.description);
+            if (entries.Count == 0)
+                Add(null, "INVENTARIO VACIO",
+                    "Aqui se guardan las FRUTAS (curan), los NUCLEOS (mejoras II), la LLAVE de la base y los CHIPS de memoria que encuentres.");
         }
 
         private void Item(int index, out Texture2D icon, out string title, out string description)

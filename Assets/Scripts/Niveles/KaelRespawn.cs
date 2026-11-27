@@ -1,10 +1,11 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace PrimalEcho
 {
-    // Reaparición estilo Hollow Knight:
+    // Reaparición desde el último punto seguro:
     //  · Espinas y fosos: -1 de vida y vuelta al último suelo seguro.
     //  · Sin vida: vuelta al último checkpoint (farola) con la vida llena.
     [RequireComponent(typeof(PlayerController), typeof(KaelHealth))]
@@ -29,6 +30,28 @@ namespace PrimalEcho
         public string CheckpointName { get; private set; }
         public event Action Respawned;
         public event Action<string> CheckpointChanged;
+
+        // Kael SIEMPRE tiene reaparición, aunque la escena no traiga este componente
+        // (al Nivel 2 le faltaba y por eso Kael no volvía después de morir).
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
+        private static void Install()
+        {
+            SceneManager.sceneLoaded -= SceneLoaded;
+            SceneManager.sceneLoaded += SceneLoaded;
+            AddToPlayers();
+        }
+
+        private static void SceneLoaded(Scene scene, LoadSceneMode mode) => AddToPlayers();
+
+        private static void AddToPlayers()
+        {
+            foreach (var pc in FindObjectsByType<PlayerController>(FindObjectsSortMode.None))
+                if (pc.GetComponent<KaelHealth>() && !pc.GetComponent<KaelRespawn>())
+                {
+                    pc.gameObject.AddComponent<KaelRespawn>();
+                    Debug.Log("[Primal Echo] Se agregó KaelRespawn a " + pc.name + " en " + pc.gameObject.scene.name);
+                }
+        }
 
         private void Awake()
         {
@@ -103,7 +126,11 @@ namespace PrimalEcho
         private IEnumerator DeathRespawn()
         {
             busy = true;
-            yield return new WaitForSeconds(deathDelay);
+            yield return new WaitForSeconds(deathDelay); // deja ver la animación de muerte
+            // Pantalla de GAME OVER: espera a que el jugador elija reintentar (o se va al menú)
+            bool retry = false;
+            GameOverScreen.Show(CheckpointName, () => retry = true);
+            while (!retry) yield return null;
             Teleport(checkpoint);
             health.Restore(graceSeconds);
             player.ResetState(); // estado normal (sin la animación de aparecer, que podía dejar el sprite vacío)
